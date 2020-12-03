@@ -43,7 +43,7 @@ If you want to view my preferred modules for a specific version of Foundry, you 
     - Active calendar --> Harptos
     - Debug output --> Disabled
 - [Autocomplete Whisper](https://foundryvtt.com/packages/autocomplete-whisper/) - Overhauls the whisper functionality to provide an easy-to-use pop-up to
-  select your whisper targets.
+  select whisper targets.
     - Include GM Usernames List --> Disabled
 - [Calendar/Weather](https://foundryvtt.com/packages/calendar-weather/) - Tracks time/calendar/weather with a widget. Can be used to automatically generate a
   weather description based on the current time of year and environment. Requires the [About Time](https://foundryvtt.com/packages/about-time/) module.
@@ -54,7 +54,7 @@ If you want to view my preferred modules for a specific version of Foundry, you 
     - Disable global illumination at night --> Disabled (Could enable, however, I prefer to modify this via Perfect Vision instead)
     - Use Celsius --> Disabled
     - Can players see the weather --> Disabled
-- [Cautious Gamemaster](https://foundryvtt.com/packages/CautiousGamemastersPack/) - Disable GM from speaking as PCs, hidden tokens automatically roll blind,
+- [Cautious Gamemaster](https://foundryvtt.com/packages/CautiousGamemastersPack/) - Disables GM from speaking as PCs, hidden tokens automatically roll blind,
   small chat QoL with up/down arrows, and typing notifications. Automatically hides private rolls from chat.
     - Disable GM speaking as PC tokens --> Enabled
     - Blind chats made by hidden tokens --> Enabled
@@ -70,8 +70,8 @@ If you want to view my preferred modules for a specific version of Foundry, you 
     - Change color of message border --> Disabled
     - Display chat flavor text next to portrait --> Disabled
     - Force name search --> Disabled
-- [Combat Enhancements](https://foundryvtt.com/packages/combat-enhancements/) - Health tracking via a radial bar and HP field in the Combat Tracker, as well
-  as drag and drop initiative reordering
+- [Combat Enhancements](https://foundryvtt.com/packages/combat-enhancements/) - Adds health tracking via a radial bar and HP field in the Combat Tracker, as
+  well as drag and drop initiative reordering.
     - Show HP for actor type --> None
     - Enable HP field --> Enabled
     - Enable HP radial bar --> Enabled
@@ -804,4 +804,4 @@ If you want to view my preferred modules for a specific version of Foundry, you 
   fixing mistakes when creating walls for scenes.
 - [Wall Height](https://foundryvtt.com/packages/wall-height/) - Adds two fields to the wall menu - Wall Height (Top) and Wall Height (Bottom). When set up,
   tokens with an elevation higher than the Top can see over the wall, while tokens with an elevation lower can see under the Bottom. Extremely useful when 
-  combined with [Multilevel Tokens](https://foundryvtt.com/packages/multilevel-tokens/) to automatically adjust token elevation.1
+  combined with [Multilevel Tokens](https://foundryvtt.com/packages/multilevel-tokens/) to automatically adjust token elevation.
