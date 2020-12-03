@@ -766,7 +766,10 @@ If you want to view my preferred modules for a specific version of Foundry, you 
   version, there is a bug that causes the the configuration window to hang, effectively limiting GMs from making modifications to their settings. If you are
   on the old version and unable to update your settings, please switch to the updated module or follow the instructions
   [here](https://www.reddit.com/r/FoundryVTT/comments/jfoadt/foundry_vtt_075_release/g9mca2k?utm_source=share&utm_medium=web2x&context=3) to fix.
-    - Default character frame
+    - Default character frame --> /modules/vtta-tokenizer/img/default-frame-pc.png
+    - Default NPC frame --> /modules/vtta-tokenizer/img/default-frame-npc.png
+    - Avatar/token upload directory --> assets/tokens
+    - Token size --> 400
 - [Turn Alert](https://foundryvtt.com/packages/turnAlert/) - Adds the ability to create chat alerts in the combat tracker via a bell icon at the top of the
   Combat Tracker while combat is active. Clicking on that bell will show the current turn alerts and allow the GM to modify them.
 - [Turn Marker](https://foundryvtt.com/packages/turnmarker/) - Adds an animated icon beneath whoever's turn it is. 
