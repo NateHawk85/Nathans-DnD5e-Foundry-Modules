@@ -1,4 +1,4 @@
-# Nathan's-DnD5e-Foundry-Modules
+# Nathan's DnD5e Foundry Modules
 A list of modules that I personally use for my Foundry D&D 5th Edition games as a dungeon master, along with my preferred settings for each. I did my best to 
 double-check any significant performance improvements beforehand, however, there's always a chance of something slipping through or changing in subsequent 
 updates. Hope these help!
