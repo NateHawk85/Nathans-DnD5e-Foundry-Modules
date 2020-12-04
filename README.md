@@ -31,7 +31,7 @@ If you want to view my preferred modules for a specific version of Foundry, you 
 - Collapse Item Cards In Chat --> Disabled
 - Allow Polymorphing --> Enabled
 
-## Foundry VTT Modules
+## All Current Foundry VTT Modules
 - [About Time](https://foundryvtt.com/packages/about-time/) - Tracks in-game time and required for the 
   [Calendar/Weather](https://foundryvtt.com/packages/calendar-weather/) module. 
 
