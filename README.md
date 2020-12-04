@@ -1,15 +1,27 @@
 # Nathan's DnD5e Foundry Modules
-A list of modules that I personally use for my Foundry D&D 5th Edition games as a dungeon master, along with my preferred settings for each. I did my best to 
-double-check any significant performance improvements beforehand, however, there's always a chance of something slipping through or changing in subsequent 
-updates. Hope these help!
+A list of the best modules that I personally use for my FoundryVTT D&D 5th Edition games as a dungeon master, along with my preferred settings for each. I
+did my best to double-check any significant performance improvements beforehand, however, there's always a chance of something slipping through or changing in
+subsequent updates. There are also copies of my environment settings within this repository if you want to try the settings that I personally use. Hope these
+help!
 
-Inspired by [Bryan's Preferred Modules for Foundry VTT](https://github.com/bryancasler/Bryans-Preferred-Modules-for-FoundryVTT).
+Inspired by [Bryan's Preferred Modules for Foundry VTT](https://github.com/bryancasler/Bryans-Preferred-Modules-for-FoundryVTT), as a lot of the modules I use
+now were found on his page! I definitely recommend his recommended modules as well.
+
+## Table of Contents
+- [Foundry VTT Settings](#foundry-settings)
+- [Top Must-Have Modules](#top-modules)
+- [All Current Installed Modules](#all-installed-modules)
+- [Modules to Review](#modules-to-review)
+- [Modules to Review at a Later Date](#modules-to-review-later)
+- [Modules with Possible Performance Issues?](#modules-with-performance-issues)
+- [Modules Reviewed and Retired](#modules-reviewed-and-retired)
 
 ## Versions
 If you want to view my preferred modules for a specific version of Foundry, you can use the commit history to view past versions of this page. Each commit
- should have the corresponding Foundry version in the commit message.
+should have the corresponding Foundry version in the commit message.
 
-## Foundry VTT Core Settings
+<a name="foundry-settings"></a>
+## Foundry VTT Settings
 ### Core Settings
 - Enable Chat Bubbles --> Enabled
 - Pan to Token Speaker --> Disabled
@@ -31,7 +43,38 @@ If you want to view my preferred modules for a specific version of Foundry, you 
 - Collapse Item Cards In Chat --> Disabled
 - Allow Polymorphing --> Enabled
 
-## All Current Foundry VTT Modules
+<a name="top-modules"></a>
+## Top Modules
+If I had to run Foundry with a limited amount of modules, these are the ones I would absolutely need, no questions asked. Here's my short(ish) list of
+the modules (and module combinations) that have the biggest impact on the games I run.
+- [About Time](https://foundryvtt.com/packages/about-time/) combined with [Calendar/Weather](https://foundryvtt.com/packages/calendar-weather/) for time 
+  tracking.
+- [Combat Utility Belt](https://foundryvtt.com/packages/combat-utility-belt/) combined with [Midi QoL](https://foundryvtt.com/packages/midi-qol/), 
+  [Let Me Roll That For You](https://foundryvtt.com/packages/lmrtfy/), [Dynamic Active Effects](https://foundryvtt.com/packages/dae/),
+  and [About Time](https://foundryvtt.com/packages/about-time/) for tons of combat enhancements.
+- [Compendium Folders](https://foundryvtt.com/packages/compendium-folders/) and [Macro Folders](https://foundryvtt.com/packages/macro-folders/) for folder 
+  organization.
+- My personal [Custom Shared Compendium](https://www.reddit.com/r/FoundryVTT/comments/fvw3c7/how_to_create_a_tiny_module_for_shared_content/) for sharing
+  scenes, items, actors, rules, etc. between worlds.
+- [Dice So Nice!](https://foundryvtt.com/packages/dice-so-nice/) for dice rolling!
+- [Dungeondraft Importer](https://foundryvtt.com/packages/dd-import/) for importing my custom maps and other mapmakers' creations.
+- [Easy Target](https://foundryvtt.com/packages/easy-target/) to speed up targeting as a GM.
+- [Forien's Copy Environment](https://foundryvtt.com/packages/forien-copy-environment/) for sharing the same settings between worlds.
+- [GM Notes](https://foundryvtt.com/packages/gm-notes/) to store private notes on things.
+- [Multilevel Tokens](https://foundryvtt.com/packages/multilevel-tokens/) for various grid enhancements.
+- [Playlist Importer](https://foundryvtt.com/packages/playlist_import/) for easy setting up of playlists and music.
+- [PopOut!](https://foundryvtt.com/packages/popout/) for utilizing multiple monitors.
+- [Quick Insert - Search Widget](https://foundryvtt.com/packages/quick-insert/) for access to any entity at a moment's notice.
+- [Show Drag Distance](https://foundryvtt.com/packages/ShowDragDistance/) for automatically calculating distances during combat.
+- [The Furnace](https://foundryvtt.com/packages/furnace/) for the playlist improvements and advanced macros.
+- [Tidy UI - Game Settings](https://foundryvtt.com/packages/tidy-ui_game-settings/) and [Tidy5e Sheet](https://foundryvtt.com/packages/tidy5e-sheet/) for a 
+  cleaner overall UI.
+- [Token Hotbar](https://foundryvtt.com/packages/foundry-token-hotbar/) and [Custom Hotbar](https://foundryvtt.com/packages/custom-hotbar/) to store the 
+  most-used actions for monsters.
+- [Token Mold](https://foundryvtt.com/packages/token-mold/) for creating monsters without fiddling with settings over and over again.
+
+<a name="all-installed-modules"></a>
+## All Current Installed Modules
 - [About Time](https://foundryvtt.com/packages/about-time/) - Tracks in-game time and required for the 
   [Calendar/Weather](https://foundryvtt.com/packages/calendar-weather/) module. 
 
@@ -423,7 +466,7 @@ If you want to view my preferred modules for a specific version of Foundry, you 
     - Clear inventory --> Disabled
     - Loot currency --> Enabled
     - Loot all --> Enabled
-- [Macrro Folders](https://foundryvtt.com/packages/macro-folders/) - Made by the same developer as 
+- [Macro Folders](https://foundryvtt.com/packages/macro-folders/) - Made by the same developer as 
   [Compendium Folders](https://foundryvtt.com/packages/compendium-folders/), this module adds folders for your macros. It also allows the ability to have 
   each player have their own default folder, thereby keeping your macro folder a little cleaner. A must-have if you prefer a high amount of organization in
   your world.
@@ -815,3 +858,15 @@ If you want to view my preferred modules for a specific version of Foundry, you 
 - [Wall Height](https://foundryvtt.com/packages/wall-height/) - Adds two fields to the wall menu - Wall Height (Top) and Wall Height (Bottom). When set up,
   tokens with an elevation higher than the Top can see over the wall, while tokens with an elevation lower can see under the Bottom. Extremely useful when 
   combined with [Multilevel Tokens](https://foundryvtt.com/packages/multilevel-tokens/) to automatically adjust token elevation.
+<a name="modules-to-review"></a>
+## Modules to Review
+- None at the moment
+<a name="modules-to-review-later"></a>
+## Modules to Review at a Later Date
+- None at the moment
+<a name="modules-with-performance-issues"></a>
+## Modules with Possible Performance Issues?
+- None at the moment
+<a name="modules-reviewed-and-retired"></a>
+## Modules Reviewed and Retired
+- None at the moment
