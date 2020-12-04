@@ -1,19 +1,20 @@
 # Nathan's DnD5e Foundry Modules
 A list of the best modules that I personally use for my FoundryVTT D&D 5th Edition games as a dungeon master, along with my preferred settings for each. I
-did my best to double-check any significant performance improvements beforehand, however, there's always a chance of something slipping through or changing in
+did my best to double-check any significant issues beforehand, however, there's always a chance of something slipping through or changing in
 subsequent updates. There are also copies of my environment settings within this repository if you want to try the settings that I personally use. Hope these
 help!
 
 Inspired by [Bryan's Preferred Modules for Foundry VTT](https://github.com/bryancasler/Bryans-Preferred-Modules-for-FoundryVTT), as a lot of the modules I use
-now were found on his page. I recommend checking out his page for more useful modules that may be beneficial for you as well. 
+now were found on his page. I recommend checking his stuff out for even more useful modules!
 
 ## Versions
-If you want to view my preferred modules for a specific version of Foundry, you can use the commit history to view past versions of this page. Each commit
-should have the corresponding Foundry version in the commit message.
+If you want to view my preferred modules for a specific version of Foundry, you can use the 
+[commit history](https://github.com/NateHawk85/Nathans-DnD5e-Foundry-Modules/commits/main) to view past versions of this page. Each commit should have the
+corresponding Foundry version in the commit message, and if it doesn't, I messed up somewhere :)
 
 ## Table of Contents
 - [Foundry VTT Settings](#foundry-settings)
-- [Top Must-Have Modules](#top-modules)
+- [Top Must-Have Modules](#must-have-modules)
 - [List of Currently-Installed Modules, Descriptions, and Settings](#all-installed-modules)
 - [Awesome Media Modules](#awesome-media-modules)
 - [Awesome Media Modules (that I've already organized)](#awesome-organized-media-modules)
@@ -21,6 +22,7 @@ should have the corresponding Foundry version in the commit message.
 - [Modules to Review at a Later Date](#modules-to-review-later)
 - [Modules with Possible Performance Issues?](#modules-with-performance-issues)
 - [Modules Reviewed and Retired](#modules-reviewed-and-retired)
+- [Macro Notes](#macro-notes)
 
 <a name="foundry-settings"></a>
 ## Foundry VTT Settings
@@ -45,12 +47,11 @@ should have the corresponding Foundry version in the commit message.
 - Collapse Item Cards In Chat --> Disabled
 - Allow Polymorphing --> Enabled
 
-<a name="top-modules"></a>
-## Top Must-Have Modules
-If I had to run Foundry with a limited amount of modules, these are the ones I would absolutely need, no questions asked. Here's my short(ish) list of
-the modules (and module combinations) that have the biggest impact on the games I run.
-- [About Time](https://foundryvtt.com/packages/about-time/) combined with [Calendar/Weather](https://foundryvtt.com/packages/calendar-weather/) for time 
-  tracking.
+<a name="must-have-modules"></a>
+## Must-Have Modules
+If I had to run Foundry with a limited amount of modules, these are the ones I'd definitively pick up first. Here's my short(ish) list of the modules (and
+module combinations) that have the biggest impact on the games I run. More in-depth descriptions of each module can be found in the sections below this one.
+- [Calendar/Weather](https://foundryvtt.com/packages/calendar-weather/) for time tracking. (Requires [About Time](https://foundryvtt.com/packages/about-time/).)
 - [Combat Utility Belt](https://foundryvtt.com/packages/combat-utility-belt/) combined with [Midi QoL](https://foundryvtt.com/packages/midi-qol/), 
   [Let Me Roll That For You](https://foundryvtt.com/packages/lmrtfy/), [Dynamic Active Effects](https://foundryvtt.com/packages/dae/),
   and [About Time](https://foundryvtt.com/packages/about-time/) for tons of combat enhancements.
@@ -64,9 +65,9 @@ the modules (and module combinations) that have the biggest impact on the games 
 - [Forien's Copy Environment](https://foundryvtt.com/packages/forien-copy-environment/) for sharing the same settings between worlds.
 - [GM Notes](https://foundryvtt.com/packages/gm-notes/) to store private notes on things.
 - [Multilevel Tokens](https://foundryvtt.com/packages/multilevel-tokens/) for various grid enhancements.
-- [Playlist Importer](https://foundryvtt.com/packages/playlist_import/) for easy setting up of playlists and music.
-- [PopOut!](https://foundryvtt.com/packages/popout/) for utilizing multiple monitors.
-- [Quick Insert - Search Widget](https://foundryvtt.com/packages/quick-insert/) for access to any entity at a moment's notice.
+- [Playlist Importer](https://foundryvtt.com/packages/playlist_import/) for setting up playlists and music with almost zero hassle.
+- [PopOut!](https://foundryvtt.com/packages/popout/) for utilizing multiple monitors (and that sweet, sweet Alt + Tab).
+- [Quick Insert - Search Widget](https://foundryvtt.com/packages/quick-insert/) for access to any virtually any entity at a moment's notice.
 - [Show Drag Distance](https://foundryvtt.com/packages/ShowDragDistance/) for automatically calculating distances during combat.
 - [The Furnace](https://foundryvtt.com/packages/furnace/) for the playlist improvements and advanced macros.
 - [Tidy UI - Game Settings](https://foundryvtt.com/packages/tidy-ui_game-settings/) and [Tidy5e Sheet](https://foundryvtt.com/packages/tidy5e-sheet/) for a 
@@ -100,7 +101,7 @@ the modules (and module combinations) that have the biggest impact on the games 
     - Use Celsius --> Disabled
     - Can players see the weather --> Disabled
 - [Cautious Gamemaster](https://foundryvtt.com/packages/CautiousGamemastersPack/) - Disables GM from speaking as PCs, hidden tokens automatically roll blind,
-  small chat QoL with up/down arrows, and typing notifications. Automatically hides private rolls from chat.
+  small chat QoL with up/down arrows, and typing notifications. Automatically hides private rolls from chat, too, which is not configurable.
     - Disable GM speaking as PC tokens --> Enabled
     - Blind chats made by hidden tokens --> Enabled
     - Disable chat recalls --> Disabled
@@ -121,7 +122,7 @@ the modules (and module combinations) that have the biggest impact on the games 
     - Enable HP field --> Enabled
     - Enable HP radial bar --> Enabled
 - [Combat Utility Belt](https://foundryvtt.com/packages/combat-utility-belt/) - One of the most important and impactful combat modules out there. There's too
-  many functions to list, and if you want to automate your combat, this is absolutely necessary. It works extremely well when combinedwith the 
+  many functions to list, and if you want to automate your combat, this is absolutely necessary. It works extremely well when combined with the 
   [Midi QoL](https://foundryvtt.com/packages/midi-qol/) module.
     - Core settings
         - Enable concentrator --> Enabled
@@ -285,8 +286,8 @@ the modules (and module combinations) that have the biggest impact on the games 
     - Patreon supporter beta key --> \*your beta key, if you have one\*
     - DDB Cobalt Cookie --> \*your cookie\*
     - DDB campaign URL or ID --> \*your campaign URL/ID, if you have one\*
-- [Dice So Nice!](https://foundryvtt.com/packages/dice-so-nice/) - One of my favorites, this module allows you to roll 3D dice on your screen. For those used to
-  playing in-person, it's a must-have.
+- [Dice So Nice!](https://foundryvtt.com/packages/dice-so-nice/) - How can you play D&D without any dice!? Allows you to roll 3D dice on your screen. It is
+  absolutely necessary for the clackity clackities.
     - Core Settings
         - Max number of dice --> 20
         - Global animation speed --> Player's choice
@@ -331,14 +332,15 @@ the modules (and module combinations) that have the biggest impact on the games 
   
   NOTE: I usually keep this disabled until I need to import something.
     - Openable windows --> Disabled
-- [Dynamic Active Effects](https://foundryvtt.com/packages/dae/) - The successor to the old Dynamic Effects module, this module acts as a bridge between the
-  new Active Effects system implemented in Foundry 0.7.x and the DnD5e system. This will allow you to do multiple things, including calculating
-  AC, adding bonuses to attacks, applying certain spells and effects, implementing non-SRD features and abilities... One of the most impactful modules out
-  there. [Kandashi](https://github.com/kandashi) has an excellent guide regarding the Active Effects system and this module that can be found
+- [Dynamic Active Effects](https://foundryvtt.com/packages/dae/) - The successor to the old 
+  [Dynamic Effects](https://foundryvtt.com/packages/dynamiceffects/) module, this acts as a bridge between the new Active Effects system implemented in
+  Foundry 0.7.x and the DnD5e system. This will allow you to do multiple things, including calculating AC, adding bonuses to attacks, applying certain spells
+  and effects, implementing non-SRD features and abilities... One of the most impactful modules out there. [Kandashi](https://github.com/kandashi) has an
+  excellent guide regarding the Active Effects system and this module that can be found
   [here](https://docs.google.com/document/d/1hgCJ4evPXo1gabJ_1z8AZLnsAtNdETlRgqWyZL28nMs/edit).
   
   NOTE: This module will create a "DAE" button along the top ribbon of every actor and item. Clicking on this will bring you to a menu to apply Active Effects
-  for that particular item. Additionally, if you are converting from the old Dynamic Effects system, run the following two methods to convert all existing
+  for that particular entity. Additionally, if you are converting from the old Dynamic Effects system, run the following two methods to convert all existing
   info over into the new system:
   
   ```
@@ -357,7 +359,8 @@ the modules (and module combinations) that have the biggest impact on the games 
 - [Dynamic Active Effects SRD](https://foundryvtt.com/packages/Dynamic-Effects-SRD/) - Adds a compendium of items, spells, and macros that are automated by the 
   Active Effects system.
   
-  NOTE: In order to use, first import the macro compendium to your game. Then, you can cast the SRD spells as normal, and it should automatically work.
+  NOTE: In order to use, first import the macro compendium to your game. Then, you can cast the SRD spells included module as normal, and it should
+  automatically work. Casting spells from the DnD5e SRD will NOT work, they need to be the DAE SRD spells.
 - [Easy Target](https://foundryvtt.com/packages/easy-target/) - Allows for targeting tokens by holding the Alt key and clicking. Extremely useful for GMs.
     - Release behaviour --> Sticky
 - [Find the Culprit!](https://foundryvtt.com/packages/find-the-culprit/) - A module for debugging compatibility issues between other modules. Extremely
@@ -375,7 +378,7 @@ the modules (and module combinations) that have the biggest impact on the games 
   
   NOTE: With the recent update to Foundry version 0.7.x and other module changes to Better Rolls/Magic Items/Better Curses, there is an extremely serious bug
   that can prevent your world from loading if you have previous versions of this module installed. If you have Forien's Unidentified Items version 0.2.3 or
-  below, you MUST upgrade to version 0.2.4 or above or risk losing everything in that world.
+  below, you MUST upgrade to version 0.2.4 or above or risk losing everything in your world.
     - Core Settings
         - Keep original icon --> Enabled
         - Allow tiering (nesting) --> Disabled
@@ -427,11 +430,11 @@ the modules (and module combinations) that have the biggest impact on the games 
         - Font size --> x-large
         - Position --> Enabledop x -1
 - [Illandril's Hotbar Uses](https://foundryvtt.com/packages/illandril-hotbar-uses/) - Adds a "uses" counter to item macros in hotbars. A good quality of life
-  improvement for players especially.
+  improvement, especially for players.
     - Show maximum values --> Enabled
 - [Input Expressions](https://foundryvtt.com/packages/input-expressions/) - Allows for mathematical expressions and attribute/ability references to be entered 
-  into numeric inputs. For example, you can set a zombie's HP to "3d8 + 9", and it will automatically calculate it for you. 
-- [Item Containers](https://foundryvtt.com/packages/itemcollection/) - Allows for grouping items into containers (aka, bag of holdings) via two new backpack
+  into numeric inputs. For example, you can set a zombie's HP to `3d8 + @abilities.dex.mod`, and it will automatically roll it for you.
+- [Item Containers](https://foundryvtt.com/packages/itemcollection/) - Allows for grouping items into containers (aka, bags of holding) via two new backpack
   sheets: ItemSheetShop and ItemSheetWithBags. Good for organizing character sheets, providing a merchant with inventory, etc.
     - Gold conversion --> Disabled
     - Gold conversion percentage --> 50
@@ -552,7 +555,7 @@ the modules (and module combinations) that have the biggest impact on the games 
     - Clone token flags set by other modules --> Enabled
 - [Multiple Wall Point Mover (MWPM)](https://foundryvtt.com/packages/mwpm/) - By default, Foundry wall points that share the same space will not move
   together. This module enables that behaviour by allowing the GM to drag a single point and move all wall points that meet at that location. One of those
-  modules that is extremely intuitive and should be an option in the core system.
+  modules that is extremely intuitive and should be an option in the core settings.
     - Reverse behaviour --> Enabled
     - Key code --> 18
     - Pixel offset --> 0
@@ -565,7 +568,8 @@ the modules (and module combinations) that have the biggest impact on the games 
 - [Not Enough NPCs - A 5e NPC Generator](https://foundryvtt.com/packages/npcgen/) - Adds a nifty NPC generator on the fly via a button at the bottom of the 
   Actor tab.
   
-  NOTE: I usually keep this disabled until I need to create NPCs, as I usually make batches of them before the game to iron out any kinks.
+  NOTE: I usually keep this disabled until I need to create NPCs, as I usually make batches of them before the game so I can tweak their personalities and iron
+  out any kinks.
     - Core Settings
         - Save NPCs as characters --> Enabled
     - Custom Generator Entries
@@ -574,7 +578,8 @@ the modules (and module combinations) that have the biggest impact on the games 
   grayscale for seeing in darkness, options for global illumination light scale, etc. Extremely useful for adding a pinch of flavor for those 
   characters that can see in the dark.
   
-  NOTE: Has some pretty significant performance issues. If you or your players have low-end hardware, it might be necessary to avoid this module.
+  NOTE: Has some pretty significant performance issues. If you or your players have low-end hardware, it might be necessary to avoid this module, as good as it
+  is.
     - Global illumination light --> Bright light
     - Improved GM vision --> Enabled
     - Vision rules --> Dungeons & Dragons 5e
@@ -587,12 +592,14 @@ the modules (and module combinations) that have the biggest impact on the games 
     - Monochrome special effects --> Disabled
 - [Permission Viewer](https://foundryvtt.com/packages/permission_viewer/) - Adds an easy way to view and customize permissions for players by adding UI
   elements along the side of actors, items, journals, etc. The UI is a little weird to get used to at first, but it's a nice quality of life change.
+  
+  NOTE: Share icon = None, Diamond = Limited, Square = Observer, Circle = Owner
 - [Pick-Up-Stix](https://foundryvtt.com/packages/pick-up-stix/) - Allows players and GMs to drag and drop items onto the actual scene grid to share/collect 
   loot. Useful for when players drop weapons during combat, finding treasure chests, and more.
   
   NOTE: This module has some compatibility issues with 
-  [Forien's Unidentified Items](https://github.com/League-of-Foundry-Developers/foundryvtt-forien-unidentified-items). It shouldn't break anything, but placing 
-  a mystified item on the scene grid will remove the identified version.
+  [Forien's Unidentified Items](https://github.com/League-of-Foundry-Developers/foundryvtt-forien-unidentified-items). Placing a mystified item on the scene 
+  grid will remove the identified version of that item, so make sure to save the un-mystified version in your Items tab.
     - Default container opened image --> modules/pick-up-stix/assets/chest-opened.png
     - Default container closed image --> modules/pick-up-stix/assets/chest-closed.png
     - Disable currency loot --> Disabled
@@ -755,7 +762,7 @@ the modules (and module combinations) that have the biggest impact on the games 
     - Temporary hit points source --> attributes.hp.temp
     - Allow negative hit points --> Disabled
 - [Token Hotbar](https://foundryvtt.com/packages/foundry-token-hotbar/) - Allows a player or GM to assign a given page on the hotbar to remember different 
-  macros for different tokens, sort of like "profiles". This module is extremely useful for GMs especially, as it gives you a quick way to remember the most 
+  macros for different tokens, sort of like "profiles". This module is extremely useful for GMs especially as it gives you a quick way to remember the most 
   commonly-used actions on a monster-by-monster basis. Works well when combined with [Custom Hotbar](https://foundryvtt.com/packages/custom-hotbar/).
     - Use custom hotbar --> Enabled
     - Link to linked actor --> Enabled
@@ -850,7 +857,7 @@ the modules (and module combinations) that have the biggest impact on the games 
     - Icon database policy --> Use the predefined database and my custom one
     - Base dictionary --> Foundry Icons
     - Icon prefix --> iconizer
-- [Virtual Tabletop Assets - Party Overview](https://foundryvtt.com/packages/vtta-party/) - Adds an info icon in the Actors tab that allows an overview of the 
+- [Virtual Tabletop Assets - Party Overview](https://foundryvtt.com/packages/vtta-party/) - Adds an info icon in the Actors tab that pops an overview of the 
   current party of PCs. HP, AC, languages, wealth, etc. are all available. I use it mainly for the Languages tab since the other info is pretty easy to see,
   but it's useful information to have in one place.
     - Grant players access to the overview --> Disabled
@@ -1038,3 +1045,11 @@ the modules (and module combinations) that have the biggest impact on the games 
   D&DBeyond into Foundry. Also adds the ability to roll monster attacks and saves from the D&DBeyond page.
   
   Why retired: Succeeded by [D&D Beyond Importer](https://foundryvtt.com/packages/ddb-importer/) and I never really used the "roll from D&DBeyond" feature.
+<a name="macro-notes"></a>
+## Macro Notes
+- Accessing class levels of a character
+    - `@classes.sorcerer.level`
+- Accessing abilities scores
+    - `@abilities.dex.mod`
+- Updating token elevation
+    - `token.update({"elevation": args[0]});`
