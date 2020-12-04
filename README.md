@@ -624,6 +624,13 @@ If you want to view my preferred modules for a specific version of Foundry, you 
     - Enable dash color change --> Enabled
     - Dash multiplier --> 1
     - Dash speed color --> #00FF00
+- [Simplefog - Manual Fog of War](https://github.com/League-of-Foundry-Developers/simplefog) - An updated version of the older 
+  [Simplefog](https://foundryvtt.com/packages/simplefog/) module, Simplefog allows you manually show/hide the fog of war, similar to Roll20's free tier. It's 
+  extremely useful for world maps and exploration.
+  
+  NOTE: Unlike most of the other modules in this list, you should manually import the updated version of this module via the manifest URL located 
+  [here](https://raw.githubusercontent.com/League-of-Foundry-Developers/simplefog/master/module.json). If you use the typical Foundry interface, it will install
+  the old version that is incompatible with the lighting upgrades in Foundry version 0.7.x.
 - [Simple Dice Roller](https://foundryvtt.com/packages/simple-dice-roller/) - Adds a menu in the top left to easily roll dice, similar to Roll20's interface.
     - Maximum dices in a roll --> 10
 - [The Furnace](https://foundryvtt.com/packages/furnace/) - Adds drawing tools, async macros (that are relied on by other modules and macros), enabling and 
