@@ -939,7 +939,7 @@ module combinations) that have the biggest impact on the games I run. More in-de
 ## Other Cool Modules
 - [Monster Blocks](https://foundryvtt.com/packages/monsterblock/) - Adds an NPC sheet in the style of the traditional 5e monster blocks.
 
-  Why not install: Super cool-looking, but I prefer the Tidy5e sheets instead for NPCs.
+  Why not install: Super cool-looking, but I prefer Tidy5e instead for NPCs.
 <a name="modules-with-performance-issues"></a>
 ## Modules with Possible Performance Issues?
 - [Perfect Vision](https://foundryvtt.com/packages/perfect-vision/) - Very noticeable FPS drop when dragging tokens and recalculating light. Makes this module
