@@ -1,4 +1,4 @@
-# Nathan's DnD5e Foundry Modules and Notes
+# Nathan's DnD5e/FoundryVTT Modules and Notes
 A list of the best modules that I personally use for my FoundryVTT D&D 5th Edition games as a dungeon master, along with my preferred settings for each. I
 did my best to double-check any significant issues beforehand, however, there's always a chance of something slipping through or changing in
 subsequent updates. There are also copies of my environment settings within this repository if you want to try the settings that I personally use. Hope these
