@@ -434,7 +434,7 @@ module combinations) that have the biggest impact on the games I run. More in-de
   improvement, especially for players.
     - Show maximum values --> Enabled
 - [Input Expressions](https://foundryvtt.com/packages/input-expressions/) - Allows for mathematical expressions and attribute/ability references to be entered 
-  into numeric inputs. For example, you can set a zombie's HP to `3d8 + @abilities.dex.mod`, and it will automatically roll it for you.
+  into numeric inputs. For example, you can set a zombie's HP to `3d8 + @abilities.con.mod`, and it will automatically roll it for you.
 - [Item Containers](https://foundryvtt.com/packages/itemcollection/) - Allows for grouping items into containers (aka, bags of holding) via two new backpack
   sheets: ItemSheetShop and ItemSheetWithBags. Good for organizing character sheets, providing a merchant with inventory, etc.
     - Gold conversion --> Disabled
