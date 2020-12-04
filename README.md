@@ -1,4 +1,4 @@
-# Nathan's DnD5e Foundry Modules
+# Nathan's DnD5e Foundry Modules and Notes
 A list of the best modules that I personally use for my FoundryVTT D&D 5th Edition games as a dungeon master, along with my preferred settings for each. I
 did my best to double-check any significant issues beforehand, however, there's always a chance of something slipping through or changing in
 subsequent updates. There are also copies of my environment settings within this repository if you want to try the settings that I personally use. Hope these
@@ -24,6 +24,9 @@ corresponding Foundry version in the commit message, and if it doesn't, I messed
 - [Modules with Possible Performance Issues?](#modules-with-performance-issues)
 - [Modules Reviewed and Retired](#modules-reviewed-and-retired)
 - [Macro Notes](#macro-notes)
+- [Performance Improvements](#performance-improvements)
+- [Other Useful Resources](#useful-resources)
+- [Other Media and Software](#other-media)
 
 <a name="foundry-settings"></a>
 ## Foundry VTT Settings
@@ -328,7 +331,7 @@ module combinations) that have the biggest impact on the games I run. More in-de
   D&DBeyond. I personally prefer the look and feel of [Compact DnDBeyond 5e Character Sheet](https://foundryvtt.com/packages/compact-beyond-5e-sheet/), but
   they are both very similar.
 - [Dungeondraft Importer](https://foundryvtt.com/packages/dd-import/) - Adds a button at the bottom of the Scenes tab that allows you to import .dd2vtt files
-  as scenes. If you make your maps with [DungeonDraft](https://dungeondraft.net/) (which I highly recommend, especially with the 
+  as scenes. If you make your maps with [Dungeondraft](https://dungeondraft.net/) (which I highly recommend, especially with the 
   [Forgotten Adventures](https://www.patreon.com/forgottenadventures) assets), this module will save you hours of prep work.
   
   NOTE: I usually keep this disabled until I need to import something.
@@ -1059,3 +1062,73 @@ module combinations) that have the biggest impact on the games I run. More in-de
     - `@abilities.dex.mod`
 - Updating token elevation
     - `token.update({"elevation": args[0]});`
+<a name="performance-improvements"></a>
+## Performance Improvements
+- Use Microsoft Edge browser when playing on Windows 10. Strangely enough, it seems to be more fluid than Chrome, at least regarding Foundry.
+- [Performance troubleshooting tips prezi](https://prezi.com/view/FeiO42h6cxdmoIsZvUlt/)
+- [Increasing/fixing performance (video)](https://www.youtube.com/watch?v=R4UIU0_mC8A)
+- [Possible Firefox performance improvements?](https://www.reddit.com/r/FoundryVTT/comments/k1pquy/a_fix_for_weird_firefox_performance_problems)
+<a name="useful-resources"></a>
+## Other Useful Resources
+- [Hosting FoundryVTT on a raspberry pi](https://dracoli.ch/posts/foundry-rpi/)
+- [How to deploy a Foundry server on AWS](https://www.reddit.com/r/FoundryVTT/comments/iurf7h/i_created_a_method_to_automatically_deploy_a/)
+- [The Player's Guide to Foundry (video)](https://www.youtube.com/watch?v=ja88yRVQmck)
+- [FoundryVTT Subreddit](https://www.reddit.com/r/FoundryVTT/)
+<a name="other-media"></a>
+## Other Media and Software
+### Software
+- Map Makers
+    - [Dungeondraft](https://dungeondraft.net/) - Amazingly intuitive battle-map maker. For most simple maps, I can get them created and imported into Foundry
+      within 10 minutes. Although I'm not a huge fan of the default art style, it allows you to import custom asset packs, like those from 
+      [Forgotten Adventures](https://www.forgotten-adventures.net/product/map-making/assets/dungeondraft-integration/). 10/10, would recommend.
+    - [Wonderdraft](https://www.wonderdraft.net/) - From the same creator as Dungeondraft, and works very similarly. I use it for regional/world/city maps. 
+      Again, I highly recommend it. Inkarnate is another good alternative.
+    - [Arkenforge](https://arkenforge.com/) - Another great map maker and VTT. Especially useful for in-person games. I don't use it anymore, but it worked well
+      while I did.
+    - [Inkarnate](https://inkarnate.com/) - An alternative to Wonderdraft and entirely web-based. I prefer Wonderdraft, others prefer this. I'd recommend trying
+      out both.
+    - [Dungeon Fog](https://www.dungeonfog.com/) - High quality map maker with assets already built-in.
+- Generators
+    - [RPG Tinkerer](https://www.rpgtinker.com/) - Combat NPCs.
+    - [D&D 5e Random Character Generator](https://tetra-cube.com/dnd/dnd-char-gen.html) - Non-combat NPCs with images.
+    - [NPC Generator](http://www.npcgenerator.com/) - More non-combat NPCs with personality quirks.
+    - [Eigengraus Essential Establishment Generator](https://eigengrausgenerator.com/) - Generates a brand new town with tons of links and connecting 
+      storylines. I heard there's a Foundry module in the makes as well. Good if you're short on time or need to create a city or village on the fly.
+    - [D&D Town Generator](https://town.noordstar.me/) - Another town or city generator, now with work schedules!
+    - [DunGen](https://dungen.app/dungen/) - Map generator. Patreons can get maps pre-configured with FoundryVTT-ready lighting and walls.
+    - [donjon](https://donjon.bin.sh/) - Generators upon generators. If you need one, this place has it.
+    - [Weak Magic Items fo 5e](http://www.lordbyng.net/inspiration/index.php) - Great for when I want to be generous to my players, but not *too* generous ;)
+- Miscellaneous
+    - [Audacity](https://www.audacityteam.org/) - For trimming audio clips.
+    - [Token Stamp](http://rolladvantage.com/tokenstamp/) - Easy-to-use token creator. I use Tokenizer now, but I'd argue the default borders are pretty nice on 
+      this site.
+    - [r/dndmaps Search Engine](https://gamemaster.pixelastic.com/maps/) - Searches through all maps posted in the r/dndmaps subreddit.
+    - [Collection of Random Tables](https://www.reddit.com/r/DnD/comments/452r6r/a_massive_and_growing_resource_of_random_tables/) - Tables for almost anything.
+    - [Fancy Text Generator](https://lingojam.com/FancyTextGenerator) - Can use for "handwritten" notes.
+    - [Gimp](https://www.gimp.org/) - Free Photoshop(ish). Really good for image manipulation, and if you're good with artsy stuff (definitely not me), you can
+      hand-draw your own maps.
+### Maps and Tokens (in no particular order)
+- [Forgotten Adventures](https://www.patreon.com/forgottenadventures) - Maps, tokens, and Dungeondraft assets. I use these more than any other assets.
+- [Heroic Maps](https://www.patreon.com/heroicmaps/posts) - Maps!
+- [Tom Cartos](https://www.patreon.com/tomcartos) - Maps!
+- [Eightfold Paper](https://www.patreon.com/EightfoldPaper/posts) - Maps!
+- [Dynamic Dungeons](https://www.patreon.com/dynamicdungeons) - Animated maps!
+- [Animated Dungeon Maps](https://www.patreon.com/animatedmaps) - Animated maps!
+- [PogS Props](https://www.patreon.com/PogS_Props) - Maps!
+- [Cze and Peku](https://www.patreon.com/czepeku) - Maps!
+- [Afternoon Maps](https://www.patreon.com/afternoonmaps) - Maps!
+- [Caeora](https://www.patreon.com/caeora) - Maps!
+- [Maphammer](https://www.patreon.com/maphammer) - Maps!
+- [Token Borders](https://www.pinterest.com/kimy142643/token-borders/) - Token borders!
+- [Endless Dungeon Maps](https://www.reddit.com/r/dndmaps/comments/jwdp6x/endless_dungeon_level_0/) - Ongoing plug-and-play dungeons!
+- [Matt's Massive Map Menagerie](https://drive.google.com/drive/folders/1c_8hDZKuZuu_NF76oq2fjcm4XaE1stkJ) - Tons of free maps and tokens!
+- [Dundjinni](http://www.dundjinni.com/forums/) - Tons of free maps and tokens!
+- [RPG Map Share](http://rpgmapshare.com/) - Gallery of free maps!
+### Sounds
+- [Tabletop Audio](https://tabletopaudio.com/) - Seriously amazing ambiances and music!
+- [16,000 Free Sound Effects](http://bbcsfx.acropolis.org.uk/) - Sounds!
+### Other D&D Materials
+- [Darkest Dungeon Monsters](https://www.reddit.com/r/DnDBehindTheScreen/comments/jx1ta2/darkest_dungeon_horrors_of_the_dark_a_complete/)
+- [Octavian's Guide to Herbalism & Alchemy](https://homebrewery.naturalcrit.com/share/By_JPajBW)
+- [Sane Magic Item Prices](https://forums.giantitp.com/showthread.php?424243-Sane-Magic-Item-Prices)
+- [Ultimate Optimizer's Multiclassing Guide](https://forums.giantitp.com/showthread.php?502248-Ultimate-Optimizer-s-Multiclassing-Guide)
