@@ -13,20 +13,22 @@ If you want to view my preferred modules for a specific version of Foundry, you 
 corresponding Foundry version in the commit message, and if it doesn't, I messed up somewhere :)
 
 ## Table of Contents
-- [Foundry VTT Settings](#foundry-settings)
-- [Top Must-Have Modules](#must-have-modules)
-- [List of Currently-Installed Modules, Descriptions, and Settings](#all-installed-modules)
-- [Awesome Media Modules](#awesome-media-modules)
-- [Awesome Media Modules (that I've already organized)](#awesome-organized-media-modules)
-- [Modules to Review](#modules-to-review)
-- [Modules to Review at a Later Date](#modules-to-review-later)
-- [Other Cool Modules](#other-cool-modules)
-- [Modules with Possible Performance Issues?](#modules-with-performance-issues)
-- [Modules Reviewed and Retired](#modules-reviewed-and-retired)
-- [Macro Notes](#macro-notes)
-- [Performance Improvements](#performance-improvements)
-- [Other Useful Resources](#useful-resources)
-- [Other Media and Software](#other-media)
+- Modules and Settings
+    - [Foundry VTT Settings](#foundry-settings)
+    - [Top Must-Have Modules](#must-have-modules)
+    - [List of Currently-Installed Modules, Descriptions, and Settings](#all-installed-modules)
+    - [Awesome Media Modules](#awesome-media-modules)
+    - [Awesome Media Modules (that I've already organized)](#awesome-organized-media-modules)
+    - [Modules to Review](#modules-to-review)
+    - [Modules to Review at a Later Date](#modules-to-review-later)
+    - [Other Cool Modules](#other-cool-modules)
+    - [Modules with Possible Performance Issues?](#modules-with-performance-issues)
+    - [Modules Reviewed and Retired](#modules-reviewed-and-retired)
+- Notes and Resources
+    - [Macro Notes](#macro-notes)
+    - [Performance Improvements](#performance-improvements)
+    - [Other Useful Resources](#useful-resources)
+    - [Other Media and Software](#other-media)
 
 <a name="foundry-settings"></a>
 ## Foundry VTT Settings
@@ -1097,7 +1099,7 @@ module combinations) that have the biggest impact on the games I run. More in-de
     - [D&D Town Generator](https://town.noordstar.me/) - Another town or city generator, now with work schedules!
     - [DunGen](https://dungen.app/dungen/) - Map generator. Patreons can get maps pre-configured with FoundryVTT-ready lighting and walls.
     - [donjon](https://donjon.bin.sh/) - Generators upon generators. If you need one, this place has it.
-    - [Weak Magic Items fo 5e](http://www.lordbyng.net/inspiration/index.php) - Great for when I want to be generous to my players, but not *too* generous ;)
+    - [Weak Magic Items for 5e](http://www.lordbyng.net/inspiration/index.php) - Great for when I want to be generous to my players, but not *too* generous ;)
 - Miscellaneous
     - [Audacity](https://www.audacityteam.org/) - For trimming audio clips.
     - [Token Stamp](http://rolladvantage.com/tokenstamp/) - Easy-to-use token creator. I use Tokenizer now, but I'd argue the default borders are nicer on 
@@ -1125,8 +1127,14 @@ module combinations) that have the biggest impact on the games I run. More in-de
 - [Dundjinni](http://www.dundjinni.com/forums/) - Tons of free maps and tokens!
 - [RPG Map Share](http://rpgmapshare.com/) - Gallery of free maps!
 ### Sounds
-- [Tabletop Audio](https://tabletopaudio.com/) - Seriously amazing ambiances and music!
-- [16,000 Free Sound Effects](http://bbcsfx.acropolis.org.uk/) - Sounds!
+- Sites
+    - [Tabletop Audio](https://tabletopaudio.com/) - Seriously amazing ambiances and music!
+    - [16,000 Free Sound Effects](http://bbcsfx.acropolis.org.uk/) - Sounds!
+- Spotify Playlists
+    - [Bezoing's curated list of D&D encounter playlists](https://www.reddit.com/r/DnD/comments/595zc6/my_curated_spotify_playlists_i_use_for_dd/) - Tons of 
+      useful atmosphere, mood, and combat playlists.
+    - [Strttrynr's 112 Spotify playlists to run your game](https://www.reddit.com/r/DnD/comments/d12q2x/112_spotify_playlists_to_run_your_game/) - Even more 
+      playlists for a variety of scenarios.
 ### Other D&D Materials
 - [Darkest Dungeon Monsters](https://www.reddit.com/r/DnDBehindTheScreen/comments/jx1ta2/darkest_dungeon_horrors_of_the_dark_a_complete/)
 - [Octavian's Guide to Herbalism & Alchemy](https://homebrewery.naturalcrit.com/share/By_JPajBW)
