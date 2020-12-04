@@ -28,7 +28,7 @@ corresponding Foundry version in the commit message, and if it doesn't, I messed
 <a name="foundry-settings"></a>
 ## Foundry VTT Settings
 ### Core Settings
-- Enable Chat Bubbles --> Enabled
+- Enable Chat Bubbles --> Enabled 
 - Pan to Token Speaker --> Disabled
 - Left-Click to Release Objects --> Enabled
 - Token Drag Vision --> Disabled
@@ -875,8 +875,8 @@ module combinations) that have the biggest impact on the games I run. More in-de
 ## Awesome Media Modules
 - [Tons of them right here!](https://foundryvtt.com/packages/exclusive)
 <a name="awesome-organized-media-modules"></a>
-## Music
-### Awesome Media Modules (that I've already organized)
+## Awesome Media Modules (that I've already organized)
+### Music
 - [Michael Ghelfi Audio Pack](https://foundryvtt.com/packages/michaelghelfi/) - Great ambient sounds and songs!
 ### Map packs
 - [Baileywiki Maps Pack](https://foundryvtt.com/packages/baileywiki-maps/) - Full scenes filled with module integrations.
