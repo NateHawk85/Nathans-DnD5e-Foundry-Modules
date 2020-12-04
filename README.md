@@ -20,6 +20,7 @@ corresponding Foundry version in the commit message, and if it doesn't, I messed
 - [Awesome Media Modules (that I've already organized)](#awesome-organized-media-modules)
 - [Modules to Review](#modules-to-review)
 - [Modules to Review at a Later Date](#modules-to-review-later)
+- [Other Cool Modules](#other-cool-modules)
 - [Modules with Possible Performance Issues?](#modules-with-performance-issues)
 - [Modules Reviewed and Retired](#modules-reviewed-and-retired)
 - [Macro Notes](#macro-notes)
@@ -934,6 +935,11 @@ module combinations) that have the biggest impact on the games I run. More in-de
   Why removed: Bugged, seems to only work on certain machines.
   
   Will revisit: When the module has been updated to show on all machines. HIGH PRIORITY.
+<a name="other-cool-modules"></a>
+## Other Cool Modules
+- [Monster Blocks](https://foundryvtt.com/packages/monsterblock/) - Adds an NPC sheet in the style of the traditional 5e monster blocks.
+
+  Why not install: Super cool-looking, but I prefer the Tidy5e sheets instead for NPCs.
 <a name="modules-with-performance-issues"></a>
 ## Modules with Possible Performance Issues?
 - [Perfect Vision](https://foundryvtt.com/packages/perfect-vision/) - Very noticeable FPS drop when dragging tokens and recalculating light. Makes this module
