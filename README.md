@@ -44,7 +44,7 @@ should have the corresponding Foundry version in the commit message.
 - Allow Polymorphing --> Enabled
 
 <a name="top-modules"></a>
-## Top Modules
+## Top Must-Have Modules
 If I had to run Foundry with a limited amount of modules, these are the ones I would absolutely need, no questions asked. Here's my short(ish) list of
 the modules (and module combinations) that have the biggest impact on the games I run.
 - [About Time](https://foundryvtt.com/packages/about-time/) combined with [Calendar/Weather](https://foundryvtt.com/packages/calendar-weather/) for time 
