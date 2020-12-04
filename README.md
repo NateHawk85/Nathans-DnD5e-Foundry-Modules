@@ -14,7 +14,7 @@ should have the corresponding Foundry version in the commit message.
 ## Table of Contents
 - [Foundry VTT Settings](#foundry-settings)
 - [Top Must-Have Modules](#top-modules)
-- [All Current Installed Modules and Their Settings](#all-installed-modules)
+- [List of Currently-Installed Modules, Descriptions, and Settings](#all-installed-modules)
 - [Modules to Review](#modules-to-review)
 - [Modules to Review at a Later Date](#modules-to-review-later)
 - [Modules with Possible Performance Issues?](#modules-with-performance-issues)
@@ -74,7 +74,7 @@ the modules (and module combinations) that have the biggest impact on the games 
 - [Token Mold](https://foundryvtt.com/packages/token-mold/) for creating monsters without fiddling with settings over and over again.
 
 <a name="all-installed-modules"></a>
-## All Current Installed Modules and Their Settings
+## List of Currently-Installed Modules, Descriptions, and Settings
 - [About Time](https://foundryvtt.com/packages/about-time/) - Tracks in-game time and required for the 
   [Calendar/Weather](https://foundryvtt.com/packages/calendar-weather/) module. 
 
