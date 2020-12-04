@@ -5,20 +5,20 @@ subsequent updates. There are also copies of my environment settings within this
 help!
 
 Inspired by [Bryan's Preferred Modules for Foundry VTT](https://github.com/bryancasler/Bryans-Preferred-Modules-for-FoundryVTT), as a lot of the modules I use
-now were found on his page! I definitely recommend his recommended modules as well.
-
-## Table of Contents
-- [Foundry VTT Settings](#foundry-settings)
-- [Top Must-Have Modules](#top-modules)
-- [All Current Installed Modules](#all-installed-modules)
-- [Modules to Review](#modules-to-review)
-- [Modules to Review at a Later Date](#modules-to-review-later)
-- [Modules with Possible Performance Issues?](#modules-with-performance-issues)
-- [Modules Reviewed and Retired](#modules-reviewed-and-retired)
+now were found on his page. I recommend checking out his page for more useful modules that may be beneficial for you as well. 
 
 ## Versions
 If you want to view my preferred modules for a specific version of Foundry, you can use the commit history to view past versions of this page. Each commit
 should have the corresponding Foundry version in the commit message.
+
+## Table of Contents
+- [Foundry VTT Settings](#foundry-settings)
+- [Top Must-Have Modules](#top-modules)
+- [All Current Installed Modules and Their Settings](#all-installed-modules)
+- [Modules to Review](#modules-to-review)
+- [Modules to Review at a Later Date](#modules-to-review-later)
+- [Modules with Possible Performance Issues?](#modules-with-performance-issues)
+- [Modules Reviewed and Retired](#modules-reviewed-and-retired)
 
 <a name="foundry-settings"></a>
 ## Foundry VTT Settings
@@ -74,7 +74,7 @@ the modules (and module combinations) that have the biggest impact on the games 
 - [Token Mold](https://foundryvtt.com/packages/token-mold/) for creating monsters without fiddling with settings over and over again.
 
 <a name="all-installed-modules"></a>
-## All Current Installed Modules
+## All Current Installed Modules and Their Settings
 - [About Time](https://foundryvtt.com/packages/about-time/) - Tracks in-game time and required for the 
   [Calendar/Weather](https://foundryvtt.com/packages/calendar-weather/) module. 
 
