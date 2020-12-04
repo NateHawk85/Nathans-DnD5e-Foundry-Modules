@@ -287,7 +287,7 @@ module combinations) that have the biggest impact on the games I run. More in-de
     - DDB Cobalt Cookie --> \*your cookie\*
     - DDB campaign URL or ID --> \*your campaign URL/ID, if you have one\*
 - [Dice So Nice!](https://foundryvtt.com/packages/dice-so-nice/) - How can you play D&D without any dice!? Allows you to roll 3D dice on your screen. It is
-  absolutely necessary for the clackity clackities.
+  absolutely necessary for the clickity clackities.
     - Core Settings
         - Max number of dice --> 20
         - Global animation speed --> Player's choice
