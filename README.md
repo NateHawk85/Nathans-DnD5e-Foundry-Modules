@@ -1100,7 +1100,7 @@ module combinations) that have the biggest impact on the games I run. More in-de
     - [Weak Magic Items fo 5e](http://www.lordbyng.net/inspiration/index.php) - Great for when I want to be generous to my players, but not *too* generous ;)
 - Miscellaneous
     - [Audacity](https://www.audacityteam.org/) - For trimming audio clips.
-    - [Token Stamp](http://rolladvantage.com/tokenstamp/) - Easy-to-use token creator. I use Tokenizer now, but I'd argue the default borders are pretty nice on 
+    - [Token Stamp](http://rolladvantage.com/tokenstamp/) - Easy-to-use token creator. I use Tokenizer now, but I'd argue the default borders are nicer on 
       this site.
     - [r/dndmaps Search Engine](https://gamemaster.pixelastic.com/maps/) - Searches through all maps posted in the r/dndmaps subreddit.
     - [Collection of Random Tables](https://www.reddit.com/r/DnD/comments/452r6r/a_massive_and_growing_resource_of_random_tables/) - Tables for almost anything.
