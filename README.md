@@ -1,11 +1,10 @@
 # Nathan's DnD5e/FoundryVTT Modules and Notes
-A list of the best modules that I personally use for my FoundryVTT D&D 5th Edition games as a dungeon master, along with my preferred settings for each. I
-did my best to double-check any significant issues beforehand, however, there's always a chance of something slipping through or changing in
-subsequent updates. There are also copies of my environment settings within this repository if you want to try the settings that I personally use. Hope these
-help!
+A list of modules and resources that I personally use for my FoundryVTT D&D 5th Edition games, along with my preferred settings. I did my best to 
+double-check any significant issues beforehand, however, there's always a chance of something slipping through or changing in subsequent updates. There are
+also copies of my environment settings within this repository if you want to try the settings that I personally use. Hope these help!
 
 Inspired by [Bryan's Preferred Modules for Foundry VTT](https://github.com/bryancasler/Bryans-Preferred-Modules-for-FoundryVTT), as a lot of the modules I use
-now were found on his page. I recommend checking his stuff out for even more useful modules!
+now were found on his page. I recommend checking his stuff out for even more useful stuff!
 
 ## Versions
 If you want to view my preferred modules for a specific version of Foundry, you can use the 
@@ -15,10 +14,14 @@ corresponding Foundry version in the commit message, and if it doesn't, I messed
 ## Table of Contents
 - Modules and Settings
     - [Foundry VTT Settings](#foundry-settings)
+        - [Core Settings](#core-settings)
+        - [System Settings](#system-settings)
     - [Top Must-Have Modules](#must-have-modules)
     - [List of Currently-Installed Modules, Descriptions, and Settings](#all-installed-modules)
     - [Awesome Media Modules](#awesome-media-modules)
     - [Awesome Media Modules (that I've already organized)](#awesome-organized-media-modules)
+        - [Music](#music-modules)
+        - [Map Packs](#map-pack-modules)
     - [Modules to Review](#modules-to-review)
     - [Modules to Review at a Later Date](#modules-to-review-later)
     - [Other Cool Modules](#other-cool-modules)
@@ -29,9 +32,14 @@ corresponding Foundry version in the commit message, and if it doesn't, I messed
     - [Performance Improvements](#performance-improvements)
     - [Other Useful Resources](#useful-resources)
     - [Other Media and Software](#other-media)
+        - [Software](#software)
+        - [Maps and Tokens](#maps-and-tokens)
+        - [Sounds and Music](#sounds-and-music)
+        - [Other D&D Materials](#other-ddd-materials)
 
 <a name="foundry-settings"></a>
 ## Foundry VTT Settings
+<a name="core-settings"></a>
 ### Core Settings
 - Enable Chat Bubbles --> Enabled 
 - Pan to Token Speaker --> Disabled
@@ -44,6 +52,7 @@ corresponding Foundry version in the commit message, and if it doesn't, I messed
 - Animate Roll Tables --> Disabled
 - Cone Template Type --> Round
 
+<a name="system-settings"></a>
 ### System Settings
 - Rest Variant --> PHB
 - Diagonal Movement Rule --> PHB
@@ -881,8 +890,10 @@ module combinations) that have the biggest impact on the games I run. More in-de
 - [Tons of them right here!](https://foundryvtt.com/packages/exclusive)
 <a name="awesome-organized-media-modules"></a>
 ## Awesome Media Modules (that I've already organized)
+<a name="music-modules"></a>
 ### Music
 - [Michael Ghelfi Audio Pack](https://foundryvtt.com/packages/michaelghelfi/) - Great ambient sounds and songs!
+<a name="map-pack-modules"></a>
 ### Map packs
 - [Baileywiki Maps Pack](https://foundryvtt.com/packages/baileywiki-maps/) - Full scenes filled with module integrations.
 - [Domille's Wondrous Works - Battlemap Collection](https://foundryvtt.com/packages/dww-battlemaps/) - Great, high quality maps!
@@ -1078,6 +1089,7 @@ module combinations) that have the biggest impact on the games I run. More in-de
 - [FoundryVTT Subreddit](https://www.reddit.com/r/FoundryVTT/)
 <a name="other-media"></a>
 ## Other Media and Software
+<a name="software"></a>
 ### Software
 - Map Makers
     - [Dungeondraft](https://dungeondraft.net/) - Amazingly intuitive battle-map maker. For most simple maps, I can get them created and imported into Foundry
@@ -1109,6 +1121,7 @@ module combinations) that have the biggest impact on the games I run. More in-de
     - [Fancy Text Generator](https://lingojam.com/FancyTextGenerator) - Can use for "handwritten" notes.
     - [Gimp](https://www.gimp.org/) - Free Photoshop(ish). Really good for image manipulation, and if you're good with artsy stuff (definitely not me), you can
       hand-draw your own maps.
+<a name="maps-and-tokens"></a>
 ### Maps and Tokens (in no particular order)
 - [Forgotten Adventures](https://www.patreon.com/forgottenadventures) - Maps, tokens, and Dungeondraft assets. I use these more than any other assets.
 - [Heroic Maps](https://www.patreon.com/heroicmaps/posts) - Maps!
@@ -1126,7 +1139,8 @@ module combinations) that have the biggest impact on the games I run. More in-de
 - [Matt's Massive Map Menagerie](https://drive.google.com/drive/folders/1c_8hDZKuZuu_NF76oq2fjcm4XaE1stkJ) - Tons of free maps and tokens!
 - [Dundjinni](http://www.dundjinni.com/forums/) - Tons of free maps and tokens!
 - [RPG Map Share](http://rpgmapshare.com/) - Gallery of free maps!
-### Sounds
+<a name="sounds-and-music"></a>
+### Sounds and Music
 - Sites
     - [Tabletop Audio](https://tabletopaudio.com/) - Seriously amazing ambiances and music!
     - [16,000 Free Sound Effects](http://bbcsfx.acropolis.org.uk/) - Sounds!
@@ -1135,6 +1149,7 @@ module combinations) that have the biggest impact on the games I run. More in-de
       useful atmosphere, mood, and combat playlists.
     - [Strttrynr's 112 Spotify playlists to run your game](https://www.reddit.com/r/DnD/comments/d12q2x/112_spotify_playlists_to_run_your_game/) - Even more 
       playlists for a variety of scenarios.
+<a name="other-dnd-materials"></a>
 ### Other D&D Materials
 - [Darkest Dungeon Monsters](https://www.reddit.com/r/DnDBehindTheScreen/comments/jx1ta2/darkest_dungeon_horrors_of_the_dark_a_complete/)
 - [Octavian's Guide to Herbalism & Alchemy](https://homebrewery.naturalcrit.com/share/By_JPajBW)
