@@ -16,7 +16,7 @@ corresponding Foundry version in the commit message, and if it doesn't, I messed
     - [Foundry VTT Settings](#foundry-settings)
         - [Core Settings](#core-settings)
         - [System Settings](#system-settings)
-    - [Top Must-Have Modules](#must-have-modules)
+    - [Must-Have Modules](#must-have-modules)
     - [List of Currently-Installed Modules, Descriptions, and Settings](#all-installed-modules)
     - [Awesome Media Modules](#awesome-media-modules)
     - [Awesome Media Modules (that I've already organized)](#awesome-organized-media-modules)
@@ -25,7 +25,7 @@ corresponding Foundry version in the commit message, and if it doesn't, I messed
     - [Modules to Review](#modules-to-review)
     - [Modules to Review at a Later Date](#modules-to-review-later)
     - [Other Cool Modules](#other-cool-modules)
-    - [Modules with Possible Performance Issues?](#modules-with-performance-issues)
+    - [Modules with Possible Performance Issues](#modules-with-performance-issues)
     - [Modules Reviewed and Retired](#modules-reviewed-and-retired)
 - Notes and Resources
     - [Macro Notes](#macro-notes)
@@ -35,7 +35,7 @@ corresponding Foundry version in the commit message, and if it doesn't, I messed
         - [Software](#software)
         - [Maps and Tokens](#maps-and-tokens)
         - [Sounds and Music](#sounds-and-music)
-        - [Other D&D Materials](#other-ddd-materials)
+        - [Other D&D Materials](#other-dnd-materials)
 
 <a name="foundry-settings"></a>
 ## Foundry VTT Settings
@@ -894,7 +894,7 @@ module combinations) that have the biggest impact on the games I run. More in-de
 ### Music
 - [Michael Ghelfi Audio Pack](https://foundryvtt.com/packages/michaelghelfi/) - Great ambient sounds and songs!
 <a name="map-pack-modules"></a>
-### Map packs
+### Map Packs
 - [Baileywiki Maps Pack](https://foundryvtt.com/packages/baileywiki-maps/) - Full scenes filled with module integrations.
 - [Domille's Wondrous Works - Battlemap Collection](https://foundryvtt.com/packages/dww-battlemaps/) - Great, high quality maps!
 - [The MAD Cartographer | Free Battlemap Pack](https://foundryvtt.com/packages/mad-cartographer-free-maps/) - More great maps!
@@ -953,11 +953,22 @@ module combinations) that have the biggest impact on the games I run. More in-de
   Will revisit: When the module has been updated to show on all machines. HIGH PRIORITY.
 <a name="other-cool-modules"></a>
 ## Other Cool Modules
+- [Blood 'N Guts](https://foundryvtt.com/packages/blood-n-guts/) - Adds blood splatters whenever tokens are injured. Looks pretty fun!
+
+  Why not install: Not my thing, but it's definitely a cool idea.
+- [D&D 5e OGL Character Sheet](https://foundryvtt.com/packages/5e-ogl-character-sheet/) - Traditional D&D5e-style character sheet, similar to Roll20's.
+
+  Why not install: Already have enough character sheets :) But it looks solid, for what it's worth!
+- [DNDBeyond NPC Sheet](https://foundryvtt.com/packages/dndbeyond-npc-sheet/) - Adds an NPC sheet with D&DBeyond styling.
+
+  Why not install: I almost always use [Tidy5e Sheet](https://foundryvtt.com/packages/tidy5e-sheet/) and 
+  [Loot Sheet NPC 5e](https://foundryvtt.com/packages/lootsheetnpc5e/), so there's no use for a 3rd NPC sheet without additional functionality. However, if you
+  prefer the look of this over Tidy5e, it's definitely worth getting!
 - [Monster Blocks](https://foundryvtt.com/packages/monsterblock/) - Adds an NPC sheet in the style of the traditional 5e monster blocks.
 
   Why not install: Super cool-looking, but I prefer Tidy5e instead for NPCs.
 <a name="modules-with-performance-issues"></a>
-## Modules with Possible Performance Issues?
+## Modules with Possible Performance Issues
 - [Perfect Vision](https://foundryvtt.com/packages/perfect-vision/) - Very noticeable FPS drop when dragging tokens and recalculating light. Makes this module
   on the cusp of being removed...
 - [Quick Insert - Search Widget](https://foundryvtt.com/packages/quick-insert/) - Extremely small startup slowdown. Not enough to outweigh the benefits.
@@ -1002,11 +1013,6 @@ module combinations) that have the biggest impact on the games I run. More in-de
 - [Deselection](https://github.com/Sky-Captain-13/foundry/tree/master/deselection) - By enabling, deselects tokens when clicking on an empty spot on the scene.
 
   Why retired: Now included in default Foundry under Core Settings --> Left-Click to Release Objects --> Enabled
-- [DNDBeyond NPC Sheet](https://foundryvtt.com/packages/dndbeyond-npc-sheet/) - Adds an NPC sheet with D&DBeyond styling.
-
-  Why retired: I almost always use [Tidy5e Sheet](https://foundryvtt.com/packages/tidy5e-sheet/) and 
-  [Loot Sheet NPC 5e](https://foundryvtt.com/packages/lootsheetnpc5e/), so there's no use for a 3rd NPC sheet without additional functionality. However, if you
-  prefer the look of this over Tidy5e, it's definitely worth getting!
 - [Dynamic Effects](https://foundryvtt.com/packages/dynamiceffects/) - Allows for different item bonuses and nerfs.
 
   Why retired: Succeeded by [Dynamic Active Effects](https://foundryvtt.com/packages/dae/).
