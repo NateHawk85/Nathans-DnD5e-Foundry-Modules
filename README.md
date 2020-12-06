@@ -1143,6 +1143,7 @@ module combinations) that have the biggest impact on the games I run. More in-de
 - [Afternoon Maps](https://www.patreon.com/afternoonmaps) - Maps!
 - [Caeora](https://www.patreon.com/caeora) - Maps!
 - [Maphammer](https://www.patreon.com/maphammer) - Maps!
+- [Mik & Wewa](https://www.patreon.com/mikwewa) - Maps!
 - [Token Borders](https://www.pinterest.com/kimy142643/token-borders/) - Token borders!
 - [Endless Dungeon Maps](https://www.reddit.com/r/dndmaps/comments/jwdp6x/endless_dungeon_level_0/) - Ongoing plug-and-play dungeons!
 - [Matt's Massive Map Menagerie](https://drive.google.com/drive/folders/1c_8hDZKuZuu_NF76oq2fjcm4XaE1stkJ) - Tons of free maps and tokens!
