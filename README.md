@@ -4,9 +4,12 @@ double-check any significant issues beforehand, however, there's always a chance
 also copies of my environment settings within this repository if you want to try the settings that I personally use. Hope these help!
 
 Inspired by [Bryan's Preferred Modules for Foundry VTT](https://github.com/bryancasler/Bryans-Preferred-Modules-for-FoundryVTT), as a lot of the modules I use
-now were found on his page. I recommend checking his stuff out for even more useful stuff!
+now were found on his page. I 100% recommend checking his stuff out for even more useful stuff.
+
+If there's a module or resource that you think should be on this page, create an issue and I'll check it out!
 
 ## Versions
+### Current Foundry Version - 0.7.7
 If you want to view my preferred modules for a specific version of Foundry, you can use the 
 [commit history](https://github.com/NateHawk85/Nathans-DnD5e-Foundry-Modules/commits/main) to view past versions of this page. Each commit should have the
 corresponding Foundry version in the commit message, and if it doesn't, I messed up somewhere :)
