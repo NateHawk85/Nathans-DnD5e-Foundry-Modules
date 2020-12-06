@@ -1136,14 +1136,15 @@ module combinations) that have the biggest impact on the games I run. More in-de
 - [Heroic Maps](https://www.patreon.com/heroicmaps/posts) - Maps!
 - [Tom Cartos](https://www.patreon.com/tomcartos) - Maps!
 - [Eightfold Paper](https://www.patreon.com/EightfoldPaper/posts) - Maps!
-- [Dynamic Dungeons](https://www.patreon.com/dynamicdungeons) - Animated maps!
+- [Dynamic Dungeons](https://www.patreon.com/dynamicdungeons) - Animated maps!1
 - [Animated Dungeon Maps](https://www.patreon.com/animatedmaps) - Animated maps!
 - [PogS Props](https://www.patreon.com/PogS_Props) - Maps!
 - [Cze and Peku](https://www.patreon.com/czepeku) - Maps!
 - [Afternoon Maps](https://www.patreon.com/afternoonmaps) - Maps!
 - [Caeora](https://www.patreon.com/caeora) - Maps!
 - [Maphammer](https://www.patreon.com/maphammer) - Maps!
-- [Mik & Wewa](https://www.patreon.com/mikwewa) - Maps!
+- [Mik & Wewa](https://www.patreon.com/mikwewa) - Maps! Also, they have generously released over **600** Foundry-ready maps located
+  [here](https://www.patreon.com/posts/608-free-foundry-44690565?utm_medium=clipboard_copy&utm_source=copy_to_clipboard&utm_campaign=postshare).
 - [Token Borders](https://www.pinterest.com/kimy142643/token-borders/) - Token borders!
 - [Endless Dungeon Maps](https://www.reddit.com/r/dndmaps/comments/jwdp6x/endless_dungeon_level_0/) - Ongoing plug-and-play dungeons!
 - [Matt's Massive Map Menagerie](https://drive.google.com/drive/folders/1c_8hDZKuZuu_NF76oq2fjcm4XaE1stkJ) - Tons of free maps and tokens!
