@@ -290,11 +290,11 @@ module combinations) that have the biggest impact on the games I run. More in-de
 - [Custom Shared Compendiums](https://www.reddit.com/r/FoundryVTT/comments/fvw3c7/how_to_create_a_tiny_module_for_shared_content/) - Although this isn't a
   standard module, I highly recommend creating one of these for your own use.
 - [D&D Beyond Importer](https://foundryvtt.com/packages/ddb-importer/) - A fork of the 
-[VTTA D&DBeyond Integration](https://foundryvtt.com/packages/vtta-dndbeyond/) module that allows you to automatically import spells, items, and character sheets
-  from D&DBeyond into Foundry. Although it's currently in development and missing some functionality, it is still definitely an extremely useful module if you
-  either a) own a lot of content on D&DBeyond (guilty), or b) have players that prefer to create their character sheets in D&DBeyond. To get the most out of 
-  this module, it should be paired with both [Dynamic Active Effects](https://foundryvtt.com/packages/dae/) and 
- [Dynamic Active Effects SRD](https://foundryvtt.com/packages/Dynamic-Effects-SRD/).
+  [VTTA D&DBeyond Integration](https://foundryvtt.com/packages/vtta-dndbeyond/) module that allows you to automatically import spells, items, and character
+  sheets from D&DBeyond into Foundry. Although it's currently in development and missing some functionality, it is still definitely an extremely useful
+  module if you either a) own a lot of content on D&DBeyond (guilty), or b) have players that prefer to create their character sheets in D&DBeyond. To get
+  the most out of this module, it should be paired with both [Dynamic Active Effects](https://foundryvtt.com/packages/dae/) and 
+  [Dynamic Active Effects SRD](https://foundryvtt.com/packages/Dynamic-Effects-SRD/).
     - Image upload directory --> assets/ddb-imported-images
     - Item compendium --> DDB Items
     - Features compendium --> DDB Features
@@ -340,7 +340,33 @@ module combinations) that have the biggest impact on the games I run. More in-de
         - Shadows quality --> High
         - Advanced lighting --> Enabled
         - Enable "high density" screen support --> Enabled
-- [Dice Tray](https://foundryvtt.com/packages/dice-calculator/) - Adds a small widget at the bottom of the chat to easily calculate custom rolls. 
+- [Dice Tray](https://foundryvtt.com/packages/dice-calculator/) - Adds a small widget at the bottom of the chat to easily calculate custom rolls.
+- [DnD5e Helpers](https://foundryvtt.com/packages/dnd5e-helpers/) - Some helpful automation to remind GMs of legendary actions, regeneration, undead fortitude 
+  checks, wild magic surges, auto proficiencies, and more. Also provides additional homebrew rules like open wounds, great wounds, and measured template
+  adjustments.
+  
+  NOTE: At the time of writing this, I've had issues with setting undead fortitude to 'Quick Saves'. Hoping that will be fixed in upcoming versions.
+    - Auto adjust templates to 5e grids --> No Template Scaling
+    - Wild magic auto-detect --> Enabled
+    - MORE surges (homebrew) --> Enabled
+    - Wild magic feature name --> Wild Magic Surge
+    - Wild magic surge table name --> Wild Magic Surges
+    - Blind table draw --> Enabled
+    - Reaction status automation --> Apply and Remove
+    - Reaction status name --> Reactionless (NOTE: You must enable [Combat Utility Belt](https://foundryvtt.com/packages/combat-utility-belt/) and create a 
+      custom status in the Condition Lab with the same name in order to use this feature.)
+    - Start of turn legendary action reset --> Enabled
+    - Automatically roll any uncharged abilities with a d6 recharge --> Enabled
+    - Great wound table --> \*empty\*
+    - Great wound --> Disabled
+    - Auto proficiency --> Enabled
+    - Automatic regeneration --> Enabled
+    - Undead fortitude --> Advanced Saves (NOTE: Will change to 'Quick Saves' once fixed)
+    - Debugging --> Disabled
+    - Open wound - death saves --> Disabled
+    - Open wound - crits --> 0
+    - Open wound - HP at 0 --> Disabled
+    - Open wound table --> \*empty\*
 - [DnDBeyond Character Sheet for 5e](https://foundryvtt.com/packages/dndbeyond-character-sheet/) - Adds a character sheet that mimics the style of 
   D&DBeyond. I personally prefer the look and feel of [Compact DnDBeyond 5e Character Sheet](https://foundryvtt.com/packages/compact-beyond-5e-sheet/), but
   they are both very similar.
