@@ -137,8 +137,11 @@ module combinations) that have the biggest impact on the games I run. More in-de
 - [Combat Enhancements](https://foundryvtt.com/packages/combat-enhancements/) - Adds health tracking via a radial bar and HP field in the Combat Tracker, as
   well as drag and drop initiative reordering.
     - Show HP for actor type --> None
+    - Enable initiative reflow --> Disabled
     - Enable HP field --> Enabled
     - Enable HP radial bar --> Enabled
+    - Enable target removal every turn --> Disabled (Could enable, however, this is already taken care of by 
+    [Midi QoL](https://foundryvtt.com/packages/midi-qol/))
 - [Combat Utility Belt](https://foundryvtt.com/packages/combat-utility-belt/) - One of the most important and impactful combat modules out there. There's too
   many functions to list, and if you want to automate your combat, this is absolutely necessary. It works extremely well when combined with the 
   [Midi QoL](https://foundryvtt.com/packages/midi-qol/) module.
@@ -340,7 +343,6 @@ module combinations) that have the biggest impact on the games I run. More in-de
         - Shadows quality --> High
         - Advanced lighting --> Enabled
         - Enable "high density" screen support --> Enabled
-- [Dice Tray](https://foundryvtt.com/packages/dice-calculator/) - Adds a small widget at the bottom of the chat to easily calculate custom rolls.
 - [DnD5e Helpers](https://foundryvtt.com/packages/dnd5e-helpers/) - Some helpful automation to remind GMs of legendary actions, regeneration, undead fortitude 
   checks, wild magic surges, auto proficiencies, and more. Also provides additional homebrew rules like open wounds, great wounds, and measured template
   adjustments.
@@ -1042,6 +1044,9 @@ module combinations) that have the biggest impact on the games I run. More in-de
 - [Deselection](https://github.com/Sky-Captain-13/foundry/tree/master/deselection) - By enabling, deselects tokens when clicking on an empty spot on the scene.
 
   Why retired: Now included in default Foundry under Core Settings --> Left-Click to Release Objects --> Enabled
+- [Dice Tray](https://foundryvtt.com/packages/dice-calculator/) - Adds a small widget at the bottom of the chat to easily calculate custom rolls.
+
+  Why retired: Great module, but I never really used it, especially when [Simple Dice Roller](https://foundryvtt.com/packages/simple-dice-roller/) is a thing.
 - [Dynamic Effects](https://foundryvtt.com/packages/dynamiceffects/) - Allows for different item bonuses and nerfs.
 
   Why retired: Succeeded by [Dynamic Active Effects](https://foundryvtt.com/packages/dae/).
