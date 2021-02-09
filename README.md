@@ -408,7 +408,7 @@ module combinations) that have the biggest impact on the games I run. More in-de
   NOTE: In order to use, first import the macro compendium to your game. Then, you can cast the SRD spells included module as normal, and it should
   automatically work. Casting spells from the DnD5e SRD will NOT work, they need to be the DAE SRD spells.
 - [Easy Target](https://foundryvtt.com/packages/easy-target/) - Allows for targeting tokens by holding the Alt key and clicking. Extremely useful for GMs.
-    - Release behaviour --> Sticky
+    - Release behaviour --> Standard
 - [Find the Culprit!](https://foundryvtt.com/packages/find-the-culprit/) - A module for debugging compatibility issues between other modules. Extremely
   helpful for when something isn't working the way you want it to and you don't know why.
   
@@ -944,6 +944,10 @@ module combinations) that have the biggest impact on the games I run. More in-de
 - [Loot Tavern Magic Item Compendium](https://foundryvtt.com/packages/free-loot-tavern-compendium/) - A compendium filled with custom magic items? Looks fun!
 - [Quick Encounters](https://foundryvtt.com/packages/quick-encounters/) - Automatic hiding and re-enabling of monsters? Looks useful for long dungeon crawls...
 <a name="modules-to-review-later"></a>
+- [Character Actions 5e](https://github.com/ElfFriend-DnD/foundryvtt-dnd5eCharacterActions) - Looks to add a reusable widget that details actions a player can
+  take.
+- [Token Attacher](https://foundryvtt.com/packages/token-attacher/) - Allows for attaching tokens to other tokens. Looks similar to
+  [Mount Up!](https://brunhine.com/fvtt/mountup).
 ## Modules to Review at a Later Date
 - [Grid Scaler](https://foundryvtt.com/packages/grid_scaler/) - Adds an option in the top-left menu to easily configure your background map to the grid. 
   Allows for setting map by "squares" (x by y), drawing a 3x3 grid, and more. Extremely useful and intuitive.
