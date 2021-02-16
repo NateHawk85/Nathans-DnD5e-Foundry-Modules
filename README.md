@@ -948,6 +948,10 @@ module combinations) that have the biggest impact on the games I run. More in-de
   take.
 - [Token Attacher](https://foundryvtt.com/packages/token-attacher/) - Allows for attaching tokens to other tokens. Looks similar to
   [Mount Up!](https://brunhine.com/fvtt/mountup).
+- [Journal to Canvas Slideshow](https://foundryvtt.com/packages/journal-to-canvas-slideshow/) - Allows for clicking of a journal entry to update an image on 
+  screen. Could be useful for landing pages.
+- [Forien's Custom Fonts](https://foundryvtt.com/packages/forien-custom-fonts/) - Adds Google fonts option to drawings and writings. Looks useful for 
+  hand-drawn writings!
 ## Modules to Review at a Later Date
 - [Grid Scaler](https://foundryvtt.com/packages/grid_scaler/) - Adds an option in the top-left menu to easily configure your background map to the grid. 
   Allows for setting map by "squares" (x by y), drawing a 3x3 grid, and more. Extremely useful and intuitive.
