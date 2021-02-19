@@ -1136,6 +1136,7 @@ module combinations) that have the biggest impact on the games I run. More in-de
 - [How to deploy a Foundry server on AWS](https://www.reddit.com/r/FoundryVTT/comments/iurf7h/i_created_a_method_to_automatically_deploy_a/)
 - [The Player's Guide to Foundry (video)](https://www.youtube.com/watch?v=ja88yRVQmck)
 - [FoundryVTT Subreddit](https://www.reddit.com/r/FoundryVTT/)
+- [Foundry Hub](https://www.foundryvtt-hub.com/)
 <a name="other-media"></a>
 ## Other Media and Software
 <a name="software"></a>
