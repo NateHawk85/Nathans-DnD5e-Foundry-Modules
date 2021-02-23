@@ -373,6 +373,8 @@ module combinations) that have the biggest impact on the games I run. More in-de
         - Shadows quality --> High
         - Advanced lighting --> Enabled
         - Enable "high density" screen support --> Enabled
+- [Dice Tooltip](https://foundryvtt.com/packages/dice-tooltip/) - Shows hit bonuses and damage calculations when hovering over items in a PC/NPC's inventory.
+  Pretty nice quality of life fix.
 - [DnD5e Helpers](https://foundryvtt.com/packages/dnd5e-helpers/) - Some helpful automation to remind GMs of legendary actions, regeneration, undead fortitude 
   checks, wild magic surges, auto proficiencies, and more. Also provides additional homebrew rules like open wounds, great wounds, and measured template
   adjustments.
@@ -977,13 +979,6 @@ module combinations) that have the biggest impact on the games I run. More in-de
     - Icon database policy --> Use the predefined database and my custom one
     - Base dictionary --> Foundry Icons
     - Icon prefix --> iconizer
-- [Virtual Tabletop Assets - Party Overview](https://foundryvtt.com/packages/vtta-party/) - Adds an info icon in the Actors tab that pops an overview of the 
-  current party of PCs. HP, AC, languages, wealth, etc. are all available. I use it mainly for the Languages tab since the other info is pretty easy to see,
-  but it's useful information to have in one place.
-    - Grant players access to the overview --> Disabled
-    - Enable tooltips --> Disabled (conflicts with [Token Info Icons](https://foundryvtt.com/packages/token-info-icons/), and is buggy)
-    - Enable tooltips for players --> Disabled
-    - Set the font size for tooltips in pixels --> 14
 - [Wall Cutter](https://foundryvtt.com/packages/WallCutter/) - Adds the ability to create a breakpoint at the halfway point in a wall segment. Pretty useful for
   fixing mistakes when creating walls for scenes.
 - [Wall Height](https://foundryvtt.com/packages/wall-height/) - Adds two fields to the wall menu - Wall Height (Top) and Wall Height (Bottom). When set up,
@@ -1008,33 +1003,31 @@ module combinations) that have the biggest impact on the games I run. More in-de
 - [Tom Cartos Ostenwold](https://foundryvtt.com/packages/tomcartos-ostenwold/) - This one's a little different as it's a preset town. Also, great maps!
 <a name="modules-to-review"></a>
 ## Modules to Review
-- [Loot Tavern Magic Item Compendium](https://foundryvtt.com/packages/free-loot-tavern-compendium/) - A compendium filled with custom magic items? Looks fun!
-- [Quick Encounters](https://foundryvtt.com/packages/quick-encounters/) - Automatic hiding and re-enabling of monsters? Looks useful for long dungeon crawls...
-- [Character Actions 5e](https://github.com/ElfFriend-DnD/foundryvtt-dnd5eCharacterActions) - Looks to add a reusable widget that details actions a player can
-  take.
-- [Token Attacher](https://foundryvtt.com/packages/token-attacher/) - Allows for attaching tokens to other tokens. Looks similar to
-  [Mount Up!](https://brunhine.com/fvtt/mountup), but much more robust.
-- [Journal to Canvas Slideshow](https://foundryvtt.com/packages/journal-to-canvas-slideshow/) - Allows for clicking of a journal entry to update an image on 
+- [Autocomplete Inline Properties](https://foundryvtt.com/packages/autocomplete-inline-properties/) - A nice quality of life fix that autocompletes...
+  inline... properties... Yeah, I probably didn't need to explain this one.
+- [Automatic Journal Icon Numbers](https://foundryvtt1.com/packages/journal-icon-numbers/) - Applies numbered pins to journal entries. Was recommended by
+  [SeuRonao](https://github.com/SeuRonao). Will investigate!
+- [Break Time](https://foundryvtt.com/packages/breaktime/) - Probably won't add it, but we do take a break every couple of hours. Plus, it's a cute little
+  idea. Might be fun to surprise my party with next game!
+- [Chat Images](https://foundryvtt.com/packages/chat-images/) - Super neat idea, especially with lots of Darkness spells being cast in my party and wanting
+  to share my view of the battlefield with others with Devil's Sight. Could be very useful.
+- [DF Settings Clarity](https://foundryvtt.com/packages/df-settings-clarity/) - Useful for those that go into configurations often to modify module
+  settings... That reminds me of someone...
+- [Journal to Canvas Slideshow](https://foundryvtt.com/packages/journal-to-canvas-slideshow/) - Allows for clicking of a journal entry to update an image on
   screen. Could be useful for landing pages.
-- [Trigger Happy](https://foundryvtt.com/packages/trigger-happy/) - Adds the ability to make triggers for journals, macros, and more.
+- [Loot Tavern Magic Item Compendium](https://foundryvtt.com/packages/free-loot-tavern-compendium/) - A compendium filled with custom magic items? Looks fun!
 - [Monks Little Details](https://foundryvtt.com/packages/monks-little-details) - Lots of quality of life fixes. If implemented, be a potential replacement for
   [Multiple Wall Point Mover (MWPM)](https://foundryvtt.com/packages/mwpm/).
 - [Monk's Scene Navigation](https://foundryvtt.com/packages/monks-scene-navigation/) - A cool tweak for the navbar to have folders. Potential replacement for
   [Navbar Tweaks](https://foundryvtt.com/packages/navbar-tweaks/)?
+- [Quick Encounters](https://foundryvtt.com/packages/quick-encounters/) - Automatic hiding and re-enabling of monsters? Looks useful for long dungeon crawls...
 - [Scene Defaults](https://foundryvtt.com/packages/scene-defaults/) - Allows you to template your new scenes. Interesting concept, could save time, especially
   because of the [Perfect Vision](https://foundryvtt.com/packages/perfect-vision/) changes.
-- [Autocomplete Inline Properties](https://foundryvtt.com/packages/autocomplete-inline-properties/) - A nice quality of life fix that autocompletes... 
-  inline... properties... Yeah, I probably didn't need to explain this one.
-- [Chat Images](https://foundryvtt.com/packages/chat-images/) - Super neat idea, especially with lots of Darkness spells being cast in my party and wanting 
-  to share my view of the battlefield with others with Devil's Sight. Could be very useful.
-- [Break Time](https://foundryvtt.com/packages/breaktime/) - Probably won't add it, but we do take a break every couple of hours. Plus, it's a cute little 
-  idea. Might be fun to surprise my party with next game!
-- [DF Settings Clarity](https://foundryvtt.com/packages/df-settings-clarity/) - Useful for those that go into configurations often to modify module 
-  settings... That reminds me of someone...
-- [Token Tooltip Alt](https://foundryvtt.com/packages/token-tooltip-alt) - Allows you to fully customize any tooltips next to a token. Could possibly be a 
+- [Trigger Happy](https://foundryvtt.com/packages/trigger-happy/) - Adds the ability to make triggers for journals, macros, and more.
+- [Token Attacher](https://foundryvtt.com/packages/token-attacher/) - Allows for attaching tokens to other tokens. Looks similar to
+  [Mount Up!](https://brunhine.com/fvtt/mountup), but much more robust.
+- [Token Tooltip Alt](https://foundryvtt.com/packages/token-tooltip-alt) - Allows you to fully customize any tooltips next to a token. Could possibly be a
   replacement for [Token Info Icons](https://foundryvtt.com/packages/token-info-icons/). Was recommended by [SeuRonao](https://github.com/SeuRonao).
-- [Automatic Journal Icon Numbers](https://foundryvtt1.com/packages/journal-icon-numbers/) - Applies numbered pins to journal entries. Was recommended by 
-  [SeuRonao](https://github.com/SeuRonao). Will investigate!
 <a name="modules-to-review-later"></a>
 ## Modules to Review at a Later Date
 - [Grid Scaler](https://foundryvtt.com/packages/grid_scaler/) - Adds an option in the top-left menu to easily configure your background map to the grid. 
@@ -1074,6 +1067,17 @@ module combinations) that have the biggest impact on the games I run. More in-de
   Why removed: Bugged, seems to only work on certain machines.
   
   Will revisit: When the module has been updated to show on all machines. HIGH PRIORITY.
+- [Virtual Tabletop Assets - Party Overview](https://foundryvtt.com/packages/vtta-party/) - Adds an info icon in the Actors tab that pops an overview of the
+  current party of PCs. HP, AC, languages, wealth, etc. are all available. I use it mainly for the Languages tab since the other info is pretty easy to see,
+  but it's useful information to have in one place.
+    - Grant players access to the overview --> Disabled
+    - Enable tooltips --> Disabled (conflicts with [Token Info Icons](https://foundryvtt.com/packages/token-info-icons/), and is buggy)
+    - Enable tooltips for players --> Disabled
+    - Set the font size for tooltips in pixels --> 14
+
+  Why removed: Broke when updating to newer versions of Foundry. Unfortunate, because it was quite useful to view my party at a glance.
+
+  Will revisit: When the module has been updated for newer Foundry versions.
 <a name="other-cool-modules"></a>
 ## Other Cool Modules
 - [Blood 'N Guts](https://foundryvtt.com/packages/blood-n-guts/) - Adds blood splatters whenever tokens are injured. Looks pretty fun!
