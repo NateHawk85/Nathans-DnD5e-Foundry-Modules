@@ -1242,6 +1242,7 @@ module combinations) that have the biggest impact on the games I run. More in-de
       out both.
     - [Dungeon Fog](https://www.dungeonfog.com/) - High quality map maker with assets already built-in.
 - Generators
+    - [Kobold Fight Club](https://kobold.club/fight/#/encounter-builder) - Widely known as one of the greatest random encounter generators out there.
     - [RPG Tinkerer](https://www.rpgtinker.com/) - Combat NPCs.
     - [D&D 5e Random Character Generator](https://tetra-cube.com/dnd/dnd-char-gen.html) - Non-combat NPCs with images.
     - [NPC Generator](http://www.npcgenerator.com/) - More non-combat NPCs with personality quirks.
