@@ -1001,8 +1001,11 @@ module combinations) that have the biggest impact on the games I run. More in-de
 - [Spellarena Battlemap Collection](https://foundryvtt.com/packages/spellarena/) - I'm running out of adjectives for these (awesome) map packs.
 - [TacticalMap Battlemaps Pack](https://foundryvtt.com/packages/tacticalmap-free/) - These are pretty cool, too!
 - [Tom Cartos Ostenwold](https://foundryvtt.com/packages/tomcartos-ostenwold/) - This one's a little different as it's a preset town. Also, great maps!
-<a name="modules-to-review"></a>
+<a name="modules-to-review"></a>2
 ## Modules to Review
+- [Active Auras](https://foundryvtt.com/packages/ActiveAuras/) - Allows for some automation for auras. Would be more useful if our paladin was still with our 
+  group, but may be interesting regardless...
+- [Active Token Lighting](https://foundryvtt.com/packages/ATL/) - Dynamically adjust token light settings 
 - [Autocomplete Inline Properties](https://foundryvtt.com/packages/autocomplete-inline-properties/) - A nice quality of life fix that autocompletes...
   inline... properties... Yeah, I probably didn't need to explain this one.
 - [Automatic Journal Icon Numbers](https://foundryvtt1.com/packages/journal-icon-numbers/) - Applies numbered pins to journal entries. Was recommended by
@@ -1011,15 +1014,25 @@ module combinations) that have the biggest impact on the games I run. More in-de
   idea. Might be fun to surprise my party with next game!
 - [Chat Images](https://foundryvtt.com/packages/chat-images/) - Super neat idea, especially with lots of Darkness spells being cast in my party and wanting
   to share my view of the battlefield with others with Devil's Sight. Could be very useful.
+- [Compendium Scene Viewer](https://foundryvtt.com/packages/scene-viewer/) - Allows for viewing compendium scenes from within the compendium, not requiring 
+  you to import them. This is a major pain point for me, so I'm very optimistic about installing this one.
 - [DF Settings Clarity](https://foundryvtt.com/packages/df-settings-clarity/) - Useful for those that go into configurations often to modify module
   settings... That reminds me of someone...
+- [Drag Ruler](https://foundryvtt.com/packages/drag-ruler/) - Appears to be an updated version of
+  [Show Drag Distance](https://foundryvtt.com/packages/ShowDragDistance/).
+- [DF Curvy Walls](https://foundryvtt.com/packages/df-curvy-walls) - You mean we get to make circles now!?!?!
+- [Item Macro](https://foundryvtt.com/packages/itemacro/) - Adds a macro editor to items so that when you roll them, the macro executes.
 - [Journal to Canvas Slideshow](https://foundryvtt.com/packages/journal-to-canvas-slideshow/) - Allows for clicking of a journal entry to update an image on
   screen. Could be useful for landing pages.
 - [Loot Tavern Magic Item Compendium](https://foundryvtt.com/packages/free-loot-tavern-compendium/) - A compendium filled with custom magic items? Looks fun!
+- [Macro Editor](https://foundryvtt.com/packages/macroeditor/) - Adds an IDE to the macro editor.
 - [Monks Little Details](https://foundryvtt.com/packages/monks-little-details) - Lots of quality of life fixes. If implemented, be a potential replacement for
   [Multiple Wall Point Mover (MWPM)](https://foundryvtt.com/packages/mwpm/).
 - [Monk's Scene Navigation](https://foundryvtt.com/packages/monks-scene-navigation/) - A cool tweak for the navbar to have folders. Potential replacement for
   [Navbar Tweaks](https://foundryvtt.com/packages/navbar-tweaks/)?
+- [Next Up](https://foundryvtt.com/packages/Next-Up/) - Potential replacement for [Turn Marker](https://foundryvtt.com/packages/turnmarker/)?
+- [Party Overview](https://foundryvtt.com/packages/party-overview/) - Potential replacement for
+  [Virtual Tabletop Assets - Party Overview](https://foundryvtt.com/packages/vtta-party/)?
 - [Quick Encounters](https://foundryvtt.com/packages/quick-encounters/) - Automatic hiding and re-enabling of monsters? Looks useful for long dungeon crawls...
 - [Scene Defaults](https://foundryvtt.com/packages/scene-defaults/) - Allows you to template your new scenes. Interesting concept, could save time, especially
   because of the [Perfect Vision](https://foundryvtt.com/packages/perfect-vision/) changes.
@@ -1028,6 +1041,7 @@ module combinations) that have the biggest impact on the games I run. More in-de
   [Mount Up!](https://brunhine.com/fvtt/mountup), but much more robust.
 - [Token Tooltip Alt](https://foundryvtt.com/packages/token-tooltip-alt) - Allows you to fully customize any tooltips next to a token. Could possibly be a
   replacement for [Token Info Icons](https://foundryvtt.com/packages/token-info-icons/). Was recommended by [SeuRonao](https://github.com/SeuRonao).
+- [zSync](https://foundryvtt.com/packages/zsync/) - Syncs all player/GM views so that tokens are on the same layer for everyone.
 <a name="modules-to-review-later"></a>
 ## Modules to Review at a Later Date
 - [Grid Scaler](https://foundryvtt.com/packages/grid_scaler/) - Adds an option in the top-left menu to easily configure your background map to the grid. 
