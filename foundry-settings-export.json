@@ -12,6 +12,10 @@
     "value": "\"{rider} has mounted {mount}.\""
   },
   {
+    "key": "monks-little-details.prevent-token-removal",
+    "value": "false"
+  },
+  {
     "key": "midi-qol.AutoRemoveTargets",
     "value": "\"dead\""
   },
@@ -28,12 +32,20 @@
     "value": "true"
   },
   {
+    "key": "Next-Up.markerRatio",
+    "value": "1.35"
+  },
+  {
     "key": "lessfog.reveal_tokens",
     "value": "false"
   },
   {
     "key": "tidy5e-sheet.disableVehicleHpOverlay",
     "value": "true"
+  },
+  {
+    "key": "quick-encounters.displayXPAfterCombat",
+    "value": "false"
   },
   {
     "key": "compact-beyond-5e-sheet.display-passive-ste",
@@ -52,6 +64,10 @@
     "value": "-1"
   },
   {
+    "key": "monks-scene-navigation.scene-indicator",
+    "value": "false"
+  },
+  {
     "key": "combat-utility-belt.enablePan",
     "value": "true"
   },
@@ -65,6 +81,14 @@
   },
   {
     "key": "mountup.rider-y",
+    "value": "\"1\""
+  },
+  {
+    "key": "monks-little-details.shownextup",
+    "value": "false"
+  },
+  {
+    "key": "Next-Up.startMarker",
     "value": "\"1\""
   },
   {
@@ -89,7 +113,7 @@
   },
   {
     "key": "midi-qol.ConfigSettings",
-    "value": "{\"speedItemRolls\":true,\"showItemDetails\":\"pc\",\"autoRollAttack\":true,\"autoFastForward\":\"all\",\"autoTarget\":\"wallsBlock\",\"autoCheckHit\":\"whisper\",\"autoCheckSaves\":\"whisper\",\"hideRollDetails\":\"none\",\"displaySaveDC\":false,\"checkSaveText\":true,\"autoRollDamage\":\"none\",\"autoApplyDamage\":\"noCard\",\"damageImmunities\":\"immunityPhysical\",\"autoItemEffects\":true,\"rangeTarget\":false,\"playerRollSaves\":\"letme\",\"playerSaveTimeout\":10,\"preRollChecks\":false,\"mergeCard\":true,\"mergeCardCondensed\":false,\"hideNPCNames\":\"\",\"useTokenNames\":false,\"requireTargets\":true,\"fumbleSound\":\"SBysqs6xPzhqyBRA\",\"diceSound\":\"none\",\"criticalSound\":\"none\",\"itemUseSound\":\"none\",\"spellUseSound\":\"none\",\"weaponUseSound\":\"none\",\"potionUseSound\":\"none\",\"fullAuto\":false,\"useCustomSounds\":false,\"customSoundsPlaylist\":\"mX9RaebzdcavsLXS\",\"keyMapping\":{\"DND5E.Advantage\":\"altKey\",\"DND5E.Disadvantage\":\"ctrlKey\",\"DND5E.Critical\":\"altKey\",\"DND5E.Versatile\":\"shiftKey\"},\"gmFullAuto\":false,\"speedAbilityRolls\":true,\"allowUseMacro\":false,\"itemTypeList\":[\"weapon\",\"equipment\",\"consumable\",\"tool\",\"loot\",\"class\",\"spell\",\"feat\",\"backpack\"],\"gmAutoAttack\":true,\"gmAutoFastForwardAttack\":true,\"gmAutoDamage\":\"none\",\"gmAutoFastForwardDamage\":true,\"gmRemoveButtons\":\"all\",\"removeButtons\":\"all\",\"rollOtherDamage\":false,\"concentrationAutomation\":false,\"rollNPCSaves\":\"auto\",\"singleConcentrationRoll\":false}"
+    "value": "{\"speedItemRolls\":true,\"showItemDetails\":\"pc\",\"autoRollAttack\":true,\"autoFastForward\":\"all\",\"autoTarget\":\"wallsBlock\",\"autoCheckHit\":\"whisper\",\"autoCheckSaves\":\"whisper\",\"hideRollDetails\":\"none\",\"displaySaveDC\":true,\"checkSaveText\":true,\"autoRollDamage\":\"none\",\"autoApplyDamage\":\"noCard\",\"damageImmunities\":\"immunityPhysical\",\"autoItemEffects\":true,\"rangeTarget\":false,\"playerRollSaves\":\"letme\",\"playerSaveTimeout\":10,\"preRollChecks\":false,\"mergeCard\":true,\"mergeCardCondensed\":false,\"hideNPCNames\":\"\",\"useTokenNames\":false,\"requireTargets\":true,\"fumbleSound\":\"SBysqs6xPzhqyBRA\",\"diceSound\":\"none\",\"criticalSound\":\"none\",\"itemUseSound\":\"none\",\"spellUseSound\":\"none\",\"weaponUseSound\":\"none\",\"potionUseSound\":\"none\",\"fullAuto\":false,\"useCustomSounds\":false,\"customSoundsPlaylist\":\"mX9RaebzdcavsLXS\",\"keyMapping\":{\"DND5E.Advantage\":\"altKey\",\"DND5E.Disadvantage\":\"ctrlKey\",\"DND5E.Critical\":\"altKey\",\"DND5E.Versatile\":\"shiftKey\"},\"gmFullAuto\":false,\"speedAbilityRolls\":true,\"allowUseMacro\":false,\"itemTypeList\":[\"weapon\",\"equipment\",\"consumable\",\"tool\",\"loot\",\"class\",\"spell\",\"feat\",\"backpack\"],\"gmAutoAttack\":true,\"gmAutoFastForwardAttack\":true,\"gmAutoDamage\":\"none\",\"gmAutoFastForwardDamage\":true,\"gmRemoveButtons\":\"all\",\"removeButtons\":\"all\",\"rollOtherDamage\":false,\"concentrationAutomation\":false,\"rollNPCSaves\":\"auto\",\"singleConcentrationRoll\":false}"
   },
   {
     "key": "combat-enhancements.showHpForType",
@@ -116,12 +140,20 @@
     "value": "{\"baseFilters\":{\"class\":\"dnd5e.classes\",\"feat\":\"dnd5e.classfeatures\",\"npc.feat\":\"dnd5e.monsterfeatures\",\"spell\":\"dnd5e.spells\",\"weapon\":\"dnd5e.items\",\"equipment\":\"dnd5e.items\",\"consumable\":\"dnd5e.items\",\"backpack\":\"dnd5e.items\",\"tool\":\"dnd5e.items\",\"loot\":\"dnd5e.items\"}}"
   },
   {
+    "key": "Next-Up.markerType",
+    "value": "\"[data] modules/Next-Up/Markers/madmage.png\""
+  },
+  {
     "key": "turnmarker.startMarker-enabled",
     "value": "false"
   },
   {
     "key": "token-action-hud.rollHandler",
     "value": "\"core\""
+  },
+  {
+    "key": "monks-little-details.showcurrentup",
+    "value": "false"
   },
   {
     "key": "vtta-dndbeyond.entity-import-policy",
@@ -137,6 +169,10 @@
   },
   {
     "key": "dnd5e.allowPolymorphing",
+    "value": "true"
+  },
+  {
+    "key": "Next-Up.removePin",
     "value": "true"
   },
   {
@@ -180,6 +216,10 @@
     "value": "\"none\""
   },
   {
+    "key": "Next-Up.playerPanEnable",
+    "value": "true"
+  },
+  {
     "key": "macro-folders.mfolders",
     "value": "{\"hidden\":{\"macroList\":[],\"titleText\":\"hidden-macros\"},\"default\":{\"macroList\":[],\"titleText\":\"Default\",\"colorText\":\"#000000\",\"_id\":\"default\"},\"mfolder_8oednl2pejm\":{\"titleText\":\"Hakar Ath Nevae\",\"colorText\":\"#71239e\",\"macroList\":[\"ITXpA4w5T7Xnsltz\",\"dlXVe92HKUUBMnTL\",\"h3Blc3SfrDklNWdI\",\"lbIPivs97QnevqSx\",\"lol79gjQxiA34hz2\",\"qVPBIyZLh1qpAJ7M\",\"1DZger1CFKmLOlkm\",\"TeFkjq9C7nSefpmh\",\"yz4fxJPlVB4pIHqR\",\"pgkuAB0e80gvX8ZA\",\"2yxEVnYj2jNd7lJJ\",\"Cci8hIfHf8JKYcUY\",\"4EZAEnhvOi5vlxT5\",\"FruBjOLHafAumSYc\",\"8wmbtC18mXfRx7E5\",\"CBX0imuGW2HyMwl7\",\"ECTbiD0WZPsezvmT\"],\"folderList\":[],\"_id\":\"mfolder_8oednl2pejm\",\"pathToFolder\":[],\"folderIcon\":null,\"playerDefault\":\"D32zYDRFF15VMYoO\"},\"mfolder_fz6k7mknxic\":{\"titleText\":\"Dan Estellio\",\"colorText\":\"#40335e\",\"macroList\":[\"0cXkffUxu0V6DQpH\",\"0kZTmt1T2HwlqRxU\",\"4HOtWWEDdcz1d5YO\",\"6TSUheRl5jJL4X99\",\"7YHZZaQgpNIXs0qO\",\"9PKQRk9gXqbwr3Ks\",\"Jy0OTe90OAwblxfs\",\"UjYxp32OPjNUp0ur\",\"VZRMiezE3hMNSdt2\",\"WJUqfpnURvkQkMFi\",\"WMqShyyy1AOyRVNF\",\"dXls8ohJKPmIBYHR\",\"lMRoJTHt8m8qsC5H\",\"m3gJ0QCEI9MeAra5\",\"xMw1GOE9skVntcBK\",\"zrLUyorWJF9I6dRX\",\"GUABGp7lyIV1tNSv\",\"LbNYjfBRsjCfzodo\",\"PSS8Akwz7bDv5REJ\",\"QsPXm4f4U8NuueFS\",\"TAQYiFDbV6MXMZBV\",\"fNrFIF621pEGKOnJ\",\"t8tEkSiyhWzYdG0R\",\"1UdQqX5Hbq6HP9qd\"],\"folderList\":[],\"_id\":\"mfolder_fz6k7mknxic\",\"pathToFolder\":[],\"folderIcon\":null,\"playerDefault\":\"6dnKUTtICEg9VHe3\"},\"mfolder_7d89m6c2lgu\":{\"titleText\":\"Ettse'El Runs With Flowers\",\"colorText\":\"#e60005\",\"macroList\":[],\"folderList\":[],\"_id\":\"mfolder_7d89m6c2lgu\",\"pathToFolder\":[],\"folderIcon\":null,\"playerDefault\":\"b38ABpAy1YrXABzE\"},\"mfolder_cr9ob8vjbo7\":{\"titleText\":\"Nemeia\",\"colorText\":\"#25c018\",\"macroList\":[\"7GDTLljd0bN2CXom\"],\"folderList\":[],\"_id\":\"mfolder_cr9ob8vjbo7\",\"pathToFolder\":[],\"folderIcon\":null,\"playerDefault\":\"T2JexYyw5b58scH2\"},\"mfolder_tbrd0ewr8l\":{\"titleText\":\"Sangramir\",\"colorText\":\"#e98d12\",\"macroList\":[\"EeGtXBYU9ecs1lPs\",\"OGnMN2DuvnZCaJHg\"],\"folderList\":[],\"_id\":\"mfolder_tbrd0ewr8l\",\"pathToFolder\":[],\"folderIcon\":null,\"playerDefault\":\"lG9NEPeCBz3NTwsQ\"},\"mfolder_og3qjxlkruo\":{\"titleText\":\"Token Magic FX\",\"colorText\":\"#f255e7\",\"macroList\":[\"j1mi63VNaIPd4N9P\"],\"folderList\":[],\"_id\":\"mfolder_og3qjxlkruo\",\"pathToFolder\":[],\"folderIcon\":null,\"playerDefault\":null},\"mfolder_6b0j1027hqo\":{\"titleText\":\"Conditions\",\"colorText\":\"#808080\",\"macroList\":[\"nCCTOeCWa54rxq70\",\"Xep10bRLvo4jx5pC\",\"K7FG1zYm0JOWQanZ\",\"ywRGAeH7LHE9hOC5\",\"UuPlnjiWVXpppV10\"],\"folderList\":[],\"_id\":\"mfolder_6b0j1027hqo\",\"pathToFolder\":[],\"folderIcon\":null,\"playerDefault\":null},\"mfolder_5n2kzi96ded\":{\"titleText\":\"DAE Spell Macros\",\"colorText\":\"#239be7\",\"macroList\":[\"03GLP1LzXHNQIoCw\",\"052BRkLBuVLOKCL2\",\"0yfZTRQiTVp8FQ7s\",\"2LJAlxf6h5nUJzvh\",\"2dcFzdqpYO5s9uJx\",\"6WMCtDZdjPB1bDE7\",\"7X1YMChmucGwGZbT\",\"83Yz6t0grS28XwSa\",\"8cA2jSO6FaAtQ2tc\",\"AH5CanlSZDPKulTa\",\"BtvQI32aU4YuuLP9\",\"F1gmmKLKMvqlbWub\",\"FtrxDKmaZxZeDPHP\",\"I9sP3Yc16o9OCr3K\",\"J34nAecrGghrsp4w\",\"KOrIGajEQrz2xoms\",\"KYvM7S6vRiaCwbPg\",\"OROGxr726ZxSOnqD\",\"PJsKc9fUBktYfaSj\",\"PLEdvH86Y2volWlR\",\"PO9NMunooZnLS2OW\",\"R01SAz8ECXuazjJK\",\"TFVTCpdke5FKVUvv\",\"TlB8DuvVRPoQjSX3\",\"UDfkOJfQ9Qo5s3sN\",\"ZAEJUT2hHwV5uPD5\",\"ZaLJ3Hb2cAI9W0h5\",\"aB6rGB9Aa3AKNYDX\",\"hWulCC5oDpk73l4u\",\"hqs4r7iSQCDv8yWa\",\"jRgpt3dVJozMvrPt\",\"ow67cJll9jXRUNQ8\"],\"folderList\":[],\"_id\":\"mfolder_5n2kzi96ded\",\"pathToFolder\":[],\"folderIcon\":null,\"playerDefault\":null},\"mfolder_9jxu0cv9wxa\":{\"titleText\":\"Time\",\"colorText\":\"#10bcb0\",\"macroList\":[\"25QQq3dSWw5i6lac\",\"8GJrlA8kHtrveD0U\"],\"folderList\":[],\"_id\":\"mfolder_9jxu0cv9wxa\",\"pathToFolder\":[],\"folderIcon\":null,\"playerDefault\":null},\"mfolder_y5gcdmkugc\":{\"titleText\":\"Stat Modification\",\"colorText\":\"#ba6b36\",\"macroList\":[\"j9ZKd8ovKfcNcaFy\"],\"folderList\":[],\"_id\":\"mfolder_y5gcdmkugc\",\"pathToFolder\":[],\"folderIcon\":null,\"playerDefault\":null},\"mfolder_8kppn1rcvak\":{\"titleText\":\"Utility\",\"colorText\":\"#7e7463\",\"macroList\":[\"kcqYJsQnDFpZ6Pj6\",\"bhxO3mHDXeuckveh\"],\"folderList\":[],\"_id\":\"mfolder_8kppn1rcvak\",\"pathToFolder\":[],\"folderIcon\":null,\"playerDefault\":null}}"
   },
@@ -201,7 +241,7 @@
   },
   {
     "key": "ddb-importer.entity-feature-compendium",
-    "value": "\"world.ddb-this-isnt-working-out-features\""
+    "value": "\"CustomSharedCompendiums.all-ddb-class-features\""
   },
   {
     "key": "healthEstimate.core.menuSettings.useColor",
@@ -245,11 +285,19 @@
   },
   {
     "key": "ddb-importer.entity-trait-compendium",
-    "value": "\"world.ddb-this-isnt-working-out-racial-traits\""
+    "value": "\"CustomSharedCompendiums.all-ddb-racial-traits\""
+  },
+  {
+    "key": "Next-Up.animateSpeed",
+    "value": "5"
   },
   {
     "key": "forien-unidentified-items.itemProperties",
     "value": "{\"backpack\":{\"attuned\":false,\"capacity.type\":false,\"capacity.value\":false,\"capacity.weightless\":false,\"currency.cp\":false,\"currency.ep\":false,\"currency.gp\":false,\"currency.pp\":false,\"currency.sp\":false,\"description.chat\":false,\"description.unidentified\":false,\"description.value\":false,\"equipped\":true,\"identified\":false,\"price\":false,\"quantity\":true,\"rarity\":false,\"source\":false,\"weight\":true},\"class\":{\"description.chat\":false,\"description.unidentified\":false,\"description.value\":false,\"hitDice\":false,\"hitDiceUsed\":false,\"levels\":false,\"skills.choices\":false,\"skills.number\":false,\"skills.value\":false,\"source\":false,\"spellcasting\":false,\"subclass\":false},\"consumable\":{\"ability\":false,\"actionType\":false,\"activation.condition\":false,\"activation.cost\":false,\"activation.type\":false,\"attackBonus\":false,\"attuned\":false,\"chatFlavor\":false,\"consumableType\":true,\"consume.amount\":false,\"consume.target\":false,\"consume.type\":false,\"critical\":false,\"damage.parts\":false,\"damage.versatile\":false,\"description.chat\":false,\"description.unidentified\":false,\"description.value\":false,\"duration.units\":false,\"duration.value\":false,\"equipped\":true,\"formula\":false,\"identified\":false,\"price\":false,\"quantity\":true,\"range.long\":false,\"range.units\":false,\"range.value\":false,\"rarity\":false,\"save.ability\":false,\"save.dc\":false,\"save.scaling\":false,\"source\":false,\"target.type\":false,\"target.units\":false,\"target.value\":false,\"uses.autoDestroy\":false,\"uses.max\":false,\"uses.per\":false,\"uses.value\":false,\"weight\":true},\"equipment\":{\"ability\":false,\"actionType\":false,\"activation.condition\":false,\"activation.cost\":false,\"activation.type\":false,\"armor.dex\":false,\"armor.type\":true,\"armor.value\":false,\"attackBonus\":false,\"attuned\":false,\"chatFlavor\":false,\"consume.amount\":false,\"consume.target\":false,\"consume.type\":false,\"critical\":false,\"damage.parts\":false,\"damage.versatile\":false,\"description.chat\":false,\"description.unidentified\":false,\"description.value\":false,\"duration.units\":false,\"duration.value\":false,\"equipped\":true,\"formula\":false,\"hp.conditions\":false,\"hp.dt\":false,\"hp.max\":false,\"hp.value\":false,\"identified\":false,\"price\":false,\"proficient\":false,\"quantity\":true,\"range.long\":false,\"range.units\":false,\"range.value\":false,\"rarity\":false,\"save.ability\":false,\"save.dc\":false,\"save.scaling\":false,\"source\":false,\"speed.conditions\":false,\"speed.value\":false,\"stealth\":false,\"strength\":false,\"target.type\":false,\"target.units\":false,\"target.value\":false,\"uses.max\":false,\"uses.per\":false,\"uses.value\":false,\"weight\":true},\"feat\":{\"ability\":false,\"actionType\":false,\"activation.condition\":false,\"activation.cost\":false,\"activation.type\":false,\"attackBonus\":false,\"chatFlavor\":false,\"consume.amount\":false,\"consume.target\":false,\"consume.type\":false,\"critical\":false,\"damage.parts\":false,\"damage.versatile\":false,\"description.chat\":false,\"description.unidentified\":false,\"description.value\":false,\"duration.units\":false,\"duration.value\":false,\"formula\":false,\"range.long\":false,\"range.units\":false,\"range.value\":false,\"recharge.charged\":false,\"recharge.value\":false,\"requirements\":false,\"save.ability\":false,\"save.dc\":false,\"save.scaling\":false,\"source\":false,\"target.type\":false,\"target.units\":false,\"target.value\":false,\"uses.max\":false,\"uses.per\":false,\"uses.value\":false},\"loot\":{\"attuned\":false,\"description.chat\":false,\"description.unidentified\":false,\"description.value\":false,\"equipped\":true,\"identified\":false,\"price\":false,\"quantity\":true,\"rarity\":false,\"source\":false,\"weight\":true},\"spell\":{\"ability\":false,\"actionType\":false,\"activation.condition\":false,\"activation.cost\":false,\"activation.type\":false,\"attackBonus\":false,\"chatFlavor\":false,\"components.concentration\":false,\"components.material\":false,\"components.ritual\":false,\"components.somatic\":false,\"components.value\":false,\"components.vocal\":false,\"consume.amount\":false,\"consume.target\":false,\"consume.type\":false,\"critical\":false,\"damage.parts\":false,\"damage.versatile\":false,\"description.chat\":false,\"description.unidentified\":false,\"description.value\":false,\"duration.units\":false,\"duration.value\":false,\"formula\":false,\"level\":false,\"materials.consumed\":false,\"materials.cost\":false,\"materials.supply\":false,\"materials.value\":false,\"preparation.mode\":false,\"preparation.prepared\":false,\"range.long\":false,\"range.units\":false,\"range.value\":false,\"save.ability\":false,\"save.dc\":false,\"save.scaling\":false,\"scaling.formula\":false,\"scaling.mode\":false,\"school\":false,\"source\":false,\"target.type\":false,\"target.units\":false,\"target.value\":false,\"uses.max\":false,\"uses.per\":false,\"uses.value\":false},\"tool\":{\"ability\":false,\"attuned\":false,\"chatFlavor\":false,\"description.chat\":false,\"description.unidentified\":false,\"description.value\":false,\"equipped\":true,\"identified\":false,\"price\":false,\"proficient\":false,\"quantity\":true,\"rarity\":false,\"source\":false,\"weight\":true},\"weapon\":{\"ability\":false,\"actionType\":false,\"activation.condition\":false,\"activation.cost\":false,\"activation.type\":false,\"armor.value\":false,\"attackBonus\":false,\"attuned\":false,\"chatFlavor\":false,\"consume.amount\":false,\"consume.target\":false,\"consume.type\":false,\"critical\":false,\"damage.parts\":false,\"damage.versatile\":false,\"description.chat\":false,\"description.unidentified\":false,\"description.value\":false,\"duration.units\":false,\"duration.value\":false,\"equipped\":true,\"formula\":false,\"hp.conditions\":false,\"hp.dt\":false,\"hp.max\":false,\"hp.value\":false,\"identified\":false,\"price\":false,\"proficient\":false,\"properties\":false,\"quantity\":true,\"range.long\":false,\"range.units\":false,\"range.value\":false,\"rarity\":false,\"save.ability\":false,\"save.dc\":false,\"save.scaling\":false,\"source\":false,\"target.type\":false,\"target.units\":false,\"target.value\":false,\"uses.max\":false,\"uses.per\":false,\"uses.value\":false,\"weaponType\":true,\"weight\":true}}"
+  },
+  {
+    "key": "chat-images.embeddedCompression",
+    "value": "0.5"
   },
   {
     "key": "vtta-party.EnableTooltip",
@@ -257,7 +305,7 @@
   },
   {
     "key": "ddb-importer.entity-race-compendium",
-    "value": "\"world.ddb-this-isnt-working-out-races\""
+    "value": "\"CustomSharedCompendiums.all-ddb-races\""
   },
   {
     "key": "vtta-dndbeyond.image-upload-directory",
@@ -300,8 +348,16 @@
     "value": "\"7\""
   },
   {
+    "key": "chat-images.uploadCompression",
+    "value": "0.5"
+  },
+  {
     "key": "core.time",
-    "value": "43437571830"
+    "value": "43437571710"
+  },
+  {
+    "key": "monks-little-details.disablesounds",
+    "value": "true"
   },
   {
     "key": "healthEstimate.core.menuSettings.fontSize",
@@ -325,7 +381,7 @@
   },
   {
     "key": "combat-utility-belt.coreStatusEffects",
-    "value": "[{\"id\":\"dead\",\"label\":\"EFFECT.StatusDead\",\"icon\":\"icons/svg/skull.svg\"},{\"id\":\"unconscious\",\"label\":\"EFFECT.StatusUnconscious\",\"icon\":\"icons/svg/unconscious.svg\"},{\"id\":\"sleep\",\"label\":\"EFFECT.StatusAsleep\",\"icon\":\"icons/svg/sleep.svg\"},{\"id\":\"stun\",\"label\":\"EFFECT.StatusStunned\",\"icon\":\"icons/svg/daze.svg\"},{\"id\":\"prone\",\"label\":\"EFFECT.StatusProne\",\"icon\":\"icons/svg/falling.svg\"},{\"id\":\"restrain\",\"label\":\"EFFECT.StatusRestrained\",\"icon\":\"icons/svg/net.svg\"},{\"id\":\"paralysis\",\"label\":\"EFFECT.StatusParalysis\",\"icon\":\"icons/svg/paralysis.svg\"},{\"id\":\"fly\",\"label\":\"EFFECT.StatusFlying\",\"icon\":\"icons/svg/wing.svg\"},{\"id\":\"blind\",\"label\":\"EFFECT.StatusBlind\",\"icon\":\"icons/svg/blind.svg\"},{\"id\":\"deaf\",\"label\":\"EFFECT.StatusDeaf\",\"icon\":\"icons/svg/deaf.svg\"},{\"id\":\"silence\",\"label\":\"EFFECT.StatusSilenced\",\"icon\":\"icons/svg/silenced.svg\"},{\"id\":\"fear\",\"label\":\"EFFECT.StatusFear\",\"icon\":\"icons/svg/terror.svg\"},{\"id\":\"burning\",\"label\":\"EFFECT.StatusBurning\",\"icon\":\"icons/svg/fire.svg\"},{\"id\":\"frozen\",\"label\":\"EFFECT.StatusFrozen\",\"icon\":\"icons/svg/frozen.svg\"},{\"id\":\"shock\",\"label\":\"EFFECT.StatusShocked\",\"icon\":\"icons/svg/lightning.svg\"},{\"id\":\"corrode\",\"label\":\"EFFECT.StatusCorrode\",\"icon\":\"icons/svg/acid.svg\"},{\"id\":\"bleeding\",\"label\":\"EFFECT.StatusBleeding\",\"icon\":\"icons/svg/blood.svg\"},{\"id\":\"disease\",\"label\":\"EFFECT.StatusDisease\",\"icon\":\"icons/svg/biohazard.svg\"},{\"id\":\"poison\",\"label\":\"EFFECT.StatusPoison\",\"icon\":\"icons/svg/poison.svg\"},{\"id\":\"radiation\",\"label\":\"EFFECT.StatusRadiation\",\"icon\":\"icons/svg/radiation.svg\"},{\"id\":\"regen\",\"label\":\"EFFECT.StatusRegen\",\"icon\":\"icons/svg/regen.svg\"},{\"id\":\"degen\",\"label\":\"EFFECT.StatusDegen\",\"icon\":\"icons/svg/degen.svg\"},{\"id\":\"upgrade\",\"label\":\"EFFECT.StatusUpgrade\",\"icon\":\"icons/svg/upgrade.svg\"},{\"id\":\"downgrade\",\"label\":\"EFFECT.StatusDowngrade\",\"icon\":\"icons/svg/downgrade.svg\"},{\"id\":\"target\",\"label\":\"EFFECT.StatusTarget\",\"icon\":\"icons/svg/target.svg\"},{\"id\":\"eye\",\"label\":\"EFFECT.StatusMarked\",\"icon\":\"icons/svg/eye.svg\"},{\"id\":\"curse\",\"label\":\"EFFECT.StatusCursed\",\"icon\":\"icons/svg/sun.svg\"},{\"id\":\"bless\",\"label\":\"EFFECT.StatusBlessed\",\"icon\":\"icons/svg/angel.svg\"},{\"id\":\"fireShield\",\"label\":\"EFFECT.StatusFireShield\",\"icon\":\"icons/svg/fire-shield.svg\"},{\"id\":\"coldShield\",\"label\":\"EFFECT.StatusIceShield\",\"icon\":\"icons/svg/ice-shield.svg\"},{\"id\":\"magicShield\",\"label\":\"EFFECT.StatusMagicShield\",\"icon\":\"icons/svg/mage-shield.svg\"},{\"id\":\"holyShield\",\"label\":\"EFFECT.StatusHolyShield\",\"icon\":\"icons/svg/holy-shield.svg\"},\"modules/conditional-visibility/icons/unknown.svg\",\"modules/conditional-visibility/icons/foggy.svg\",\"modules/conditional-visibility/icons/moon.svg\",\"modules/conditional-visibility/icons/newspaper.svg\"]"
+    "value": "[{\"id\":\"bleeding\",\"label\":\"EFFECT.StatusBleeding\",\"icon\":\"icons/svg/blood.svg\"},{\"id\":\"bless\",\"label\":\"EFFECT.StatusBlessed\",\"icon\":\"icons/svg/angel.svg\"},{\"id\":\"blind\",\"label\":\"EFFECT.StatusBlind\",\"icon\":\"icons/svg/blind.svg\"},{\"id\":\"burning\",\"label\":\"EFFECT.StatusBurning\",\"icon\":\"icons/svg/fire.svg\"},{\"id\":\"charmed\",\"label\":\"MonksLittleDetails.StatusCharmed\",\"icon\":\"modules/monks-little-details/icons/smitten.png\"},{\"id\":\"coldShield\",\"label\":\"EFFECT.StatusIceShield\",\"icon\":\"icons/svg/ice-shield.svg\"},{\"id\":\"concentration\",\"label\":\"MonksLittleDetails.StatusConcentrating\",\"icon\":\"modules/monks-little-details/icons/beams-aura.png\"},{\"id\":\"corrode\",\"label\":\"EFFECT.StatusCorrode\",\"icon\":\"icons/svg/acid.svg\"},{\"id\":\"cover\",\"label\":\"MonksLittleDetails.StatusCover\",\"icon\":\"modules/monks-little-details/icons/push.png\"},{\"id\":\"curse\",\"label\":\"EFFECT.StatusCursed\",\"icon\":\"icons/svg/sun.svg\"},{\"id\":\"dead\",\"label\":\"EFFECT.StatusDead\",\"icon\":\"icons/svg/skull.svg\"},{\"id\":\"deaf\",\"label\":\"EFFECT.StatusDeaf\",\"icon\":\"icons/svg/deaf.svg\"},{\"id\":\"degen\",\"label\":\"EFFECT.StatusDegen\",\"icon\":\"icons/svg/degen.svg\"},{\"id\":\"disease\",\"label\":\"EFFECT.StatusDisease\",\"icon\":\"icons/svg/biohazard.svg\"},{\"id\":\"disengage\",\"label\":\"MonksLittleDetails.StatusDisengage\",\"icon\":\"modules/monks-little-details/icons/journey.png\"},{\"id\":\"distracted\",\"label\":\"MonksLittleDetails.StatusDistracted\",\"icon\":\"modules/monks-little-details/icons/distraction.png\"},{\"id\":\"dodging\",\"label\":\"MonksLittleDetails.StatusDodging\",\"icon\":\"modules/monks-little-details/icons/dodging.png\"},{\"id\":\"downgrade\",\"label\":\"EFFECT.StatusDowngrade\",\"icon\":\"icons/svg/downgrade.svg\"},{\"id\":\"exhausted\",\"label\":\"MonksLittleDetails.StatusExhausted\",\"icon\":\"modules/monks-little-details/icons/oppression.png\"},{\"id\":\"eye\",\"label\":\"EFFECT.StatusMarked\",\"icon\":\"icons/svg/eye.svg\"},{\"id\":\"fear\",\"label\":\"EFFECT.StatusFear\",\"icon\":\"icons/svg/terror.svg\"},{\"id\":\"fireShield\",\"label\":\"EFFECT.StatusFireShield\",\"icon\":\"icons/svg/fire-shield.svg\"},{\"id\":\"fly\",\"label\":\"EFFECT.StatusFlying\",\"icon\":\"icons/svg/wing.svg\"},{\"id\":\"frozen\",\"label\":\"EFFECT.StatusFrozen\",\"icon\":\"icons/svg/frozen.svg\"},{\"id\":\"grappled\",\"label\":\"MonksLittleDetails.StatusGrappled\",\"icon\":\"modules/monks-little-details/icons/grab.png\"},{\"id\":\"hasted\",\"label\":\"MonksLittleDetails.StatusHasted\",\"icon\":\"modules/monks-little-details/icons/running-shoe.png\"},{\"id\":\"holyShield\",\"label\":\"EFFECT.StatusHolyShield\",\"icon\":\"icons/svg/holy-shield.svg\"},{\"id\":\"incapacitated\",\"label\":\"MonksLittleDetails.StatusIncapacitated\",\"icon\":\"modules/monks-little-details/icons/internal-injury.png\"},{\"id\":\"invisible\",\"label\":\"MonksLittleDetails.StatusInvisible\",\"icon\":\"modules/monks-little-details/icons/invisible.png\"},{\"id\":\"magicShield\",\"label\":\"EFFECT.StatusMagicShield\",\"icon\":\"icons/svg/mage-shield.svg\"},{\"id\":\"paralysis\",\"label\":\"EFFECT.StatusParalysis\",\"icon\":\"icons/svg/paralysis.svg\"},{\"id\":\"petrified\",\"label\":\"MonksLittleDetails.StatusPetrified\",\"icon\":\"modules/monks-little-details/icons/stone-pile.png\"},{\"id\":\"poison\",\"label\":\"EFFECT.StatusPoison\",\"icon\":\"icons/svg/poison.svg\"},{\"id\":\"prone\",\"label\":\"EFFECT.StatusProne\",\"icon\":\"icons/svg/falling.svg\"},{\"id\":\"radiation\",\"label\":\"EFFECT.StatusRadiation\",\"icon\":\"icons/svg/radiation.svg\"},{\"id\":\"rage\",\"label\":\"MonksLittleDetails.StatusRage\",\"icon\":\"modules/monks-little-details/icons/enrage.png\"},{\"id\":\"regen\",\"label\":\"EFFECT.StatusRegen\",\"icon\":\"icons/svg/regen.svg\"},{\"id\":\"restrain\",\"label\":\"EFFECT.StatusRestrained\",\"icon\":\"icons/svg/net.svg\"},{\"id\":\"shock\",\"label\":\"EFFECT.StatusShocked\",\"icon\":\"icons/svg/lightning.svg\"},{\"id\":\"silence\",\"label\":\"EFFECT.StatusSilenced\",\"icon\":\"icons/svg/silenced.svg\"},{\"id\":\"sleep\",\"label\":\"EFFECT.StatusAsleep\",\"icon\":\"icons/svg/sleep.svg\"},{\"id\":\"slowed\",\"label\":\"MonksLittleDetails.StatusSlowed\",\"icon\":\"modules/monks-little-details/icons/turtle.png\"},{\"id\":\"stun\",\"label\":\"EFFECT.StatusStunned\",\"icon\":\"icons/svg/daze.svg\"},{\"id\":\"target\",\"label\":\"EFFECT.StatusTarget\",\"icon\":\"icons/svg/target.svg\"},{\"id\":\"unconscious\",\"label\":\"EFFECT.StatusUnconscious\",\"icon\":\"icons/svg/unconscious.svg\"},{\"id\":\"upgrade\",\"label\":\"EFFECT.StatusUpgrade\",\"icon\":\"icons/svg/upgrade.svg\"},\"modules/conditional-visibility/icons/unknown.svg\",\"modules/conditional-visibility/icons/foggy.svg\",\"modules/conditional-visibility/icons/moon.svg\",\"modules/conditional-visibility/icons/newspaper.svg\"]"
   },
   {
     "key": "forien-quest-log.allowPlayersDrag",
@@ -336,8 +392,16 @@
     "value": "true"
   },
   {
+    "key": "monks-little-details.movement-key",
+    "value": "\"z\""
+  },
+  {
     "key": "compendium-folders.cfolders",
     "value": "{\"hidden\":{\"compendiumList\":[\"dnd5e.spells\",\"CustomSharedCompendiums.journalentries\",\"healthEstimate.deathmacro\"],\"titleText\":\"hidden-compendiums\",\"_id\":\"hidden\"},\"default\":{\"compendiumList\":[],\"titleText\":\"Default\",\"_id\":\"default\",\"colorText\":\"#000000\",\"folderIcon\":null},\"cfolder_o3mi2qh55j8\":{\"titleText\":\"Characters\",\"colorText\":\"#008000\",\"compendiumList\":[\"CustomSharedCompendiums.player-characters\",\"dnd5e.classes\",\"dnd5e.classfeatures\",\"CustomSharedCompendiums.custom-classes\",\"CustomSharedCompendiums.custom-class-features\",\"dnd5e.heroes\",\"dnd5e.races\",\"Dynamic-Effects-SRD.DAE SRD Feats\",\"combat-utility-belt.conditionsdnd5e\",\"magicitems.magicitem-feats\"],\"folderList\":[],\"_id\":\"cfolder_o3mi2qh55j8\",\"pathToFolder\":[],\"folderIcon\":null,\"fontColorText\":\"#FFFFFF\"},\"cfolder_n30b6t7gsm\":{\"titleText\":\"Monsters\",\"colorText\":\"#ff0000\",\"compendiumList\":[\"CustomSharedCompendiums.custom-monsters\",\"CustomSharedCompendiums.5etools-monsters\",\"world.critterdb-MyCritters\",\"dnd5e.monsters\",\"dnd5e.monsterfeatures\"],\"folderList\":[],\"_id\":\"cfolder_n30b6t7gsm\",\"pathToFolder\":[],\"folderIcon\":null,\"fontColorText\":\"#FFFFFF\"},\"cfolder_xow5bcfozy\":{\"titleText\":\"Spells\",\"colorText\":\"#0080ff\",\"compendiumList\":[\"CustomSharedCompendiums.all-ddb-spells\",\"Dynamic-Effects-SRD.DAE SRD Spells\",\"world.ddb-this-isnt-working-out-spells\",\"world.this-isnt-working-out-ddb-spells\"],\"folderList\":[],\"_id\":\"cfolder_xow5bcfozy\",\"pathToFolder\":[],\"folderIcon\":null,\"fontColorText\":\"#FFFFFF\"},\"cfolder_ugdomjgs4sa\":{\"titleText\":\"Macros\",\"colorText\":\"#808080\",\"compendiumList\":[\"CustomSharedCompendiums.macros\",\"furnace.macros\",\"Dynamic-Effects-SRD.DAE SRD Macros\",\"dae.sample-macros\",\"turnAlert.turn-alert-examples\",\"turnAlert.turn-alert-debug\"],\"folderList\":[],\"_id\":\"cfolder_ugdomjgs4sa\",\"pathToFolder\":[],\"folderIcon\":null,\"fontColorText\":\"#FFFFFF\"},\"cfolder_vx9cksqwb6\":{\"titleText\":\"Items\",\"colorText\":\"#ec11d0\",\"compendiumList\":[\"dnd5e.items\",\"Dynamic-Effects-SRD.DAE SRD Items\",\"dae.premadeitems\",\"CustomSharedCompendiums.items\",\"Dynamic-Effects-SRD.DAE SRD Magic Items\",\"Dynamic-Effects-SRD.DAE SRD Midi-collection\",\"dnd5e.tradegoods\",\"itemcollection.packs\",\"magicitems.magicitems\"],\"folderList\":[],\"_id\":\"cfolder_vx9cksqwb6\",\"pathToFolder\":[],\"folderIcon\":null,\"fontColorText\":\"#FFFFFF\"},\"cfolder_xju2t6inha\":{\"titleText\":\"Rules\",\"colorText\":\"#800040\",\"compendiumList\":[\"CustomSharedCompendiums.homebrew-rules\",\"dnd5e.rules\"],\"folderList\":[],\"_id\":\"cfolder_xju2t6inha\",\"pathToFolder\":[],\"folderIcon\":null},\"cfolder_hjxoe53dmfe\":{\"titleText\":\"Playlists\",\"colorText\":\"#2c5777\",\"compendiumList\":[],\"folderList\":[],\"_id\":\"cfolder_hjxoe53dmfe\",\"pathToFolder\":[],\"folderIcon\":null,\"fontColorText\":\"#FFFFFF\"},\"cfolder_2lvmjicwswi\":{\"titleText\":\"Tables\",\"colorText\":\"#7e6225\",\"compendiumList\":[\"CustomSharedCompendiums.rolltables\",\"token-mold.adjectives\",\"magicitems.magicitem-tables\"],\"folderList\":[],\"_id\":\"cfolder_2lvmjicwswi\",\"pathToFolder\":[],\"folderIcon\":null,\"fontColorText\":\"#FFFFFF\"},\"cfolder_tfuhdt2a8tl\":{\"titleText\":\"Scenes\",\"colorText\":\"#33d7d4\",\"compendiumList\":[\"CustomSharedCompendiums.city-scenes\",\"CustomSharedCompendiums.generic-scenes\",\"CustomSharedCompendiums.mountain-scenes\",\"CustomSharedCompendiums.forest-scenes\",\"CustomSharedCompendiums.dungeon-scenes\",\"CustomSharedCompendiums.backgrounds-scenes\",\"CustomSharedCompendiums.temple-scenes\",\"CustomSharedCompendiums.indoor-scenes\",\"CustomSharedCompendiums.miscellaneous-battle-scenes\",\"CustomSharedCompendiums.map-scenes\",\"CustomSharedCompendiums.lmop-scenes\",\"CustomSharedCompendiums.naval-scenes\",\"CustomSharedCompendiums.shops-stores-scenes\",\"CustomSharedCompendiums.road-scenes\",\"CustomSharedCompendiums.winter-scenes\",\"CustomSharedCompendiums.desert-scenes\",\"CustomSharedCompendiums.Dimensional-scenes\",\"CustomSharedCompendiums.town-scenes\",\"CustomSharedCompendiums.castle-scenes\",\"CustomSharedCompendiums.taverns-inns-scenes\",\"CustomSharedCompendiums.island-scenes\",\"CustomSharedCompendiums.home-scenes\",\"CustomSharedCompendiums.uncategorized-building-scenes\"],\"folderList\":[],\"_id\":\"cfolder_tfuhdt2a8tl\",\"pathToFolder\":[],\"folderIcon\":null,\"fontColorText\":\"#FFFFFF\"},\"cfolder_lxh3lwl9nic\":{\"titleText\":\"DnD Beyond\",\"colorText\":\"#d37373\",\"compendiumList\":[\"world.this-isnt-working-out-ddb-items\",\"world.this-isnt-working-out-ddb-features\",\"world.this-isnt-working-out-ddb-monsters\",\"world.this-isnt-working-out-ddb-monster-features\"],\"folderList\":[],\"_id\":\"cfolder_lxh3lwl9nic\",\"pathToFolder\":[],\"folderIcon\":null,\"fontColorText\":\"#FFFFFF\"},\"cfolder_tofu9ltssxa\":{\"titleText\":\"Journals\",\"colorText\":\"#bcb6ec\",\"compendiumList\":[\"CustomSharedCompendiums.custom-conditions\"],\"folderList\":[],\"_id\":\"cfolder_tofu9ltssxa\",\"pathToFolder\":[],\"folderIcon\":null,\"fontColorText\":\"#FFFFFF\"}}"
+  },
+  {
+    "key": "monks-little-details.show-combat-cr",
+    "value": "false"
   },
   {
     "key": "tidy5e-sheet.npcAlwaysShowTraits",
@@ -353,7 +417,7 @@
   },
   {
     "key": "ddb-importer.entity-class-compendium",
-    "value": "\"world.ddb-this-isnt-working-out-classes\""
+    "value": "\"CustomSharedCompendiums.all-ddb-classes\""
   },
   {
     "key": "healthEstimate.core.onlyGM",
@@ -365,7 +429,7 @@
   },
   {
     "key": "core.moduleConfiguration",
-    "value": "{\"CustomSharedCompendiums\":true,\"TokenHotbar\":true,\"colorsettings\":true,\"combat-enhancements\":true,\"combat-utility-belt\":true,\"compendium-folders\":true,\"custom-hotbar\":true,\"easy-target\":true,\"fpsmeter\":true,\"furnace\":true,\"input-expressions\":true,\"lib-wrapper\":true,\"macro-folders\":true,\"navbar-tweaks\":true,\"permission_viewer\":true,\"pick-up-stix\":true,\"popout\":true,\"tidy-ui_game-settings\":true,\"about-time\":true,\"calendar-weather\":true,\"chatdamagebuttons-beyond20\":true,\"chat-portrait\":true,\"condition-automation\":true,\"5e-training\":true,\"critterdb-import\":true,\"custom-journal\":true,\"dndbeyond-character-sheet\":true,\"dd-import\":true,\"forien-copy-environment\":true,\"forien-easy-polls\":false,\"forien-unidentified-items\":true,\"foundry_community_macros\":false,\"gm-notes\":true,\"scaleGrid\":false,\"healthEstimate\":true,\"itemcollection\":true,\"koboldpressogl\":false,\"lmrtfy\":true,\"lootsheetnpc5e\":true,\"magicitems\":true,\"michaelghelfi\":false,\"midi-qol\":true,\"mountup\":false,\"multilevel-tokens\":true,\"mwpm\":true,\"pin-cushion\":true,\"pings\":true,\"polyglot\":true,\"quick-insert\":true,\"ShowDragDistance\":true,\"simple-dice-roller\":true,\"simplefog\":true,\"tidy5e-sheet\":true,\"token-action-hud\":true,\"token-auras\":true,\"token-health\":true,\"token-info-icons\":true,\"token-mold\":true,\"turnmarker\":true,\"vance-sidebar-resizer\":true,\"vtta-dndbeyond\":false,\"vtta-iconizer\":true,\"vtta-party\":true,\"vtta-tokenizer\":false,\"conditional-visibility\":true,\"dice-so-nice\":true,\"dae\":true,\"easy-exports\":false,\"foundry_community_tables\":false,\"_mathjs\":true,\"roofs\":true,\"scenery\":false,\"turnAlert\":true,\"tweakplaylist\":true,\"playlist_import\":true,\"Dynamic-Effects-SRD\":true,\"baileywiki-maps\":false,\"betterCurses\":false,\"dww-battlemaps\":false,\"find-the-culprit\":false,\"mikwewa-free\":false,\"tomcartos-ostenwold\":false,\"spellarena\":false,\"tacticalmap-free\":false,\"mad-cartographer-free-maps\":false,\"free-loot-tavern-compendium\":false,\"perfect-vision\":true,\"WallCutter\":true,\"dice-tooltip\":true,\"wall-height\":true,\"fogmanager\":false,\"lessfog\":true,\"autocomplete-whisper\":true,\"CautiousGamemastersPack\":true,\"compact-beyond-5e-sheet\":true,\"ddb-importer\":true,\"illandril-hotbar-uses\":true,\"npcgen\":true,\"dnd5e-helpers\":true,\"mikwewa-cave\":false,\"mikwewa-crypt\":false,\"mikwewa-boot\":false,\"mikwewa-gauntlet\":false,\"mikwewa-graveyard\":false,\"mikwewa-temples\":false,\"mikwewa-helmet-cave\":false,\"mikwewa-igloo\":false,\"mikwewa-estate\":false,\"mikwewa-prison\":false,\"mikwewa-ring\":false,\"mikwewa-sewer-temple\":false,\"mikwewa-church\":false,\"mikwewa-fortress\":false,\"mikwewa-tavern\":false,\"character-actions-list-5e\":true,\"journal-to-canvas-slideshow\":false,\"forien-custom-fonts\":true,\"quick-encounters\":false,\"token-attacher\":false,\"trigger-happy\":false}"
+    "value": "{\"CustomSharedCompendiums\":true,\"TokenHotbar\":true,\"colorsettings\":true,\"combat-enhancements\":true,\"combat-utility-belt\":true,\"compendium-folders\":true,\"custom-hotbar\":true,\"easy-target\":true,\"fpsmeter\":true,\"furnace\":true,\"input-expressions\":true,\"lib-wrapper\":true,\"macro-folders\":true,\"permission_viewer\":true,\"pick-up-stix\":true,\"popout\":true,\"tidy-ui_game-settings\":true,\"about-time\":true,\"calendar-weather\":true,\"chatdamagebuttons-beyond20\":false,\"chat-portrait\":true,\"condition-automation\":true,\"5e-training\":true,\"critterdb-import\":false,\"custom-journal\":true,\"dndbeyond-character-sheet\":true,\"dd-import\":true,\"forien-copy-environment\":true,\"forien-easy-polls\":false,\"forien-unidentified-items\":true,\"foundry_community_macros\":false,\"gm-notes\":true,\"scaleGrid\":false,\"healthEstimate\":true,\"itemcollection\":true,\"koboldpressogl\":false,\"lmrtfy\":true,\"lootsheetnpc5e\":true,\"magicitems\":true,\"michaelghelfi\":false,\"midi-qol\":true,\"mountup\":false,\"multilevel-tokens\":true,\"pin-cushion\":true,\"pings\":true,\"polyglot\":true,\"quick-insert\":true,\"simple-dice-roller\":true,\"simplefog\":true,\"tidy5e-sheet\":true,\"token-action-hud\":true,\"token-auras\":true,\"token-health\":true,\"token-info-icons\":true,\"token-mold\":true,\"vance-sidebar-resizer\":true,\"vtta-dndbeyond\":false,\"vtta-iconizer\":true,\"vtta-party\":false,\"vtta-tokenizer\":true,\"conditional-visibility\":true,\"dice-so-nice\":true,\"dae\":true,\"easy-exports\":false,\"foundry_community_tables\":false,\"_mathjs\":true,\"roofs\":true,\"scenery\":false,\"turnAlert\":true,\"tweakplaylist\":true,\"playlist_import\":true,\"Dynamic-Effects-SRD\":true,\"baileywiki-maps\":false,\"betterCurses\":false,\"dww-battlemaps\":false,\"find-the-culprit\":false,\"mikwewa-free\":false,\"tomcartos-ostenwold\":false,\"spellarena\":false,\"tacticalmap-free\":false,\"mad-cartographer-free-maps\":false,\"free-loot-tavern-compendium\":false,\"perfect-vision\":true,\"WallCutter\":true,\"dice-tooltip\":true,\"wall-height\":true,\"fogmanager\":false,\"lessfog\":true,\"autocomplete-whisper\":true,\"CautiousGamemastersPack\":true,\"compact-beyond-5e-sheet\":true,\"ddb-importer\":true,\"illandril-hotbar-uses\":true,\"npcgen\":false,\"dnd5e-helpers\":true,\"mikwewa-cave\":false,\"mikwewa-crypt\":false,\"mikwewa-boot\":false,\"mikwewa-gauntlet\":false,\"mikwewa-graveyard\":false,\"mikwewa-temples\":false,\"mikwewa-helmet-cave\":false,\"mikwewa-igloo\":false,\"mikwewa-estate\":false,\"mikwewa-prison\":false,\"mikwewa-ring\":false,\"mikwewa-sewer-temple\":false,\"mikwewa-church\":false,\"mikwewa-fortress\":false,\"mikwewa-tavern\":false,\"character-actions-list-5e\":true,\"journal-to-canvas-slideshow\":false,\"forien-custom-fonts\":true,\"quick-encounters\":true,\"token-attacher\":true,\"trigger-happy\":true,\"autocomplete-inline-properties\":true,\"journal-icon-numbers\":true,\"chat-images\":true,\"scene-viewer\":true,\"df-curvy-walls\":true,\"df-settings-clarity\":true,\"drag-ruler\":true,\"itemacro\":true,\"macroeditor\":true,\"monks-little-details\":true,\"monks-scene-navigation\":true,\"Next-Up\":true,\"party-overview\":true,\"zsync\":false}"
   },
   {
     "key": "about-time.savedCalendar",
@@ -376,12 +440,16 @@
     "value": "\"0\""
   },
   {
+    "key": "Next-Up.combatFocusType",
+    "value": "\"1\""
+  },
+  {
     "key": "simplefog.migrationVersion",
     "value": "1"
   },
   {
     "key": "ddb-importer.entity-monster-compendium",
-    "value": "\"world.ddb-this-isnt-working-out-monsters\""
+    "value": "\"CustomSharedCompendiums.all-ddb-monsters\""
   },
   {
     "key": "forien-quest-log.allowPlayersAccept",
@@ -428,6 +496,10 @@
     "value": "true"
   },
   {
+    "key": "Next-Up.combatFocusPostion",
+    "value": "\"1\""
+  },
+  {
     "key": "itemcollection.goldConversion",
     "value": "false"
   },
@@ -441,7 +513,7 @@
   },
   {
     "key": "ddb-importer.entity-spell-compendium",
-    "value": "\"world.ddb-this-isnt-working-out-spells\""
+    "value": "\"CustomSharedCompendiums.all-ddb-spells\""
   },
   {
     "key": "core.compendiumConfiguration",
@@ -476,8 +548,20 @@
     "value": "\"default\""
   },
   {
+    "key": "monks-little-details.change-invisible-image",
+    "value": "false"
+  },
+  {
     "key": "lessfog.alpha_unexplored",
     "value": "0.85"
+  },
+  {
+    "key": "drag-ruler.speedProviders.native.setting.speedAttribute",
+    "value": "\"actor.data.data.attributes.movement.walk\""
+  },
+  {
+    "key": "Next-Up.closewhich",
+    "value": "\"1\""
   },
   {
     "key": "about-time.calendar",
@@ -493,7 +577,7 @@
   },
   {
     "key": "about-time.store",
-    "value": "{\"_eventQueue\":{\"size\":0,\"compare\":\"function (a, b) {\\n    if (a._time !== b._time)\\n        return a._time < b._time;\\n    return a._uid < b._uid;\\n}\",\"array\":[]},\"_activeCombats\":[{\"_id\":\"WOaJeacyRgtJgAGo\",\"_round\":1}]}"
+    "value": "{\"_eventQueue\":{\"size\":1,\"compare\":\"function (a, b) {\\n    if (a._time !== b._time)\\n        return a._time < b._time;\\n    return a._uid < b._uid;\\n}\",\"array\":[{\"time\":43437571770,\"recurring\":false,\"increment\":null,\"handler\":{\"type\":\"function\",\"val\":\"async (tokenId, removeEffect) => {\\n                        const token = canvas.tokens.get(tokenId);\\n                        const actor = token?.actor;\\n                        if (actor) {\\n                            let removeId = removeEffect._id;\\n                            if (removeId)\\n                                await token.actor.deleteEmbeddedEntity(\\\"ActiveEffect\\\", removeId);\\n                        }\\n                    }\"},\"uid\":1614660419864,\"args\":[\"Ab9hWuefbRflaPGT\",{\"_id\":\"gayVcK7fucnFE0Mi\",\"flags\":{\"dae\":{\"stackable\":false,\"specialDuration\":[],\"transfer\":false,\"itemData\":{\"_id\":\"vHSdxYduiHrd9H9i\",\"name\":\"Bladesong (Testing)\",\"type\":\"feat\",\"data\":{\"description\":{\"value\":\"<p>You can invoke an elven magic called the Bladesong, provided that you aren&rsquo;t wearing medium or heavy armor or using a shield. It graces you with supernatural speed, agility, and focus.</p>\\n<p>You can use a bonus action to start the Bladesong, which lasts for 1 minute. It ends early if you are<span class=\\\"Apple-converted-space\\\">&nbsp;</span><a class=\\\"tooltip-hover condition-tooltip\\\" style=\\\"box-sizing: inherit; outline: 0px; color: #47d18c; text-decoration: none; font-weight: bold !important; cursor: pointer;\\\" href=\\\"https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Incapacitated\\\" data-tooltip-href=\\\"//www.dndbeyond.com/conditions/7-tooltip?disable-webm=1&amp;disable-webm=1\\\">incapacitated</a>, if you don medium or heavy armor or a shield, or if you use two hands to make an attack with a weapon. You can also dismiss the Bladesong at any time (no action required).</p>\\n<p>While your Bladesong is active, you gain the following benefits:</p>\\n<ul>\\n<li>You gain a bonus to your AC equal to your Intelligence modifier (minimum of +1).</li>\\n<li>Your walking speed increases by 10 feet.</li>\\n<li>You have advantage on Dexterity (<a class=\\\"tooltip-hover skill-tooltip\\\" style=\\\"box-sizing: inherit; outline: 0px; color: #47d18c; text-decoration: none; font-weight: bold !important; cursor: pointer;\\\" href=\\\"https://www.dndbeyond.com/compendium/rules/basic-rules/using-ability-scores#Acrobatics\\\" data-tooltip-href=\\\"//www.dndbeyond.com/skills/3-tooltip?disable-webm=1&amp;disable-webm=1\\\">Acrobatics</a>) checks.</li>\\n<li>You gain a bonus to any Constitution saving throw you make to maintain your concentration on a spell. The bonus equals your Intelligence modifier (minimum of +1).</li>\\n</ul>\\n<p>You can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses of it when you finish a long rest.</p>\",\"chat\":\"\",\"unidentified\":\"\"},\"source\":\"\",\"activation\":{\"type\":\"bonus\",\"cost\":1,\"condition\":\"\"},\"duration\":{\"value\":1,\"units\":\"minute\"},\"target\":{\"value\":null,\"width\":null,\"units\":\"\",\"type\":\"\"},\"range\":{\"value\":null,\"long\":null,\"units\":\"\"},\"uses\":{\"value\":1,\"max\":2,\"per\":\"lr\"},\"consume\":{\"type\":\"\",\"target\":\"\",\"amount\":null},\"ability\":null,\"actionType\":\"\",\"attackBonus\":0,\"chatFlavor\":\"\",\"critical\":null,\"damage\":{\"parts\":[],\"versatile\":\"\"},\"formula\":\"\",\"save\":{\"ability\":\"\",\"dc\":null,\"scaling\":\"spell\"},\"requirements\":\"\",\"recharge\":{\"value\":null,\"charged\":false},\"attributes\":{\"spelldc\":10}},\"sort\":300000,\"flags\":{\"pick-up-stix\":{\"pick-up-stix\":{\"owner\":{\"actorId\":\"BGi0JwLCh9sB1gAR\"},\"initialState\":{\"count\":1,\"itemData\":{\"name\":\"New Feat\",\"type\":\"feat\",\"data\":{\"activation\":{\"type\":\"action\"}},\"flags\":{}}},\"itemType\":\"Item\",\"isLocked\":false}},\"magicitems\":{\"enabled\":false,\"equipped\":false,\"attuned\":false,\"charges\":\"0\",\"chargeType\":\"c1\",\"destroy\":false,\"destroyFlavorText\":\"reaches 0 charges: it crumbles into ashes and is destroyed.\",\"rechargeable\":false,\"recharge\":\"0\",\"rechargeType\":\"t1\",\"rechargeUnit\":\"r1\",\"sorting\":\"l\"},\"betterCurses\":{\"isCurse\":false,\"curseName\":\"\",\"formula\":\"\",\"mwak\":false,\"rwak\":false,\"msak\":false,\"rsak\":false},\"core\":{\"sourceId\":\"Item.pluFuCYOAhZydLda\"}},\"img\":\"systems/dnd5e/icons/skills/weapon_01.jpg\",\"effects\":[{\"_id\":\"Uz4B37O6I7wdQDBs\",\"flags\":{\"dae\":{\"stackable\":false,\"specialDuration\":[],\"transfer\":false}},\"changes\":[{\"key\":\"data.attributes.ac.value\",\"value\":\"@abilities.int.mod\",\"mode\":2,\"priority\":20},{\"key\":\"data.attributes.movement.walk\",\"value\":10,\"mode\":2,\"priority\":20}],\"disabled\":false,\"duration\":{\"startTime\":null,\"seconds\":60,\"rounds\":null,\"turns\":null,\"startRound\":null,\"startTurn\":null},\"icon\":\"systems/dnd5e/icons/skills/weapon_01.jpg\",\"label\":\"Bladesong\",\"origin\":\"Actor.BGi0JwLCh9sB1gAR.OwnedItem.pluFuCYOAhZydLda\",\"tint\":\"\",\"transfer\":false}],\"labels\":{\"featType\":\"Action\",\"activation\":\"1 Bonus Action\",\"target\":\"\",\"range\":\"\",\"duration\":\"1 Minutes\",\"recharge\":\"Recharge [null]\",\"damage\":\"\",\"damageTypes\":\"\"},\"isStack\":false,\"hasUses\":true,\"isOnCooldown\":false,\"isDepleted\":false,\"hasTarget\":false,\"toggleClass\":\"\",\"toggleTitle\":\"Not Equipped\"},\"token\":\"Ab9hWuefbRflaPGT\"}},\"changes\":[{\"key\":\"data.attributes.ac.value\",\"value\":\"@abilities.int.mod\",\"mode\":2,\"priority\":20},{\"key\":\"data.attributes.movement.walk\",\"value\":10,\"mode\":2,\"priority\":20}],\"disabled\":false,\"duration\":{\"startTime\":43437571710,\"seconds\":60,\"rounds\":null,\"turns\":null,\"startRound\":null,\"startTurn\":null},\"icon\":\"systems/dnd5e/icons/skills/weapon_01.jpg\",\"label\":\"Bladesong\",\"origin\":\"Actor.BGi0JwLCh9sB1gAR.OwnedItem.vHSdxYduiHrd9H9i\",\"tint\":\"\"}]}]},\"_activeCombats\":[{\"_id\":\"WOaJeacyRgtJgAGo\",\"_round\":1}]}"
   },
   {
     "key": "turnmarker.announce-turn",
@@ -528,6 +612,14 @@
     "value": "true"
   },
   {
+    "key": "party-overview.EnablePlayerAccess",
+    "value": "false"
+  },
+  {
+    "key": "Next-Up.popout",
+    "value": "true"
+  },
+  {
     "key": "custom-hotbar.chbBorderColorActive",
     "value": "\"#ff6400ff\""
   },
@@ -556,12 +648,16 @@
     "value": "true"
   },
   {
+    "key": "monks-little-details.combat-position",
+    "value": "\"topright\""
+  },
+  {
     "key": "dnd5e.initiativeDexTiebreaker",
     "value": "true"
   },
   {
     "key": "combat-utility-belt.activeConditionMap",
-    "value": "[{\"id\":\"blinded\",\"name\":\"Blinded\",\"icon\":\"modules/combat-utility-belt/icons/blinded.svg\",\"referenceType\":\"compendium.journalEntry\",\"compendium\":\"combat-utility-belt.conditionsdnd5e\",\"referenceId\":\"@Compendium[combat-utility-belt.conditionsdnd5e.oScVqOHJt5SQszVl]\",\"applyTrigger\":\"\",\"removeTrigger\":\"\",\"options\":{\"overlay\":false,\"removeOthers\":false,\"outputChat\":true,\"markDefeated\":false}},{\"id\":\"charmed\",\"name\":\"Charmed\",\"icon\":\"modules/combat-utility-belt/icons/charmed.svg\",\"referenceType\":\"compendium.journalEntry\",\"compendium\":\"combat-utility-belt.conditionsdnd5e\",\"referenceId\":\"@Compendium[combat-utility-belt.conditionsdnd5e.UWlXFfSX95JVWrYs]\",\"applyTrigger\":\"\",\"removeTrigger\":\"\",\"options\":{\"overlay\":false,\"removeOthers\":false,\"outputChat\":true,\"markDefeated\":false}},{\"id\":\"concentrating\",\"name\":\"Concentrating\",\"icon\":\"modules/combat-utility-belt/icons/concentrating.svg\",\"referenceType\":\"compendium.journalEntry\",\"compendium\":\"combat-utility-belt.conditionsdnd5e\",\"referenceId\":\"@Compendium[combat-utility-belt.conditionsdnd5e.nSoKejZfahbxfggp]\",\"applyTrigger\":\"\",\"removeTrigger\":\"\",\"options\":{\"overlay\":false,\"removeOthers\":false,\"outputChat\":true,\"markDefeated\":false}},{\"id\":\"deafened\",\"name\":\"Deafened\",\"icon\":\"modules/combat-utility-belt/icons/deafened.svg\",\"referenceType\":\"compendium.journalEntry\",\"compendium\":\"combat-utility-belt.conditionsdnd5e\",\"referenceId\":\"@Compendium[combat-utility-belt.conditionsdnd5e.p9CQYqWS7s4Abwqk]\",\"applyTrigger\":\"\",\"removeTrigger\":\"\",\"options\":{\"overlay\":false,\"removeOthers\":false,\"outputChat\":true,\"markDefeated\":false}},{\"id\":\"exhaustion-1\",\"name\":\"Exhaustion 1\",\"icon\":\"modules/combat-utility-belt/icons/exhaustion1.svg\",\"referenceType\":\"compendium.journalEntry\",\"compendium\":\"combat-utility-belt.conditionsdnd5e\",\"referenceId\":\"@Compendium[combat-utility-belt.conditionsdnd5e.4Z1Ins4wHUAWJal2]\",\"applyTrigger\":\"\",\"removeTrigger\":\"\",\"options\":{\"overlay\":false,\"removeOthers\":false,\"outputChat\":true,\"markDefeated\":false}},{\"id\":\"exhaustion-2\",\"name\":\"Exhaustion 2\",\"icon\":\"modules/combat-utility-belt/icons/exhaustion2.svg\",\"referenceType\":\"compendium.journalEntry\",\"compendium\":\"combat-utility-belt.conditionsdnd5e\",\"referenceId\":\"@Compendium[combat-utility-belt.conditionsdnd5e.4Z1Ins4wHUAWJal2]\",\"applyTrigger\":\"\",\"removeTrigger\":\"\",\"options\":{\"overlay\":false,\"removeOthers\":false,\"outputChat\":true,\"markDefeated\":false}},{\"id\":\"exhaustion-3\",\"name\":\"Exhaustion 3\",\"icon\":\"modules/combat-utility-belt/icons/exhaustion3.svg\",\"referenceType\":\"compendium.journalEntry\",\"compendium\":\"combat-utility-belt.conditionsdnd5e\",\"referenceId\":\"@Compendium[combat-utility-belt.conditionsdnd5e.4Z1Ins4wHUAWJal2]\",\"applyTrigger\":\"\",\"removeTrigger\":\"\",\"options\":{\"overlay\":false,\"removeOthers\":false,\"outputChat\":true,\"markDefeated\":false}},{\"id\":\"exhaustion-4\",\"name\":\"Exhaustion 4\",\"icon\":\"modules/combat-utility-belt/icons/exhaustion4.svg\",\"referenceType\":\"compendium.journalEntry\",\"compendium\":\"combat-utility-belt.conditionsdnd5e\",\"referenceId\":\"@Compendium[combat-utility-belt.conditionsdnd5e.4Z1Ins4wHUAWJal2]\",\"applyTrigger\":\"\",\"removeTrigger\":\"\",\"options\":{\"overlay\":false,\"removeOthers\":false,\"outputChat\":true,\"markDefeated\":false}},{\"id\":\"exhaustion-5\",\"name\":\"Exhaustion 5\",\"icon\":\"modules/combat-utility-belt/icons/exhaustion5.svg\",\"referenceType\":\"compendium.journalEntry\",\"compendium\":\"combat-utility-belt.conditionsdnd5e\",\"referenceId\":\"@Compendium[combat-utility-belt.conditionsdnd5e.4Z1Ins4wHUAWJal2]\",\"applyTrigger\":\"\",\"removeTrigger\":\"\",\"options\":{\"overlay\":false,\"removeOthers\":false,\"outputChat\":true,\"markDefeated\":false}},{\"id\":\"frightened\",\"name\":\"Frightened\",\"icon\":\"modules/combat-utility-belt/icons/frightened.svg\",\"referenceType\":\"compendium.journalEntry\",\"compendium\":\"combat-utility-belt.conditionsdnd5e\",\"referenceId\":\"@Compendium[combat-utility-belt.conditionsdnd5e.PTANb5kCweCv3Jna]\",\"applyTrigger\":\"\",\"removeTrigger\":\"\",\"options\":{\"overlay\":false,\"removeOthers\":false,\"outputChat\":true,\"markDefeated\":false}},{\"id\":\"grappled\",\"name\":\"Grappled\",\"icon\":\"modules/combat-utility-belt/icons/grappled.svg\",\"referenceType\":\"compendium.journalEntry\",\"compendium\":\"combat-utility-belt.conditionsdnd5e\",\"referenceId\":\"@Compendium[combat-utility-belt.conditionsdnd5e.qKqW3LJEQpJ7T3v8]\",\"applyTrigger\":\"\",\"removeTrigger\":\"\",\"options\":{\"overlay\":false,\"removeOthers\":false,\"outputChat\":true,\"markDefeated\":false}},{\"id\":\"incapacitated\",\"name\":\"Incapacitated\",\"icon\":\"modules/combat-utility-belt/icons/incapacitated.svg\",\"referenceType\":\"compendium.journalEntry\",\"compendium\":\"combat-utility-belt.conditionsdnd5e\",\"referenceId\":\"@Compendium[combat-utility-belt.conditionsdnd5e.hWk0QM9u7SUpd4BX]\",\"applyTrigger\":\"\",\"removeTrigger\":\"\",\"options\":{\"overlay\":false,\"removeOthers\":false,\"outputChat\":true,\"markDefeated\":false}},{\"id\":\"invisible\",\"name\":\"Invisible\",\"icon\":\"modules/combat-utility-belt/icons/invisible.svg\",\"referenceType\":\"compendium.journalEntry\",\"compendium\":\"combat-utility-belt.conditionsdnd5e\",\"referenceId\":\"@Compendium[combat-utility-belt.conditionsdnd5e.pSvtps6WHVAuWh9l]\",\"applyTrigger\":\"\",\"removeTrigger\":\"\",\"options\":{\"overlay\":false,\"removeOthers\":false,\"outputChat\":true,\"markDefeated\":false}},{\"id\":\"paralyzed\",\"name\":\"Paralyzed\",\"icon\":\"modules/combat-utility-belt/icons/paralyzed.svg\",\"referenceType\":\"compendium.journalEntry\",\"compendium\":\"combat-utility-belt.conditionsdnd5e\",\"referenceId\":\"@Compendium[combat-utility-belt.conditionsdnd5e.o5oZVdHSWmceeFyx]\",\"applyTrigger\":\"\",\"removeTrigger\":\"\",\"options\":{\"overlay\":false,\"removeOthers\":false,\"outputChat\":true,\"markDefeated\":false}},{\"id\":\"petrified\",\"name\":\"Petrified\",\"icon\":\"modules/combat-utility-belt/icons/petrified.svg\",\"referenceType\":\"compendium.journalEntry\",\"compendium\":\"combat-utility-belt.conditionsdnd5e\",\"referenceId\":\"@Compendium[combat-utility-belt.conditionsdnd5e.KaKNDyLeWRGqpBlc]\",\"applyTrigger\":\"\",\"removeTrigger\":\"\",\"options\":{\"overlay\":false,\"removeOthers\":false,\"outputChat\":true,\"markDefeated\":false}},{\"id\":\"poisoned\",\"name\":\"Poisoned\",\"icon\":\"modules/combat-utility-belt/icons/poisoned.svg\",\"referenceType\":\"compendium.journalEntry\",\"compendium\":\"combat-utility-belt.conditionsdnd5e\",\"referenceId\":\"@Compendium[combat-utility-belt.conditionsdnd5e.eJQ3ve6RTdjbNGEz]\",\"applyTrigger\":\"\",\"removeTrigger\":\"\",\"options\":{\"overlay\":false,\"removeOthers\":false,\"outputChat\":true,\"markDefeated\":false}},{\"id\":\"prone\",\"name\":\"Prone\",\"icon\":\"modules/combat-utility-belt/icons/prone.svg\",\"referenceType\":\"compendium.journalEntry\",\"compendium\":\"combat-utility-belt.conditionsdnd5e\",\"referenceId\":\"@Compendium[combat-utility-belt.conditionsdnd5e.ekm4TUHKT3QUPdPv]\",\"applyTrigger\":\"\",\"removeTrigger\":\"\",\"options\":{\"overlay\":false,\"removeOthers\":false,\"outputChat\":true,\"markDefeated\":false}},{\"id\":\"restrained\",\"name\":\"Restrained\",\"icon\":\"modules/combat-utility-belt/icons/restrained.svg\",\"referenceType\":\"compendium.journalEntry\",\"compendium\":\"combat-utility-belt.conditionsdnd5e\",\"referenceId\":\"@Compendium[combat-utility-belt.conditionsdnd5e.0mkU8eksNfwd1AZY]\",\"applyTrigger\":\"\",\"removeTrigger\":\"\",\"options\":{\"overlay\":false,\"removeOthers\":false,\"outputChat\":true,\"markDefeated\":false}},{\"id\":\"stunned\",\"name\":\"Stunned\",\"icon\":\"modules/combat-utility-belt/icons/stunned.svg\",\"referenceType\":\"compendium.journalEntry\",\"compendium\":\"combat-utility-belt.conditionsdnd5e\",\"referenceId\":\"@Compendium[combat-utility-belt.conditionsdnd5e.IDLJEkgkdcnljtEW]\",\"applyTrigger\":\"\",\"removeTrigger\":\"\",\"options\":{\"overlay\":false,\"removeOthers\":false,\"outputChat\":true,\"markDefeated\":false}},{\"id\":\"unconscious\",\"name\":\"Unconscious\",\"icon\":\"icons/svg/unconscious.svg\",\"referenceType\":\"compendium.journalEntry\",\"compendium\":\"combat-utility-belt.conditionsdnd5e\",\"referenceId\":\"@Compendium[combat-utility-belt.conditionsdnd5e.S499QUmXTVx81wk8]\",\"applyTrigger\":\"n4hqrzqr8b7wo0qt\",\"removeTrigger\":\"shockwwwxa65sqrq\",\"options\":{\"overlay\":true,\"removeOthers\":false,\"outputChat\":true,\"markDefeated\":false}},{\"id\":\"dead\",\"name\":\"Dead\",\"icon\":\"icons/svg/skull.svg\",\"referenceType\":\"journalEntry\",\"referenceId\":\"\",\"applyTrigger\":\"hvolv96e6f6pxkx6\",\"removeTrigger\":\"lxcupz17p78xtqc1\",\"options\":{\"overlay\":true,\"removeOthers\":false,\"outputChat\":true,\"markDefeated\":true}},{\"id\":\"fury-of-the-small\",\"name\":\"Fury of the Small\",\"icon\":\"systems/dnd5e/icons/skills/yellow_20.jpg\",\"referenceType\":\"compendium.journalEntry\",\"compendium\":\"CustomSharedCompendiums.custom-conditions\",\"referenceId\":\"@Compendium[CustomSharedCompendiums.custom-conditions.fIxqCT8MY5KdAOJs]\",\"applyTrigger\":\"\",\"removeTrigger\":\"\",\"options\":{\"overlay\":false,\"removeOthers\":false,\"outputChat\":true,\"markDefeated\":false}},{\"id\":\"hexblade's-curse\",\"name\":\"Hexblade's Curse\",\"icon\":\"systems/dnd5e/icons/skills/affliction_08.jpg\",\"referenceType\":\"compendium.journalEntry\",\"compendium\":\"CustomSharedCompendiums.custom-conditions\",\"referenceId\":\"@Compendium[CustomSharedCompendiums.custom-conditions.9icSXxrl1adH5yNO]\",\"applyTrigger\":\"\",\"removeTrigger\":\"\",\"options\":{\"overlay\":false,\"removeOthers\":false,\"outputChat\":true,\"markDefeated\":false}},{\"id\":\"flames-of-phlegethos\",\"name\":\"Flames of Phlegethos\",\"icon\":\"systems/dnd5e/icons/skills/fire_11.jpg\",\"referenceType\":\"compendium.journalEntry\",\"compendium\":\"CustomSharedCompendiums.custom-conditions\",\"referenceId\":\"@Compendium[CustomSharedCompendiums.custom-conditions.L7eMxbjJnsXHjvJ6]\",\"applyTrigger\":\"\",\"removeTrigger\":\"\",\"options\":{\"overlay\":false,\"removeOthers\":false,\"outputChat\":true,\"markDefeated\":false}},{\"id\":\"hunter's-mark\",\"name\":\"Hunter's Mark\",\"icon\":\"systems/dnd5e/icons/spells/evil-eye-red-1.jpg\",\"referenceType\":\"compendium.journalEntry\",\"compendium\":\"CustomSharedCompendiums.custom-conditions\",\"referenceId\":\"@Compendium[CustomSharedCompendiums.custom-conditions.fjIUyTQycl5ZRD15]\",\"applyTrigger\":\"\",\"removeTrigger\":\"\",\"activeEffect\":{},\"options\":{\"overlay\":false,\"removeOthers\":false,\"outputChat\":true,\"markDefeated\":false}},{\"id\":\"reactionless\",\"name\":\"Reactionless\",\"icon\":\"icons/svg/downgrade.svg\",\"referenceType\":\"journalEntry\",\"referenceId\":\"\",\"applyTrigger\":\"\",\"removeTrigger\":\"\",\"activeEffect\":null,\"options\":{\"overlay\":false,\"removeOthers\":false,\"outputChat\":true,\"markDefeated\":false}}]"
+    "value": "[{\"id\":\"blinded\",\"name\":\"Blinded\",\"icon\":\"modules/combat-utility-belt/icons/blinded.svg\",\"referenceType\":\"compendium.journalEntry\",\"compendium\":\"combat-utility-belt.conditionsdnd5e\",\"referenceId\":\"@Compendium[combat-utility-belt.conditionsdnd5e.oScVqOHJt5SQszVl]\",\"applyTrigger\":\"\",\"removeTrigger\":\"\",\"options\":{\"overlay\":false,\"removeOthers\":false,\"outputChat\":true,\"markDefeated\":false}},{\"id\":\"charmed\",\"name\":\"Charmed\",\"icon\":\"modules/combat-utility-belt/icons/charmed.svg\",\"referenceType\":\"compendium.journalEntry\",\"compendium\":\"combat-utility-belt.conditionsdnd5e\",\"referenceId\":\"@Compendium[combat-utility-belt.conditionsdnd5e.UWlXFfSX95JVWrYs]\",\"applyTrigger\":\"\",\"removeTrigger\":\"\",\"options\":{\"overlay\":false,\"removeOthers\":false,\"outputChat\":true,\"markDefeated\":false}},{\"id\":\"concentrating\",\"name\":\"Concentrating\",\"icon\":\"modules/combat-utility-belt/icons/concentrating.svg\",\"referenceType\":\"compendium.journalEntry\",\"compendium\":\"combat-utility-belt.conditionsdnd5e\",\"referenceId\":\"@Compendium[combat-utility-belt.conditionsdnd5e.nSoKejZfahbxfggp]\",\"applyTrigger\":\"\",\"removeTrigger\":\"\",\"options\":{\"overlay\":false,\"removeOthers\":false,\"outputChat\":true,\"markDefeated\":false}},{\"id\":\"deafened\",\"name\":\"Deafened\",\"icon\":\"modules/combat-utility-belt/icons/deafened.svg\",\"referenceType\":\"compendium.journalEntry\",\"compendium\":\"combat-utility-belt.conditionsdnd5e\",\"referenceId\":\"@Compendium[combat-utility-belt.conditionsdnd5e.p9CQYqWS7s4Abwqk]\",\"applyTrigger\":\"\",\"removeTrigger\":\"\",\"options\":{\"overlay\":false,\"removeOthers\":false,\"outputChat\":true,\"markDefeated\":false}},{\"id\":\"exhaustion-1\",\"name\":\"Exhaustion 1\",\"icon\":\"modules/combat-utility-belt/icons/exhaustion1.svg\",\"referenceType\":\"compendium.journalEntry\",\"compendium\":\"combat-utility-belt.conditionsdnd5e\",\"referenceId\":\"@Compendium[combat-utility-belt.conditionsdnd5e.4Z1Ins4wHUAWJal2]\",\"applyTrigger\":\"\",\"removeTrigger\":\"\",\"options\":{\"overlay\":false,\"removeOthers\":false,\"outputChat\":true,\"markDefeated\":false}},{\"id\":\"exhaustion-2\",\"name\":\"Exhaustion 2\",\"icon\":\"modules/combat-utility-belt/icons/exhaustion2.svg\",\"referenceType\":\"compendium.journalEntry\",\"compendium\":\"combat-utility-belt.conditionsdnd5e\",\"referenceId\":\"@Compendium[combat-utility-belt.conditionsdnd5e.4Z1Ins4wHUAWJal2]\",\"applyTrigger\":\"\",\"removeTrigger\":\"\",\"options\":{\"overlay\":false,\"removeOthers\":false,\"outputChat\":true,\"markDefeated\":false}},{\"id\":\"exhaustion-3\",\"name\":\"Exhaustion 3\",\"icon\":\"modules/combat-utility-belt/icons/exhaustion3.svg\",\"referenceType\":\"compendium.journalEntry\",\"compendium\":\"combat-utility-belt.conditionsdnd5e\",\"referenceId\":\"@Compendium[combat-utility-belt.conditionsdnd5e.4Z1Ins4wHUAWJal2]\",\"applyTrigger\":\"\",\"removeTrigger\":\"\",\"options\":{\"overlay\":false,\"removeOthers\":false,\"outputChat\":true,\"markDefeated\":false}},{\"id\":\"exhaustion-4\",\"name\":\"Exhaustion 4\",\"icon\":\"modules/combat-utility-belt/icons/exhaustion4.svg\",\"referenceType\":\"compendium.journalEntry\",\"compendium\":\"combat-utility-belt.conditionsdnd5e\",\"referenceId\":\"@Compendium[combat-utility-belt.conditionsdnd5e.4Z1Ins4wHUAWJal2]\",\"applyTrigger\":\"\",\"removeTrigger\":\"\",\"options\":{\"overlay\":false,\"removeOthers\":false,\"outputChat\":true,\"markDefeated\":false}},{\"id\":\"exhaustion-5\",\"name\":\"Exhaustion 5\",\"icon\":\"modules/combat-utility-belt/icons/exhaustion5.svg\",\"referenceType\":\"compendium.journalEntry\",\"compendium\":\"combat-utility-belt.conditionsdnd5e\",\"referenceId\":\"@Compendium[combat-utility-belt.conditionsdnd5e.4Z1Ins4wHUAWJal2]\",\"applyTrigger\":\"\",\"removeTrigger\":\"\",\"options\":{\"overlay\":false,\"removeOthers\":false,\"outputChat\":true,\"markDefeated\":false}},{\"id\":\"frightened\",\"name\":\"Frightened\",\"icon\":\"modules/combat-utility-belt/icons/frightened.svg\",\"referenceType\":\"compendium.journalEntry\",\"compendium\":\"combat-utility-belt.conditionsdnd5e\",\"referenceId\":\"@Compendium[combat-utility-belt.conditionsdnd5e.PTANb5kCweCv3Jna]\",\"applyTrigger\":\"\",\"removeTrigger\":\"\",\"options\":{\"overlay\":false,\"removeOthers\":false,\"outputChat\":true,\"markDefeated\":false}},{\"id\":\"grappled\",\"name\":\"Grappled\",\"icon\":\"modules/combat-utility-belt/icons/grappled.svg\",\"referenceType\":\"compendium.journalEntry\",\"compendium\":\"combat-utility-belt.conditionsdnd5e\",\"referenceId\":\"@Compendium[combat-utility-belt.conditionsdnd5e.qKqW3LJEQpJ7T3v8]\",\"applyTrigger\":\"\",\"removeTrigger\":\"\",\"options\":{\"overlay\":false,\"removeOthers\":false,\"outputChat\":true,\"markDefeated\":false}},{\"id\":\"incapacitated\",\"name\":\"Incapacitated\",\"icon\":\"modules/combat-utility-belt/icons/incapacitated.svg\",\"referenceType\":\"compendium.journalEntry\",\"compendium\":\"combat-utility-belt.conditionsdnd5e\",\"referenceId\":\"@Compendium[combat-utility-belt.conditionsdnd5e.hWk0QM9u7SUpd4BX]\",\"applyTrigger\":\"\",\"removeTrigger\":\"\",\"options\":{\"overlay\":false,\"removeOthers\":false,\"outputChat\":true,\"markDefeated\":false}},{\"id\":\"invisible\",\"name\":\"Invisible\",\"icon\":\"modules/combat-utility-belt/icons/invisible.svg\",\"referenceType\":\"compendium.journalEntry\",\"compendium\":\"combat-utility-belt.conditionsdnd5e\",\"referenceId\":\"@Compendium[combat-utility-belt.conditionsdnd5e.pSvtps6WHVAuWh9l]\",\"applyTrigger\":\"\",\"removeTrigger\":\"\",\"options\":{\"overlay\":false,\"removeOthers\":false,\"outputChat\":true,\"markDefeated\":false}},{\"id\":\"paralyzed\",\"name\":\"Paralyzed\",\"icon\":\"modules/combat-utility-belt/icons/paralyzed.svg\",\"referenceType\":\"compendium.journalEntry\",\"compendium\":\"combat-utility-belt.conditionsdnd5e\",\"referenceId\":\"@Compendium[combat-utility-belt.conditionsdnd5e.o5oZVdHSWmceeFyx]\",\"applyTrigger\":\"\",\"removeTrigger\":\"\",\"options\":{\"overlay\":false,\"removeOthers\":false,\"outputChat\":true,\"markDefeated\":false}},{\"id\":\"petrified\",\"name\":\"Petrified\",\"icon\":\"modules/combat-utility-belt/icons/petrified.svg\",\"referenceType\":\"compendium.journalEntry\",\"compendium\":\"combat-utility-belt.conditionsdnd5e\",\"referenceId\":\"@Compendium[combat-utility-belt.conditionsdnd5e.KaKNDyLeWRGqpBlc]\",\"applyTrigger\":\"\",\"removeTrigger\":\"\",\"options\":{\"overlay\":false,\"removeOthers\":false,\"outputChat\":true,\"markDefeated\":false}},{\"id\":\"poisoned\",\"name\":\"Poisoned\",\"icon\":\"modules/combat-utility-belt/icons/poisoned.svg\",\"referenceType\":\"compendium.journalEntry\",\"compendium\":\"combat-utility-belt.conditionsdnd5e\",\"referenceId\":\"@Compendium[combat-utility-belt.conditionsdnd5e.eJQ3ve6RTdjbNGEz]\",\"applyTrigger\":\"\",\"removeTrigger\":\"\",\"options\":{\"overlay\":false,\"removeOthers\":false,\"outputChat\":true,\"markDefeated\":false}},{\"id\":\"prone\",\"name\":\"Prone\",\"icon\":\"modules/combat-utility-belt/icons/prone.svg\",\"referenceType\":\"compendium.journalEntry\",\"compendium\":\"combat-utility-belt.conditionsdnd5e\",\"referenceId\":\"@Compendium[combat-utility-belt.conditionsdnd5e.ekm4TUHKT3QUPdPv]\",\"applyTrigger\":\"\",\"removeTrigger\":\"\",\"options\":{\"overlay\":false,\"removeOthers\":false,\"outputChat\":true,\"markDefeated\":false}},{\"id\":\"restrained\",\"name\":\"Restrained\",\"icon\":\"modules/combat-utility-belt/icons/restrained.svg\",\"referenceType\":\"compendium.journalEntry\",\"compendium\":\"combat-utility-belt.conditionsdnd5e\",\"referenceId\":\"@Compendium[combat-utility-belt.conditionsdnd5e.0mkU8eksNfwd1AZY]\",\"applyTrigger\":\"\",\"removeTrigger\":\"\",\"options\":{\"overlay\":false,\"removeOthers\":false,\"outputChat\":true,\"markDefeated\":false}},{\"id\":\"stunned\",\"name\":\"Stunned\",\"icon\":\"modules/combat-utility-belt/icons/stunned.svg\",\"referenceType\":\"compendium.journalEntry\",\"compendium\":\"combat-utility-belt.conditionsdnd5e\",\"referenceId\":\"@Compendium[combat-utility-belt.conditionsdnd5e.IDLJEkgkdcnljtEW]\",\"applyTrigger\":\"\",\"removeTrigger\":\"\",\"options\":{\"overlay\":false,\"removeOthers\":false,\"outputChat\":true,\"markDefeated\":false}},{\"id\":\"unconscious\",\"name\":\"Unconscious\",\"icon\":\"icons/svg/unconscious.svg\",\"referenceType\":\"compendium.journalEntry\",\"compendium\":\"combat-utility-belt.conditionsdnd5e\",\"referenceId\":\"@Compendium[combat-utility-belt.conditionsdnd5e.S499QUmXTVx81wk8]\",\"applyTrigger\":\"n4hqrzqr8b7wo0qt\",\"removeTrigger\":\"shockwwwxa65sqrq\",\"options\":{\"overlay\":true,\"removeOthers\":false,\"outputChat\":true,\"markDefeated\":false}},{\"id\":\"dead\",\"name\":\"Dead\",\"icon\":\"icons/svg/skull.svg\",\"referenceType\":\"journalEntry\",\"referenceId\":\"\",\"applyTrigger\":\"hvolv96e6f6pxkx6\",\"removeTrigger\":\"lxcupz17p78xtqc1\",\"options\":{\"overlay\":true,\"removeOthers\":false,\"outputChat\":true,\"markDefeated\":true}},{\"id\":\"fury-of-the-small\",\"name\":\"Fury of the Small\",\"icon\":\"systems/dnd5e/icons/skills/yellow_20.jpg\",\"referenceType\":\"compendium.journalEntry\",\"compendium\":\"CustomSharedCompendiums.custom-conditions\",\"referenceId\":\"@Compendium[CustomSharedCompendiums.custom-conditions.fIxqCT8MY5KdAOJs]\",\"applyTrigger\":\"\",\"removeTrigger\":\"\",\"options\":{\"overlay\":false,\"removeOthers\":false,\"outputChat\":true,\"markDefeated\":false}},{\"id\":\"hexblade's-curse\",\"name\":\"Hexblade's Curse\",\"icon\":\"systems/dnd5e/icons/skills/affliction_08.jpg\",\"referenceType\":\"compendium.journalEntry\",\"compendium\":\"CustomSharedCompendiums.custom-conditions\",\"referenceId\":\"@Compendium[CustomSharedCompendiums.custom-conditions.9icSXxrl1adH5yNO]\",\"applyTrigger\":\"\",\"removeTrigger\":\"\",\"options\":{\"overlay\":false,\"removeOthers\":false,\"outputChat\":true,\"markDefeated\":false}},{\"id\":\"flames-of-phlegethos\",\"name\":\"Flames of Phlegethos\",\"icon\":\"systems/dnd5e/icons/skills/fire_11.jpg\",\"referenceType\":\"compendium.journalEntry\",\"compendium\":\"CustomSharedCompendiums.custom-conditions\",\"referenceId\":\"@Compendium[CustomSharedCompendiums.custom-conditions.L7eMxbjJnsXHjvJ6]\",\"applyTrigger\":\"\",\"removeTrigger\":\"\",\"options\":{\"overlay\":false,\"removeOthers\":false,\"outputChat\":true,\"markDefeated\":false}},{\"id\":\"hunter's-mark\",\"name\":\"Hunter's Mark\",\"icon\":\"systems/dnd5e/icons/spells/evil-eye-red-1.jpg\",\"referenceType\":\"compendium.journalEntry\",\"compendium\":\"CustomSharedCompendiums.custom-conditions\",\"referenceId\":\"@Compendium[CustomSharedCompendiums.custom-conditions.fjIUyTQycl5ZRD15]\",\"applyTrigger\":\"\",\"removeTrigger\":\"\",\"activeEffect\":{},\"options\":{\"overlay\":false,\"removeOthers\":false,\"outputChat\":true,\"markDefeated\":false}},{\"id\":\"reactionless\",\"name\":\"Reactionless\",\"icon\":\"icons/svg/downgrade.svg\",\"referenceType\":\"journalEntry\",\"referenceId\":\"\",\"applyTrigger\":\"\",\"removeTrigger\":\"\",\"activeEffect\":null,\"options\":{\"overlay\":false,\"removeOthers\":false,\"outputChat\":true,\"markDefeated\":false}},{\"id\":\"darkness\",\"name\":\"Darkness\",\"icon\":\"systems/dnd5e/icons/spells/evil-eye-red-2.jpg\",\"referenceType\":\"journalEntry\",\"referenceId\":\"\",\"applyTrigger\":\"\",\"removeTrigger\":\"\",\"activeEffect\":null,\"options\":{\"overlay\":false,\"removeOthers\":false,\"outputChat\":true,\"markDefeated\":false}},{\"id\":\"bladesong\",\"name\":\"Bladesong\",\"icon\":\"systems/dnd5e/icons/skills/weapon_01.jpg\",\"referenceType\":\"compendium.journalEntry\",\"compendium\":\"CustomSharedCompendiums.custom-conditions\",\"referenceId\":\"\",\"applyTrigger\":\"\",\"removeTrigger\":\"\",\"activeEffect\":null,\"options\":{\"overlay\":false,\"removeOthers\":false,\"outputChat\":true,\"markDefeated\":false}}]"
   },
   {
     "key": "combat-utility-belt.concentratorOutputToChat",
@@ -636,6 +732,10 @@
     "value": "\"#990000\""
   },
   {
+    "key": "itemacro.charsheet",
+    "value": "true"
+  },
+  {
     "key": "playlist_import.shouldStream",
     "value": "true"
   },
@@ -660,8 +760,12 @@
     "value": "\"both\""
   },
   {
+    "key": "ddb-importer.beta-key",
+    "value": "\"\""
+  },
+  {
     "key": "ddb-importer.entity-item-compendium",
-    "value": "\"world.ddb-this-isnt-working-out-items\""
+    "value": "\"CustomSharedCompendiums.all-ddb-items\""
   },
   {
     "key": "mountup.rider-x",
@@ -716,6 +820,10 @@
     "value": "\"Reactionless\""
   },
   {
+    "key": "scene-viewer.rightClick",
+    "value": "true"
+  },
+  {
     "key": "dnd5e-helpers.wmTableName",
     "value": "\"Wild Magic Surges\""
   },
@@ -728,6 +836,10 @@
     "value": "[\"CustomSharedCompendiums.all-ddb-spells\",\"CustomSharedCompendiums.custom-class-features\",\"CustomSharedCompendiums.playlists\",\"CustomSharedCompendiums.macros\",\"world.this-isnt-working-out-ddb-spells\",\"world.this-isnt-working-out-ddb-items\",\"world.this-isnt-working-out-ddb-features\",\"world.this-isnt-working-out-ddb-monsters\",\"world.this-isnt-working-out-ddb-monster-features\",\"world.critterdb-MyCritters\",\"CustomSharedCompendiums.forest-scenes\",\"CustomSharedCompendiums.backgrounds-scenes\",\"CustomSharedCompendiums.mountain-scenes\",\"world.ddb-this-isnt-working-out-spells\",\"world.ddb-this-isnt-working-out-items\",\"world.ddb-this-isnt-working-out-features\",\"world.ddb-this-isnt-working-out-monsters\",\"CustomSharedCompendiums.city-scenes\",\"world.ddb-this-isnt-working-out-classes\",\"world.ddb-this-isnt-working-out-racial-traits\",\"world.ddb-this-isnt-working-out-races\",\"world.ddb-this-isnt-working-out-feats\",\"CustomSharedCompendiums.custom-conditions\"]"
   },
   {
+    "key": "monks-little-details.add-extra-statuses",
+    "value": "false"
+  },
+  {
     "key": "forien-quest-log.availableQuests",
     "value": "true"
   },
@@ -736,12 +848,24 @@
     "value": "true"
   },
   {
+    "key": "ddb-importer.patreon-tier",
+    "value": "null"
+  },
+  {
     "key": "tidy5e-sheet.alwaysShowQuantity",
     "value": "true"
   },
   {
+    "key": "token-attacher.data-model-version",
+    "value": "3"
+  },
+  {
     "key": "dnd5e-helpers.cbtReactionEnable",
     "value": "\"3\""
+  },
+  {
+    "key": "ddb-importer.campaign-id",
+    "value": "\"\""
   },
   {
     "key": "mountup.topbottom",
@@ -781,11 +905,19 @@
   },
   {
     "key": "ddb-importer.entity-feat-compendium",
-    "value": "\"world.ddb-this-isnt-working-out-feats\""
+    "value": "\"CustomSharedCompendiums.all-ddb-feats\""
+  },
+  {
+    "key": "drag-ruler.speedProviders.native.setting.dashMultiplier",
+    "value": "2"
   },
   {
     "key": "turnmarker.turnmarker-enabled",
     "value": "true"
+  },
+  {
+    "key": "monks-little-details.token-combat-highlight",
+    "value": "false"
   },
   {
     "key": "betterrolls5e.d20Mode",
@@ -808,6 +940,10 @@
     "value": "false"
   },
   {
+    "key": "itemacro.hotbar",
+    "value": "true"
+  },
+  {
     "key": "TokenHotbar.linkToActor",
     "value": "true"
   },
@@ -822,6 +958,10 @@
   {
     "key": "mountup.column",
     "value": "\"1\""
+  },
+  {
+    "key": "ddb-importer.cobalt-cookie",
+    "value": "\"eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2In0..ri4fjVZ7DzE7B6_fV4pU3g.W0oPhIuEU4qsQ0KBF6N3dvGf4JiWwG-AKX8ZLdadhJ4yRNrnSFOhEPxkZ-CrQUTS.x6xhBmlJB2c5yq0UWv47EA\""
   },
   {
     "key": "combat-utility-belt.conditionsSuppressPreventativeSaveReminder",
@@ -940,11 +1080,19 @@
     "value": "\"edit\""
   },
   {
+    "key": "drag-ruler.dataVersion",
+    "value": "\"1.3.0\""
+  },
+  {
     "key": "furnace.tokenIgnoreVision",
     "value": "false"
   },
   {
     "key": "mwpm.reverse",
     "value": "true"
+  },
+  {
+    "key": "ddb-importer.auto-create-compendium",
+    "value": "false"
   }
 ]

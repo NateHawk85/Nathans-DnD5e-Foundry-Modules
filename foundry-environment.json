@@ -30,14 +30,15 @@
     },
     {
       "id": "Dynamic-Effects-SRD",
-      "version": "4.1.07",
+      "version": "4.1.08",
       "author": "Kandashi",
       "manifest": "https://raw.githubusercontent.com/kandashi/Dynamic-Effects-SRD/master/module.json"
     },
     {
-      "id": "ShowDragDistance",
-      "version": "2.2.3",
-      "manifest": "https://raw.githubusercontent.com/wsaunders1014/ShowDragDistance/master/module.json"
+      "id": "Next-Up",
+      "version": "0.0.51",
+      "author": "Kandashi",
+      "manifest": "https://raw.githubusercontent.com/kandashi/Next-Up/main/module.json"
     },
     {
       "id": "TokenHotbar",
@@ -65,6 +66,12 @@
       "manifest": "https://gitlab.com/tposney/about-time/raw/master/package/module.json"
     },
     {
+      "id": "autocomplete-inline-properties",
+      "version": "1.2.0",
+      "author": "Cole Schultz (cole#9640)",
+      "manifest": "https://raw.githubusercontent.com/schultzcole/FVTT-Autocomplete-Inline-Properties/master/module.json"
+    },
+    {
       "id": "autocomplete-whisper",
       "version": "0.3.3",
       "author": "orcnog",
@@ -83,16 +90,16 @@
       "manifest": "https://github.com/ElfFriend-DnD/foundryvtt-dnd5eCharacterActions/releases/latest/download/module.json"
     },
     {
+      "id": "chat-images",
+      "version": "2.5.0",
+      "author": "bmarian",
+      "manifest": "https://github.com/bmarian/chat-images/releases/latest/download/module.json"
+    },
+    {
       "id": "chat-portrait",
       "version": "0.2.1",
       "author": "Shoyu Vanilla",
       "manifest": "https://github.com/ShoyuVanilla/FoundryVTT-Chat-Portrait/releases/latest/download/module.json"
-    },
-    {
-      "id": "chatdamagebuttons-beyond20",
-      "version": "1.1.2",
-      "author": "Victor Ling <victorling@ionshard.com> (http://ionshard.com)",
-      "manifest": "https://gitlab.com/Ionshard/foundry-vtt-chatdamagebuttons-beyond20/-/jobs/artifacts/master/raw/module.json?job=build-module"
     },
     {
       "id": "colorsettings",
@@ -137,11 +144,6 @@
       "manifest": "https://github.com/gludington/conditional-visibility/releases/download/v0.0.9/module.json"
     },
     {
-      "id": "critterdb-import",
-      "version": "1.0.2",
-      "manifest": "https://github.com/jwinget/fvtt-module-critterdb-import/releases/download/1.0.2/module.json"
-    },
-    {
       "id": "custom-hotbar",
       "version": "2.0.6",
       "author": "Norc",
@@ -155,7 +157,7 @@
     },
     {
       "id": "dae",
-      "version": "0.2.49",
+      "version": "0.2.50",
       "author": "tposney",
       "manifest": "https://gitlab.com/tposney/dae/raw/master/package/module.json"
     },
@@ -170,6 +172,18 @@
       "version": "0.4.13",
       "author": "MrPrimate",
       "manifest": "https://github.com/mrprimate/ddb-importer/releases/download/latest/module.json"
+    },
+    {
+      "id": "df-curvy-walls",
+      "version": "1.3.4",
+      "author": "flamewave000#6766",
+      "manifest": "https://dragonflagon.cafe/mods/man/df-curvy-walls"
+    },
+    {
+      "id": "df-settings-clarity",
+      "version": "2.1.4",
+      "author": "flamewave000#6766",
+      "manifest": "https://dragonflagon.cafe/mods/man/df-settings-clarity"
     },
     {
       "id": "dice-so-nice",
@@ -193,6 +207,11 @@
       "version": "1.6.3",
       "author": "Jan Ole Peek (ChalkOne)",
       "manifest": "https://raw.githubusercontent.com/jopeek/fvtt-dndbeyond-character-sheet/master/module.json"
+    },
+    {
+      "id": "drag-ruler",
+      "version": "1.3.1",
+      "manifest": "https://raw.githubusercontent.com/manuelVo/foundryvtt-drag-ruler/master/module.json"
     },
     {
       "id": "easy-target",
@@ -254,10 +273,22 @@
       "manifest": "https://raw.githubusercontent.com/zeel01/input-expressions/master/module.json"
     },
     {
+      "id": "itemacro",
+      "version": "v1.3.2",
+      "author": "Kekilla#7036",
+      "manifest": "https://github.com/Kekilla0/Item-Macro/raw/master/module.json"
+    },
+    {
       "id": "itemcollection",
       "version": "1.3.22",
       "author": "tposney",
       "manifest": "https://gitlab.com/tposney/itemcollection/raw/master/module.json"
+    },
+    {
+      "id": "journal-icon-numbers",
+      "version": "v1.2.1",
+      "author": "Chris Flanagan <tiwato@gmail.com>",
+      "manifest": "https://gitlab.com/tiwato/journal_icon_numbers/raw/master/module.json"
     },
     {
       "id": "lessfog",
@@ -290,6 +321,12 @@
       "manifest": "https://raw.githubusercontent.com/earlSt1/vtt-macro-folders/master/module.json"
     },
     {
+      "id": "macroeditor",
+      "version": "1.0.6",
+      "author": "ardittristan#0001",
+      "manifest": "https://raw.githubusercontent.com/ardittristan/VTTMacroEditor/master/module.json"
+    },
+    {
       "id": "magicitems",
       "version": "2.0.8",
       "author": "Simone",
@@ -302,28 +339,28 @@
       "manifest": "https://gitlab.com/tposney/midi-qol/raw/master/package/module.json"
     },
     {
+      "id": "monks-little-details",
+      "version": "1.0.14",
+      "author": "IronMonk, ironmonk88#4075",
+      "manifest": "https://github.com/ironmonk88/monks-little-details/releases/latest/download/module.json"
+    },
+    {
+      "id": "monks-scene-navigation",
+      "version": "1.0.5",
+      "author": "IronMonk, ironmonk88#4075",
+      "manifest": "https://raw.githubusercontent.com/ironmonk88/monks-scene-navigation/master/module.json"
+    },
+    {
       "id": "multilevel-tokens",
       "version": "1.3.4",
       "author": "grandseiken",
       "manifest": "https://raw.githubusercontent.com/grandseiken/foundryvtt-multilevel-tokens/master/module.json"
     },
     {
-      "id": "mwpm",
-      "version": "0.4.0",
-      "author": "Reaver01",
-      "manifest": "https://raw.githubusercontent.com/reaver01/mwpm/master/module.json"
-    },
-    {
-      "id": "navbar-tweaks",
-      "version": "1.0.4.4",
-      "author": "Rui Pinheiro",
-      "manifest": "https://github.com/ruipin/fvtt-navbar-tweaks/releases/latest/download/module.json"
-    },
-    {
-      "id": "npcgen",
-      "version": "0.4.0",
-      "author": "ardittristan#0001",
-      "manifest": "https://raw.githubusercontent.com/ardittristan/VTTNPCGen/master/module.json"
+      "id": "party-overview",
+      "version": "2.4.2",
+      "author": "Sebastian Will (vttassets@gmail.com), Chris Wachal (Zamrod#9326)",
+      "manifest": "https://github.com/League-of-Foundry-Developers/party-overview/releases/latest/download/module.json"
     },
     {
       "id": "perfect-vision",
@@ -377,6 +414,12 @@
       "manifest": "https://raw.githubusercontent.com/kakaroto/fvtt-module-popout/master/module.json"
     },
     {
+      "id": "quick-encounters",
+      "version": "0.7.3",
+      "author": "Spetzel",
+      "manifest": "https://github.com/spetzel2020/quick-encounters/releases/download/latest/module.json"
+    },
+    {
       "id": "quick-insert",
       "version": "2.4.4",
       "author": "Sunspots",
@@ -387,6 +430,12 @@
       "version": "0.1.1",
       "author": "Vance",
       "manifest": "https://raw.githubusercontent.com/VanceCole/roofs/master/module.json"
+    },
+    {
+      "id": "scene-viewer",
+      "version": "0.2.0",
+      "author": "BadIdeasBureau",
+      "manifest": "https://github.com/BadIdeasBureau/scene-viewer/releases/latest/download/module.json"
     },
     {
       "id": "simple-dice-roller",
@@ -419,6 +468,12 @@
       "manifest": "https://github.com/espositos/fvtt-tokenactionhud/raw/master/module.json"
     },
     {
+      "id": "token-attacher",
+      "version": "4.0.1",
+      "author": "KayelGee - KayelGee#5241",
+      "manifest": "https://raw.githubusercontent.com/KayelGee/token-attacher/master/module.json"
+    },
+    {
       "id": "token-auras",
       "version": "1.8",
       "author": "Kim Mantas",
@@ -443,16 +498,16 @@
       "manifest": "https://raw.githubusercontent.com/Moerill/token-mold/master/module.json"
     },
     {
+      "id": "trigger-happy",
+      "version": "0.8.1",
+      "author": "KaKaRoTo, tposney",
+      "manifest": "https://raw.githubusercontent.com/kakaroto/fvtt-module-trigger-happy/master/module.json"
+    },
+    {
       "id": "turnAlert",
       "version": "1.5.1",
       "author": "Cole Schultz (cole#9640)",
       "manifest": "https://raw.githubusercontent.com/schultzcole/FVTT-Turn-Alert/master/module.json"
-    },
-    {
-      "id": "turnmarker",
-      "version": "2.6.9",
-      "author": "Brunhine",
-      "manifest": "https://raw.githubusercontent.com/Brunhine/TurnMarker/master/src/module.json"
     },
     {
       "id": "tweakplaylist",
@@ -473,10 +528,10 @@
       "manifest": "https://update.vttassets.com/modules/vtta-iconizer/stable/module.json"
     },
     {
-      "id": "vtta-party",
-      "version": "2.2.4",
+      "id": "vtta-tokenizer",
+      "version": "2.2.1",
       "author": "Sebastian Will (vttassets@gmail.com)",
-      "manifest": "https://update.vttassets.com/modules/vtta-party/stable/module.json"
+      "manifest": "https://update.vttassets.com/modules/vtta-tokenizer/latest/module.json"
     },
     {
       "id": "wall-height",
