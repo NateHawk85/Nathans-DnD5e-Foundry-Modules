@@ -580,7 +580,7 @@ module combinations) that have the biggest impact on the games I run. More in-de
 - [Item Macro](https://foundryvtt.com/packages/itemacro/) - Adds a macro editor to items so that when you roll them, the macro executes instead of the 
   default behaviour. Used by [Dynamic Active Effects SRD](https://foundryvtt.com/packages/Dynamic-Effects-SRD/) in some more complicated spells.
     - Hookbar hook --> Enabled
-    - Character sheet hook --> Enabled
+    - Character sheet hook --> Disabled (NOTE: Speed rolling with this option enabled will lead to errors running macros.)
 - [Kobold Press OGL Compendium](https://foundryvtt.com/packages/koboldpressogl/) - Adds a Kobold Press OGL monsters compendium. Although the monsters do not 
   import with tokens automatically, creating new tokens for them is usually pretty easy. A great way to import new monsters with stat blocks already created.
   
