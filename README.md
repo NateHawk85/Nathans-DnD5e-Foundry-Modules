@@ -45,7 +45,7 @@ corresponding Foundry version in the commit message, and if it doesn't, I messed
 ## Foundry VTT Settings
 <a name="core-settings"></a>
 ### Core Settings
-Core Setting                        | Default   | Recommended   | Comment
+Setting                             | Default   | Recommended   | Comments
 ---                                 | ---       | ---           | ---    
 Enable Chat Bubbles                 | Enabled   | ---           | ---    
 Pan to Token Speaker                | Enabled   | Disabled      | ---    
@@ -62,13 +62,15 @@ Cone Template Type                  | Round     | ---           | ---
 
 <a name="system-settings"></a>
 ### System Settings
-- Rest Variant --> PHB
-- Diagonal Movement Rule --> PHB
-- Initiative Dexterity Tiebreaker --> Enabled
-- Apply Currency Weight --> Enabled
-- Disable Experience Tracking --> Enabled
-- Collapse Item Cards In Chat --> Disabled
-- Allow Polymorphing --> Enabled
+Setting                             | Default   | Recommended   | Comments
+---                                 | ---       | ---           | ---    
+Rest Variant                        | PHB       | ---           | ---    
+Diagonal Movement Rule              | PHB       | ---           | ---    
+Initiative Dexterity Tiebreaker     | Disabled  | Enabled       | ---    
+Apply Currency Weight               | Enabled   | ---           | ---    
+Disable Experience Tracking         | Disabled  | Enabled       | ---    
+Collapse Item Cards In Chat         | Disabled  | ---           | ---    
+Allow Polymorphing                  | Disabled  | Enabled       | ---    
 
 <a name="must-have-modules"></a>
 ## Must-Have Modules
