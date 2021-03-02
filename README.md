@@ -291,6 +291,8 @@ module combinations) that have the biggest impact on the games I run. More in-de
 - [Compendium Scene Viewer](https://foundryvtt.com/packages/scene-viewer/) - Allows for viewing compendium scenes from within the compendium, not requiring
   you to import them. This used to be an extremely big pain point, especially for someone with a large amount of scenes stored in their compendiums. Very 
   nice quality of life fix.
+  
+  NOTE: This module can make empty compendiums unusable and unable to open.
     - Context menu option --> Enabled
 - [Condition Automation](https://foundryvtt.com/packages/condition-automation/) - Automatically generates shadows based on elevation when combined with
   [Token Magic FX](https://foundryvtt.com/packages/tokenmagic/), removes vision automatically when a token is blinded, and freezes a token when it is
