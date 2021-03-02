@@ -179,6 +179,13 @@
       "module": "CustomSharedCompendiums"
     },
     {
+      "name": "actor-prefabs",
+      "label": "Actor Prefabs",
+      "path": "packs/actor-prefabs.db",
+      "entity": "Actor",
+      "module": "CustomSharedCompendiums"
+    },
+    {
       "name": "custom-monsters",
       "label": "Custom Monsters",
       "path": "packs/custom-monsters.db",
