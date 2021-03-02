@@ -45,18 +45,20 @@ corresponding Foundry version in the commit message, and if it doesn't, I messed
 ## Foundry VTT Settings
 <a name="core-settings"></a>
 ### Core Settings
-- Enable Chat Bubbles --> Enabled 
-- Pan to Token Speaker --> Disabled
-- Disable Pixel Resolution Scaling --> Disabled
-- Left-Click to Release Objects --> Enabled
-- Maximum Framerate --> 60
-- Token Drag Vision --> Disabled
-- Enable Soft Shadows --> Enabled
-- Token Vision Animation --> Enabled
-- Light Source Animation --> Enabled
-- Zoomed Texture Antialiasing --> Enabled
-- Animate Roll Tables --> Disabled
-- Cone Template Type --> Round
+Core Setting                        | Default   | Recommended   | Comment
+---                                 | ---       | ---           | ---    
+Enable Chat Bubbles                 | Enabled   | ---           | ---    
+Pan to Token Speaker                | Enabled   | Disabled      | ---    
+Disable Pixel Resolution Scaling    | Disabled  | ---           | ---    
+Left-Click to Release Objects       | Disabled  | Enabled       | ---    
+Maximum Framerate                   | 60        | ---           | ---    
+Token Drag Vision                   | Disabled  | ---           | ---    
+Enable Soft Shadows                 | Enabled   | ---           | ---    
+Token Vision Animation              | Enabled   | ---           | ---    
+Light Source Animation              | Enabled   | ---           | ---    
+Zoomed Texture Antialiasing         | Enabled   | ---           | ---    
+Animate Roll Tables?                | Enabled   | Disabled      | ---    
+Cone Template Type                  | Round     | ---           | ---    
 
 <a name="system-settings"></a>
 ### System Settings
