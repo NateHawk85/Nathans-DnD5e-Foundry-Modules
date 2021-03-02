@@ -47,7 +47,9 @@ corresponding Foundry version in the commit message, and if it doesn't, I messed
 ### Core Settings
 - Enable Chat Bubbles --> Enabled 
 - Pan to Token Speaker --> Disabled
+- Disable Pixel Resolution Scaling --> Disabled
 - Left-Click to Release Objects --> Enabled
+- Maximum Framerate --> 60
 - Token Drag Vision --> Disabled
 - Enable Soft Shadows --> Enabled
 - Token Vision Animation --> Enabled
@@ -112,7 +114,7 @@ module combinations) that have the biggest impact on the games I run. More in-de
   entity fields.
 - [Autocomplete Whisper](https://foundryvtt.com/packages/autocomplete-whisper/) - Overhauls the whisper functionality to provide an easy-to-use pop-up to
   select whisper targets.
-    - Include GM Usernames List --> Disabled
+    - Include GM Usernames List --> Enabled
 - [Automatic Journal Icon Numbers](https://foundryvtt1.com/packages/journal-icon-numbers/) - Applies numbered pins to journal entries. Requires 
   [Lib - Color Settings](https://foundryvtt.com/packages/colorsettings/). Nice to differentiate journal icons, especially if you have a lot of them.
     - Foreground colors --> #000000ff
@@ -270,6 +272,9 @@ module combinations) that have the biggest impact on the games I run. More in-de
         - Hunter's Mark
             - Icon --> systems/dnd5e/icons/spells/evil-eye-red-1.jpg
             - Journal --> Journal (C) --> Custom Conditions --> Hunter's Mark
+        - Bladesong
+        -   Icon --> systems/dnd5e/icons/skills/weapon_01.jpg
+        -   Journal --> Journal (C) --> Custom Conditions --> Bladesong
         - Add more conditions as needed!
 - [Compact DnDBeyond 5e Character Sheet](https://foundryvtt.com/packages/compact-beyond-5e-sheet/) - Adds a compact DnDBeyond-style character sheet for PCs.
     - Use expanded sheet as limited --> Disabled
@@ -710,7 +715,7 @@ module combinations) that have the biggest impact on the games I run. More in-de
     - Swap target and settings button on the token HUD --> Enabled
     - Alter the token HUD status effects --> Enabled
     - Add DnD statuses --> Disabled
-    - Use DnD5e invisible icon --> Enabled
+    - Use DnD5e invisible icon --> Disabled
     - Actor sound effects --> Enabled
     - Show scene palette --> Enabled
     - Change core CSS --> Enabled
@@ -1091,9 +1096,11 @@ module combinations) that have the biggest impact on the games I run. More in-de
 - [Tom Cartos Ostenwold](https://foundryvtt.com/packages/tomcartos-ostenwold/) - This one's a little different as it's a preset town. Also, great maps!
 <a name="modules-to-chop"></a>2
 ## Modules on the Chopping Block
-- [Kobold Press OGL Compendium](https://foundryvtt.com/packages/koboldpressogl/) I've found that I rarely end up using these resources.
-- [Not Enough NPCs - A 5e NPC Generator](https://foundryvtt.com/packages/npcgen/) I haven't used it too recently; however, we have been stuck in a cave system 
-  with limited RP opportunities, so once we get back to a major city, it may become a factor once again.
+- [Kobold Press OGL Compendium](https://foundryvtt.com/packages/koboldpressogl/) - I've found that I rarely end up using these resources.
+- [Not Enough NPCs - A 5e NPC Generator](https://foundryvtt.com/packages/npcgen/) - I haven't used it too recently; however, we have been stuck in a cave 
+  system with limited RP opportunities, so once we get back to a major city, it may become a factor once again.
+- [Roofs and Overhead Tiles](https://foundryvtt.com/packages/roofs/) - I haven't found many maps to use it in. That could change, however, if we end up 
+  doing more urban maps.
 <a name="modules-to-review"></a>2
 ## Modules to Review
 <a name="modules-to-review-later"></a>
