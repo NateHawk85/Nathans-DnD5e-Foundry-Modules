@@ -107,38 +107,54 @@ module combinations) that have the biggest impact on the games I run. More in-de
   [Calendar/Weather](https://foundryvtt.com/packages/calendar-weather/) module. 
 
   NOTE: This module may be potentially going away with the future core API time updates.
-    - Game Time update multiplier --> 1
-    - Real time interval --> 1
-    - Game Seconds per round --> 6
-    - Timeout before assuming master clock --> 5
-    - Active calendar --> Harptos
-    - Debug output --> Disabled
+  
+  Setting                               | Default       | Recommended   | Comments
+  ---                                   | ---           | ---           | ---    
+  Game time update multiplier           | 1             | ---           | ---    
+  Real time interval                    | 30            | 1             | ---    
+  Game Seconds per round                | 6             | ---           | ---    
+  Timeout before assuming master clock  | 5             | ---           | ---    
+  Active calendar                       | UserCreated   | ---           | ---    
+  Debug output                          | Disabled      | ---           | ---    
+  
 - [Autocomplete Inline Properties](https://foundryvtt.com/packages/autocomplete-inline-properties/) - A nice quality of life fix that autocompletes...
   inline... properties... Yeah, I probably didn't need to explain this one. Great quality of life fix that lets us forgetful folk remember the correct 
   entity fields.
 - [Autocomplete Whisper](https://foundryvtt.com/packages/autocomplete-whisper/) - Overhauls the whisper functionality to provide an easy-to-use pop-up to
   select whisper targets.
-    - Include GM Usernames List --> Enabled
+  
+  Setting                   | Default   | Recommended   | Comments
+  ---                       | ---       | ---           | ---    
+  Include GM Usernames List | Disabled  | Enabled       | ---    
+  
 - [Automatic Journal Icon Numbers](https://foundryvtt1.com/packages/journal-icon-numbers/) - Applies numbered pins to journal entries. Requires 
   [Lib - Color Settings](https://foundryvtt.com/packages/colorsettings/). Nice to differentiate journal icons, especially if you have a lot of them.
-    - Foreground colors --> #000000ff
-    - Background colors --> #ffffff6f
-    - Font family --> \*blank\*
-    - Icon style --> Circle
-    - Upload path --> upload/journal-icon-numbers
-    - Icon scale --> 0.75
-    - Icons from folders --> Enabled
-    - Rebuild all icons --> No rebuild
+  
+  Setting               | Default                       | Recommended   | Comments
+  ---                   | ---                           | ---           | ---    
+  Foreground colors     | 000000ff                      | ---           | ---    
+  Background colors     | ffffff6f                      | ---           | ---    
+  Font family           | \*blank\*                     | ---           | ---    
+  Icon style            | Circle                        | ---           | ---    
+  Upload path           | upload/journal-icon-numbers   | ---           | ---    
+  Icon scale            | 0.75                          | ---           | ---    
+  Icons from folders    | Enabled                       | ---           | ---    
+  Rebuild all icons     | No rebuild                    | ---           | ---    
+  
 - [Calendar/Weather](https://foundryvtt.com/packages/calendar-weather/) - Tracks time/calendar/weather with a widget. Can be used to automatically generate a
   weather description based on the current time of year and environment. Requires the [About Time](https://foundryvtt.com/packages/about-time/) module.
-    - Calendar display for non-GM --> Disabled (Could enable, but in some situations the party may be unaware of time, aka long Underdark scenarios)
-    - Output weather to chat --> Enabled
-    - Output moon changes to chat --> Enabled
-    - Display time as 24hr --> Disabled
-    - Disable global illumination at night --> Disabled (Could enable, however, I prefer to modify this via Perfect Vision instead)
-    - Use celsius --> Disabled
-    - Can players see the weather --> Disabled
-    - Use Lunar Sanctions --> Disabled
+  
+  Setting                               | Default   | Recommended   | Comments
+  ---                                   | ---       | ---           | ---
+  Calendar display for non-GM           | Enabled   | Disabled      | Could enable, but in some situations the party may be unaware of time, aka long Underdark scenarios    
+  Output weather to chat                | Enabled   | ---           | ---    
+  Output moon changes to chat           | Enabled   | ---           | ---    
+  Display time as 24hr                  | Disabled  | ---           | ---    
+  Disable global illumination at night  | Enabled   | Disabled      | Could enable, however, I prefer to modify this via [Perfect Vision](https://foundryvtt.com/packages/perfect-vision/) instead    
+  Use celsius                           | Disabled  | ---           | ---    
+  Can players see the weather           | Disabled  | ---           | ---    
+  Use Lunar Sanctions                   | Disabled  | ---           | ---    
+  
 - [Cautious Gamemaster](https://foundryvtt.com/packages/CautiousGamemastersPack/) - Disables GM from speaking as PCs, hidden tokens automatically roll blind,
   small chat QoL with up/down arrows, and typing notifications. Automatically hides private rolls from chat, too, which is not configurable.
     - Disable GM speaking as PC tokens --> Enabled
