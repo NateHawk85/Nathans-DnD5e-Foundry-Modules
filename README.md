@@ -1,12 +1,25 @@
 # Nathan's DnD5e/FoundryVTT Modules and Notes
-A list of modules and resources that I personally use for my FoundryVTT D&D 5th Edition games, along with my preferred settings. I did my best to 
+I'd like to preface this by saying that this is the setup that works for my group's personal needs, and it may not be reflective of what everyone wants 
+within Foundry. If you are new to Foundry, welcome! This is an amazing community, and I'm super happy that you came across this repo. That being said, I'd 
+highly recommend starting out with the core Foundry application and only adding modules if you *absolutely* know what they do and what problems they solve. 
+Additionally, unless you're willing to sit down and debug for a while, I'd recommend sticking to module versions that you've worked with and have tested as 
+opposed to updating on a whim. I'm as guilty as anyone of clicking that super convenient "Update All" button to pull the most recent module versions, but more 
+often than not, it's led to more issues than anything else. 
+
+For those that are new to Foundry, before looking for new modules, I highly recommend checking out 
+[Encounter Library's Foundry VTT Basics playlist](https://www.youtube.com/playlist?list=PLGgCMB0gYnLFWxyrCkUYwHY4vvA_yME7m). He breaks things down extremely 
+well and touches on pretty much everything you need to know to get your first session underway. 
+
+You really want to do this? Well alright then, let's get into it!
+
+This is a list of modules and resources that I personally use for my FoundryVTT D&D 5th Edition games, along with my preferred settings. I did my best to 
 double-check any significant issues beforehand, however, there's always a chance of something slipping through or changing in subsequent updates. There are
 also copies of my environment settings within this repository if you want to try the settings that I personally use. Hope these help!
 
 Inspired by [Bryan's Preferred Modules for Foundry VTT](https://github.com/bryancasler/Bryans-Preferred-Modules-for-FoundryVTT), as a lot of the modules I use
 now were found on his page. I 100% recommend checking his stuff out for even more useful stuff.
 
-If there's a module or resource that you think should be on this page, create an issue and I'll check it out!
+If there's a module, resource, or other missing piece that you think should be on this page, feel free to create an issue and I'll check it out!
 
 ## Versions
 ### Current Foundry Version - 0.7.9
@@ -157,10 +170,14 @@ module combinations) that have the biggest impact on the games I run. More in-de
   
 - [Cautious Gamemaster](https://foundryvtt.com/packages/CautiousGamemastersPack/) - Disables GM from speaking as PCs, hidden tokens automatically roll blind,
   small chat QoL with up/down arrows, and typing notifications. Automatically hides private rolls from chat, too, which is not configurable.
-    - Disable GM speaking as PC tokens --> Enabled
-    - Blind chats made by hidden tokens --> Enabled
-    - Disable chat recalls --> Disabled
-    - Notify typings --> Enabled
+
+  Setting                           | Default   | Recommended   | Comments
+    ---                             | ---       | ---           | ---    
+  Disable GM speaking as PC tokens  | Disabled  | Enabled       | ---
+  Blind chats made by hidden tokens | Disabled  | Enabled       | ---
+  Disable chat recalls              | Disabled  | ---           | ---
+  Notify typings                    | Disabled  | Enabled       | ---
+  
 - [Character Actions list DnD5e](https://foundryvtt.com/packages/character-actions-list-5e/) - Adds a reusable component that details different actions a 
   player can take, including actions and bonus actions. It is required for [Tidy5e Sheet](https://foundryvtt.com/packages/tidy5e-sheet/), otherwise, I probably 
   wouldn't use it.
