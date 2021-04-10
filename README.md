@@ -750,30 +750,30 @@ module combinations) that have the biggest impact on the games I run. More in-de
   
 ####Core Settings
 
-  Setting                       | Default                                                                     | Recommended                                                             | Comments
-  ---                           | ---                                                                         | ---                                                                     | ---    
-  GM Only                       | Disabled                                                                    | ---                                                                     | ---
-  Players only                  | Disabled                                                                    | ---                                                                     | ---
-  NPCs only                     | Disabled                                                                    | ---                                                                     | ---
-  PCs only                      | Disabled                                                                    | ---                                                                     | ---
-  Stages                        | Unconscious, Near Death, Badly Injured, Injured, Barely Injured, Uninjured  | Unconscious, Near Death, Badly Injured, Injured, Barely Injured, Fresh  | ---
-  Death state name              | Dead                                                                        | ---                                                                     | ---
-  NPCs die immediately          | Enabled                                                                     | ---                                                                | ---
-  Perfectionism                 | Disabled                                                                    | Enabled                                                                 | ---
-  Death state on condition      | Disabled                                                                    | ---                                                                     | ---
-  Death marker                  | icons/svg/skull.svg                                                         | ---                                                                     | ---
-  Add temporary health          | Disabled                                                                    | ---                                                                     | ---
-  Hide on tokens with 0 max HP  | Enabled                                                                     | ---                                                                     | ---
-  Use vehicle threshold         | Disabled                                                                    | ---                                                                     | ---
-  Threshold stages              | Wrecked, Broken, Fully Functional                                           | ---                                                                     | ---
-  Vehicle stages                | Wrecked, Broken, Battered, Scratched, Pristine                              | ---                                                                     | ---
+  Setting                       | Default                                                                     | Recommended                                 | Comments
+  ---                           | ---                                                                         | ---                                         | ---    
+  GM Only                       | Disabled                                                                    | ---                                         | ---
+  Players only                  | Disabled                                                                    | ---                                         | ---
+  NPCs only                     | Disabled                                                                    | ---                                         | ---
+  PCs only                      | Disabled                                                                    | ---                                         | ---
+  Stages                        | Unconscious, Near Death, Badly Injured, Injured, Barely Injured, Uninjured  | Unconscious, Badly Injured, Injured, Fresh  | ---
+  Death state name              | Dead                                                                        | ---                                         | ---
+  NPCs die immediately          | Enabled                                                                     | ---                                         | ---
+  Perfectionism                 | Disabled                                                                    | Enabled                                     | ---
+  Death state on condition      | Disabled                                                                    | ---                                         | ---
+  Death marker                  | icons/svg/skull.svg                                                         | ---                                         | ---
+  Add temporary health          | Disabled                                                                    | ---                                         | ---
+  Hide on tokens with 0 max HP  | Enabled                                                                     | ---                                         | ---
+  Use vehicle threshold         | Disabled                                                                    | ---                                         | ---
+  Threshold stages              | Wrecked, Broken, Fully Functional                                           | ---                                         | ---
+  Vehicle stages                | Wrecked, Broken, Battered, Scratched, Pristine                              | ---                                         | ---
 
 ####Style Settings
 
   Setting               | Recommended                                                           | Comments
   ---                   | ---                                                                   | ---    
   Use color             | Enabled                                                               | ---
-  Smooth gradient       | Enabled                                                               | ---
+  Smooth gradient       | Disabled                                                              | ---
   *Color bar*           | One slider all the way to the left, one all the way to the right. HSL | ---
   Color of dead tokens  | Dark Red                                                              | ---
   Outline               | Darken x 3                                                            | ---
