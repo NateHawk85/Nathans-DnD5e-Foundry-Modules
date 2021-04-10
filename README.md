@@ -232,6 +232,7 @@ module combinations) that have the biggest impact on the games I run. More in-de
   [Midi QoL](https://foundryvtt.com/packages/midi-qol/) module.
 
 ####Core Settings
+
   Setting                       | Default               | Recommended   | Comments
   ---                           | ---                   | ---           | ---    
   Enable concentrator           | Disabled              | Enabled       | ---
@@ -246,6 +247,7 @@ module combinations) that have the biggest impact on the games I run. More in-de
   Enable mighty summoner        | Disabled              | Enabled       | ---
 
 ####CUBPuter Options
+
   Setting                   | Recommended | Comments
   ---                       | ---         | ---    
   Use oldschool CRT styling | Disabled    | ---
@@ -256,11 +258,13 @@ module combinations) that have the biggest impact on the games I run. More in-de
   Show gadget information   | Enabled     | ---
 
 ####Award XP
+
   Setting           | Default   | Recommended | Comments
   ---               | ---       | ---         | ---    
   Enable Award XP   | Disabled  | ---         | Could be useful if I was using XP levelling instead of milestone levelling.
 
 ####Concentrator
+
   Setting                                   | Default       | Recommended   | Comments
   ---                                       | ---           | ---           | ---    
   Enable concentrator                       | Disabled      | Enabled       | ---
@@ -273,6 +277,7 @@ module combinations) that have the biggest impact on the games I run. More in-de
   Notify on double concentration            | None          | GM only       | ---
 
 ####Enhanced Conditions
+
   Setting                               | Default   | Recommended   | Comments
   ---                                   | ---       | ---           | ---    
   Enable enhanced conditions            | Disabled  | Enabled       | ---
@@ -282,6 +287,7 @@ module combinations) that have the biggest impact on the games I run. More in-de
   Suppress preventative save reminder   | Disabled  | Enabled       | After updating to Foundry version 0.7.x. I would recommend NOT modifying this option manually.
 
 ####Hide Names
+
   Setting                   | Default           | Recommended   | Comments
   ---                       | ---               | ---           | ---    
   Enabled hide actor names  | Disabled          | Enabled       | ---
@@ -295,6 +301,7 @@ module combinations) that have the biggest impact on the games I run. More in-de
   Hide chat card footer     | Disabled          | Enabled       | ---
 
 ####Pan/Select
+
   Setting               | Default   | Recommended   | Comments
   ---                   | ---       | ---           | ---    
   Enable pan to token   | Disabled  | Enabled       | ---
@@ -306,17 +313,20 @@ module combinations) that have the biggest impact on the games I run. More in-de
   Deselect tokens       | Disabled  | ---           | ---
 
 ####Reroll Initiative
+
   Setting                       | Default   | Recommended   | Comments
   ---                           | ---       | ---           | ---    
   Enable reroll initiative      | Disabled  | ---           | ---
   Reroll temporary combatants   | Disabled  | ---           | ---
 
 ####Temporary Combatants
+
   Setting                       | Default   | Recommended   | Comments
   ---                           | ---       | ---           | ---    
   Enable temporary combatants   | Disabled  | Enabled       | ---
 
 ####Misc Token
+
   Setting                           | Default               | Recommended   | Comments
   ---                               | ---                   | ---           | ---    
   Enable auto roll hostile token HP | Disabled              | ---           | ---
@@ -326,6 +336,7 @@ module combinations) that have the biggest impact on the games I run. More in-de
   Mighty summoner feat name         | Mighty Summoner       | ---           | ---
 
 ####Triggler Settings
+
   Category      | Attribute | Property 1    | Operator  | Value | Property 2    | Advanced Trigger  | Options   | Comments
   ---           | ---       | ---           | ---       | ---   | ---           | ---               | ---       | ---
   attributes    | hp        | value         | =         | 0     | value         | Disabled          | PCs Only  | Used for adding the unconscious condition when a PCs health falls to 0.
@@ -334,6 +345,7 @@ module combinations) that have the biggest impact on the games I run. More in-de
   attributes    | hp        | value         | =         | 0     | value         | Disabled          | NPCs Only | Used for removing the dead condition when an NPCs health rises above 0.
 
 ####Condition Lab
+
   I personally keep the default conditions and add journal entries for custom conditions/status effects in a custom compendium. On all conditions, I set the 
   "Output to chat" setting to "Enabled". I'd highly recommmend adding as many custom conditions as you need for your games!
 
@@ -424,6 +436,7 @@ module combinations) that have the biggest impact on the games I run. More in-de
    different one, they can override it :)
 
 ####Default Custom Hotbar Settings
+
   Setting                               | Default   | Recommended   | Comments
   ---                                   | ---       | ---           | ---    
   Custom hotbar color                   | #0000ff80 | #192a3080     | ---
@@ -434,6 +447,7 @@ module combinations) that have the biggest impact on the games I run. More in-de
   Custom hotbar highlight color (empty) | #808080ff | ---           | ---
 
 ####Default Global Core Hotbar Settings
+
   Setting                               | Default   | Recommended   | Comments
   ---                                   | ---       | ---           | ---    
   Custom hotbar color                   | #00000080 | ---           | ---
@@ -456,6 +470,7 @@ module combinations) that have the biggest impact on the games I run. More in-de
   [Dynamic Active Effects SRD](https://foundryvtt.com/packages/Dynamic-Effects-SRD/).
   
 ####Core Settings
+
   Setting                                       | Default   | Recommended   | Comments
   ---                                           | ---       | ---           | ---    
   Use full source book name                     | Enabled   | ---           | ---
@@ -468,6 +483,7 @@ module combinations) that have the biggest impact on the games I run. More in-de
   Log level                                     | INFO      | ---           | ---
 
 ####Core Setup
+
   Setting                       | Default   | Recommended                                       | Comments
   ---                           | ---       | ---                                               | ---    
   A location for image uploads  | \[data\]  | \[data\] assets/ddb-imported-images               | ---
@@ -476,6 +492,7 @@ module combinations) that have the biggest impact on the games I run. More in-de
   Patreon key                   | \*blank\* | \*your patreon key here, if you have one\*        | ---
 
 ####Compendiums
+
   Setting                                   | Default                       | Recommended                                                       | Comments
   ---                                       | ---                           | ---                                                               | ---    
   Spells                                    | \[world\] DDB Spells          | \[CustomSharedCompendiums\] All DnDBeyond Imported Spells         | ---
@@ -500,6 +517,7 @@ module combinations) that have the biggest impact on the games I run. More in-de
   *loved*it.
 
 ####Core Settings
+
   Setting                             | Default         | Recommended   | Comments
   ---                                 | ---             | ---           | ---    
   Max number of dice                  | 20              | ---           | ---
@@ -515,6 +533,7 @@ module combinations) that have the biggest impact on the games I run. More in-de
 
 ###3D Dice Settings
 ####Appearance
+
   Setting               | Default               | Recommended   | Comments
   ---                   | ---                   | ---           | ---    
   Enable 3D dice        | Enabled               | ---           | ---
@@ -529,6 +548,7 @@ module combinations) that have the biggest impact on the games I run. More in-de
   Edge color            | #ff0000               | #0e7f81       | ---
 
 ####Preferences
+
   Setting                   | Default     | Recommended   | Comments
   ---                       | ---         | ---           | ---    
   Automatically hide        | Enabled     | ---           | ---
@@ -544,11 +564,13 @@ module combinations) that have the biggest impact on the games I run. More in-de
   Throwing force            | Medium      | ---           | ---
 
 ####Special Effects
+
   Setting                             | Default | Recommended   | Comments
   ---                                 | ---     | ---           | ---    
   Show other players special effects  | Enabled | ---           | ---
 
 ####Performance
+
   Setting                               | Default | Recommended   | Comments
   ---                                   | ---     | ---           | ---    
   Shadows quality                       | High    | ---           | ---
@@ -602,12 +624,14 @@ module combinations) that have the biggest impact on the games I run. More in-de
   via colors when dragging a token. Good for in-combat use.
 
 ####Core Settings
+
   Setting                       | Default   | Recommended | Comments
   ---                           | ---       | ---         | ---    
   Swap spacebar and right click | Disabled  | Enabled     | ---
   Show PC speed to everyone     | Enabled   | ---         | ---
 
 ####Speed Provider Settings
+
   Setting                 | Default                                   | Recommended | Comments
   ---                     | ---                                       | ---         | ---    
   Speed settings provider | Generic                                   | ---         | ---
@@ -725,6 +749,7 @@ module combinations) that have the biggest impact on the games I run. More in-de
   the time of writing this) was three months ago.
   
 ####Core Settings
+
   Setting                       | Default                                                                     | Recommended                                                             | Comments
   ---                           | ---                                                                         | ---                                                                     | ---    
   GM Only                       | Disabled                                                                    | ---                                                                     | ---
@@ -744,6 +769,7 @@ module combinations) that have the biggest impact on the games I run. More in-de
   Vehicle stages                | Wrecked, Broken, Battered, Scratched, Pristine                              | ---                                                                     | ---
 
 ####Style Settings
+
   Setting               | Recommended                                                           | Comments
   ---                   | ---                                                                   | ---    
   Use color             | Enabled                                                               | ---
@@ -870,6 +896,7 @@ module combinations) that have the biggest impact on the games I run. More in-de
   modules are installed, as there is potential for compatibility issues between them.
 
 ####Core Settings
+
   Setting                                                   | Default                   | Recommended   | Comments
   ---                                                       | ---                       | ---           | ---    
   Enable roll automation support                            | Enabled                   | ---           | ---
@@ -889,6 +916,7 @@ module combinations) that have the biggest impact on the games I run. More in-de
 
 ###Workflow Settings
 ####GM
+
   Setting                             | Recommended       | Comments
   ---                                 | ---               | ---    
   Auto roll attack                    | Enabled           | ---
@@ -899,6 +927,7 @@ module combinations) that have the biggest impact on the games I run. More in-de
   Hide roll details                   | None              | Allows for "visible" rolls if I want them to be made in front of the players.
 
 ####Player
+
   Setting                             | Recommended       | Comments
   ---                                 | ---               | ---    
   Auto roll attack                    | Enabled           | ---
@@ -907,6 +936,7 @@ module combinations) that have the biggest impact on the games I run. More in-de
   Remove chat card buttons after roll | Attack and Damage | ---
 
 ####Workflow
+
   Setting                                       | Recommended                 | Comments
   ---                                           | ---                         | ---    
   Auto target on template draw                  | Walls Block                 | ---
@@ -928,6 +958,7 @@ module combinations) that have the biggest impact on the games I run. More in-de
   Roll formula on failed save for rwak/mwak     | Disabled                    | ---
 
 ####Misc
+
   Setting                                       | Default                 | Comments
   ---                                           | ---                     | ---    
   Show item details in chat card                | Card + Details: PC Only | All details enabled in the sub-menu.
@@ -1342,6 +1373,7 @@ module combinations) that have the biggest impact on the games I run. More in-de
   I usually keep the Name, Config, and Overlay settings enabled.
 
 ####Name
+
   Setting                                         | Recommended                               | Comments
   ---                                             | ---                                       | ---    
   Apply settings to unlinked tokens only          | Enabled                                   | ---
@@ -1354,12 +1386,14 @@ module combinations) that have the biggest impact on the games I run. More in-de
   Base name                                       | Do nothing                                | ---
 
 ####System Specific
+
   Setting                                                 | Recommended | Comments
   ---                                                     | ---         | ---    
   Send result to chat                                     | Enabled     | ---
   Set token size to creature size and scaled to map scale | Enabled     | ---
 
 ####Modify Default Config
+
   Setting                           | Recommended                               | Comments
   ---                               | ---                                       | ---    
   Display bars: overwrite           | Enabled                                   | ---
@@ -1384,6 +1418,7 @@ module combinations) that have the biggest impact on the games I run. More in-de
   Random mirroring: vertical        | Disabled                                  | ---
 
 ####Stat Overlay
+
   Icon  | Attribute | Comments  
   ---   | ---       | ---
   Eye   | None      | No idea what this does, to be honest, but it's there :) 
