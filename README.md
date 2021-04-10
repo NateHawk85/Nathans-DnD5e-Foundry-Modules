@@ -231,7 +231,7 @@ module combinations) that have the biggest impact on the games I run. More in-de
   too many functions to list, and if you want to automate your combat, this is absolutely necessary. It works extremely well when combined with the 
   [Midi QoL](https://foundryvtt.com/packages/midi-qol/) module.
 
-  ####Core Settings
+####Core Settings
   Setting                       | Default               | Recommended   | Comments
   ---                           | ---                   | ---           | ---    
   Enable concentrator           | Disabled              | Enabled       | ---
@@ -245,7 +245,7 @@ module combinations) that have the biggest impact on the games I run. More in-de
   Token effect icon size        | Small (Default) - 5x5 | ---           | ---
   Enable mighty summoner        | Disabled              | Enabled       | ---
 
-  ####CUBPuter Options
+####CUBPuter Options
   Setting                   | Recommended | Comments
   ---                       | ---         | ---    
   Use oldschool CRT styling | Disabled    | ---
@@ -255,12 +255,12 @@ module combinations) that have the biggest impact on the games I run. More in-de
   Show instructions         | Disabled    | ---
   Show gadget information   | Enabled     | ---
 
-  ####Award XP
+####Award XP
   Setting           | Default   | Recommended | Comments
   ---               | ---       | ---         | ---    
   Enable Award XP   | Disabled  | ---         | Could be useful if I was using XP levelling instead of milestone levelling.
 
-  ####Concentrator
+####Concentrator
   Setting                                   | Default       | Recommended   | Comments
   ---                                       | ---           | ---           | ---    
   Enable concentrator                       | Disabled      | Enabled       | ---
@@ -272,7 +272,7 @@ module combinations) that have the biggest impact on the games I run. More in-de
   Automatically set concentrating status    | Disabled      | Enabled       | ---
   Notify on double concentration            | None          | GM only       | ---
 
-  ####Enhanced Conditions
+####Enhanced Conditions
   Setting                               | Default   | Recommended   | Comments
   ---                                   | ---       | ---           | ---    
   Enable enhanced conditions            | Disabled  | Enabled       | ---
@@ -281,7 +281,7 @@ module combinations) that have the biggest impact on the games I run. More in-de
   Remove default status effects         | Disabled  | ---           | ---
   Suppress preventative save reminder   | Disabled  | Enabled       | After updating to Foundry version 0.7.x. I would recommend NOT modifying this option manually.
 
-  ####Hide Names
+####Hide Names
   Setting                   | Default           | Recommended   | Comments
   ---                       | ---               | ---           | ---    
   Enabled hide actor names  | Disabled          | Enabled       | ---
@@ -294,7 +294,7 @@ module combinations) that have the biggest impact on the games I run. More in-de
   Friendly replacement name | Unknown Creature  | ---           | This is unused.
   Hide chat card footer     | Disabled          | Enabled       | ---
 
-  ####Pan/Select
+####Pan/Select
   Setting               | Default   | Recommended   | Comments
   ---                   | ---       | ---           | ---    
   Enable pan to token   | Disabled  | Enabled       | ---
@@ -305,18 +305,18 @@ module combinations) that have the biggest impact on the games I run. More in-de
   Select players        | Disabled  | ---           | ---
   Deselect tokens       | Disabled  | ---           | ---
 
-  ####Reroll Initiative
+####Reroll Initiative
   Setting                       | Default   | Recommended   | Comments
   ---                           | ---       | ---           | ---    
   Enable reroll initiative      | Disabled  | ---           | ---
   Reroll temporary combatants   | Disabled  | ---           | ---
 
-  ####Temporary Combatants
+####Temporary Combatants
   Setting                       | Default   | Recommended   | Comments
   ---                           | ---       | ---           | ---    
   Enable temporary combatants   | Disabled  | Enabled       | ---
 
-  ####Misc Token
+####Misc Token
   Setting                           | Default               | Recommended   | Comments
   ---                               | ---                   | ---           | ---    
   Enable auto roll hostile token HP | Disabled              | ---           | ---
@@ -325,7 +325,7 @@ module combinations) that have the biggest impact on the games I run. More in-de
   Enable mighty summoner            | Disabled              | Enabled       | ---
   Mighty summoner feat name         | Mighty Summoner       | ---           | ---
 
-  ####Triggler Settings
+####Triggler Settings
   Category      | Attribute | Property 1    | Operator  | Value | Property 2    | Advanced Trigger  | Options   | Comments
   ---           | ---       | ---           | ---       | ---   | ---           | ---               | ---       | ---
   attributes    | hp        | value         | =         | 0     | value         | Disabled          | PCs Only  | Used for adding the unconscious condition when a PCs health falls to 0.
@@ -333,7 +333,7 @@ module combinations) that have the biggest impact on the games I run. More in-de
   attributes    | hp        | value         | >         | 0     | value         | Disabled          | PCs Only  | Used for removing the unconscious condition when a PCs HP rises above 0.
   attributes    | hp        | value         | =         | 0     | value         | Disabled          | NPCs Only | Used for removing the dead condition when an NPCs health rises above 0.
 
-  ####Condition Lab
+####Condition Lab
   I personally keep the default conditions and add journal entries for custom conditions/status effects in a custom compendium. On all conditions, I set the 
   "Output to chat" setting to "Enabled". I'd highly recommmend adding as many custom conditions as you need for your games!
 
@@ -423,7 +423,7 @@ module combinations) that have the biggest impact on the games I run. More in-de
   NOTE: I personally specify the default custom hotbar that works best for me. That way, I don't have to configure it in multiple areas. If other users want a
    different one, they can override it :)
 
-  ####Default Custom Hotbar Settings
+####Default Custom Hotbar Settings
   Setting                               | Default   | Recommended   | Comments
   ---                                   | ---       | ---           | ---    
   Custom hotbar color                   | #0000ff80 | #192a3080     | ---
@@ -433,7 +433,7 @@ module combinations) that have the biggest impact on the games I run. More in-de
   Custom hotbar highlight color         | #ffffffff | #ff6400ff     | ---
   Custom hotbar highlight color (empty) | #808080ff | ---           | ---
 
-  ####Default Global Core Hotbar Settings
+####Default Global Core Hotbar Settings
   Setting                               | Default   | Recommended   | Comments
   ---                                   | ---       | ---           | ---    
   Custom hotbar color                   | #00000080 | ---           | ---
@@ -455,7 +455,7 @@ module combinations) that have the biggest impact on the games I run. More in-de
   the most out of this module, it should be paired with both [Dynamic Active Effects](https://foundryvtt.com/packages/dae/) and 
   [Dynamic Active Effects SRD](https://foundryvtt.com/packages/Dynamic-Effects-SRD/).
   
-  ####Core Settings
+####Core Settings
   Setting                                       | Default   | Recommended   | Comments
   ---                                           | ---       | ---           | ---    
   Use full source book name                     | Enabled   | ---           | ---
@@ -467,7 +467,7 @@ module combinations) that have the biggest impact on the games I run. More in-de
   Make title bar icon white                     | Disabled  | ---           | ---
   Log level                                     | INFO      | ---           | ---
 
-  ####Core Setup
+####Core Setup
   Setting                       | Default   | Recommended                                       | Comments
   ---                           | ---       | ---                                               | ---    
   A location for image uploads  | \[data\]  | \[data\] assets/ddb-imported-images               | ---
@@ -475,7 +475,7 @@ module combinations) that have the biggest impact on the games I run. More in-de
   Campaign URL/ID               | \*blank\* | \*your campaign URL/ID here, if you have one\*    | ---
   Patreon key                   | \*blank\* | \*your patreon key here, if you have one\*        | ---
 
-  ####Compendiums
+####Compendiums
   Setting                                   | Default                       | Recommended                                                       | Comments
   ---                                       | ---                           | ---                                                               | ---    
   Spells                                    | \[world\] DDB Spells          | \[CustomSharedCompendiums\] All DnDBeyond Imported Spells         | ---
@@ -499,7 +499,7 @@ module combinations) that have the biggest impact on the games I run. More in-de
   is absolutely necessary for the clickity clackities. I personally haven't done a deep-dive into these settings, but some of my players have and they've 
   *loved*it.
 
-  ####Core Settings
+####Core Settings
   Setting                             | Default         | Recommended   | Comments
   ---                                 | ---             | ---           | ---    
   Max number of dice                  | 20              | ---           | ---
@@ -513,8 +513,8 @@ module combinations) that have the biggest impact on the games I run. More in-de
   Disable 3D dice on NPC rolls        | Disabled        | ---           | ---
   Allow interaction with rolled dice  | Enabled         | ---           | ---
 
-  ###3D Dice Settings
-  ####Appearance
+###3D Dice Settings
+####Appearance
   Setting               | Default               | Recommended   | Comments
   ---                   | ---                   | ---           | ---    
   Enable 3D dice        | Enabled               | ---           | ---
@@ -528,7 +528,7 @@ module combinations) that have the biggest impact on the games I run. More in-de
   Outline color         | #ff0000               | #547fcf       | ---
   Edge color            | #ff0000               | #0e7f81       | ---
 
-  ####Preferences
+####Preferences
   Setting                   | Default     | Recommended   | Comments
   ---                       | ---         | ---           | ---    
   Automatically hide        | Enabled     | ---           | ---
@@ -543,12 +543,12 @@ module combinations) that have the biggest impact on the games I run. More in-de
   3D layer position         | Over sheets | ---           | ---
   Throwing force            | Medium      | ---           | ---
 
-  ####Special Effects
+####Special Effects
   Setting                             | Default | Recommended   | Comments
   ---                                 | ---     | ---           | ---    
   Show other players special effects  | Enabled | ---           | ---
 
-  ####Performance
+####Performance
   Setting                               | Default | Recommended   | Comments
   ---                                   | ---     | ---           | ---    
   Shadows quality                       | High    | ---           | ---
@@ -601,13 +601,13 @@ module combinations) that have the biggest impact on the games I run. More in-de
   [Show Drag Distance](https://foundryvtt.com/packages/ShowDragDistance/). As the title says, it's a quality of life improvement that shows the drag distance 
   via colors when dragging a token. Good for in-combat use.
 
-  ####Core Settings
+####Core Settings
   Setting                       | Default   | Recommended | Comments
   ---                           | ---       | ---         | ---    
   Swap spacebar and right click | Disabled  | Enabled     | ---
   Show PC speed to everyone     | Enabled   | ---         | ---
 
-  ####Speed Provider Settings
+####Speed Provider Settings
   Setting                 | Default                                   | Recommended | Comments
   ---                     | ---                                       | ---         | ---    
   Speed settings provider | Generic                                   | ---         | ---
@@ -724,7 +724,7 @@ module combinations) that have the biggest impact on the games I run. More in-de
   NOTE: Although my players and I love this module, there's a very good chance that it will fall out of maintenance. It looks as though the last release (at 
   the time of writing this) was three months ago.
   
-  ####Core Settings
+####Core Settings
   Setting                       | Default                                                                     | Recommended                                                             | Comments
   ---                           | ---                                                                         | ---                                                                     | ---    
   GM Only                       | Disabled                                                                    | ---                                                                     | ---
@@ -743,7 +743,7 @@ module combinations) that have the biggest impact on the games I run. More in-de
   Threshold stages              | Wrecked, Broken, Fully Functional                                           | ---                                                                     | ---
   Vehicle stages                | Wrecked, Broken, Battered, Scratched, Pristine                              | ---                                                                     | ---
 
-  ####Style Settings
+####Style Settings
   Setting               | Recommended                                                           | Comments
   ---                   | ---                                                                   | ---    
   Use color             | Enabled                                                               | ---
@@ -869,7 +869,7 @@ module combinations) that have the biggest impact on the games I run. More in-de
   [Better Rolls](https://foundryvtt.com/packages/betterrolls5e/), and they may be worth investigating. However, these settings assume that neither of those two
   modules are installed, as there is potential for compatibility issues between them.
 
-  ####Core Settings
+####Core Settings
   Setting                                                   | Default                   | Recommended   | Comments
   ---                                                       | ---                       | ---           | ---    
   Enable roll automation support                            | Enabled                   | ---           | ---
@@ -887,8 +887,8 @@ module combinations) that have the biggest impact on the games I run. More in-de
   Players control owned hidden tokens                       | Disabled                  | ---           | ---
   Enable debug                                              | \*blank\*                 | None          | ---
 
-  ###Workflow Settings
-  ####GM
+###Workflow Settings
+####GM
   Setting                             | Recommended       | Comments
   ---                                 | ---               | ---    
   Auto roll attack                    | Enabled           | ---
@@ -898,7 +898,7 @@ module combinations) that have the biggest impact on the games I run. More in-de
   Remove chat card buttons after roll | Attack and Damage | ---
   Hide roll details                   | None              | Allows for "visible" rolls if I want them to be made in front of the players.
 
-  ####Player
+####Player
   Setting                             | Recommended       | Comments
   ---                                 | ---               | ---    
   Auto roll attack                    | Enabled           | ---
@@ -906,7 +906,7 @@ module combinations) that have the biggest impact on the games I run. More in-de
   Auto fast forward rolls             | Attack and Damage | ---
   Remove chat card buttons after roll | Attack and Damage | ---
 
-  ####Workflow
+####Workflow
   Setting                                       | Recommended                 | Comments
   ---                                           | ---                         | ---    
   Auto target on template draw                  | Walls Block                 | ---
@@ -927,7 +927,7 @@ module combinations) that have the biggest impact on the games I run. More in-de
   Apply damage immunities                       | apply immunities + physical | ---
   Roll formula on failed save for rwak/mwak     | Disabled                    | ---
 
-  ####Misc
+####Misc
   Setting                                       | Default                 | Comments
   ---                                           | ---                     | ---    
   Show item details in chat card                | Card + Details: PC Only | All details enabled in the sub-menu.
@@ -1341,7 +1341,7 @@ module combinations) that have the biggest impact on the games I run. More in-de
   
   I usually keep the Name, Config, and Overlay settings enabled.
 
-  ####Name
+####Name
   Setting                                         | Recommended                               | Comments
   ---                                             | ---                                       | ---    
   Apply settings to unlinked tokens only          | Enabled                                   | ---
@@ -1353,13 +1353,13 @@ module combinations) that have the biggest impact on the games I run. More in-de
   Adjective placement                             | Front                                     | ---
   Base name                                       | Do nothing                                | ---
 
-  ####System Specific
+####System Specific
   Setting                                                 | Recommended | Comments
   ---                                                     | ---         | ---    
   Send result to chat                                     | Enabled     | ---
   Set token size to creature size and scaled to map scale | Enabled     | ---
 
-  ####Modify Default Config
+####Modify Default Config
   Setting                           | Recommended                               | Comments
   ---                               | ---                                       | ---    
   Display bars: overwrite           | Enabled                                   | ---
@@ -1383,7 +1383,7 @@ module combinations) that have the biggest impact on the games I run. More in-de
   Random mirroring: horizontal      | Disabled                                  | ---
   Random mirroring: vertical        | Disabled                                  | ---
 
-  ####Stat Overlay
+####Stat Overlay
   Icon  | Attribute | Comments  
   ---   | ---       | ---
   Eye   | None      | No idea what this does, to be honest, but it's there :) 
