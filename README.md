@@ -1080,13 +1080,12 @@ module combinations) that have the biggest impact on the games I run. More in-de
   ---                                   | ---     | ---         | ---    
   Grant players access to the overview  | Enabled | Disabled    | ---
   
-- [Perfect Vision](https://foundryvtt.com/packages/perfect-vision/) v1.7.2 - Replicates the darkvision rules of DnD5e, including seeing dim as bright light, 
+- [Perfect Vision](https://foundryvtt.com/packages/perfect-vision/) v1.7.3 - Replicates the darkvision rules of DnD5e, including seeing dim as bright light, 
   grayscale for seeing in darkness, options for global illumination light scale, etc. Extremely useful for adding a pinch of flavor for those 
   characters that can see in the dark.
   
   NOTE: Has some pretty significant performance issues. If you or your players have low-end hardware, it might be necessary to avoid this module, as good as it
-  is. Additionally, it was recently updated in that monochrome vision is now dependent on the darkness level of the scene. Adjusting the slider will adjust 
-  the severity of the monochrome.
+  is.
 
   Setting                     | Default                 | Recommended     | Comments
   ---                         | ---                     | ---             | ---    
@@ -1100,6 +1099,7 @@ module combinations) that have the biggest impact on the games I run. More in-de
   Monochrome vision color     | #ffffff                 | ---             | ---
   Monochrome token icons      | Disabled                | Enabled         | ---
   Monochrome special effects  | Disabled                | ---             | ---
+  Force monochrome vision     | Disabled                | Enabled         | Ignores the "Darkness Level" slider and always enables monochrome in darkness by default, similar to how the module used to function.
   Fog of war weather          | Enabled                 | Disabled        | ---
   Actual fog of war           | Disabled                | ---             | ---
 
