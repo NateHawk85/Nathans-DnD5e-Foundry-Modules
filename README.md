@@ -741,27 +741,18 @@ module combinations) that have the biggest impact on the games I run. More in-de
   ---                     | ---     | ---         | ---    
   Show full GM note label | Enabled | ---         | ---
   
-- [Health Estimate](https://foundryvtt.com/packages/healthEstimate/) v2.4.0 - A fun little module that allows you to set "health tiers" for tokens. By hovering 
-  over a token, a customizable health phrase will pop up over the token, like "Uninjured", "Barely Injured", "Badly Injured" "Near Death", etc. depending on how
-  much HP they have left.
-  
-  NOTE: Although my players and I love this module, there's a very good chance that it will fall out of maintenance. It looks as though the last release (at 
-  the time of writing this) was three months ago.
+- [Health Estimate 2](https://foundryvtt.com/packages/healthEstimate/) v2.5.1.2 - A fun little module that allows you to set "health tiers" for tokens. By 
+  hovering over a token, a customizable health phrase will pop up over the token, like "Uninjured", "Barely Injured", "Badly Injured" "Near Death", etc. 
+  depending on how much HP they have left.
   
 ####Core Settings
 
   Setting                       | Default                                                                     | Recommended                                 | Comments
   ---                           | ---                                                                         | ---                                         | ---    
-  GM Only                       | Disabled                                                                    | ---                                         | ---
-  Players only                  | Disabled                                                                    | ---                                         | ---
-  NPCs only                     | Disabled                                                                    | ---                                         | ---
-  PCs only                      | Disabled                                                                    | ---                                         | ---
+  Show Estimates                | All                                                                         | ---                                         | ---
   Stages                        | Unconscious, Near Death, Badly Injured, Injured, Barely Injured, Uninjured  | Unconscious, Badly Injured, Injured, Fresh  | ---
-  Death state name              | Dead                                                                        | ---                                         | ---
-  NPCs die immediately          | Enabled                                                                     | ---                                         | ---
   Perfectionism                 | Disabled                                                                    | Enabled                                     | ---
-  Death state on condition      | Disabled                                                                    | ---                                         | ---
-  Death marker                  | icons/svg/skull.svg                                                         | ---                                         | ---
+  Output estimate to chat       | Disabled                                                                    | Enabled                                     | ---
   Add temporary health          | Disabled                                                                    | ---                                         | ---
   Hide on tokens with 0 max HP  | Enabled                                                                     | ---                                         | ---
   Use vehicle threshold         | Disabled                                                                    | ---                                         | ---
@@ -776,9 +767,17 @@ module combinations) that have the biggest impact on the games I run. More in-de
   Smooth gradient       | Disabled                                                              | ---
   *Color bar*           | One slider all the way to the left, one all the way to the right. HSL | ---
   Color of dead tokens  | Dark Red                                                              | ---
-  Outline               | Darken x 3                                                            | ---
+  Outline               | Darken x 2                                                            | ---
   Font size             | x-large                                                               | ---
   Position              | Top x -1                                                              | ---
+
+####Death Settings
+
+  Setting                   | Recommended         | Comments
+  Death state on condition  | Disabled            | ---
+  Death state name          | Dead                | ---
+  NPCs die immediately      | Enabled             | ---
+  Death marker              | icons/svg/skull.svg | ---
   
 - [Illandril's Hotbar Uses](https://foundryvtt.com/packages/illandril-hotbar-uses/) v2.2.2 - Adds a "uses" counter to item macros in hotbars. A good quality of 
   life improvement, especially for players.
