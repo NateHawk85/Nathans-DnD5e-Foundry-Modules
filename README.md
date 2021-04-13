@@ -1784,7 +1784,7 @@ module combinations) that have the biggest impact on the games I run. More in-de
     - [D&D 5e Random Character Generator](https://tetra-cube.com/dnd/dnd-char-gen.html) - Non-combat NPCs with images.
     - [NPC Generator](http://www.npcgenerator.com/) - More non-combat NPCs with personality quirks.
     - [Eigengraus Essential Establishment Generator](https://eigengrausgenerator.com/) - Generates a brand new town with tons of links and connecting 
-      storylines. I heard there's a Foundry module in the makes as well. Good if you're short on time or need to create a city or village on the fly.
+      storylines. Has a Foundry Module, [EEEG Importer](https://github.com/HadaIonut/EEEG-importer).
     - [D&D Town Generator](https://town.noordstar.me/) - Another town or city generator, now with work schedules!
     - [DunGen](https://dungen.app/dungen/) - Map generator. Patreons can get maps pre-configured with FoundryVTT-ready lighting and walls.
     - [donjon](https://donjon.bin.sh/) - Generators upon generators. If you need one, this place has it.
