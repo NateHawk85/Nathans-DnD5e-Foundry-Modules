@@ -154,7 +154,17 @@ module combinations) that have the biggest impact on the games I run. More in-de
   Icon scale            | 0.75                          | ---           | ---    
   Icons from folders    | Enabled                       | ---           | ---    
   Rebuild all icons     | No rebuild                    | ---           | ---    
-  
+
+- [Better Roll Tables](https://github.com/ultrakorne/better-rolltables) v1.6.4 - Gives GMs more functionality when designing and using roll tables. Formulas,
+  random spells for spell scrolls, etc. I use it in combination with 
+  [DnD5eShopRollTables](https://www.reddit.com/r/FoundryVTT/comments/mnwzi4/as_promised_the_rolltables_for_every_type_of_shop/) since it looked to be quite 
+  useful :)
+
+  Setting                                     | Default               | Recommended                             | Comments
+  ---                                         | ---                   | ---                                     | ---    
+  Sheet to use for generated loot             | dnd5e.LootSheet5eNPC  | ---                                     | ---
+  Spell compendium to use for random scrolls  | dnd5e.spells          | CustomSharedCompendiums.all-ddb-spells  | Point this to your full spell list
+
 - [Calendar/Weather](https://foundryvtt.com/packages/calendar-weather/) v3.1.2 - Tracks time/calendar/weather with a widget. Can be used to automatically generate a
   weather description based on the current time of year and environment. Requires the [About Time](https://foundryvtt.com/packages/about-time/) module.
   
@@ -244,7 +254,7 @@ module combinations) that have the biggest impact on the games I run. More in-de
   Enable reroll initiative      | Disabled              | ---           | ---
   Enable temporary combatants   | Disabled              | Enabled       | ---
   Token effect icon size        | Small (Default) - 5x5 | ---           | ---
-  Enable mighty summoner        | Disabled              | Enabled       | ---
+  Enable mighty summoner        | Disabled              | ---           | Disabled only because I have a macro that gets interrupted by this option. Otherwise, I'd keep it.
 
 ####CUBPuter Options
 
@@ -462,7 +472,7 @@ module combinations) that have the biggest impact on the games I run. More in-de
 - [Custom Shared Compendiums](https://www.reddit.com/r/FoundryVTT/comments/fvw3c7/how_to_create_a_tiny_module_for_shared_content/) - Although this isn't a
   standard module, I highly recommend creating one of these for your own use.
   
-- [D&D Beyond Importer](https://foundryvtt.com/packages/ddb-importer/) v0.4.13 - A fork of the 
+- [D&D Beyond Importer](https://foundryvtt.com/packages/ddb-importer/) v0.6.27 - A fork of the 
   [VTTA D&DBeyond Integration](https://foundryvtt.com/packages/vtta-dndbeyond/) module that allows you to automatically import spells, items, and character
   sheets from D&DBeyond into Foundry. Although it's currently in development and missing some functionality, it is still definitely an extremely useful
   module if you either a) own a lot of content on D&DBeyond (guilty), or b) have players that prefer to create their character sheets in D&DBeyond. To get
@@ -615,6 +625,11 @@ module combinations) that have the biggest impact on the games I run. More in-de
   Open wound table                                              | \*blank\*               | ---                                   | ---
   Debugging                                                     | Disabled                | ---                                   | ---
   
+- [DnD5eShopRollTables](https://www.reddit.com/r/FoundryVTT/comments/mnwzi4/as_promised_the_rolltables_for_every_type_of_shop/) v1.0.0 - A collection of quite
+  a few roll tables and table-generation tools. I'm not sure if I'll keep this in, but for right now, it gets the job done with SRD items.  Requires 
+  [Better Roll Tables](https://github.com/ultrakorne/better-rolltables), [Combat Utility Belt](https://foundryvtt.com/packages/combat-utility-belt/), 
+  [Loot Sheet NPC 5e](https://foundryvtt.com/packages/lootsheetnpc5e/), and [LibWrapper](https://foundryvtt.com/packages/lib-wrapper/).
+
 - [DnDBeyond Character Sheet for 5e](https://foundryvtt.com/packages/dndbeyond-character-sheet/) v1.6.3 - Adds a character sheet that mimics the style of 
   D&DBeyond. I personally prefer the look and feel of [Compact DnDBeyond 5e Character Sheet](https://foundryvtt.com/packages/compact-beyond-5e-sheet/), but
   they are both very similar.
@@ -1078,6 +1093,16 @@ module combinations) that have the biggest impact on the games I run. More in-de
   Setting                               | Default | Recommended | Comments
   ---                                   | ---     | ---         | ---    
   Grant players access to the overview  | Enabled | Disabled    | ---
+
+- [PDFFoundry](https://foundryvtt.com/packages/pdfoundry) v0.8.5 - Adds PDF functionality to Foundry. Incredibly useful if you have homebrew PDF rules or PDF 
+  character sheets that you like to use. Unfortunately, it doesn't work well with [PopOut!](https://foundryvtt.com/packages/popout/), and it looks like 
+  maintenance work on it has ceased. That being said, it's an incredibly useful module that works well as-is.
+
+  Setting                             | Default           | Recommended | Comments
+  ---                                 | ---               | ---         | ---    
+  PDF cache size                      | 256               | 512         | ---
+  Show shared PDFs in existing viewer | Enabled           | ---         | ---
+  Viewer theme                        | Fantasy (Default) | ---         | ---
   
 - [Perfect Vision](https://foundryvtt.com/packages/perfect-vision/) v1.7.3 - Replicates the darkvision rules of DnD5e, including seeing dim as bright light, 
   grayscale for seeing in darkness, options for global illumination light scale, etc. Extremely useful for adding a pinch of flavor for those 
