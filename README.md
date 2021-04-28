@@ -1446,14 +1446,17 @@ module combinations) that have the biggest impact on the games I run. More in-de
   Icon  | Attribute | Comments  
   ---   | ---       | ---
   Eye   | None      | No idea what this does, to be honest, but it's there :) 
+
+- [Token Stamp 2](https://foundryvtt.com/packages/rolladvantage-token-stamp-2-foundry) v1.1.2 - I used to use this *so* often when creating monsters for Roll20.
+  Token Stamp 2 is an application that allows you to create custom tokens for your images. This module adds a window within Foundry, so you don't have to 
+  navigate to their site in order to use their tool. Very useful! Adds a small button by the link to the token image within the token menu.
+
+  Setting                 | Default                                     | Recommended   | Comments
+  ---                     | ---                                         | ---           | ---    
+  Token stamp 2 save path | worlds/this-isnt-working-out/rolladvantage  | assets/tokens | ---
   
-- [Tokenizer - v0.7.5 Edition](https://foundryvtt.com/packages/vtta-tokenizer/) - Adds a mini token editor in-game that is extremely easy to use.
+- [Tokenizer](https://foundryvtt.com/packages/vtta-tokenizer/) v3.0.2 - Adds a mini token editor in-game that is extremely easy to use.
   Good for when you have a monster that doesn't have its own token associated with it.
-  
-  NOTE: This is an update from the previous version - [Virtual Tabletop Assets - Tokenizer](https://www.vttassets.com/assets/vtta-tokenizer). In the old
-  version, there is a bug that causes the configuration window to hang, effectively limiting GMs from making modifications to their settings. If you are
-  on the old version and unable to update your settings, please switch to the updated module or follow the instructions
-  [here](https://www.reddit.com/r/FoundryVTT/comments/jfoadt/foundry_vtt_075_release/g9mca2k?utm_source=share&utm_medium=web2x&context=3) to fix.
 
   Setting                       | Default                                           | Recommended   | Comments
   ---                           | ---                                               | ---           | ---    
