@@ -439,8 +439,8 @@
     },
     {
       "id": "popout",
-      "version": "1.0",
-      "manifest": "https://raw.githubusercontent.com/kakaroto/fvtt-module-popout/master/module.json"
+      "version": "1.2",
+      "manifest": "https://raw.githubusercontent.com/League-of-Foundry-Developers/fvtt-module-popout/master/module.json"
     },
     {
       "id": "quick-encounters",
@@ -450,7 +450,7 @@
     },
     {
       "id": "quick-insert",
-      "version": "2.4.4",
+      "version": "2.4.6",
       "author": "Sunspots",
       "manifest": "https://gitlab.com/fvtt-modules-lab/quick-insert/-/jobs/artifacts/master/raw/module.json?job=build-module"
     },

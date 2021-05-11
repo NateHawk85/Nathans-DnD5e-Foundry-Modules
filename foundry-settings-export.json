@@ -64,6 +64,10 @@
     "value": "-1"
   },
   {
+    "key": "dnd5e-helpers.wmToCRecharge",
+    "value": "true"
+  },
+  {
     "key": "monks-scene-navigation.scene-indicator",
     "value": "true"
   },
