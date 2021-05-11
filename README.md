@@ -116,7 +116,7 @@ module combinations) that have the biggest impact on the games I run. More in-de
 
 <a name="all-installed-modules"></a>
 ## List of Currently-Installed Modules, Descriptions, and Settings
-- [About Time](https://foundryvtt.com/packages/about-time/) v0.1.62 - Tracks in-game time and required for the 
+- [About Time](https://foundryvtt.com/packages/about-time/) v0.1.68 - Tracks in-game time and required for the 
   [Calendar/Weather](https://foundryvtt.com/packages/calendar-weather/) module. 
 
   NOTE: This module may be potentially going away with the future core API time updates.
@@ -170,7 +170,7 @@ module combinations) that have the biggest impact on the games I run. More in-de
   
   Setting                               | Default   | Recommended   | Comments
   ---                                   | ---       | ---           | ---
-  Calendar display for non-GM           | Enabled   | Disabled      | Could enable, but in some situations the party may be unaware of time, aka long Underdark scenarios    
+  Calendar display for non-GM           | Enabled   | Enabled       | In some situations the party may be unaware of time, aka long Underdark scenarios. Disable when the party should not know the time!    
   Output weather to chat                | Enabled   | ---           | ---    
   Output moon changes to chat           | Enabled   | ---           | ---    
   Display time as 24hr                  | Disabled  | ---           | ---    
@@ -225,6 +225,14 @@ module combinations) that have the biggest impact on the games I run. More in-de
   Change color of message border            | Disabled      | ---           | --- 
   Display chat flavor text next to portrait | Disabled      | ---           | --- 
   Force name search                         | Disabled      | ---           | --- 
+
+- [Collapsible Journal Sections](https://github.com/ofdiceandmagic/FVTT-collapsible-journal-sections) v1.2.1 - Small quality of life fix that allows you to
+  collapse journal headers. Very useful for long journals and dungeon notes!
+
+  Setting                 | Default   | Recommended | Comments
+  ---                     | ---       | ---         | ---    
+  Default collapsed state | Shown     | Collapsed   | ---
+  Layout                  | Static    | ---         | ---
   
 - [Combat Enhancements](https://foundryvtt.com/packages/combat-enhancements/) v0.1.8 - Adds health tracking via a radial bar and HP field in the Combat Tracker, 
   as well as drag and drop initiative reordering.
@@ -239,13 +247,13 @@ module combinations) that have the biggest impact on the games I run. More in-de
   
 - [Combat Utility Belt](https://foundryvtt.com/packages/combat-utility-belt/) v1.4.0 - One of the most important and impactful combat modules out there. There's 
   too many functions to list, and if you want to automate your combat, this is absolutely necessary. It works extremely well when combined with the 
-  [Midi QoL](https://foundryvtt.com/packages/midi-qol/) module.
+  [Midi QoL](https://foundryvtt.com/packages/midi-qol/) module. Requires [SocketLib](https://foundryvtt.com/packages/socketlib).
 
 ####Core Settings
 
   Setting                       | Default               | Recommended   | Comments
   ---                           | ---                   | ---           | ---    
-  Enable concentrator           | Disabled              | Enabled       | ---
+  Enable concentrator           | Disabled              | ---           | Disabled in favor of the concentrator by [Midi QoL](https://foundryvtt.com/packages/midi-qol/).
   Enable enhanced conditions    | Disabled              | Enabled       | ---
   Enable award XP               | Disabled              | ---           | Would enable if I was using XP levelling instead of milestone levelling.
   Enable hide actor names       | Disabled              | Enabled       | ---
@@ -254,7 +262,7 @@ module combinations) that have the biggest impact on the games I run. More in-de
   Enable reroll initiative      | Disabled              | ---           | ---
   Enable temporary combatants   | Disabled              | Enabled       | ---
   Token effect icon size        | Small (Default) - 5x5 | ---           | ---
-  Enable mighty summoner        | Disabled              | ---           | Disabled only because I have a macro that gets interrupted by this option. Otherwise, I'd keep it.
+  Enable mighty summoner        | Disabled              | ---           | ---
 
 ####CUBPuter Options
 
@@ -277,7 +285,7 @@ module combinations) that have the biggest impact on the games I run. More in-de
 
   Setting                                   | Default       | Recommended   | Comments
   ---                                       | ---           | ---           | ---    
-  Enable concentrator                       | Disabled      | Enabled       | ---
+  Enable concentrator                       | Disabled      | ---           | Disabled in favor of the concentrator by [Midi QoL](https://foundryvtt.com/packages/midi-qol/).
   Concentration condition name              | Concentrating | ---           | ---
   Concentration attribute                   | con           | ---           | ---
   Health attribute                          | attributes.hp | ---           | ---
@@ -389,15 +397,14 @@ module combinations) that have the biggest impact on the games I run. More in-de
   NOTE: If while using this module you 1) add a compendium to a folder, then 2) remove the compendium from the folder, that compendium will no longer appear in
   your Default folder. Re-enable the compendium in a folder to show it again.
 
-- [Compendium Scene Viewer](https://foundryvtt.com/packages/scene-viewer/) v0.2.0 - Allows for viewing compendium scenes from within the compendium, not 
+- [Compendium Scene Viewer](https://foundryvtt.com/packages/scene-viewer/) v0.2.1 - Allows for viewing compendium scenes from within the compendium, not 
   requiring you to import them. This used to be an extremely big pain point, especially for someone with a large amount of scenes stored in their compendiums. 
   Very nice quality of life fix.
-  
-  NOTE: This module can make empty compendiums unusable and unable to open.
 
   Setting                   | Default   | Recommended   | Comments
   ---                       | ---       | ---           | ---    
   Context menu option       | Disabled  | Enabled       | Adds a right-click option to view the scene background.
+  Close other popouts       | Disabled  | Enabled       | ---
   
 - [Condition Automation](https://foundryvtt.com/packages/condition-automation/) v2.2.24 - Automatically generates shadows based on elevation when combined with
   [Token Magic FX](https://foundryvtt.com/packages/tokenmagic/), removes vision automatically when a token is blinded, and freezes a token when it is
@@ -497,7 +504,7 @@ module combinations) that have the biggest impact on the games I run. More in-de
   Setting                       | Default   | Recommended                                       | Comments
   ---                           | ---       | ---                                               | ---    
   A location for image uploads  | \[data\]  | \[data\] assets/ddb-imported-images               | ---
-  A cobolt cookie               | \*blank\* | \*your cobolt cookie here\*                       | ---
+  A cobalt cookie               | \*blank\* | \*your cobalt cookie here\*                       | ---
   Campaign URL/ID               | \*blank\* | \*your campaign URL/ID here, if you have one\*    | ---
   Patreon key                   | \*blank\* | \*your patreon key here, if you have one\*        | ---
 
@@ -521,6 +528,25 @@ module combinations) that have the biggest impact on the games I run. More in-de
   
 - [DF Settings Clarity](https://foundryvtt.com/packages/df-settings-clarity/) v2.1.4 - Adds icons next to individual settings to distinguish global settings 
   from player ones. Extremely useful for people like me who spend quite a bit of time playing around with module settings :)
+
+- [DFreds Pocket Change](https://foundryvtt.com/packages/dfreds-pocket-change/) - Automatically populates coinage via
+  [Loot Sheet NPC 5e](https://foundryvtt.com/packages/lootsheetnpc5e/). This is an amazing quality of life fix, especially if you are like me and don't always
+  have the enemy's loot laid out beforehand. These tables are based on the 5th edition Dungeon Master's Guide, and there's even an option to customize the 
+  currency multiplier based on your game's economy. 
+
+  Setting                   | Default   | Recommended | Comments
+  ---                       | ---       | ---         | ---    
+  Enabled                   | Enabled   | ---         | ---
+  Creature types            | Humanoid  | \*blank\*   | I use in combination with [Monk's TokenBar](https://foundryvtt.com/packages/monks-tokenbar/), which allows me to only toggle loot sheets I want.
+  Chance of no currency     | 0.25      | 0.1         | ---
+  Currency multiplier       | 1         | ---         | ---
+  Chance of damaged items   | 0.25      | 0.1         | ---
+  Damaged items multiplier  | 0.25      | 0.35        | ---
+  Remove damaged items      | Disabled  | ---         | ---
+  Use silver                | Enabled   | ---         | ---
+  Use electrum              | Enabled   | Disabled    | Poor electrum...
+  Use gold                  | Enabled   | ---         | ---
+  Use platinum              | Enabled   | ---         | ---
   
 - [Dice So Nice!](https://foundryvtt.com/packages/dice-so-nice/) v3.3.1 - How can you play D&D without any dice!? Allows you to roll 3D dice on your screen. It
   is absolutely necessary for the clickity clackities. I personally haven't done a deep-dive into these settings, but some of my players have and they've 
@@ -590,7 +616,7 @@ module combinations) that have the biggest impact on the games I run. More in-de
 - [Dice Tooltip](https://foundryvtt.com/packages/dice-tooltip/) v1.0.8 - Shows hit bonuses and damage calculations when hovering over items in a PC/NPC's 
   inventory. Pretty nice quality of life fix.
   
-- [DnD5e Helpers](https://foundryvtt.com/packages/dnd5e-helpers/) v1.9.4 - Some helpful automation to remind GMs of legendary actions, regeneration, undead 
+- [DnD5e Helpers](https://foundryvtt.com/packages/dnd5e-helpers/) v1.10.3 - Some helpful automation to remind GMs of legendary actions, regeneration, undead 
   fortitude checks, wild magic surges, auto proficiencies, and more. Also provides additional homebrew rules like open wounds, great wounds, and measured 
   template adjustments.
   
@@ -602,10 +628,11 @@ module combinations) that have the biggest impact on the games I run. More in-de
   Compute cover on target                                       | Disabled                | Center Point Vision (Foundry Vision)  | ---
   Consider intervening tokens as half cover                     | Disabled                | ---                                   | ---
   Hide GM info from cover report                                | Disabled                | Enabled                               | ---
-  Wild magic auto-detect                                        | Disabled                | Enabled                               | ---
+  Wild magic auto-detect                                        | Disabled                | Enabled - More                        | ---
   Wild magic feature name                                       | Wild Magic Surge        | ---                                   | ---
   Wild magic surge table name                                   | Wild-Magic-Surge-Table  | Wild Magic Surges                     | ---
   Tides of chaos feature name                                   | Tides of Chaos          | ---                                   | ---
+  Recharge tides of chaos on surge                              | Disabled                | Enabled                               | ---
   Hide wild magic from players                                  | Disabled                | Enabled                               | ---
   Reaction status automation                                    | None                    | Apply and Remove                      | ---
   Reaction status name                                          | Weakened                | Reactionless                          | You must enable [Combat Utility Belt](https://foundryvtt.com/packages/combat-utility-belt/) and create a custom status in the Condition Lab with the same name in order to use this feature.
@@ -656,7 +683,7 @@ module combinations) that have the biggest impact on the games I run. More in-de
   Color for dash          | 255, 255, 0                               | 255, 100, 0 | ---
   Color for unreachable   | 255, 0, 0                                 | ---         | ---
   
-- [Dynamic Active Effects](https://foundryvtt.com/packages/dae/)  v0.2.50 - The successor to the old 
+- [Dynamic Active Effects](https://foundryvtt.com/packages/dae/)  v0.2.62 - The successor to the old 
   [Dynamic Effects](https://foundryvtt.com/packages/dynamiceffects/) module, this acts as a bridge between the new Active Effects system implemented in
   Foundry 0.7.x and the DnD5e system. This will allow you to do multiple things, including calculating AC, adding bonuses to attacks, applying certain spells
   and effects, implementing non-SRD features and abilities... One of the most impactful modules out there. [Kandashi](https://github.com/kandashi) has an
@@ -676,6 +703,7 @@ module combinations) that have the biggest impact on the games I run. More in-de
   ---                                               | ---       | ---         | ---    
   Non-transfer effects require item targets (dnd5e) | Enabled   | ---         | ---
   Use the DAE active effect config sheet            | Enabled   | ---         | ---
+  No duplicate damage macros                        | Disabled  | ---         | ---
   Expire timed effects in real time                 | Enabled   | Disabled    | [About Time](https://foundryvtt.com/packages/about-time/) is installed, so this field isn't used.
   Include active effects in special traits display  | Disabled  | ---         | ---
   Use ability save field when rolling ability saves | Enabled   | ---         | ---
@@ -767,7 +795,7 @@ module combinations) that have the biggest impact on the games I run. More in-de
   Show Estimates                | All                                                                         | ---                                         | ---
   Stages                        | Unconscious, Near Death, Badly Injured, Injured, Barely Injured, Uninjured  | Unconscious, Badly Injured, Injured, Fresh  | ---
   Perfectionism                 | Disabled                                                                    | Enabled                                     | ---
-  Output estimate to chat       | Disabled                                                                    | Enabled                                     | ---
+  Output estimate to chat       | Disabled                                                                    | ---                                         | ---
   Add temporary health          | Disabled                                                                    | ---                                         | ---
   Hide on tokens with 0 max HP  | Enabled                                                                     | ---                                         | ---
   Use vehicle threshold         | Disabled                                                                    | ---                                         | ---
@@ -820,12 +848,6 @@ module combinations) that have the biggest impact on the games I run. More in-de
   ---                   | ---       | ---         | ---    
   Hookbar hook          | Disabled  | Enabled     | ---
   Character sheet hook  | Disabled  | ---         | Speed rolling with this option enabled will lead to errors running macros.
-  
-- [Kobold Press OGL Compendium](https://foundryvtt.com/packages/koboldpressogl/) v0.24 - Adds a Kobold Press OGL monsters compendium. Although the monsters do 
-  not import with tokens automatically, creating new tokens for them is usually pretty easy. A great way to import new monsters with stat blocks already 
-  created.
-  
-  NOTE: I usually keep this disabled until I need to import a monster.
   
 - [Less Fog](https://foundryvtt.com/packages/lessfog/) v0.7.1 - Slightly tweaks the default Foundry lighting and provides options to customize it. The main
   benefit I see while using it is increased visibility for GMs when controlling tokens while still retaining token sight.
@@ -898,7 +920,7 @@ module combinations) that have the biggest impact on the games I run. More in-de
   
 - [Math.js](https://foundryvtt.com/packages/_mathjs/) v7.5.1-fvtt2 - Includes the Math.js library for developers. No functionality on its own.
   
-- [Midi QoL](https://foundryvtt.com/packages/midi-qol/) v0.3.67 - One of the best combat automation modules, period. This module allows for automatic damage
+- [Midi QoL](https://foundryvtt.com/packages/midi-qol/) v0.3.103 - One of the best combat automation modules, period. This module allows for automatic damage
   calculation and application, immediate AC hit/miss check, NPC saving throws, auto-prompt PCs to roll saves (in combination with 
   [Let Me Roll That For You](https://foundryvtt.com/packages/lmrtfy/)), apply Active Effects to targets (including conditions), and more. This module, along
   with [Combat Utility Belt](https://foundryvtt.com/packages/combat-utility-belt/), [Dynamic Active Effects](https://foundryvtt.com/packages/dae/), and
@@ -956,20 +978,23 @@ module combinations) that have the biggest impact on the games I run. More in-de
   Auto target on template draw                  | Walls Block                 | ---
   Auto target for ranged target spells/attacks  | Disabled                    | ---
   Require targets to be selected before rolling | Enabled                     | ---
-  Add macro to call on use                      | Disabled                    | ---
-  Enable concentration automation               | Disabled                    | Already handled by [Combat Utility Belt](https://foundryvtt.com/packages/combat-utility-belt/), otherwise I would enable this.
-  Single concentration check                    | Disabled                    | Same deal for this one.
+  Add macro to call on use                      | Disabled                    | Enabled
   Auto apply item effects to targets            | Enabled                     | ---
   Auto check if attack hits target              | Check - only GM sees        | ---
   Auto check saves                              | Save - only GM sees         | ---
   Display saving throw DC                       | Enabled                     | ---
   Search spell description                      | Enabled                     | ---
+  Default saving throw multiplier               | 0.5                         | ---
   Prompt players to roll saves                  | LMRTFY                      | ---
   Prompt GM to roll saves                       | Auto                        | ---
   Delay before rolling for players              | 10                          | ---
   Auto apply damage to target                   | No + damage card            | ---
   Apply damage immunities                       | apply immunities + physical | ---
+  Require 'magical' property                    | Disabled                    | ---
   Roll formula on failed save for rwak/mwak     | Disabled                    | ---
+  Enable concentration automation               | Enabled                     | Used to have it handled by [Combat Utility Belt](https://foundryvtt.com/packages/combat-utility-belt/), but I switched to this and am much happier.
+  Remove concentration on failed save           | Enabled                     | ---
+  Single concentration check                    | Disabled                    | ---
 
 ####Misc
 
@@ -979,6 +1004,10 @@ module combinations) that have the biggest impact on the games I run. More in-de
   Merge rolls to one card                       | Enabled                 | ---
   Condense attack/damage rolls                  | Disabled                | ---
   Chat cards use token name                     | Disabled                | ---
+  Use actor portrait in chat cards              | Enabled                 | ---
+  Keep roll statistics                          | Enabled                 | ---
+  Save statistics every                         | 10                      | ---
+  Player statistics only                        | Disabled                | ---
   Enable speed item rolls                       | Enabled                 | ---
   Enable speed ability (save/check/skill) rolls | Enabled                 | ---
   Advantage                                     | alt                     | ---
@@ -993,9 +1022,9 @@ module combinations) that have the biggest impact on the games I run. More in-de
   
   Setting                                           | Default                                       | Recommended | Comments
   ---                                               | ---                                           | ---         | ---    
-  Show 'next up' notification                       | Enabled                                       | Disabled    | ---
+  Show 'next up' notification                       | Enabled                                       | ---         | ---
   Next sound                                        | modules/monks-little-details/sounds/next.wav  | ---         | ---
-  Show 'your turn' notification                     | Enabled                                       | Disabled    | ---
+  Show 'your turn' notification                     | Enabled                                       | ---         | ---
   Current turn sound                                | modules/monks-little-details/sounds/turn.wav  | ---         | ---
   Next round sound                                  | modules/monks-little-details/sounds/round.wav | ---         | ---
   Volume                                            | 60                                            | 20          | ---
@@ -1019,16 +1048,47 @@ module combinations) that have the biggest impact on the games I run. More in-de
   Show blodsplat                                    | Disabled                                      | ---         | ---
   Show token highlight                              | Enabled                                       | ---         | Handled by [Next Up](https://foundryvtt.com/packages/Next-Up/), otherwise it would be enabled.
   
-- [Monk's Scene Navigation](https://foundryvtt.com/packages/monks-scene-navigation/) v1.0.5 - A cool tweak to add folders to the navbar. It also replaces the 
+- [Monk's Scene Navigation](https://foundryvtt.com/packages/monks-scene-navigation/) v1.0.11 - A cool tweak to add folders to the navbar. It also replaces the 
   default Foundry scene functionality so that left-clicking on a scene will view it, as opposed to opening configuration for it. Replaces 
   [Navbar Tweaks](https://foundryvtt.com/packages/navbar-tweaks/).
 
-  Setting                 | Default   | Recommended | Comments
-  ---                     | ---       | ---         | ---    
-  Click to view           | Enabled   | ---         | ---
-  Scene icons             | Enabled   | Disabled    | As of the current version I have installed, this feature wasn't working correctly, so I decided to disable it. However, it'd be a very solid quality-of-life fix, so I hope to upgrade soon.
-  Scene folders position  | Back      | ---         | ---
-  
+  Setting                   | Default   | Recommended | Comments
+  ---                       | ---       | ---         | ---    
+  Click to view             | Enabled   | ---         | ---
+  Scene icons               | Enabled   | ---         | --- 
+  Scene folders position    | Back      | ---         | ---
+  Show folders for players  | Disabled  | ---         | ---
+  Display background        | Enabled   | ---         | ---
+
+- [Monk's TokenBar](https://foundryvtt.com/packages/monks-tokenbar/) v1.0.34 - This quality of life module adds a small "party overview" that you (the GM) can 
+  drag to any spot on your screen. It adds useful features like enabling/disabling player movement, requesting rolls, etc. It even adds functionality to convert
+  creatures into [Loot Sheets](https://foundryvtt.com/packages/lootsheetnpc5e/) post-combat. Works wonderfully with
+  [DFreds Pocket Change](https://foundryvtt.com/packages/dfreds-pocket-change/), although you'll have to make sure to not override their values in the 
+  post-combat menu.
+
+  Setting                             | Default                                             | Recommended       | Comments
+  ---                                 | ---                                                 | ---               | ---    
+  Notify on movement change           | Enabled                                             | ---               | ---
+  Show XP dialog                      | Enabled                                             | Disabled          | ---
+  How to divide XP among players      | Divide XP among players                             | Do not divide XP  | ---
+  Whisper player on levelup           | Enabled                                             | Disabled          | ---
+  Show resource bars                  | Disabled                                            | Enabled           | ---
+  Token pictures                      | Token Image                                         | Actor Portrait    | ---
+  Change movement to combat           | Enabled                                             | ---               | ---
+  Set movement after combat           | Free Movement                                       | ---               | ---
+  Free all tokens of active combatant | Disabled                                            | ---               | ---
+  Convert enemies to lootable         | Disabled                                            | Enabled           | ---
+  Allow player to use                 | Disabled                                            | Enabled           | ---
+  Disable tokenbar                    | Disabled                                            | ---               | ---
+  Delete message after grab           | Disabled                                            | ---               | ---
+  Show lootable menu                  | Enabled                                             | ---               | ---
+  Show inspiration                    | Disabled                                            | Enabled           | ---
+  Request roll sound                  | modules/monks-tokenbar/sounds/RollRequestAlert.ogg  | \*blank\*         | ---
+  Stat1 icon                          | fa-shield-alt                                       | ---               | ---
+  Stat1 resource                      | attributes.ac.value                                 | ---               | ---
+  Stat2 icon                          | fa-eye                                              | ---               | ---
+  Stat2 resource                      | skills.prc.passive                                  | ---               | ---
+
 - [Multilevel Tokens](https://foundryvtt.com/packages/multilevel-tokens/) v1.3.4 - An incredibly versatile module that allows the GM to set triggers whenever a 
   token enters a certain region laid out by the Foundry built-in drawing tools. Uses include teleporting an actor to a basement scene when they "walk down" a 
   set of steps, creating portals that hop to different areas on the same map (or others), adjusting token properties based on its position, etc. I use this most
@@ -1071,19 +1131,6 @@ module combinations) that have the biggest impact on the games I run. More in-de
   Start turn marker                     | \*blank\*                                         | Shadow                                            | ---
   Start turn marker icon                | \[data\] modules/Next-Up/Markers/BlackCross.png   | \[data\] modules/Next-Up/Markers/DoubleSquare.png | This is unused.
   Start marker ratio                    | 1                                                 | ---                                               | ---
-  
-- [Not Enough NPCs - A 5e NPC Generator](https://foundryvtt.com/packages/npcgen/) v0.4.0 - Adds a nifty NPC generator on the fly via a button at the bottom of 
-  the Actor tab.
-  
-  NOTE: I usually keep this disabled until I need to create NPCs, as I usually make batches of them before the game so I can tweak their personalities and iron
-  out any kinks.
-  
-  For the "Custom Generator Entries" and "Export/Import" settings, I leave them at their defaults.
-
-  Setting                 | Default   | Recommended | Comments
-  ---                     | ---       | ---         | ---    
-  Save NPCs as characters | Enabled   | ---         | ---
-  Role specific images    | Disabled  | ---         | ---
   
 - [Party Overview](https://foundryvtt.com/packages/party-overview/) v2.4.2 - A successor to
   [Virtual Tabletop Assets - Party Overview](https://foundryvtt.com/packages/vtta-party/), Party Overview adds an info icon in the Actors tab that pops an 
@@ -1199,7 +1246,7 @@ module combinations) that have the biggest impact on the games I run. More in-de
   ---                           | ---       | ---         | ---    
   Custom languages              | \*blank\* | ---         | ---
   Default language              | \*blank\* | ---         | ---
-  Scramble for GM               | Enabled   | ---         | ---
+  Scramble for GM               | Enabled   | Disabled    | ---
   Randomize runes               | Disabled  | ---         | ---
   Make fonts available          | Enabled   | ---         | ---
   Display translated box        | Enabled   | ---         | ---
@@ -1263,6 +1310,8 @@ module combinations) that have the biggest impact on the games I run. More in-de
   NOTE: Unlike most of the other modules in this list, you should manually import the updated version of this module via the manifest URL located 
   [here](https://raw.githubusercontent.com/League-of-Foundry-Developers/simplefog/master/module.json). If you use the typical Foundry interface, it will install
   the old version that is incompatible with the lighting upgrades in Foundry version 0.7.x.
+
+- [SocketLib](https://foundryvtt.com/packages/socketlib) v1.0.5 - Used by other modules. Don't install unless you have another module that requires it.
   
 - [The Furnace](https://foundryvtt.com/packages/furnace/) v2.6.0 - Adds drawing tools, async macros (that are relied on by other modules and macros), enabling 
   and disabling GM token vision, valuable playlist enhancements, modifying initiative value within the Combat Tracker, etc. Small, random quality of life
@@ -1533,13 +1582,17 @@ module combinations) that have the biggest impact on the games I run. More in-de
 - [Tom Cartos Ostenwold](https://foundryvtt.com/packages/tomcartos-ostenwold/) - This one's a little different as it's a preset town. Also, great maps!
 <a name="modules-to-chop"></a>2
 ## Modules on the Chopping Block
-- [Kobold Press OGL Compendium](https://foundryvtt.com/packages/koboldpressogl/) - I've found that I rarely end up using these resources.
-- [Not Enough NPCs - A 5e NPC Generator](https://foundryvtt.com/packages/npcgen/) - I haven't used it too recently; however, we have been stuck in a cave 
-  system with limited RP opportunities, so once we get back to a major city, it may become a factor once again.
 - [Roofs and Overhead Tiles](https://foundryvtt.com/packages/roofs/) - I haven't found many maps to use it in. That could change, however, if we end up 
   doing more urban maps.
-<a name="modules-to-review"></a>2
+<a name="modules-to-review"></a>
 ## Modules to Review
+- [DF Architect](https://foundryvtt.com/packages/df-architect) - A host of GM tools, could replace [Wall Cutter](https://foundryvtt.com/packages/WallCutter/). 
+  Requires Library: DF Hotkeys
+- [Library: DF Hotkeys](https://foundryvtt.com/packages/lib-df-hotkeys) - required by DF Architect. Also could be useful in its own right.
+- [Hidden Initiative](https://foundryvtt.com/packages/hidden-initiative/) - Hides initiative rolls from players until it's their turn... known issues with CUB. 
+  We'll give it a go and see what happens.
+- [Moulinette](https://foundryvtt.com/packages/moulinette-core) - Searchable tile and other prefab placement tools... this could get spicy.
+
 <a name="modules-to-review-later"></a>
 ## Modules to Review at a Later Date
 - [Grid Scaler](https://foundryvtt.com/packages/grid_scaler/) - Adds an option in the top-left menu to easily configure your background map to the grid. 
@@ -1631,6 +1684,9 @@ module combinations) that have the biggest impact on the games I run. More in-de
 - [Adventure Importer/Exporter](https://foundryvtt.com/packages/adventure-import-export/) - Allows you to, as the title says, import and export your worlds.
 
   Why retired: Never really used it, and I don't create a lot of content within Foundry. The content I do create can be copied via the Data folder.
+- [Always HP](https://foundryvtt.com/packages/always-hp/) - Adds a bar to adjust HP.
+
+  Why retired: I think [Token Health](https://foundryvtt.com/packages/token-health/) does the job better for my use-cases.
 - [Batch Permission Change by Folder](https://foundryvtt.com/packages/BatchPermissionsByFolder/) - Allows the GM to quickly change the permissions for all items
   in a folder.
   
@@ -1717,6 +1773,14 @@ module combinations) that have the biggest impact on the games I run. More in-de
   screen. Could be useful for landing pages.
 
   Why retired: Not what I needed, personally.
+
+- [Kobold Press OGL Compendium](https://foundryvtt.com/packages/koboldpressogl/) v0.24 - Adds a Kobold Press OGL monsters compendium. Although the monsters do
+  not import with tokens automatically, creating new tokens for them is usually pretty easy. A great way to import new monsters with stat blocks already
+  created.
+
+  NOTE: I usually keep this disabled until I need to import a monster.
+  
+  Why retired: I never ended up using it.
 - [Laptop Form Fix](https://foundryvtt.com/packages/laptop-fix/) - Fixes CSS issues where the Save button is often unclickable due to being too far down.
 
   Why retired: Foundry's updates have fixed the issue, at least it appears that way.
@@ -1738,6 +1802,21 @@ module combinations) that have the biggest impact on the games I run. More in-de
   their owner, but might need to be able to see.
   
   Why retired: Now included in default Foundry.
+- [Not Enough NPCs - A 5e NPC Generator](https://foundryvtt.com/packages/npcgen/) v0.4.0 - Adds a nifty NPC generator on the fly via a button at the bottom of
+  the Actor tab.
+
+  NOTE: I usually keep this disabled until I need to create NPCs, as I usually make batches of them before the game so I can tweak their personalities and iron
+  out any kinks.
+
+  For the "Custom Generator Entries" and "Export/Import" settings, I leave them at their defaults.
+
+  Setting                 | Default   | Recommended | Comments
+  ---                     | ---       | ---         | ---    
+  Save NPCs as characters | Enabled   | ---         | ---
+  Role specific images    | Disabled  | ---         | ---
+  
+  Why retired: Never ended up using it, and I have other NPC generators that I use for personality stuff, and I like to make tweaks as well. Cool concept, 
+  though!
 - [PnP - Pointer and Pings](https://foundryvtt.com/packages/pointer/) - Adds pointer/mouse follow functionality, plus a ping option as well.
   
   Why retired: [Pings](https://foundryvtt.com/packages/pings/) was much easier to use and fit our use-case better.

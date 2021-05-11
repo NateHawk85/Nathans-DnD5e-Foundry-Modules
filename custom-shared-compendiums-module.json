@@ -1,327 +1,397 @@
-{   
-   "name": "CustomSharedCompendiums",   
-   "title": "Custom Shared Compendiums",   
-   "description": "Personal compendium-sharing module.",   
-   "author": "Nathan",
-   "version": "1.0.0",
-   "minimumCoreVersion": "0.5.5",
-   "compatibleCoreVersion": "3.0.0",
-   "packs": [
-    {
-      "name": "city-scenes",
-      "label": "City Scenes",
-      "path": "packs/city-scenes.db",
-      "entity": "Scene",
-      "module": "CustomSharedCompendiums"
-    },
-    {
-      "name": "indoor-scenes",
-      "label": "Indoor Scenes",
-      "path": "packs/indoor-scenes.db",
-      "entity": "Scene",
-      "module": "CustomSharedCompendiums"
-    },
-    {
-      "name": "generic-scenes",
-      "label": "Generic Scenes",
-      "path": "packs/generic-scenes.db",
-      "entity": "Scene",
-      "module": "CustomSharedCompendiums"
-    },
-    {
-      "name": "miscellaneous-battle-scenes",
-      "label": "Miscellaneous Battle Scenes",
-      "path": "packs/miscellaneous-battle-scenes.db",
-      "entity": "Scene",
-      "module": "CustomSharedCompendiums"
-    },
-    {
-      "name": "mountain-scenes",
-      "label": "Mountain Scenes",
-      "path": "packs/mountain-scenes.db",
-      "entity": "Scene",
-      "module": "CustomSharedCompendiums"
-    },
-    {
-      "name": "forest-scenes",
-      "label": "Forest Scenes",
-      "path": "packs/forest-scenes.db",
-      "entity": "Scene",
-      "module": "CustomSharedCompendiums"
-    },
-    {
-      "name": "dungeon-scenes",
-      "label": "Dungeon Scenes",
-      "path": "packs/dungeon-scenes.db",
-      "entity": "Scene",
-      "module": "CustomSharedCompendiums"
-    },
-    {
-      "name": "backgrounds-scenes",
-      "label": "Background Scenes",
-      "path": "packs/background-scenes.db",
-      "entity": "Scene",
-      "module": "CustomSharedCompendiums"
-    },
-    {
-      "name": "temple-scenes",
-      "label": "Temple Scenes",
-      "path": "packs/temple-scenes.db",
-      "entity": "Scene",
-      "module": "CustomSharedCompendiums"
-    },
-    {
-      "name": "map-scenes",
-      "label": "Map Scenes",
-      "path": "packs/map-scenes.db",
-      "entity": "Scene",
-      "module": "CustomSharedCompendiums"
-    },
-    {
-      "name": "lmop-scenes",
-      "label": "LMoP Scenes",
-      "path": "packs/lmop-scenes.db",
-      "entity": "Scene",
-      "module": "CustomSharedCompendiums"
-    },
-    {
-      "name": "naval-scenes",
-      "label": "Naval Scenes",
-      "path": "packs/naval-scenes.db",
-      "entity": "Scene",
-      "module": "CustomSharedCompendiums"
-    },
-    {
-      "name": "shops-stores-scenes",
-      "label": "Shops and Stores Scenes",
-      "path": "packs/shops-stores-scenes.db",
-      "entity": "Scene",
-      "module": "CustomSharedCompendiums"
-    },
-    {
-      "name": "road-scenes",
-      "label": "Road Scenes",
-      "path": "packs/road-scenes.db",
-      "entity": "Scene",
-      "module": "CustomSharedCompendiums"
-    },
-    {
-      "name": "winter-scenes",
-      "label": "Winter Scenes",
-      "path": "packs/winter-scenes.db",
-      "entity": "Scene",
-      "module": "CustomSharedCompendiums"
-    },
-    {
-      "name": "desert-scenes",
-      "label": "Desert Scenes",
-      "path": "packs/desert-scenes.db",
-      "entity": "Scene",
-      "module": "CustomSharedCompendiums"
-    },
-    {
-      "name": "Dimensional-scenes",
-      "label": "Dimensional Scenes",
-      "path": "packs/Dimensional-scenes.db",
-      "entity": "Scene",
-      "module": "CustomSharedCompendiums"
-    },
-    {
-      "name": "town-scenes",
-      "label": "Town Scenes",
-      "path": "packs/town-scenes.db",
-      "entity": "Scene",
-      "module": "CustomSharedCompendiums"
-    },
-    {
-      "name": "castle-scenes",
-      "label": "Castle Scenes",
-      "path": "packs/castle-scenes.db",
-      "entity": "Scene",
-      "module": "CustomSharedCompendiums"
-    },
-    {
-      "name": "taverns-inns-scenes",
-      "label": "Taverns and Inns Scenes",
-      "path": "packs/taverns-inns-scenes.db",
-      "entity": "Scene",
-      "module": "CustomSharedCompendiums"
-    },
-    {
-      "name": "island-scenes",
-      "label": "Island Scenes",
-      "path": "packs/island-scenes.db",
-      "entity": "Scene",
-      "module": "CustomSharedCompendiums"
-    },
-    {
-      "name": "uncategorized-building-scenes",
-      "label": "Uncategorized Building Scenes",
-      "path": "packs/uncategorized-building-scenes.db",
-      "entity": "Scene",
-      "module": "CustomSharedCompendiums"
-    },
-    {
-      "name": "home-scenes",
-      "label": "Home Scenes",
-      "path": "packs/home-scenes.db",
-      "entity": "Scene",
-      "module": "CustomSharedCompendiums"
-    },
+{
+    "name": "CustomSharedCompendiums",
+    "title": "Custom Shared Compendiums",
+    "description": "Personal compendium-sharing module.",
+    "author": "Nathan",
+    "version": "1.0.0",
+    "minimumCoreVersion": "0.5.5",
+    "compatibleCoreVersion": "3.0.0",
+    "packs": [
+        {
+            "name": "city-scenes",
+            "label": "City Scenes",
+            "path": "packs/city-scenes.db",
+            "entity": "Scene",
+            "module": "CustomSharedCompendiums"
+        },
+        {
+            "name": "indoor-scenes",
+            "label": "Indoor Scenes",
+            "path": "packs/indoor-scenes.db",
+            "entity": "Scene",
+            "module": "CustomSharedCompendiums"
+        },
+        {
+            "name": "generic-scenes",
+            "label": "Generic Scenes",
+            "path": "packs/generic-scenes.db",
+            "entity": "Scene",
+            "module": "CustomSharedCompendiums"
+        },
+        {
+            "name": "miscellaneous-battle-scenes",
+            "label": "Miscellaneous Battle Scenes",
+            "path": "packs/miscellaneous-battle-scenes.db",
+            "entity": "Scene",
+            "module": "CustomSharedCompendiums"
+        },
+        {
+            "name": "mountain-scenes",
+            "label": "Mountain Scenes",
+            "path": "packs/mountain-scenes.db",
+            "entity": "Scene",
+            "module": "CustomSharedCompendiums"
+        },
+        {
+            "name": "forest-scenes",
+            "label": "Forest Scenes",
+            "path": "packs/forest-scenes.db",
+            "entity": "Scene",
+            "module": "CustomSharedCompendiums"
+        },
+        {
+            "name": "dungeon-scenes",
+            "label": "Dungeon Scenes",
+            "path": "packs/dungeon-scenes.db",
+            "entity": "Scene",
+            "module": "CustomSharedCompendiums"
+        },
+        {
+            "name": "backgrounds-scenes",
+            "label": "Background Scenes",
+            "path": "packs/background-scenes.db",
+            "entity": "Scene",
+            "module": "CustomSharedCompendiums"
+        },
+        {
+            "name": "temple-scenes",
+            "label": "Temple Scenes",
+            "path": "packs/temple-scenes.db",
+            "entity": "Scene",
+            "module": "CustomSharedCompendiums"
+        },
+        {
+            "name": "map-scenes",
+            "label": "Map Scenes",
+            "path": "packs/map-scenes.db",
+            "entity": "Scene",
+            "module": "CustomSharedCompendiums"
+        },
+        {
+            "name": "lmop-scenes",
+            "label": "LMoP Scenes",
+            "path": "packs/lmop-scenes.db",
+            "entity": "Scene",
+            "module": "CustomSharedCompendiums"
+        },
+        {
+            "name": "naval-scenes",
+            "label": "Naval Scenes",
+            "path": "packs/naval-scenes.db",
+            "entity": "Scene",
+            "module": "CustomSharedCompendiums"
+        },
+        {
+            "name": "shops-stores-scenes",
+            "label": "Shops and Stores Scenes",
+            "path": "packs/shops-stores-scenes.db",
+            "entity": "Scene",
+            "module": "CustomSharedCompendiums"
+        },
+        {
+            "name": "road-scenes",
+            "label": "Road Scenes",
+            "path": "packs/road-scenes.db",
+            "entity": "Scene",
+            "module": "CustomSharedCompendiums"
+        },
+        {
+            "name": "winter-scenes",
+            "label": "Winter Scenes",
+            "path": "packs/winter-scenes.db",
+            "entity": "Scene",
+            "module": "CustomSharedCompendiums"
+        },
+        {
+            "name": "desert-scenes",
+            "label": "Desert Scenes",
+            "path": "packs/desert-scenes.db",
+            "entity": "Scene",
+            "module": "CustomSharedCompendiums"
+        },
+        {
+            "name": "Dimensional-scenes",
+            "label": "Dimensional Scenes",
+            "path": "packs/Dimensional-scenes.db",
+            "entity": "Scene",
+            "module": "CustomSharedCompendiums"
+        },
+        {
+            "name": "town-scenes",
+            "label": "Town Scenes",
+            "path": "packs/town-scenes.db",
+            "entity": "Scene",
+            "module": "CustomSharedCompendiums"
+        },
+        {
+            "name": "castle-scenes",
+            "label": "Castle Scenes",
+            "path": "packs/castle-scenes.db",
+            "entity": "Scene",
+            "module": "CustomSharedCompendiums"
+        },
+        {
+            "name": "taverns-inns-scenes",
+            "label": "Taverns and Inns Scenes",
+            "path": "packs/taverns-inns-scenes.db",
+            "entity": "Scene",
+            "module": "CustomSharedCompendiums"
+        },
+        {
+            "name": "island-scenes",
+            "label": "Island Scenes",
+            "path": "packs/island-scenes.db",
+            "entity": "Scene",
+            "module": "CustomSharedCompendiums"
+        },
+        {
+            "name": "uncategorized-building-scenes",
+            "label": "Uncategorized Building Scenes",
+            "path": "packs/uncategorized-building-scenes.db",
+            "entity": "Scene",
+            "module": "CustomSharedCompendiums"
+        },
+        {
+            "name": "home-scenes",
+            "label": "Home Scenes",
+            "path": "packs/home-scenes.db",
+            "entity": "Scene",
+            "module": "CustomSharedCompendiums"
+        },
+        {
+            "name": "retired-this-isnt-working-out-scenes",
+            "label": "Retired This Isn't Working Out Scenes",
+            "path": "packs/retired-this-isnt-working-out-scenes.db",
+            "entity": "Scene",
+            "module": "CustomSharedCompendiums"
+        },
+        {
+            "name": "retired-alternative-dm-scenes",
+            "label": "Retired Alternative DM Scenes",
+            "path": "packs/retired-alternative-dm-scenes.db",
+            "entity": "Scene",
+            "module": "CustomSharedCompendiums"
+        },
 
 
 
-    {
-      "name": "player-characters",
-      "label": "Player Characters",
-      "path": "packs/player-characters.db",
-      "entity": "Actor",
-      "module": "CustomSharedCompendiums"
-    },
-    {
-      "name": "actor-prefabs",
-      "label": "Actor Prefabs",
-      "path": "packs/actor-prefabs.db",
-      "entity": "Actor",
-      "module": "CustomSharedCompendiums"
-    },
-    {
-      "name": "custom-monsters",
-      "label": "Custom Monsters",
-      "path": "packs/custom-monsters.db",
-      "entity": "Actor",
-      "module": "CustomSharedCompendiums"
-    },
-    {
-      "name": "5etools-monsters",
-      "label": "All 5e.tools Monsters",
-      "path": "packs/5etools-monsters.db",
-      "entity": "Actor",
-      "module": "CustomSharedCompendiums"
-    },
-    {
-      "name": "all-ddb-monsters",
-      "label": "All DnDBeyond Imported Monsters",
-      "path": "packs/all-ddb-monsters.db",
-      "entity": "Actor",
-      "module": "CustomSharedCompendiums"
-    },
+        {
+            "name": "player-characters",
+            "label": "Player Characters",
+            "path": "packs/player-characters.db",
+            "entity": "Actor",
+            "module": "CustomSharedCompendiums"
+        },
+        {
+            "name": "actor-prefabs",
+            "label": "Actor Prefabs",
+            "path": "packs/actor-prefabs.db",
+            "entity": "Actor",
+            "module": "CustomSharedCompendiums"
+        },
+        {
+            "name": "custom-monsters",
+            "label": "Custom Monsters",
+            "path": "packs/custom-monsters.db",
+            "entity": "Actor",
+            "module": "CustomSharedCompendiums"
+        },
+        {
+            "name": "critterdb-monsters",
+            "label": "Critter DB Monsters",
+            "path": "packs/critterdb-monsters.db",
+            "entity": "Actor",
+            "module": "CustomSharedCompendiums"
+        },
+        {
+            "name": "monster-manual-monsters",
+            "label": "Monster Manual Monsters",
+            "path": "packs/monster-manual-monsters.db",
+            "entity": "Actor",
+            "module": "CustomSharedCompendiums"
+        },
+        {
+            "name": "mordekainens-tome-of-foes-monsters",
+            "label": "Mordekainen's Tome of Foes Monsters",
+            "path": "packs/mordekainens-tome-of-foes-monsters.db",
+            "entity": "Actor",
+            "module": "CustomSharedCompendiums"
+        },
+        {
+            "name": "volos-guide-to-monsters-monsters",
+            "label": "Volo's Guide Monsters",
+            "path": "packs/volos-guide-to-monsters-monsters.db",
+            "entity": "Actor",
+            "module": "CustomSharedCompendiums"
+        },
+        {
+            "name": "candlekeep-mysteries-monsters",
+            "label": "Candlekeep Mysteries Monsters",
+            "path": "packs/candlekeep-mysteries-monsters.db",
+            "entity": "Actor",
+            "module": "CustomSharedCompendiums"
+        },
+        {
+            "name": "essentials-kit-monsters",
+            "label": "Essentials Kit Monsters",
+            "path": "packs/essentials-kit-monsters.db",
+            "entity": "Actor",
+            "module": "CustomSharedCompendiums"
+        },
+        {
+            "name": "icewind-dale-monsters",
+            "label": "Icewind Dale Monsters",
+            "path": "packs/icewind-dale-monsters.db",
+            "entity": "Actor",
+            "module": "CustomSharedCompendiums"
+        },
+        {
+            "name": "out-of-the-abyss-monsters",
+            "label": "Out of the Abyss Monsters",
+            "path": "packs/out-of-the-abyss-monsters.db",
+            "entity": "Actor",
+            "module": "CustomSharedCompendiums"
+        },
+        {
+            "name": "dungeon-of-the-mad-mage-monsters",
+            "label": "Dungeon of the Mad Mage Monsters",
+            "path": "packs/dungeon-of-the-mad-mage-monsters.db",
+            "entity": "Actor",
+            "module": "CustomSharedCompendiums"
+        },
 
 
 
-    {
-      "name": "items",
-      "label": "Shared Custom Items",
-      "path": "packs/items.db",
-      "entity": "Item",
-      "module": "CustomSharedCompendiums"
-    },
-    {
-      "name": "custom-classes",
-      "label": "Custom Classes",
-      "path": "packs/custom-classes.db",
-      "entity": "Item",
-      "module": "CustomSharedCompendiums"
-    },
-    {
-      "name": "custom-class-features",
-      "label": "Custom Class Features",
-      "path": "packs/custom-class-features.db",
-      "entity": "Item",
-      "module": "CustomSharedCompendiums"
-    },
-    {
-      "name": "all-ddb-spells",
-      "label": "All DnDBeyond Imported Spells",
-      "path": "packs/all-ddb-spells.db",
-      "entity": "Item",
-      "module": "CustomSharedCompendiums"
-    },
-    {
-      "name": "all-ddb-items",
-      "label": "All DnDBeyond Imported Items",
-      "path": "packs/all-ddb-items.db",
-      "entity": "Item",
-      "module": "CustomSharedCompendiums"
-    },
-    {
-      "name": "all-ddb-classes",
-      "label": "All DnDBeyond Imported Classes",
-      "path": "packs/all-ddb-classes.db",
-      "entity": "Item",
-      "module": "CustomSharedCompendiums"
-    },
-    {
-      "name": "all-ddb-class-features",
-      "label": "All DnDBeyond Imported Class Features",
-      "path": "packs/all-ddb-class-features.db",
-      "entity": "Item",
-      "module": "CustomSharedCompendiums"
-    },
-    {
-      "name": "all-ddb-races",
-      "label": "All DnDBeyond Imported Races",
-      "path": "packs/all-ddb-races.db",
-      "entity": "Item",
-      "module": "CustomSharedCompendiums"
-    },
-    {
-      "name": "all-ddb-feats",
-      "label": "All DnDBeyond Imported Feats",
-      "path": "packs/all-ddb-feats.db",
-      "entity": "Item",
-      "module": "CustomSharedCompendiums"
-    },
-    {
-      "name": "all-ddb-racial-traits",
-      "label": "All DnDBeyond Imported Racial Traits",
-      "path": "packs/all-ddb-racial-traits.db",
-      "entity": "Item",
-      "module": "CustomSharedCompendiums"
-    },
+        {
+            "name": "items",
+            "label": "Shared Custom Items",
+            "path": "packs/items.db",
+            "entity": "Item",
+            "module": "CustomSharedCompendiums"
+        },
+        {
+            "name": "custom-classes",
+            "label": "Custom Classes",
+            "path": "packs/custom-classes.db",
+            "entity": "Item",
+            "module": "CustomSharedCompendiums"
+        },
+        {
+            "name": "custom-class-features",
+            "label": "Custom Class Features",
+            "path": "packs/custom-class-features.db",
+            "entity": "Item",
+            "module": "CustomSharedCompendiums"
+        },
+        {
+            "name": "all-ddb-spells",
+            "label": "All DnDBeyond Imported Spells",
+            "path": "packs/all-ddb-spells.db",
+            "entity": "Item",
+            "module": "CustomSharedCompendiums"
+        },
+        {
+            "name": "all-ddb-items",
+            "label": "All DnDBeyond Imported Items",
+            "path": "packs/all-ddb-items.db",
+            "entity": "Item",
+            "module": "CustomSharedCompendiums"
+        },
+        {
+            "name": "all-ddb-classes",
+            "label": "All DnDBeyond Imported Classes",
+            "path": "packs/all-ddb-classes.db",
+            "entity": "Item",
+            "module": "CustomSharedCompendiums"
+        },
+        {
+            "name": "all-ddb-class-features",
+            "label": "All DnDBeyond Imported Class Features",
+            "path": "packs/all-ddb-class-features.db",
+            "entity": "Item",
+            "module": "CustomSharedCompendiums"
+        },
+        {
+            "name": "all-ddb-races",
+            "label": "All DnDBeyond Imported Races",
+            "path": "packs/all-ddb-races.db",
+            "entity": "Item",
+            "module": "CustomSharedCompendiums"
+        },
+        {
+            "name": "all-ddb-feats",
+            "label": "All DnDBeyond Imported Feats",
+            "path": "packs/all-ddb-feats.db",
+            "entity": "Item",
+            "module": "CustomSharedCompendiums"
+        },
+        {
+            "name": "all-ddb-racial-traits",
+            "label": "All DnDBeyond Imported Racial Traits",
+            "path": "packs/all-ddb-racial-traits.db",
+            "entity": "Item",
+            "module": "CustomSharedCompendiums"
+        },
 
 
 
-    {
-      "name": "journalentries",
-      "label": "Shared Journal Entries",
-      "path": "packs/journalentries.db",
-      "entity": "JournalEntry",
-      "module": "CustomSharedCompendiums"
-    },
-    {
-      "name": "homebrew-rules",
-      "label": "Homebrew Rules",
-      "path": "packs/homebrew-rules.db",
-      "entity": "JournalEntry",
-      "module": "CustomSharedCompendiums"
-    },
-    {
-      "name": "custom-conditions",
-      "label": "Custom Conditions",
-      "path": "packs/custom-conditions.db",
-      "entity": "JournalEntry",
-      "module": "CustomSharedCompendiums"
-    },
+        {
+            "name": "journalentries",
+            "label": "Shared Journal Entries",
+            "path": "packs/journalentries.db",
+            "entity": "JournalEntry",
+            "module": "CustomSharedCompendiums"
+        },
+        {
+            "name": "homebrew-rules",
+            "label": "Homebrew Rules",
+            "path": "packs/homebrew-rules.db",
+            "entity": "JournalEntry",
+            "module": "CustomSharedCompendiums"
+        },
+        {
+            "name": "custom-conditions",
+            "label": "Custom Conditions",
+            "path": "packs/custom-conditions.db",
+            "entity": "JournalEntry",
+            "module": "CustomSharedCompendiums"
+        },
 
 
 
-    {
-      "name": "rolltables",
-      "label": "Shared Roll Tables",
-      "path": "packs/rolltables.db",
-      "entity": "RollTable",
-      "module": "CustomSharedCompendiums"
-    },
+        {
+            "name": "rolltables",
+            "label": "Shared Roll Tables",
+            "path": "packs/rolltables.db",
+            "entity": "RollTable",
+            "module": "CustomSharedCompendiums"
+        },
+        {
+            "name": "random-encounter-tables",
+            "label": "Random Encounter Tables",
+            "path": "packs/random-encounter-tables.db",
+            "entity": "RollTable",
+            "module": "CustomSharedCompendiums"
+        },
 
 
 
-    {
-      "name": "macros",
-      "label": "Custom Macros",
-      "path": "packs/macros.db",
-      "entity": "Macro",
-      "module": "CustomSharedCompendiums"
-    }
-  ]
- }
+        {
+            "name": "macros",
+            "label": "Custom Macros",
+            "path": "packs/macros.db",
+            "entity": "Macro",
+            "module": "CustomSharedCompendiums"
+        }
+    ]
+}

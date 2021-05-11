@@ -61,7 +61,7 @@
     },
     {
       "id": "about-time",
-      "version": "0.1.62",
+      "version": "0.1.68",
       "author": "@tposney",
       "manifest": "https://gitlab.com/tposney/about-time/raw/master/package/module.json"
     },
@@ -100,6 +100,12 @@
       "version": "0.2.1",
       "author": "Shoyu Vanilla",
       "manifest": "https://github.com/ShoyuVanilla/FoundryVTT-Chat-Portrait/releases/latest/download/module.json"
+    },
+    {
+      "id": "collapsible-journal-sections",
+      "version": "1.2.1",
+      "author": "Of Dice And Magic, TPNils",
+      "manifest": "https://raw.githubusercontent.com/ofdiceandmagic/FVTT-collapsible-journal-sections/master/module.json"
     },
     {
       "id": "colorsettings",
@@ -144,6 +150,11 @@
       "manifest": "https://github.com/gludington/conditional-visibility/releases/download/v0.0.9/module.json"
     },
     {
+      "id": "critterdb-import",
+      "version": "1.0.5",
+      "manifest": "https://github.com/jwinget/fvtt-module-critterdb-import/releases/download/1.0.5/module.json"
+    },
+    {
       "id": "custom-hotbar",
       "version": "2.0.6",
       "author": "Norc",
@@ -157,7 +168,7 @@
     },
     {
       "id": "dae",
-      "version": "0.2.50",
+      "version": "0.2.62",
       "author": "tposney",
       "manifest": "https://gitlab.com/tposney/dae/raw/master/package/module.json"
     },
@@ -169,7 +180,7 @@
     },
     {
       "id": "ddb-importer",
-      "version": "0.4.13",
+      "version": "0.6.27",
       "author": "MrPrimate",
       "manifest": "https://github.com/mrprimate/ddb-importer/releases/download/latest/module.json"
     },
@@ -186,6 +197,12 @@
       "manifest": "https://dragonflagon.cafe/mods/man/df-settings-clarity"
     },
     {
+      "id": "dfreds-pocket-change",
+      "version": "1.6.2",
+      "author": "DFreds",
+      "manifest": "https://github.com/DFreds/dfreds-pocket-change/releases/latest/download/module.json"
+    },
+    {
       "id": "dice-so-nice",
       "version": "3.3.1",
       "author": "Simone, JDW",
@@ -199,7 +216,7 @@
     },
     {
       "id": "dnd5e-helpers",
-      "version": "1.9.4",
+      "version": "1.10.3",
       "manifest": "https://raw.githubusercontent.com/trioderegion/dnd5e-helpers/master/module.json"
     },
     {
@@ -238,6 +255,12 @@
       "manifest": "https://raw.githubusercontent.com/League-of-Foundry-Developers/foundryvtt-forien-unidentified-items/master/module.json"
     },
     {
+      "id": "foundry_community_tables",
+      "version": "0.11",
+      "author": "CyberPathogen",
+      "manifest": "https://raw.githubusercontent.com/foundry-vtt-community/tables/master/module.json"
+    },
+    {
       "id": "fpsmeter",
       "version": "1.0.1",
       "author": "ardittristan#0001",
@@ -257,9 +280,9 @@
     },
     {
       "id": "healthEstimate",
-      "version": "2.4.0",
-      "author": "Shylight",
-      "manifest": "https://raw.githubusercontent.com/Shylight/healthEstimate/master/src/module.json"
+      "version": "2.5.4.1",
+      "author": "MClemente, Shylight",
+      "manifest": "https://github.com/mclemente/healthEstimate/releases/latest/download/module.json"
     },
     {
       "id": "illandril-hotbar-uses",
@@ -334,7 +357,7 @@
     },
     {
       "id": "midi-qol",
-      "version": "0.3.67",
+      "version": "0.3.103",
       "author": "tposney",
       "manifest": "https://gitlab.com/tposney/midi-qol/raw/master/package/module.json"
     },
@@ -346,9 +369,15 @@
     },
     {
       "id": "monks-scene-navigation",
-      "version": "1.0.5",
+      "version": "1.0.11",
       "author": "IronMonk, ironmonk88#4075",
-      "manifest": "https://raw.githubusercontent.com/ironmonk88/monks-scene-navigation/master/module.json"
+      "manifest": "https://github.com/ironmonk88/monks-scene-navigation/releases/latest/download/module.json"
+    },
+    {
+      "id": "monks-tokenbar",
+      "version": "1.0.34",
+      "author": "IronMonk, ironmonk88#4075",
+      "manifest": "https://github.com/ironmonk88/monks-tokenbar/releases/latest/download/module.json"
     },
     {
       "id": "multilevel-tokens",
@@ -363,8 +392,14 @@
       "manifest": "https://github.com/League-of-Foundry-Developers/party-overview/releases/latest/download/module.json"
     },
     {
+      "id": "pdfoundry",
+      "version": "0.8.5",
+      "author": "Andrew Cuccinello [DJ#1982]",
+      "manifest": "https://raw.githubusercontent.com/Djphoenix719/PDFoundry/master/module.json"
+    },
+    {
       "id": "perfect-vision",
-      "version": "1.7.2",
+      "version": "1.7.3",
       "author": "dev7355608",
       "manifest": "https://raw.githubusercontent.com/dev7355608/perfect-vision/main/module.json"
     },
@@ -373,12 +408,6 @@
       "version": "0.8.4",
       "author": "KaKaRoTo, Malekal",
       "manifest": "https://github.com/League-of-Foundry-Developers/fvtt-module-permission-viewer/releases/latest/download/module.json"
-    },
-    {
-      "id": "pick-up-stix",
-      "version": "0.10.2",
-      "author": "Kyle McKnight",
-      "manifest": "https://raw.githubusercontent.com/kamcknig/pick-up-stix/v0.10.2/src/module.json"
     },
     {
       "id": "pin-cushion",
@@ -426,6 +455,12 @@
       "manifest": "https://gitlab.com/fvtt-modules-lab/quick-insert/-/jobs/artifacts/master/raw/module.json?job=build-module"
     },
     {
+      "id": "rolladvantage-token-stamp-2-foundry",
+      "version": "1.1.2",
+      "author": "Chad Keating [Sir Everard#1198]",
+      "manifest": "https://raw.githubusercontent.com/ChadKeating/rolladvantage-token-stamp-2-foundry/master/dist/module.json"
+    },
+    {
       "id": "roofs",
       "version": "0.1.1",
       "author": "Vance",
@@ -433,7 +468,7 @@
     },
     {
       "id": "scene-viewer",
-      "version": "0.2.0",
+      "version": "0.2.1",
       "author": "BadIdeasBureau",
       "manifest": "https://github.com/BadIdeasBureau/scene-viewer/releases/latest/download/module.json"
     },
@@ -448,6 +483,11 @@
       "version": "0.1.16",
       "author": "Vance Cole and Chris Hampton (Updates)",
       "manifest": "https://raw.githubusercontent.com/League-of-Foundry-Developers/simplefog/master/module.json"
+    },
+    {
+      "id": "socketlib",
+      "version": "1.0.5",
+      "manifest": "https://raw.githubusercontent.com/manuelVo/foundryvtt-socketlib/master/module.json"
     },
     {
       "id": "tidy-ui_game-settings",
@@ -529,15 +569,21 @@
     },
     {
       "id": "vtta-tokenizer",
-      "version": "2.2.1",
-      "author": "Sebastian Will (vttassets@gmail.com)",
-      "manifest": "https://update.vttassets.com/modules/vtta-tokenizer/latest/module.json"
+      "version": "3.0.2",
+      "author": "Sebastian Will (vttassets@gmail.com), MrPrimate (jack@mrprimate.co.uk)",
+      "manifest": "https://github.com/mrprimate/vtta-tokenizer/releases/download/latest/module.json"
     },
     {
       "id": "wall-height",
       "version": "3.0.1",
       "author": "Cole Schultz (cole#9640)",
       "manifest": "https://raw.githubusercontent.com/schultzcole/FVTT-Wall-Height/master/module.json"
+    },
+    {
+      "id": "zsync",
+      "version": "0.0.4",
+      "author": "Richard Bellingham (Skimble)",
+      "manifest": "https://raw.githubusercontent.com/Sk1mble/zsync/master/module.json"
     }
   ]
 }
