@@ -118,7 +118,7 @@ module combinations) that have the biggest impact on the games I run. More in-de
 # List of Currently-Installed Modules, Descriptions, and Settings
 
 ## [About Time](https://foundryvtt.com/packages/about-time/) v0.1.68
-  Tracks in-game time and required for the[Calendar/Weather](https://foundryvtt.com/packages/calendar-weather/) module. 
+  Tracks in-game time and required for the [Calendar/Weather](https://foundryvtt.com/packages/calendar-weather/) module. 
 
   NOTE: This module may be potentially going away with the future core API time updates.
   
