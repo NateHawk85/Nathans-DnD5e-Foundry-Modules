@@ -209,7 +209,7 @@ module combinations) that have the biggest impact on the games I run. More in-de
   NOTE: This has the possibility of considerably bloating your server. Make a note to do a routine check to remove unnecessary images in order to keep your 
 
   Setting                           | Default       | Recommended   | Comments
-    ---                             | ---           | ---           | ---    
+  ---                             | ---           | ---           | ---    
   Warning on drop                   | Disabled      | Enabled       | ---
   Warning on paste                  | Disabled      | ---           | ---
   Uploaded files quality            | 0.5           | ---           | ---
@@ -452,7 +452,7 @@ module combinations) that have the biggest impact on the games I run. More in-de
   Announce activity completion for                                  | PC's Only     | ---           | ---
   
 ## [CritterDB Import](https://foundryvtt.com/packages/critterdb-import/) v1.0.2
-  Allows for importing homebrew monsters from[CritterDB](https://critterdb.com/). A button will appear at the bottom of the Compendiums tab and import them to 
+  Allows for importing homebrew monsters from [CritterDB](https://critterdb.com/). A button will appear at the bottom of the Compendiums tab and import them to 
   the compendium CritterDB - MyCritters.
   
   NOTE: I usually keep this disabled until I need to import something.
@@ -834,6 +834,7 @@ module combinations) that have the biggest impact on the games I run. More in-de
 ### Death Settings
 
   Setting                   | Recommended         | Comments
+  ---                       | ---                 | ---
   Death state on condition  | Disabled            | ---
   Death state name          | Dead                | ---
   NPCs die immediately      | Enabled             | ---
@@ -1341,7 +1342,7 @@ module combinations) that have the biggest impact on the games I run. More in-de
   Adds a menu in the top left to easily roll dice, similar to Roll20's interface.
 
   Setting                 | Default | Recommended | Comments
-    ---                     | ---     | ---         | ---    
+  ---                     | ---     | ---         | ---    
   Maximum dices in a roll | 10      | ---         | ---
   
 ## [Simplefog - Manual Fog of War](https://github.com/League-of-Foundry-Developers/simplefog) v0.1.16
@@ -1374,7 +1375,7 @@ module combinations) that have the biggest impact on the games I run. More in-de
   modules. It also has tons of configurable options if you want to tweak it for your liking. Highly recommend.
 
   Setting                                                 | Default                   | Recommended                           | Comments
-    ---                                                     | ---                       | ---                                   | ---    
+  ---                                                     | ---                       | ---                                   | ---    
   User: Tidy5e color theme                                | Default (light)           | ---                                   | ---
   Global: round portrait style                            | All actors                | None                                  | ---
   Global: expanded limited view for character sheets      | Disabled                  | ---                                   | ---
@@ -1585,7 +1586,7 @@ module combinations) that have the biggest impact on the games I run. More in-de
 ## [Universal Battlemap Importer](https://foundryvtt.com/packages/dd-import/) v1.1.1
   Adds a button at the bottom of the Scenes tab that allows you to import .dd2vtt files as scenes. If you make your maps with 
   [Dungeondraft](https://dungeondraft.net/) (which I highly recommend, especially with the [Forgotten Adventures](https://www.patreon.com/forgottenadventures)
-  assets), this module will save you hours of prep work.
+  and [Tom Cartos](https://www.patreon.com/tomcartos) assets), this module will save you hours of prep work.
 
   NOTE: I usually keep this disabled until I need to import something.
   
@@ -1637,14 +1638,20 @@ module combinations) that have the biggest impact on the games I run. More in-de
 <a name="modules-to-chop"></a>2
 # Modules on the Chopping Block
 - [Roofs and Overhead Tiles](https://foundryvtt.com/packages/roofs/) - I haven't found many maps to use it in. That could change, however, if we end up 
-  doing more urban maps.
+  doing more urban maps. 
+  
+  NOTE: This module is soon to be outdated with the update to the Tiles system in Foundry 0.8.x.
 <a name="modules-to-review"></a>
 # Modules to Review
+- [Automated Animations](https://foundryvtt.com/packages/automated-jb2a-animations) - Leverages JB2A templates for automatically applying their assets to spell
+  effects and other cool stuff. Wondering about performance impact.
 - [DF Architect](https://foundryvtt.com/packages/df-architect) - A host of GM tools, could replace [Wall Cutter](https://foundryvtt.com/packages/WallCutter/). 
   Requires Library: DF Hotkeys
-- [Library: DF Hotkeys](https://foundryvtt.com/packages/lib-df-hotkeys) - required by DF Architect. Also could be useful in its own right.
-- [Hidden Initiative](https://foundryvtt.com/packages/hidden-initiative/) - Hides initiative rolls from players until it's their turn... known issues with CUB. 
+- [FXMaster](https://foundryvtt.com/packages/fxmaster/) - Adds cool animations. Wondering about performance impact.
+- [Hidden Initiative](https://foundryvtt.com/packages/hidden-initiative/) - Hides initiative rolls from players until it's their turn... known issues with CUB.
   We'll give it a go and see what happens.
+- [JB2A Animated Assets](https://foundryvtt.com/packages/JB2A_DnD5e/) - Library of animations and assets. Wondering about performance impact.
+- [Library: DF Hotkeys](https://foundryvtt.com/packages/lib-df-hotkeys) - required by DF Architect. Also could be useful in its own right.
 - [Moulinette](https://foundryvtt.com/packages/moulinette-core) - Searchable tile and other prefab placement tools... this could get spicy.
 <a name="modules-to-review-later"></a>
 # Modules to Review at a Later Date
