@@ -367,7 +367,7 @@ module combinations) that have the biggest impact on the games I run. More in-de
   attributes    | hp        | value         | =         | 0     | value         | Disabled          | PCs Only  | Used for adding the unconscious condition when a PCs health falls to 0.
   attributes    | hp        | value         | =         | 0     | value         | Disabled          | NPCs Only | Used for adding the dead condition when an NPCs health falls to 0.
   attributes    | hp        | value         | >         | 0     | value         | Disabled          | PCs Only  | Used for removing the unconscious condition when a PCs HP rises above 0.
-  attributes    | hp        | value         | =         | 0     | value         | Disabled          | NPCs Only | Used for removing the dead condition when an NPCs health rises above 0.
+  attributes    | hp        | value         | >         | 0     | value         | Disabled          | NPCs Only | Used for removing the dead condition when an NPCs health rises above 0.
 
 ### Condition Lab
 
