@@ -36,9 +36,9 @@
     },
     {
       "id": "Next-Up",
-      "version": "0.0.51",
+      "version": "0.0.62",
       "author": "Kandashi",
-      "manifest": "https://raw.githubusercontent.com/kandashi/Next-Up/main/module.json"
+      "manifest": "https://github.com/kandashi/Next-Up/releases/latest/download/module.json"
     },
     {
       "id": "TokenHotbar",
@@ -85,7 +85,7 @@
     },
     {
       "id": "character-actions-list-5e",
-      "version": "2.0.0",
+      "version": "3.0.3",
       "author": "Andrew Krigline (akrigline)",
       "manifest": "https://github.com/ElfFriend-DnD/foundryvtt-dnd5eCharacterActions/releases/latest/download/module.json"
     },
@@ -112,12 +112,6 @@
       "version": "2.5.7",
       "author": "ardittristan#0001",
       "manifest": "https://raw.githubusercontent.com/ardittristan/VTTColorSettings/master/module.json"
-    },
-    {
-      "id": "combat-enhancements",
-      "version": "0.1.8",
-      "author": "Asacolips",
-      "manifest": "https://gitlab.com/asacolips-projects/foundry-mods/combat-enhancements/raw/master/module.json"
     },
     {
       "id": "combat-utility-belt",
@@ -273,10 +267,10 @@
       "manifest": "https://github.com/kakaroto/fvtt-module-furnace/releases/download/latest/module.json"
     },
     {
-      "id": "gm-notes",
-      "version": "0.3",
-      "author": "Felix#6196",
-      "manifest": "https://raw.githubusercontent.com/syl3r86/gm-notes/master/module.json"
+      "id": "gm-secrets",
+      "version": "1.0.0",
+      "author": "Cole Schultz (cole#9640)",
+      "manifest": "https://raw.githubusercontent.com/schultzcole/FVTT-GM-Secret-Block/master/module.json"
     },
     {
       "id": "healthEstimate",
@@ -285,9 +279,21 @@
       "manifest": "https://github.com/mclemente/healthEstimate/releases/latest/download/module.json"
     },
     {
+      "id": "hidden-initiative",
+      "version": "0.3.1",
+      "author": "Steven Fuqua",
+      "manifest": "https://raw.githubusercontent.com/sfuqua/fvtt-hidden-initiative/master/module.json"
+    },
+    {
       "id": "illandril-hotbar-uses",
       "version": "2.2.2",
       "manifest": "https://github.com/illandril/FoundryVTT-hotbar-uses/releases/latest/download/module.json"
+    },
+    {
+      "id": "image-hover",
+      "version": "1.1.7",
+      "author": "Eriku#2108",
+      "manifest": "https://github.com/Eriku33/Foundry-VTT-Image-Hover/releases/latest/download/module.json"
     },
     {
       "id": "input-expressions",
@@ -399,7 +405,7 @@
     },
     {
       "id": "perfect-vision",
-      "version": "1.7.3",
+      "version": "1.8.11",
       "author": "dev7355608",
       "manifest": "https://raw.githubusercontent.com/dev7355608/perfect-vision/main/module.json"
     },
@@ -411,9 +417,9 @@
     },
     {
       "id": "pin-cushion",
-      "version": "1.1.4",
+      "version": "1.4.0",
       "author": "Evan Clarke [errational#2007]",
-      "manifest": "https://raw.githubusercontent.com/death-save/pin-cushion/master/module.json"
+      "manifest": "https://github.com/death-save/pin-cushion/releases/latest/download/module.json"
     },
     {
       "id": "pings",
@@ -455,6 +461,12 @@
       "manifest": "https://gitlab.com/fvtt-modules-lab/quick-insert/-/jobs/artifacts/master/raw/module.json?job=build-module"
     },
     {
+      "id": "rc-spent-ammo",
+      "version": "1.0.13",
+      "author": "rcebulko",
+      "manifest": "https://raw.githubusercontent.com/rcebulko/foundryvtt-ammo-tracker/main/module.json"
+    },
+    {
       "id": "rolladvantage-token-stamp-2-foundry",
       "version": "1.1.2",
       "author": "Chad Keating [Sir Everard#1198]",
@@ -491,13 +503,13 @@
     },
     {
       "id": "tidy-ui_game-settings",
-      "version": "0.1.21",
+      "version": "0.1.23",
       "author": "sdenec",
       "manifest": "https://raw.githubusercontent.com/sdenec/tidy-ui_game-settings/master/module.json"
     },
     {
       "id": "tidy5e-sheet",
-      "version": "v0.4.0",
+      "version": "0.4.29",
       "author": "sdenec#3813",
       "manifest": "https://github.com/sdenec/tidy5e-sheet/releases/latest/download/module.json"
     },
