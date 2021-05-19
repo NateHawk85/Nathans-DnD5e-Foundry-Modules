@@ -17,10 +17,10 @@
       "manifest": "https://raw.githubusercontent.com/crash1115/5e-training/master/module.json"
     },
     {
-      "id": "CautiousGamemastersPack",
-      "version": "0.1.6",
-      "author": "Shoyu Vanilla",
-      "manifest": "https://raw.githubusercontent.com/ShoyuVanilla/FoundryVTT-CGMP/master/module/module.json"
+      "id": "ActiveAuras",
+      "version": "0.2.11",
+      "author": "Kandashi",
+      "manifest": "https://github.com/kandashi/Active-Auras/releases/latest/download/module.json"
     },
     {
       "id": "CustomSharedCompendiums",
@@ -127,7 +127,7 @@
     },
     {
       "id": "compendium-folders",
-      "version": "2.1.8",
+      "version": "2.2.42",
       "author": "Erceron",
       "manifest": "https://raw.githubusercontent.com/earlSt1/vtt-compendium-folders/master/module.json"
     },
@@ -174,7 +174,7 @@
     },
     {
       "id": "ddb-importer",
-      "version": "0.6.27",
+      "version": "1.0.7",
       "author": "MrPrimate",
       "manifest": "https://github.com/mrprimate/ddb-importer/releases/download/latest/module.json"
     },
@@ -198,7 +198,7 @@
     },
     {
       "id": "dice-so-nice",
-      "version": "3.3.1",
+      "version": "3.3.4",
       "author": "Simone, JDW",
       "manifest": "https://gitlab.com/riccisi/foundryvtt-dice-so-nice/raw/master/module/module.json"
     },
@@ -210,7 +210,7 @@
     },
     {
       "id": "dnd5e-helpers",
-      "version": "1.10.3",
+      "version": "2.0.1",
       "manifest": "https://raw.githubusercontent.com/trioderegion/dnd5e-helpers/master/module.json"
     },
     {
@@ -229,6 +229,12 @@
       "version": "2.10",
       "author": "Kim Mantas",
       "manifest": "https://bitbucket.org/Fyorl/easy-target/raw/master/module.json"
+    },
+    {
+      "id": "find-the-culprit",
+      "version": "1.3.3",
+      "author": "Moerill",
+      "manifest": "https://raw.githubusercontent.com/Moerill/fvtt-find-the-culprit/master/module.json"
     },
     {
       "id": "forien-copy-environment",
@@ -250,13 +256,13 @@
     },
     {
       "id": "foundry_community_tables",
-      "version": "0.11",
-      "author": "CyberPathogen",
+      "version": "0.13",
+      "author": "FoundryVTTCommunity",
       "manifest": "https://raw.githubusercontent.com/foundry-vtt-community/tables/master/module.json"
     },
     {
       "id": "fpsmeter",
-      "version": "1.0.1",
+      "version": "1.1.1",
       "author": "ardittristan#0001",
       "manifest": "https://raw.githubusercontent.com/ardittristan/VTTFPSMeter/master/module.json"
     },
@@ -265,6 +271,12 @@
       "version": "v2.6.0",
       "author": "KaKaRoTo",
       "manifest": "https://github.com/kakaroto/fvtt-module-furnace/releases/download/latest/module.json"
+    },
+    {
+      "id": "give-item",
+      "version": "1.7.2",
+      "author": "Sepichat",
+      "manifest": "https://raw.githubusercontent.com/Sepichat/FoundryVTT-GiveItem/main/module.json"
     },
     {
       "id": "gm-secrets",
@@ -280,13 +292,13 @@
     },
     {
       "id": "hidden-initiative",
-      "version": "0.3.1",
+      "version": "0.3.2",
       "author": "Steven Fuqua",
       "manifest": "https://raw.githubusercontent.com/sfuqua/fvtt-hidden-initiative/master/module.json"
     },
     {
       "id": "illandril-hotbar-uses",
-      "version": "2.2.2",
+      "version": "2.3.2",
       "manifest": "https://github.com/illandril/FoundryVTT-hotbar-uses/releases/latest/download/module.json"
     },
     {
@@ -309,9 +321,9 @@
     },
     {
       "id": "itemcollection",
-      "version": "1.3.22",
+      "version": "1.3.41",
       "author": "tposney",
-      "manifest": "https://gitlab.com/tposney/itemcollection/raw/master/module.json"
+      "manifest": "https://gitlab.com/tposney/itemcollection/raw/master/package/module.json"
     },
     {
       "id": "journal-icon-numbers",
@@ -345,7 +357,7 @@
     },
     {
       "id": "macro-folders",
-      "version": "1.0.9",
+      "version": "1.1.13",
       "author": "Erceron",
       "manifest": "https://raw.githubusercontent.com/earlSt1/vtt-macro-folders/master/module.json"
     },
@@ -366,6 +378,12 @@
       "version": "0.3.103",
       "author": "tposney",
       "manifest": "https://gitlab.com/tposney/midi-qol/raw/master/package/module.json"
+    },
+    {
+      "id": "mob-attack-tool",
+      "version": "0.1.30",
+      "author": "Stendarpaval (Lupusmalus)",
+      "manifest": "https://raw.githubusercontent.com/Stendarpaval/mob-attack-tool/main/module.json"
     },
     {
       "id": "monks-little-details",
@@ -411,7 +429,7 @@
     },
     {
       "id": "permission_viewer",
-      "version": "0.8.4",
+      "version": "0.8.5",
       "author": "KaKaRoTo, Malekal",
       "manifest": "https://github.com/League-of-Foundry-Developers/fvtt-module-permission-viewer/releases/latest/download/module.json"
     },
