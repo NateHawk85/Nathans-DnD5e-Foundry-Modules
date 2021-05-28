@@ -133,7 +133,7 @@
   },
   {
     "key": "midi-qol.ConfigSettings",
-    "value": "{\"speedItemRolls\":true,\"showItemDetails\":\"pc\",\"autoRollAttack\":true,\"autoFastForward\":\"all\",\"autoTarget\":\"wallsBlock\",\"autoCheckHit\":\"whisper\",\"autoCheckSaves\":\"whisper\",\"hideRollDetails\":\"none\",\"displaySaveDC\":true,\"checkSaveText\":true,\"autoRollDamage\":\"none\",\"autoApplyDamage\":\"noCard\",\"damageImmunities\":\"immunityPhysical\",\"autoItemEffects\":true,\"rangeTarget\":false,\"playerRollSaves\":\"letme\",\"playerSaveTimeout\":10,\"preRollChecks\":false,\"mergeCard\":true,\"mergeCardCondensed\":false,\"hideNPCNames\":\"\",\"useTokenNames\":false,\"requireTargets\":true,\"fumbleSound\":\"SBysqs6xPzhqyBRA\",\"diceSound\":\"none\",\"criticalSound\":\"none\",\"itemUseSound\":\"none\",\"spellUseSound\":\"none\",\"weaponUseSound\":\"none\",\"potionUseSound\":\"none\",\"fullAuto\":false,\"useCustomSounds\":false,\"customSoundsPlaylist\":\"mX9RaebzdcavsLXS\",\"keyMapping\":{\"DND5E.Advantage\":\"altKey\",\"DND5E.Disadvantage\":\"ctrlKey\",\"DND5E.Critical\":\"altKey\",\"DND5E.Versatile\":\"shiftKey\"},\"gmFullAuto\":false,\"speedAbilityRolls\":true,\"allowUseMacro\":true,\"itemTypeList\":[\"weapon\",\"equipment\",\"consumable\",\"tool\",\"loot\",\"class\",\"spell\",\"feat\",\"backpack\"],\"gmAutoAttack\":true,\"gmAutoFastForwardAttack\":true,\"gmAutoDamage\":\"none\",\"gmAutoFastForwardDamage\":true,\"gmRemoveButtons\":\"all\",\"removeButtons\":\"all\",\"rollOtherDamage\":false,\"concentrationAutomation\":true,\"rollNPCSaves\":\"auto\",\"singleConcentrationRoll\":false,\"optionalRules\":{\"invisAdvantage\":true,\"checkRange\":true,\"nearbyFoe\":5,\"nearbyAllyRanged\":4,\"incapacitated\":true,\"removeHiddenInvis\":true,\"maxDRValue\":false,\"distanceIncludesHeight\":false},\"itemRollStartWorkflow\":false,\"defaultSaveMult\":0.5,\"requireMagical\":false,\"removeConcentration\":true,\"usePlayerPortrait\":true,\"keepRollStats\":true,\"saveStatsEvery\":10,\"playerStatsOnly\":false,\"soptionalRulesEnabled\":false}"
+    "value": "{\"speedItemRolls\":true,\"showItemDetails\":\"pc\",\"autoRollAttack\":true,\"autoFastForward\":\"all\",\"autoTarget\":\"wallsBlock\",\"autoCheckHit\":\"whisper\",\"autoCheckSaves\":\"whisper\",\"hideRollDetails\":\"none\",\"displaySaveDC\":true,\"checkSaveText\":true,\"autoRollDamage\":\"none\",\"autoApplyDamage\":\"noCard\",\"damageImmunities\":\"immunityPhysical\",\"autoItemEffects\":true,\"rangeTarget\":false,\"playerRollSaves\":\"letme\",\"playerSaveTimeout\":10,\"preRollChecks\":false,\"mergeCard\":true,\"mergeCardCondensed\":false,\"hideNPCNames\":\"\",\"useTokenNames\":false,\"requireTargets\":true,\"fumbleSound\":\"SBysqs6xPzhqyBRA\",\"diceSound\":\"none\",\"criticalSound\":\"none\",\"itemUseSound\":\"none\",\"spellUseSound\":\"none\",\"weaponUseSound\":\"none\",\"potionUseSound\":\"none\",\"fullAuto\":false,\"useCustomSounds\":false,\"customSoundsPlaylist\":\"mX9RaebzdcavsLXS\",\"keyMapping\":{\"DND5E.Advantage\":\"altKey\",\"DND5E.Disadvantage\":\"ctrlKey\",\"DND5E.Critical\":\"altKey\",\"DND5E.Versatile\":\"shiftKey\"},\"gmFullAuto\":false,\"speedAbilityRolls\":true,\"allowUseMacro\":false,\"itemTypeList\":[\"weapon\",\"equipment\",\"consumable\",\"tool\",\"loot\",\"class\",\"spell\",\"feat\",\"backpack\"],\"gmAutoAttack\":true,\"gmAutoFastForwardAttack\":true,\"gmAutoDamage\":\"none\",\"gmAutoFastForwardDamage\":true,\"gmRemoveButtons\":\"all\",\"removeButtons\":\"all\",\"rollOtherDamage\":false,\"concentrationAutomation\":true,\"rollNPCSaves\":\"auto\",\"singleConcentrationRoll\":false,\"optionalRules\":{\"invisAdvantage\":true,\"checkRange\":true,\"nearbyFoe\":5,\"nearbyAllyRanged\":4,\"incapacitated\":true,\"removeHiddenInvis\":true,\"maxDRValue\":false,\"distanceIncludesHeight\":false},\"itemRollStartWorkflow\":false,\"defaultSaveMult\":0.5,\"requireMagical\":false,\"removeConcentration\":true,\"usePlayerPortrait\":true,\"keepRollStats\":true,\"saveStatsEvery\":10,\"playerStatsOnly\":false,\"soptionalRulesEnabled\":false}"
   },
   {
     "key": "combat-enhancements.showHpForType",
@@ -229,7 +229,7 @@
   },
   {
     "key": "quick-insert.indexingDisabled",
-    "value": "{\"entities\":{\"Macro\":[1,2,3,4],\"RollTable\":[1,2,3,4],\"Scene\":[1,2,3,4]},\"packs\":{\"dnd5e.heroes\":[1,2,3,4],\"dnd5e.monsters\":[1,2,3,4],\"dnd5e.spells\":[1,2,3,4],\"dnd5e.monsterfeatures\":[1,2],\"CustomSharedCompendiums.city-scenes\":[1,2,3,4],\"CustomSharedCompendiums.indoor-scenes\":[1,2,3,4],\"CustomSharedCompendiums.generic-scenes\":[1,2,3,4],\"CustomSharedCompendiums.miscellaneous-battle-scenes\":[1,2,3,4],\"CustomSharedCompendiums.mountain-scenes\":[1,2,3,4],\"CustomSharedCompendiums.forest-scenes\":[1,2,3,4],\"CustomSharedCompendiums.dungeon-scenes\":[1,2,3,4],\"CustomSharedCompendiums.backgrounds-scenes\":[1,2,3,4],\"CustomSharedCompendiums.temple-scenes\":[1,2,3,4],\"CustomSharedCompendiums.map-scenes\":[1,2,3,4],\"CustomSharedCompendiums.lmop-scenes\":[1,2,3,4],\"CustomSharedCompendiums.naval-scenes\":[1,2,3,4],\"CustomSharedCompendiums.shops-stores-scenes\":[1,2,3,4],\"CustomSharedCompendiums.road-scenes\":[1,2,3,4],\"CustomSharedCompendiums.winter-scenes\":[1,2,3,4],\"CustomSharedCompendiums.desert-scenes\":[1,2,3,4],\"CustomSharedCompendiums.Dimensional-scenes\":[1,2,3,4],\"CustomSharedCompendiums.town-scenes\":[1,2,3,4],\"CustomSharedCompendiums.castle-scenes\":[1,2,3,4],\"CustomSharedCompendiums.taverns-inns-scenes\":[1,2,3,4],\"CustomSharedCompendiums.island-scenes\":[1,2,3,4],\"CustomSharedCompendiums.uncategorized-building-scenes\":[1,2,3,4],\"CustomSharedCompendiums.home-scenes\":[1,2,3,4],\"CustomSharedCompendiums.retired-this-isnt-working-out-scenes\":[1,2,3,4],\"CustomSharedCompendiums.retired-alternative-dm-scenes\":[1,2,3,4],\"CustomSharedCompendiums.player-characters\":[1,2,3,4],\"CustomSharedCompendiums.actor-prefabs\":[1,2],\"CustomSharedCompendiums.custom-monsters\":[1,2],\"CustomSharedCompendiums.critterdb-monsters\":[1,2],\"CustomSharedCompendiums.monster-manual-monsters\":[1,2],\"CustomSharedCompendiums.mordekainens-tome-of-foes-monsters\":[1,2],\"CustomSharedCompendiums.volos-guide-to-monsters-monsters\":[1,2],\"CustomSharedCompendiums.candlekeep-mysteries-monsters\":[1,2],\"CustomSharedCompendiums.essentials-kit-monsters\":[1,2],\"CustomSharedCompendiums.icewind-dale-monsters\":[1,2],\"CustomSharedCompendiums.out-of-the-abyss-monsters\":[1,2],\"CustomSharedCompendiums.dungeon-of-the-mad-mage-monsters\":[1,2],\"CustomSharedCompendiums.items\":[1,2],\"CustomSharedCompendiums.all-ddb-classes\":[1,2,3,4],\"CustomSharedCompendiums.all-ddb-class-features\":[1,2,3,4],\"CustomSharedCompendiums.all-ddb-races\":[1,2,3,4],\"CustomSharedCompendiums.all-ddb-feats\":[1,2,3,4],\"CustomSharedCompendiums.all-ddb-racial-traits\":[1,2,3,4],\"CustomSharedCompendiums.journalentries\":[1,2],\"CustomSharedCompendiums.rolltables\":[1,2,3,4],\"CustomSharedCompendiums.random-encounter-tables\":[1,2,3,4],\"CustomSharedCompendiums.macros\":[1,2,3,4],\"Dynamic-Effects-SRD.DAE SRD Macros\":[1,2,3,4],\"dae.premadeitems\":[1,2,3,4],\"dae.sample-macros\":[1,2,3,4],\"dfreds-pocket-change.dfreds-pocket-change-macros\":[1,2],\"foundry_community_tables.community-tables-5e\":[1,2,3,4],\"foundry_community_tables.community-tables-independent\":[1,2,3,4],\"furnace.macros\":[1,2,3,4],\"healthEstimate.deathmacro\":[1,2,3,4],\"itemcollection.packs\":[1,2],\"magicitems.magicitems\":[1,2],\"magicitems.magicitem-feats\":[1,2],\"magicitems.magicitem-tables\":[1,2,3,4],\"midi-qol.midiqol-sample-items\":[1,2,3,4],\"token-attacher.example-macros\":[1,2,3,4],\"token-mold.adjectives\":[1,2,3,4],\"trigger-happy.actors\":[1,2,3,4],\"trigger-happy.journals\":[1,2,3,4],\"turnAlert.turn-alert-examples\":[1,2,3,4],\"turnAlert.turn-alert-debug\":[1,2,3,4],\"world.this-isnt-working-out-ddb-features\":[1,2,3,4],\"world.critterdb-MyCritters\":[1,2,3,4]}}"
+    "value": "{\"entities\":{\"Macro\":[1,2,3,4],\"RollTable\":[1,2,3,4],\"Scene\":[1,2,3,4]},\"packs\":{\"dnd5e.heroes\":[1,2,3,4],\"dnd5e.monsters\":[1,2],\"dnd5e.spells\":[1,2,3,4],\"dnd5e.monsterfeatures\":[1,2],\"CustomSharedCompendiums.city-scenes\":[1,2,3,4],\"CustomSharedCompendiums.indoor-scenes\":[1,2,3,4],\"CustomSharedCompendiums.generic-scenes\":[1,2,3,4],\"CustomSharedCompendiums.miscellaneous-battle-scenes\":[1,2,3,4],\"CustomSharedCompendiums.mountain-scenes\":[1,2,3,4],\"CustomSharedCompendiums.forest-scenes\":[1,2,3,4],\"CustomSharedCompendiums.dungeon-scenes\":[1,2,3,4],\"CustomSharedCompendiums.backgrounds-scenes\":[1,2,3,4],\"CustomSharedCompendiums.temple-scenes\":[1,2,3,4],\"CustomSharedCompendiums.map-scenes\":[1,2,3,4],\"CustomSharedCompendiums.lmop-scenes\":[1,2,3,4],\"CustomSharedCompendiums.naval-scenes\":[1,2,3,4],\"CustomSharedCompendiums.shops-stores-scenes\":[1,2,3,4],\"CustomSharedCompendiums.road-scenes\":[1,2,3,4],\"CustomSharedCompendiums.winter-scenes\":[1,2,3,4],\"CustomSharedCompendiums.desert-scenes\":[1,2,3,4],\"CustomSharedCompendiums.Dimensional-scenes\":[1,2,3,4],\"CustomSharedCompendiums.town-scenes\":[1,2,3,4],\"CustomSharedCompendiums.castle-scenes\":[1,2,3,4],\"CustomSharedCompendiums.taverns-inns-scenes\":[1,2,3,4],\"CustomSharedCompendiums.island-scenes\":[1,2,3,4],\"CustomSharedCompendiums.uncategorized-building-scenes\":[1,2,3,4],\"CustomSharedCompendiums.home-scenes\":[1,2,3,4],\"CustomSharedCompendiums.retired-this-isnt-working-out-scenes\":[1,2,3,4],\"CustomSharedCompendiums.retired-alternative-dm-scenes\":[1,2,3,4],\"CustomSharedCompendiums.player-characters\":[1,2,3,4],\"CustomSharedCompendiums.actor-prefabs\":[1,2],\"CustomSharedCompendiums.custom-monsters\":[1,2],\"CustomSharedCompendiums.critterdb-monsters\":[1,2],\"CustomSharedCompendiums.monster-manual-monsters\":[1,2],\"CustomSharedCompendiums.mordekainens-tome-of-foes-monsters\":[1,2],\"CustomSharedCompendiums.volos-guide-to-monsters-monsters\":[1,2],\"CustomSharedCompendiums.candlekeep-mysteries-monsters\":[1,2],\"CustomSharedCompendiums.essentials-kit-monsters\":[1,2],\"CustomSharedCompendiums.icewind-dale-monsters\":[1,2],\"CustomSharedCompendiums.out-of-the-abyss-monsters\":[1,2],\"CustomSharedCompendiums.dungeon-of-the-mad-mage-monsters\":[1,2],\"CustomSharedCompendiums.items\":[1,2],\"CustomSharedCompendiums.all-ddb-classes\":[1,2,3,4],\"CustomSharedCompendiums.all-ddb-class-features\":[1,2,3,4],\"CustomSharedCompendiums.all-ddb-races\":[1,2,3,4],\"CustomSharedCompendiums.all-ddb-feats\":[1,2,3,4],\"CustomSharedCompendiums.all-ddb-racial-traits\":[1,2,3,4],\"CustomSharedCompendiums.journalentries\":[1,2],\"CustomSharedCompendiums.rolltables\":[1,2,3,4],\"CustomSharedCompendiums.random-encounter-tables\":[1,2,3,4],\"CustomSharedCompendiums.macros\":[1,2,3,4],\"Dynamic-Effects-SRD.DAE SRD Macros\":[1,2,3,4],\"dae.premadeitems\":[1,2,3,4],\"dae.sample-macros\":[1,2,3,4],\"dfreds-pocket-change.dfreds-pocket-change-macros\":[1,2],\"foundry_community_tables.community-tables-5e\":[1,2,3,4],\"foundry_community_tables.community-tables-independent\":[1,2,3,4],\"furnace.macros\":[1,2,3,4],\"healthEstimate.deathmacro\":[1,2,3,4],\"magicitems.magicitems\":[1,2],\"magicitems.magicitem-feats\":[1,2],\"magicitems.magicitem-tables\":[1,2,3,4],\"midi-qol.midiqol-sample-items\":[1,2,3,4],\"token-attacher.example-macros\":[1,2,3,4],\"token-mold.adjectives\":[1,2,3,4],\"trigger-happy.actors\":[1,2,3,4],\"trigger-happy.journals\":[1,2,3,4],\"turnAlert.turn-alert-examples\":[1,2,3,4],\"turnAlert.turn-alert-debug\":[1,2,3,4],\"world.this-isnt-working-out-ddb-features\":[1,2,3,4],\"world.critterdb-MyCritters\":[1,2,3,4]}}"
   },
   {
     "key": "mwpm.offset",
@@ -285,7 +285,7 @@
   },
   {
     "key": "macro-folders.mfolders",
-    "value": "{\"hidden\":{\"macroList\":[],\"titleText\":\"hidden-macros\"},\"default\":{\"macroList\":[],\"titleText\":\"Default\",\"colorText\":\"#000000\",\"_id\":\"default\",\"fontColorText\":\"#FFFFFF\",\"type\":\"Macro\",\"entity\":\"MacroFolder\",\"sorting\":\"a\",\"parent\":null,\"pathToFolder\":[],\"folderIcon\":null,\"expanded\":false},\"mfolder_og3qjxlkruo\":{\"titleText\":\"Token Magic FX\",\"colorText\":\"#f255e7\",\"macroList\":[\"j1mi63VNaIPd4N9P\"],\"folderList\":[],\"_id\":\"mfolder_og3qjxlkruo\",\"pathToFolder\":[],\"folderIcon\":null,\"playerDefault\":null},\"mfolder_6b0j1027hqo\":{\"titleText\":\"Conditions\",\"colorText\":\"#808080\",\"macroList\":[\"ywRGAeH7LHE9hOC5\",\"K7FG1zYm0JOWQanZ\",\"UuPlnjiWVXpppV10\",\"nCCTOeCWa54rxq70\",\"Xep10bRLvo4jx5pC\",\"iOhMj0zObIMGnZiJ\",\"tp3jmL7p8cFsXlSE\",\"E3RJ1c96WV0H2bJ5\"],\"folderList\":[],\"_id\":\"mfolder_6b0j1027hqo\",\"pathToFolder\":[],\"folderIcon\":null,\"playerDefault\":null,\"fontColorText\":\"#FFFFFF\",\"type\":\"Macro\",\"entity\":\"MacroFolder\",\"sorting\":\"a\",\"parent\":null,\"expanded\":false},\"mfolder_5n2kzi96ded\":{\"titleText\":\"DAE Spell Macros\",\"colorText\":\"#239be7\",\"macroList\":[\"03GLP1LzXHNQIoCw\",\"052BRkLBuVLOKCL2\",\"0yfZTRQiTVp8FQ7s\",\"2LJAlxf6h5nUJzvh\",\"2dcFzdqpYO5s9uJx\",\"6WMCtDZdjPB1bDE7\",\"7X1YMChmucGwGZbT\",\"83Yz6t0grS28XwSa\",\"8cA2jSO6FaAtQ2tc\",\"AH5CanlSZDPKulTa\",\"BtvQI32aU4YuuLP9\",\"F1gmmKLKMvqlbWub\",\"FtrxDKmaZxZeDPHP\",\"I9sP3Yc16o9OCr3K\",\"J34nAecrGghrsp4w\",\"KOrIGajEQrz2xoms\",\"KYvM7S6vRiaCwbPg\",\"OROGxr726ZxSOnqD\",\"PJsKc9fUBktYfaSj\",\"PLEdvH86Y2volWlR\",\"PO9NMunooZnLS2OW\",\"R01SAz8ECXuazjJK\",\"TFVTCpdke5FKVUvv\",\"TlB8DuvVRPoQjSX3\",\"UDfkOJfQ9Qo5s3sN\",\"ZAEJUT2hHwV5uPD5\",\"ZaLJ3Hb2cAI9W0h5\",\"aB6rGB9Aa3AKNYDX\",\"hWulCC5oDpk73l4u\",\"hqs4r7iSQCDv8yWa\",\"jRgpt3dVJozMvrPt\",\"ow67cJll9jXRUNQ8\"],\"folderList\":[],\"_id\":\"mfolder_5n2kzi96ded\",\"pathToFolder\":[],\"folderIcon\":null,\"playerDefault\":null},\"mfolder_9jxu0cv9wxa\":{\"titleText\":\"Time\",\"colorText\":\"#10bcb0\",\"macroList\":[\"25QQq3dSWw5i6lac\",\"8GJrlA8kHtrveD0U\"],\"folderList\":[],\"_id\":\"mfolder_9jxu0cv9wxa\",\"pathToFolder\":[],\"folderIcon\":null,\"playerDefault\":null},\"mfolder_y5gcdmkugc\":{\"titleText\":\"Stat Modification\",\"colorText\":\"#ba6b36\",\"macroList\":[\"j9ZKd8ovKfcNcaFy\"],\"folderList\":[],\"_id\":\"mfolder_y5gcdmkugc\",\"pathToFolder\":[],\"folderIcon\":null,\"playerDefault\":null},\"mfolder_8kppn1rcvak\":{\"titleText\":\"Utility\",\"colorText\":\"#7e7463\",\"macroList\":[\"J4cPIRSh1WDEZ7qH\",\"bhxO3mHDXeuckveh\",\"kcqYJsQnDFpZ6Pj6\"],\"folderList\":[],\"_id\":\"mfolder_8kppn1rcvak\",\"pathToFolder\":[],\"folderIcon\":null,\"playerDefault\":null,\"fontColorText\":\"#FFFFFF\",\"type\":\"Macro\",\"entity\":\"MacroFolder\",\"sorting\":\"a\",\"parent\":null,\"expanded\":false},\"mfolder_u3gmcj4427m\":{\"titleText\":\"Multilevel Tokens\",\"colorText\":\"#b945e3\",\"macroList\":[\"G59W7CUfpJskvQpi\",\"i4Jy4cTQb2M7lM3z\",\"DFgcrvNoq8sNKZf2\",\"Imi4AkZk0aQtbAdR\"],\"folderList\":[],\"_id\":\"mfolder_u3gmcj4427m\",\"pathToFolder\":[],\"folderIcon\":null,\"playerDefault\":null},\"mfolder_3kdtn6ppzxk\":{\"titleText\":\"Token Attacher\",\"colorText\":\"#0026e6\",\"macroList\":[\"xkfd6Ip3YJ2cEHKk\",\"zqaMGTApf50Lw3hF\",\"H7IUjjUQRhDfBml8\",\"GxBrlCE4I7XmyN5e\",\"tQmY3N73HNmYC2Wl\",\"81loGLiyZ8nvk9Fi\",\"uJfJBb9UxWXKN3zD\",\"kXxBmntZVir0mpZN\"],\"folderList\":[],\"_id\":\"mfolder_3kdtn6ppzxk\",\"pathToFolder\":[],\"folderIcon\":null,\"playerDefault\":null},\"mfolder_ar8uep8rdp\":{\"titleText\":\"Users\",\"colorText\":\"#42cb10\",\"fontColorText\":\"#FFFFFF\",\"type\":\"Macro\",\"_id\":\"mfolder_ar8uep8rdp\",\"entity\":\"MacroFolder\",\"sorting\":\"a\",\"parent\":null,\"pathToFolder\":[],\"macroList\":[],\"folderIcon\":null,\"expanded\":false,\"playerDefault\":\"none\"},\"mfolder_b0o3o9i8d2\":{\"titleText\":\"Nathan (GM)\",\"colorText\":\"#ff0000\",\"fontColorText\":\"#FFFFFF\",\"type\":\"Macro\",\"_id\":\"mfolder_b0o3o9i8d2\",\"entity\":\"MacroFolder\",\"sorting\":\"a\",\"parent\":\"mfolder_ar8uep8rdp\",\"pathToFolder\":[],\"macroList\":[\"vQHKrjDl7LvRmkAv\"],\"folderIcon\":null,\"expanded\":false,\"playerDefault\":\"LI19SBxAGL2Uj4CD\"},\"mfolder_delrpk6gu5\":{\"titleText\":\"Jennifer\",\"colorText\":\"#00f41f\",\"fontColorText\":\"#FFFFFF\",\"type\":\"Macro\",\"_id\":\"mfolder_delrpk6gu5\",\"entity\":\"MacroFolder\",\"sorting\":\"a\",\"parent\":\"mfolder_ar8uep8rdp\",\"pathToFolder\":[],\"macroList\":[\"7GDTLljd0bN2CXom\"],\"folderIcon\":null,\"expanded\":false,\"playerDefault\":\"T2JexYyw5b58scH2\"},\"mfolder_m4tc1bexhf\":{\"titleText\":\"Justin\",\"colorText\":\"#5b5bae\",\"fontColorText\":\"#FFFFFF\",\"type\":\"Macro\",\"_id\":\"mfolder_m4tc1bexhf\",\"entity\":\"MacroFolder\",\"sorting\":\"a\",\"parent\":\"mfolder_ar8uep8rdp\",\"pathToFolder\":[],\"macroList\":[\"ECTbiD0WZPsezvmT\",\"8wmbtC18mXfRx7E5\",\"ITXpA4w5T7Xnsltz\",\"FruBjOLHafAumSYc\",\"4EZAEnhvOi5vlxT5\",\"TeFkjq9C7nSefpmh\",\"yz4fxJPlVB4pIHqR\",\"pgkuAB0e80gvX8ZA\",\"lbIPivs97QnevqSx\",\"CBX0imuGW2HyMwl7\",\"qVPBIyZLh1qpAJ7M\",\"Cci8hIfHf8JKYcUY\",\"h3Blc3SfrDklNWdI\",\"0M2doIEF4frckAt9\",\"dlXVe92HKUUBMnTL\",\"2yxEVnYj2jNd7lJJ\",\"1DZger1CFKmLOlkm\",\"lol79gjQxiA34hz2\"],\"folderIcon\":null,\"expanded\":false,\"playerDefault\":\"D32zYDRFF15VMYoO\"},\"mfolder_oq97747p4b\":{\"titleText\":\"Nathan (PC)\",\"colorText\":\"#02eef2\",\"fontColorText\":\"#FFFFFF\",\"type\":\"Macro\",\"_id\":\"mfolder_oq97747p4b\",\"entity\":\"MacroFolder\",\"sorting\":\"a\",\"parent\":\"mfolder_ar8uep8rdp\",\"pathToFolder\":[],\"macroList\":[],\"folderIcon\":null,\"expanded\":false,\"playerDefault\":\"lL0N1sQMHyQmFOry\"},\"mfolder_telrkj1yvk\":{\"titleText\":\"Paden\",\"colorText\":\"#59849b\",\"fontColorText\":\"#FFFFFF\",\"type\":\"Macro\",\"_id\":\"mfolder_telrkj1yvk\",\"entity\":\"MacroFolder\",\"sorting\":\"a\",\"parent\":\"mfolder_ar8uep8rdp\",\"pathToFolder\":[],\"macroList\":[\"UjYxp32OPjNUp0ur\",\"zrLUyorWJF9I6dRX\",\"1UdQqX5Hbq6HP9qd\",\"m3gJ0QCEI9MeAra5\",\"dXls8ohJKPmIBYHR\",\"8AgweqMZCCPC5Tf1\",\"WMqShyyy1AOyRVNF\",\"P2zxXDcH8pvfGg2b\",\"6gOBsIYEREYX9zlY\",\"fpIKCmROHAGReFqD\",\"QsPXm4f4U8NuueFS\",\"TAQYiFDbV6MXMZBV\",\"9PKQRk9gXqbwr3Ks\",\"ftXGXJL9DxEpGVNy\",\"VZRMiezE3hMNSdt2\",\"GUABGp7lyIV1tNSv\",\"I9qPPAeb7CpUyPfC\",\"LbNYjfBRsjCfzodo\",\"t8tEkSiyhWzYdG0R\",\"4HOtWWEDdcz1d5YO\",\"6TSUheRl5jJL4X99\",\"PSS8Akwz7bDv5REJ\",\"fNrFIF621pEGKOnJ\",\"Jy0OTe90OAwblxfs\",\"WJUqfpnURvkQkMFi\",\"xMw1GOE9skVntcBK\",\"0kZTmt1T2HwlqRxU\",\"lMRoJTHt8m8qsC5H\",\"0cXkffUxu0V6DQpH\",\"7YHZZaQgpNIXs0qO\"],\"folderIcon\":null,\"expanded\":false,\"playerDefault\":\"6dnKUTtICEg9VHe3\"},\"mfolder_c4uu73uyyv\":{\"titleText\":\"Rewi\",\"colorText\":\"#730ae9\",\"fontColorText\":\"#FFFFFF\",\"type\":\"Macro\",\"_id\":\"mfolder_c4uu73uyyv\",\"entity\":\"MacroFolder\",\"sorting\":\"a\",\"parent\":\"mfolder_ar8uep8rdp\",\"pathToFolder\":[],\"macroList\":[],\"folderIcon\":null,\"expanded\":false,\"playerDefault\":\"b38ABpAy1YrXABzE\"},\"mfolder_iy2p7k1ahe\":{\"titleText\":\"Tyler\",\"colorText\":\"#c9922c\",\"fontColorText\":\"#FFFFFF\",\"type\":\"Macro\",\"_id\":\"mfolder_iy2p7k1ahe\",\"entity\":\"MacroFolder\",\"sorting\":\"a\",\"parent\":\"mfolder_ar8uep8rdp\",\"pathToFolder\":[],\"macroList\":[],\"folderIcon\":null,\"expanded\":false,\"playerDefault\":\"lG9NEPeCBz3NTwsQ\"}}"
+    "value": "{\"hidden\":{\"macroList\":[],\"titleText\":\"hidden-macros\"},\"default\":{\"macroList\":[],\"titleText\":\"Default\",\"colorText\":\"#000000\",\"_id\":\"default\",\"fontColorText\":\"#FFFFFF\",\"type\":\"Macro\",\"entity\":\"MacroFolder\",\"sorting\":\"a\",\"parent\":null,\"pathToFolder\":[],\"folderIcon\":null,\"expanded\":false},\"mfolder_og3qjxlkruo\":{\"titleText\":\"Token Magic FX\",\"colorText\":\"#f255e7\",\"macroList\":[\"j1mi63VNaIPd4N9P\"],\"folderList\":[],\"_id\":\"mfolder_og3qjxlkruo\",\"pathToFolder\":[],\"folderIcon\":null,\"playerDefault\":null},\"mfolder_6b0j1027hqo\":{\"titleText\":\"Conditions\",\"colorText\":\"#808080\",\"macroList\":[\"ywRGAeH7LHE9hOC5\",\"K7FG1zYm0JOWQanZ\",\"UuPlnjiWVXpppV10\",\"nCCTOeCWa54rxq70\",\"Xep10bRLvo4jx5pC\",\"iOhMj0zObIMGnZiJ\",\"E3RJ1c96WV0H2bJ5\",\"WcZD4eFb8zrHojfR\"],\"folderList\":[],\"_id\":\"mfolder_6b0j1027hqo\",\"pathToFolder\":[],\"folderIcon\":null,\"playerDefault\":null,\"fontColorText\":\"#FFFFFF\",\"type\":\"Macro\",\"entity\":\"MacroFolder\",\"sorting\":\"a\",\"parent\":null,\"expanded\":false},\"mfolder_5n2kzi96ded\":{\"titleText\":\"DAE Spell Macros\",\"colorText\":\"#239be7\",\"macroList\":[\"03GLP1LzXHNQIoCw\",\"052BRkLBuVLOKCL2\",\"0yfZTRQiTVp8FQ7s\",\"2LJAlxf6h5nUJzvh\",\"2dcFzdqpYO5s9uJx\",\"6WMCtDZdjPB1bDE7\",\"7X1YMChmucGwGZbT\",\"83Yz6t0grS28XwSa\",\"8cA2jSO6FaAtQ2tc\",\"AH5CanlSZDPKulTa\",\"BtvQI32aU4YuuLP9\",\"F1gmmKLKMvqlbWub\",\"FtrxDKmaZxZeDPHP\",\"I9sP3Yc16o9OCr3K\",\"J34nAecrGghrsp4w\",\"KOrIGajEQrz2xoms\",\"KYvM7S6vRiaCwbPg\",\"OROGxr726ZxSOnqD\",\"PJsKc9fUBktYfaSj\",\"PLEdvH86Y2volWlR\",\"PO9NMunooZnLS2OW\",\"R01SAz8ECXuazjJK\",\"TFVTCpdke5FKVUvv\",\"TlB8DuvVRPoQjSX3\",\"UDfkOJfQ9Qo5s3sN\",\"ZAEJUT2hHwV5uPD5\",\"ZaLJ3Hb2cAI9W0h5\",\"aB6rGB9Aa3AKNYDX\",\"hWulCC5oDpk73l4u\",\"hqs4r7iSQCDv8yWa\",\"jRgpt3dVJozMvrPt\",\"ow67cJll9jXRUNQ8\"],\"folderList\":[],\"_id\":\"mfolder_5n2kzi96ded\",\"pathToFolder\":[],\"folderIcon\":null,\"playerDefault\":null},\"mfolder_9jxu0cv9wxa\":{\"titleText\":\"Time\",\"colorText\":\"#10bcb0\",\"macroList\":[\"25QQq3dSWw5i6lac\",\"8GJrlA8kHtrveD0U\"],\"folderList\":[],\"_id\":\"mfolder_9jxu0cv9wxa\",\"pathToFolder\":[],\"folderIcon\":null,\"playerDefault\":null},\"mfolder_y5gcdmkugc\":{\"titleText\":\"Stat Modification\",\"colorText\":\"#ba6b36\",\"macroList\":[\"j9ZKd8ovKfcNcaFy\"],\"folderList\":[],\"_id\":\"mfolder_y5gcdmkugc\",\"pathToFolder\":[],\"folderIcon\":null,\"playerDefault\":null},\"mfolder_8kppn1rcvak\":{\"titleText\":\"Utility\",\"colorText\":\"#7e7463\",\"macroList\":[\"J4cPIRSh1WDEZ7qH\",\"bhxO3mHDXeuckveh\",\"kcqYJsQnDFpZ6Pj6\"],\"folderList\":[],\"_id\":\"mfolder_8kppn1rcvak\",\"pathToFolder\":[],\"folderIcon\":null,\"playerDefault\":null,\"fontColorText\":\"#FFFFFF\",\"type\":\"Macro\",\"entity\":\"MacroFolder\",\"sorting\":\"a\",\"parent\":null,\"expanded\":false},\"mfolder_u3gmcj4427m\":{\"titleText\":\"Multilevel Tokens\",\"colorText\":\"#b945e3\",\"macroList\":[\"G59W7CUfpJskvQpi\",\"i4Jy4cTQb2M7lM3z\",\"DFgcrvNoq8sNKZf2\",\"Imi4AkZk0aQtbAdR\"],\"folderList\":[],\"_id\":\"mfolder_u3gmcj4427m\",\"pathToFolder\":[],\"folderIcon\":null,\"playerDefault\":null},\"mfolder_3kdtn6ppzxk\":{\"titleText\":\"Token Attacher\",\"colorText\":\"#0026e6\",\"macroList\":[\"xkfd6Ip3YJ2cEHKk\",\"zqaMGTApf50Lw3hF\",\"H7IUjjUQRhDfBml8\",\"GxBrlCE4I7XmyN5e\",\"tQmY3N73HNmYC2Wl\",\"81loGLiyZ8nvk9Fi\",\"uJfJBb9UxWXKN3zD\",\"kXxBmntZVir0mpZN\"],\"folderList\":[],\"_id\":\"mfolder_3kdtn6ppzxk\",\"pathToFolder\":[],\"folderIcon\":null,\"playerDefault\":null},\"mfolder_ar8uep8rdp\":{\"titleText\":\"Users\",\"colorText\":\"#42cb10\",\"fontColorText\":\"#FFFFFF\",\"type\":\"Macro\",\"_id\":\"mfolder_ar8uep8rdp\",\"entity\":\"MacroFolder\",\"sorting\":\"a\",\"parent\":null,\"pathToFolder\":[],\"macroList\":[],\"folderIcon\":null,\"expanded\":false,\"playerDefault\":\"none\"},\"mfolder_b0o3o9i8d2\":{\"titleText\":\"Nathan (GM)\",\"colorText\":\"#ff0000\",\"fontColorText\":\"#FFFFFF\",\"type\":\"Macro\",\"_id\":\"mfolder_b0o3o9i8d2\",\"entity\":\"MacroFolder\",\"sorting\":\"a\",\"parent\":\"mfolder_ar8uep8rdp\",\"pathToFolder\":[],\"macroList\":[\"NCeBn0b5kQI1ZgVg\"],\"folderIcon\":null,\"expanded\":false,\"playerDefault\":\"LI19SBxAGL2Uj4CD\"},\"mfolder_delrpk6gu5\":{\"titleText\":\"Jennifer\",\"colorText\":\"#00f41f\",\"fontColorText\":\"#FFFFFF\",\"type\":\"Macro\",\"_id\":\"mfolder_delrpk6gu5\",\"entity\":\"MacroFolder\",\"sorting\":\"a\",\"parent\":\"mfolder_ar8uep8rdp\",\"pathToFolder\":[],\"macroList\":[\"7GDTLljd0bN2CXom\"],\"folderIcon\":null,\"expanded\":false,\"playerDefault\":\"T2JexYyw5b58scH2\"},\"mfolder_m4tc1bexhf\":{\"titleText\":\"Justin\",\"colorText\":\"#5b5bae\",\"fontColorText\":\"#FFFFFF\",\"type\":\"Macro\",\"_id\":\"mfolder_m4tc1bexhf\",\"entity\":\"MacroFolder\",\"sorting\":\"a\",\"parent\":\"mfolder_ar8uep8rdp\",\"pathToFolder\":[],\"macroList\":[\"ECTbiD0WZPsezvmT\",\"8wmbtC18mXfRx7E5\",\"ITXpA4w5T7Xnsltz\",\"FruBjOLHafAumSYc\",\"4EZAEnhvOi5vlxT5\",\"TeFkjq9C7nSefpmh\",\"yz4fxJPlVB4pIHqR\",\"pgkuAB0e80gvX8ZA\",\"lbIPivs97QnevqSx\",\"CBX0imuGW2HyMwl7\",\"qVPBIyZLh1qpAJ7M\",\"Cci8hIfHf8JKYcUY\",\"h3Blc3SfrDklNWdI\",\"0M2doIEF4frckAt9\",\"dlXVe92HKUUBMnTL\",\"2yxEVnYj2jNd7lJJ\",\"1DZger1CFKmLOlkm\",\"lol79gjQxiA34hz2\"],\"folderIcon\":null,\"expanded\":false,\"playerDefault\":\"D32zYDRFF15VMYoO\"},\"mfolder_oq97747p4b\":{\"titleText\":\"Nathan (PC)\",\"colorText\":\"#02eef2\",\"fontColorText\":\"#FFFFFF\",\"type\":\"Macro\",\"_id\":\"mfolder_oq97747p4b\",\"entity\":\"MacroFolder\",\"sorting\":\"a\",\"parent\":\"mfolder_ar8uep8rdp\",\"pathToFolder\":[],\"macroList\":[],\"folderIcon\":null,\"expanded\":false,\"playerDefault\":\"lL0N1sQMHyQmFOry\"},\"mfolder_telrkj1yvk\":{\"titleText\":\"Paden\",\"colorText\":\"#59849b\",\"fontColorText\":\"#FFFFFF\",\"type\":\"Macro\",\"_id\":\"mfolder_telrkj1yvk\",\"entity\":\"MacroFolder\",\"sorting\":\"a\",\"parent\":\"mfolder_ar8uep8rdp\",\"pathToFolder\":[],\"macroList\":[\"UjYxp32OPjNUp0ur\",\"zrLUyorWJF9I6dRX\",\"1UdQqX5Hbq6HP9qd\",\"m3gJ0QCEI9MeAra5\",\"dXls8ohJKPmIBYHR\",\"8AgweqMZCCPC5Tf1\",\"WMqShyyy1AOyRVNF\",\"P2zxXDcH8pvfGg2b\",\"6gOBsIYEREYX9zlY\",\"fpIKCmROHAGReFqD\",\"QsPXm4f4U8NuueFS\",\"TAQYiFDbV6MXMZBV\",\"9PKQRk9gXqbwr3Ks\",\"ftXGXJL9DxEpGVNy\",\"VZRMiezE3hMNSdt2\",\"GUABGp7lyIV1tNSv\",\"I9qPPAeb7CpUyPfC\",\"LbNYjfBRsjCfzodo\",\"t8tEkSiyhWzYdG0R\",\"4HOtWWEDdcz1d5YO\",\"6TSUheRl5jJL4X99\",\"PSS8Akwz7bDv5REJ\",\"fNrFIF621pEGKOnJ\",\"Jy0OTe90OAwblxfs\",\"WJUqfpnURvkQkMFi\",\"xMw1GOE9skVntcBK\",\"0kZTmt1T2HwlqRxU\",\"lMRoJTHt8m8qsC5H\",\"0cXkffUxu0V6DQpH\",\"7YHZZaQgpNIXs0qO\"],\"folderIcon\":null,\"expanded\":false,\"playerDefault\":\"6dnKUTtICEg9VHe3\"},\"mfolder_c4uu73uyyv\":{\"titleText\":\"Rewi\",\"colorText\":\"#730ae9\",\"fontColorText\":\"#FFFFFF\",\"type\":\"Macro\",\"_id\":\"mfolder_c4uu73uyyv\",\"entity\":\"MacroFolder\",\"sorting\":\"a\",\"parent\":\"mfolder_ar8uep8rdp\",\"pathToFolder\":[],\"macroList\":[],\"folderIcon\":null,\"expanded\":false,\"playerDefault\":\"b38ABpAy1YrXABzE\"},\"mfolder_iy2p7k1ahe\":{\"titleText\":\"Tyler\",\"colorText\":\"#c9922c\",\"fontColorText\":\"#FFFFFF\",\"type\":\"Macro\",\"_id\":\"mfolder_iy2p7k1ahe\",\"entity\":\"MacroFolder\",\"sorting\":\"a\",\"parent\":\"mfolder_ar8uep8rdp\",\"pathToFolder\":[],\"macroList\":[],\"folderIcon\":null,\"expanded\":false,\"playerDefault\":\"lG9NEPeCBz3NTwsQ\"}}"
   },
   {
     "key": "combat-utility-belt.storedTriggers",
@@ -445,7 +445,7 @@
   },
   {
     "key": "core.time",
-    "value": "43437765367"
+    "value": "43437765369"
   },
   {
     "key": "monks-tokenbar.send-levelup-whisper",
@@ -497,7 +497,7 @@
   },
   {
     "key": "compendium-folders.cfolders",
-    "value": "{\"hidden\":{\"compendiumList\":[],\"titleText\":\"hidden-compendiums\",\"_id\":\"hidden\",\"compendiums\":[],\"expanded\":false},\"default\":{\"compendiumList\":[],\"titleText\":\"Default\",\"_id\":\"default\",\"colorText\":\"#000000\",\"folderIcon\":null,\"compendiums\":[],\"expanded\":true},\"cfolder_o3mi2qh55j8\":{\"titleText\":\"Characters\",\"colorText\":\"#008000\",\"compendiumList\":[\"CustomSharedCompendiums.player-characters\",\"dnd5e.classes\",\"dnd5e.classfeatures\",\"CustomSharedCompendiums.custom-classes\",\"CustomSharedCompendiums.custom-class-features\",\"dnd5e.heroes\",\"dnd5e.races\",\"Dynamic-Effects-SRD.DAE SRD Feats\"],\"folderList\":[],\"_id\":\"cfolder_o3mi2qh55j8\",\"pathToFolder\":[],\"folderIcon\":null,\"fontColorText\":\"#FFFFFF\",\"compendiums\":[{\"_id\":\"CustomSharedCompendiums.player-characters\",\"data\":{\"code\":\"CustomSharedCompendiums.player-characters\",\"folder\":\"cfolder_o3mi2qh55j8\"}},{\"_id\":\"dnd5e.classes\",\"data\":{\"code\":\"dnd5e.classes\",\"folder\":\"cfolder_o3mi2qh55j8\"}},{\"_id\":\"dnd5e.classfeatures\",\"data\":{\"code\":\"dnd5e.classfeatures\",\"folder\":\"cfolder_o3mi2qh55j8\"}},{\"_id\":\"CustomSharedCompendiums.custom-classes\",\"data\":{\"code\":\"CustomSharedCompendiums.custom-classes\",\"folder\":\"cfolder_o3mi2qh55j8\"}},{\"_id\":\"CustomSharedCompendiums.custom-class-features\",\"data\":{\"code\":\"CustomSharedCompendiums.custom-class-features\",\"folder\":\"cfolder_o3mi2qh55j8\"}},{\"_id\":\"dnd5e.heroes\",\"data\":{\"code\":\"dnd5e.heroes\",\"folder\":\"cfolder_o3mi2qh55j8\"}},{\"_id\":\"dnd5e.races\",\"data\":{\"code\":\"dnd5e.races\",\"folder\":\"cfolder_o3mi2qh55j8\"}},{\"_id\":\"Dynamic-Effects-SRD.DAE SRD Feats\",\"data\":{\"code\":\"Dynamic-Effects-SRD.DAE SRD Feats\",\"folder\":\"cfolder_o3mi2qh55j8\"}}],\"expanded\":false},\"cfolder_n30b6t7gsm\":{\"titleText\":\"Monsters\",\"colorText\":\"#ff0000\",\"compendiumList\":[\"CustomSharedCompendiums.custom-monsters\",\"world.critterdb-MyCritters\",\"dnd5e.monsters\",\"dnd5e.monsterfeatures\",\"CustomSharedCompendiums.critterdb-monsters\",\"CustomSharedCompendiums.monster-manual-monsters\",\"CustomSharedCompendiums.mordekainens-tome-of-foes-monsters\",\"CustomSharedCompendiums.volos-guide-to-monsters-monsters\",\"CustomSharedCompendiums.candlekeep-mysteries-monsters\",\"CustomSharedCompendiums.essentials-kit-monsters\",\"CustomSharedCompendiums.icewind-dale-monsters\",\"CustomSharedCompendiums.out-of-the-abyss-monsters\",\"CustomSharedCompendiums.dungeon-of-the-mad-mage-monsters\"],\"folderList\":[],\"_id\":\"cfolder_n30b6t7gsm\",\"pathToFolder\":[],\"folderIcon\":null,\"fontColorText\":\"#FFFFFF\",\"compendiums\":[{\"_id\":\"CustomSharedCompendiums.custom-monsters\",\"data\":{\"code\":\"CustomSharedCompendiums.custom-monsters\",\"folder\":\"cfolder_n30b6t7gsm\"}},{\"_id\":\"world.critterdb-MyCritters\",\"data\":{\"code\":\"world.critterdb-MyCritters\",\"folder\":\"cfolder_n30b6t7gsm\"}},{\"_id\":\"dnd5e.monsters\",\"data\":{\"code\":\"dnd5e.monsters\",\"folder\":\"cfolder_n30b6t7gsm\"}},{\"_id\":\"dnd5e.monsterfeatures\",\"data\":{\"code\":\"dnd5e.monsterfeatures\",\"folder\":\"cfolder_n30b6t7gsm\"}},{\"_id\":\"CustomSharedCompendiums.critterdb-monsters\",\"data\":{\"code\":\"CustomSharedCompendiums.critterdb-monsters\",\"folder\":\"cfolder_n30b6t7gsm\"}},{\"_id\":\"CustomSharedCompendiums.monster-manual-monsters\",\"data\":{\"code\":\"CustomSharedCompendiums.monster-manual-monsters\",\"folder\":\"cfolder_n30b6t7gsm\"}},{\"_id\":\"CustomSharedCompendiums.mordekainens-tome-of-foes-monsters\",\"data\":{\"code\":\"CustomSharedCompendiums.mordekainens-tome-of-foes-monsters\",\"folder\":\"cfolder_n30b6t7gsm\"}},{\"_id\":\"CustomSharedCompendiums.volos-guide-to-monsters-monsters\",\"data\":{\"code\":\"CustomSharedCompendiums.volos-guide-to-monsters-monsters\",\"folder\":\"cfolder_n30b6t7gsm\"}},{\"_id\":\"CustomSharedCompendiums.candlekeep-mysteries-monsters\",\"data\":{\"code\":\"CustomSharedCompendiums.candlekeep-mysteries-monsters\",\"folder\":\"cfolder_n30b6t7gsm\"}},{\"_id\":\"CustomSharedCompendiums.essentials-kit-monsters\",\"data\":{\"code\":\"CustomSharedCompendiums.essentials-kit-monsters\",\"folder\":\"cfolder_n30b6t7gsm\"}},{\"_id\":\"CustomSharedCompendiums.icewind-dale-monsters\",\"data\":{\"code\":\"CustomSharedCompendiums.icewind-dale-monsters\",\"folder\":\"cfolder_n30b6t7gsm\"}},{\"_id\":\"CustomSharedCompendiums.out-of-the-abyss-monsters\",\"data\":{\"code\":\"CustomSharedCompendiums.out-of-the-abyss-monsters\",\"folder\":\"cfolder_n30b6t7gsm\"}},{\"_id\":\"CustomSharedCompendiums.dungeon-of-the-mad-mage-monsters\",\"data\":{\"code\":\"CustomSharedCompendiums.dungeon-of-the-mad-mage-monsters\",\"folder\":\"cfolder_n30b6t7gsm\"}}],\"expanded\":false},\"cfolder_xow5bcfozy\":{\"titleText\":\"Spells\",\"colorText\":\"#0080ff\",\"compendiumList\":[\"Dynamic-Effects-SRD.DAE SRD Spells\",\"dnd5e.spells\",\"CustomSharedCompendiums.all-ddb-spells\"],\"folderList\":[],\"_id\":\"cfolder_xow5bcfozy\",\"pathToFolder\":[],\"folderIcon\":null,\"fontColorText\":\"#FFFFFF\",\"compendiums\":[{\"_id\":\"Dynamic-Effects-SRD.DAE SRD Spells\",\"data\":{\"code\":\"Dynamic-Effects-SRD.DAE SRD Spells\",\"folder\":\"cfolder_xow5bcfozy\"}},{\"_id\":\"dnd5e.spells\",\"data\":{\"code\":\"dnd5e.spells\",\"folder\":\"cfolder_xow5bcfozy\"}},{\"_id\":\"CustomSharedCompendiums.all-ddb-spells\",\"data\":{\"code\":\"CustomSharedCompendiums.all-ddb-spells\",\"folder\":\"cfolder_xow5bcfozy\"}}],\"expanded\":false},\"cfolder_ugdomjgs4sa\":{\"titleText\":\"Macros\",\"colorText\":\"#808080\",\"compendiumList\":[\"CustomSharedCompendiums.macros\",\"furnace.macros\",\"Dynamic-Effects-SRD.DAE SRD Macros\",\"dae.sample-macros\",\"turnAlert.turn-alert-examples\",\"turnAlert.turn-alert-debug\",\"token-attacher.example-macros\",\"healthEstimate.deathmacro\",\"dfreds-pocket-change.dfreds-pocket-change-macros\"],\"folderList\":[],\"_id\":\"cfolder_ugdomjgs4sa\",\"pathToFolder\":[],\"folderIcon\":null,\"fontColorText\":\"#FFFFFF\",\"compendiums\":[{\"_id\":\"CustomSharedCompendiums.macros\",\"data\":{\"code\":\"CustomSharedCompendiums.macros\",\"folder\":\"cfolder_ugdomjgs4sa\"}},{\"_id\":\"furnace.macros\",\"data\":{\"code\":\"furnace.macros\",\"folder\":\"cfolder_ugdomjgs4sa\"}},{\"_id\":\"Dynamic-Effects-SRD.DAE SRD Macros\",\"data\":{\"code\":\"Dynamic-Effects-SRD.DAE SRD Macros\",\"folder\":\"cfolder_ugdomjgs4sa\"}},{\"_id\":\"dae.sample-macros\",\"data\":{\"code\":\"dae.sample-macros\",\"folder\":\"cfolder_ugdomjgs4sa\"}},{\"_id\":\"turnAlert.turn-alert-examples\",\"data\":{\"code\":\"turnAlert.turn-alert-examples\",\"folder\":\"cfolder_ugdomjgs4sa\"}},{\"_id\":\"turnAlert.turn-alert-debug\",\"data\":{\"code\":\"turnAlert.turn-alert-debug\",\"folder\":\"cfolder_ugdomjgs4sa\"}},{\"_id\":\"token-attacher.example-macros\",\"data\":{\"code\":\"token-attacher.example-macros\",\"folder\":\"cfolder_ugdomjgs4sa\"}},{\"_id\":\"healthEstimate.deathmacro\",\"data\":{\"code\":\"healthEstimate.deathmacro\",\"folder\":\"cfolder_ugdomjgs4sa\"}},{\"_id\":\"dfreds-pocket-change.dfreds-pocket-change-macros\",\"data\":{\"code\":\"dfreds-pocket-change.dfreds-pocket-change-macros\",\"folder\":\"cfolder_ugdomjgs4sa\"}}],\"expanded\":false,\"type\":\"CompendiumEntry\",\"entity\":\"CompendiumFolder\",\"sorting\":\"a\",\"parent\":null},\"cfolder_vx9cksqwb6\":{\"titleText\":\"Items\",\"colorText\":\"#ec11d0\",\"compendiumList\":[\"dnd5e.items\",\"Dynamic-Effects-SRD.DAE SRD Items\",\"dae.premadeitems\",\"CustomSharedCompendiums.items\",\"Dynamic-Effects-SRD.DAE SRD Magic Items\",\"Dynamic-Effects-SRD.DAE SRD Midi-collection\",\"dnd5e.tradegoods\",\"itemcollection.packs\",\"magicitems.magicitems\",\"magicitems.magicitem-feats\",\"midi-qol.midiqol-sample-items\",\"CustomSharedCompendiums.hamunds-harvesting-items\"],\"folderList\":[],\"_id\":\"cfolder_vx9cksqwb6\",\"pathToFolder\":[],\"folderIcon\":null,\"fontColorText\":\"#FFFFFF\",\"compendiums\":[{\"_id\":\"dnd5e.items\",\"data\":{\"code\":\"dnd5e.items\",\"folder\":\"cfolder_vx9cksqwb6\"}},{\"_id\":\"Dynamic-Effects-SRD.DAE SRD Items\",\"data\":{\"code\":\"Dynamic-Effects-SRD.DAE SRD Items\",\"folder\":\"cfolder_vx9cksqwb6\"}},{\"_id\":\"dae.premadeitems\",\"data\":{\"code\":\"dae.premadeitems\",\"folder\":\"cfolder_vx9cksqwb6\"}},{\"_id\":\"CustomSharedCompendiums.items\",\"data\":{\"code\":\"CustomSharedCompendiums.items\",\"folder\":\"cfolder_vx9cksqwb6\"}},{\"_id\":\"Dynamic-Effects-SRD.DAE SRD Magic Items\",\"data\":{\"code\":\"Dynamic-Effects-SRD.DAE SRD Magic Items\",\"folder\":\"cfolder_vx9cksqwb6\"}},{\"_id\":\"Dynamic-Effects-SRD.DAE SRD Midi-collection\",\"data\":{\"code\":\"Dynamic-Effects-SRD.DAE SRD Midi-collection\",\"folder\":\"cfolder_vx9cksqwb6\"}},{\"_id\":\"dnd5e.tradegoods\",\"data\":{\"code\":\"dnd5e.tradegoods\",\"folder\":\"cfolder_vx9cksqwb6\"}},{\"_id\":\"magicitems.magicitems\",\"data\":{\"code\":\"magicitems.magicitems\",\"folder\":\"cfolder_vx9cksqwb6\"}},{\"_id\":\"magicitems.magicitem-feats\",\"data\":{\"code\":\"magicitems.magicitem-feats\",\"folder\":\"cfolder_vx9cksqwb6\"}},{\"_id\":\"midi-qol.midiqol-sample-items\",\"data\":{\"code\":\"midi-qol.midiqol-sample-items\",\"folder\":\"cfolder_vx9cksqwb6\"}},{\"_id\":\"CustomSharedCompendiums.hamunds-harvesting-items\",\"data\":{\"code\":\"CustomSharedCompendiums.hamunds-harvesting-items\",\"folder\":\"cfolder_vx9cksqwb6\"}}],\"expanded\":false},\"cfolder_xju2t6inha\":{\"titleText\":\"Rules\",\"colorText\":\"#800040\",\"compendiumList\":[\"CustomSharedCompendiums.homebrew-rules\",\"dnd5e.rules\",\"CustomSharedCompendiums.custom-conditions\",\"combat-utility-belt.conditionsdnd5e\"],\"folderList\":[],\"_id\":\"cfolder_xju2t6inha\",\"pathToFolder\":[],\"folderIcon\":null,\"fontColorText\":\"#FFFFFF\",\"compendiums\":[{\"_id\":\"CustomSharedCompendiums.homebrew-rules\",\"data\":{\"code\":\"CustomSharedCompendiums.homebrew-rules\",\"folder\":\"cfolder_xju2t6inha\"}},{\"_id\":\"dnd5e.rules\",\"data\":{\"code\":\"dnd5e.rules\",\"folder\":\"cfolder_xju2t6inha\"}},{\"_id\":\"CustomSharedCompendiums.custom-conditions\",\"data\":{\"code\":\"CustomSharedCompendiums.custom-conditions\",\"folder\":\"cfolder_xju2t6inha\"}},{\"_id\":\"combat-utility-belt.conditionsdnd5e\",\"data\":{\"code\":\"combat-utility-belt.conditionsdnd5e\",\"folder\":\"cfolder_xju2t6inha\"}}],\"expanded\":false},\"cfolder_hjxoe53dmfe\":{\"titleText\":\"Playlists\",\"colorText\":\"#2c5777\",\"compendiumList\":[],\"folderList\":[],\"_id\":\"cfolder_hjxoe53dmfe\",\"pathToFolder\":[],\"folderIcon\":null,\"fontColorText\":\"#FFFFFF\",\"compendiums\":[],\"expanded\":false},\"cfolder_2lvmjicwswi\":{\"titleText\":\"Tables\",\"colorText\":\"#7e6225\",\"compendiumList\":[\"CustomSharedCompendiums.rolltables\",\"token-mold.adjectives\",\"magicitems.magicitem-tables\",\"CustomSharedCompendiums.random-encounter-tables\",\"foundry_community_tables.community-tables-5e\",\"foundry_community_tables.community-tables-independent\"],\"folderList\":[],\"_id\":\"cfolder_2lvmjicwswi\",\"pathToFolder\":[],\"folderIcon\":null,\"fontColorText\":\"#FFFFFF\",\"compendiums\":[{\"_id\":\"CustomSharedCompendiums.rolltables\",\"data\":{\"code\":\"CustomSharedCompendiums.rolltables\",\"folder\":\"cfolder_2lvmjicwswi\"}},{\"_id\":\"token-mold.adjectives\",\"data\":{\"code\":\"token-mold.adjectives\",\"folder\":\"cfolder_2lvmjicwswi\"}},{\"_id\":\"magicitems.magicitem-tables\",\"data\":{\"code\":\"magicitems.magicitem-tables\",\"folder\":\"cfolder_2lvmjicwswi\"}},{\"_id\":\"CustomSharedCompendiums.random-encounter-tables\",\"data\":{\"code\":\"CustomSharedCompendiums.random-encounter-tables\",\"folder\":\"cfolder_2lvmjicwswi\"}},{\"_id\":\"foundry_community_tables.community-tables-5e\",\"data\":{\"code\":\"foundry_community_tables.community-tables-5e\",\"folder\":\"cfolder_2lvmjicwswi\"}},{\"_id\":\"foundry_community_tables.community-tables-independent\",\"data\":{\"code\":\"foundry_community_tables.community-tables-independent\",\"folder\":\"cfolder_2lvmjicwswi\"}}],\"expanded\":false},\"cfolder_tfuhdt2a8tl\":{\"titleText\":\"Scenes\",\"colorText\":\"#33d7d4\",\"compendiumList\":[\"CustomSharedCompendiums.city-scenes\",\"CustomSharedCompendiums.generic-scenes\",\"CustomSharedCompendiums.mountain-scenes\",\"CustomSharedCompendiums.forest-scenes\",\"CustomSharedCompendiums.dungeon-scenes\",\"CustomSharedCompendiums.backgrounds-scenes\",\"CustomSharedCompendiums.temple-scenes\",\"CustomSharedCompendiums.indoor-scenes\",\"CustomSharedCompendiums.miscellaneous-battle-scenes\",\"CustomSharedCompendiums.map-scenes\",\"CustomSharedCompendiums.lmop-scenes\",\"CustomSharedCompendiums.naval-scenes\",\"CustomSharedCompendiums.shops-stores-scenes\",\"CustomSharedCompendiums.road-scenes\",\"CustomSharedCompendiums.winter-scenes\",\"CustomSharedCompendiums.desert-scenes\",\"CustomSharedCompendiums.Dimensional-scenes\",\"CustomSharedCompendiums.town-scenes\",\"CustomSharedCompendiums.castle-scenes\",\"CustomSharedCompendiums.taverns-inns-scenes\",\"CustomSharedCompendiums.island-scenes\",\"CustomSharedCompendiums.home-scenes\",\"CustomSharedCompendiums.uncategorized-building-scenes\",\"CustomSharedCompendiums.retired-this-isnt-working-out-scenes\",\"CustomSharedCompendiums.retired-alternative-dm-scenes\"],\"folderList\":[],\"_id\":\"cfolder_tfuhdt2a8tl\",\"pathToFolder\":[],\"folderIcon\":null,\"fontColorText\":\"#FFFFFF\",\"compendiums\":[{\"_id\":\"CustomSharedCompendiums.city-scenes\",\"data\":{\"code\":\"CustomSharedCompendiums.city-scenes\",\"folder\":\"cfolder_tfuhdt2a8tl\"}},{\"_id\":\"CustomSharedCompendiums.generic-scenes\",\"data\":{\"code\":\"CustomSharedCompendiums.generic-scenes\",\"folder\":\"cfolder_tfuhdt2a8tl\"}},{\"_id\":\"CustomSharedCompendiums.mountain-scenes\",\"data\":{\"code\":\"CustomSharedCompendiums.mountain-scenes\",\"folder\":\"cfolder_tfuhdt2a8tl\"}},{\"_id\":\"CustomSharedCompendiums.forest-scenes\",\"data\":{\"code\":\"CustomSharedCompendiums.forest-scenes\",\"folder\":\"cfolder_tfuhdt2a8tl\"}},{\"_id\":\"CustomSharedCompendiums.dungeon-scenes\",\"data\":{\"code\":\"CustomSharedCompendiums.dungeon-scenes\",\"folder\":\"cfolder_tfuhdt2a8tl\"}},{\"_id\":\"CustomSharedCompendiums.backgrounds-scenes\",\"data\":{\"code\":\"CustomSharedCompendiums.backgrounds-scenes\",\"folder\":\"cfolder_tfuhdt2a8tl\"}},{\"_id\":\"CustomSharedCompendiums.temple-scenes\",\"data\":{\"code\":\"CustomSharedCompendiums.temple-scenes\",\"folder\":\"cfolder_tfuhdt2a8tl\"}},{\"_id\":\"CustomSharedCompendiums.indoor-scenes\",\"data\":{\"code\":\"CustomSharedCompendiums.indoor-scenes\",\"folder\":\"cfolder_tfuhdt2a8tl\"}},{\"_id\":\"CustomSharedCompendiums.miscellaneous-battle-scenes\",\"data\":{\"code\":\"CustomSharedCompendiums.miscellaneous-battle-scenes\",\"folder\":\"cfolder_tfuhdt2a8tl\"}},{\"_id\":\"CustomSharedCompendiums.map-scenes\",\"data\":{\"code\":\"CustomSharedCompendiums.map-scenes\",\"folder\":\"cfolder_tfuhdt2a8tl\"}},{\"_id\":\"CustomSharedCompendiums.lmop-scenes\",\"data\":{\"code\":\"CustomSharedCompendiums.lmop-scenes\",\"folder\":\"cfolder_tfuhdt2a8tl\"}},{\"_id\":\"CustomSharedCompendiums.naval-scenes\",\"data\":{\"code\":\"CustomSharedCompendiums.naval-scenes\",\"folder\":\"cfolder_tfuhdt2a8tl\"}},{\"_id\":\"CustomSharedCompendiums.shops-stores-scenes\",\"data\":{\"code\":\"CustomSharedCompendiums.shops-stores-scenes\",\"folder\":\"cfolder_tfuhdt2a8tl\"}},{\"_id\":\"CustomSharedCompendiums.road-scenes\",\"data\":{\"code\":\"CustomSharedCompendiums.road-scenes\",\"folder\":\"cfolder_tfuhdt2a8tl\"}},{\"_id\":\"CustomSharedCompendiums.winter-scenes\",\"data\":{\"code\":\"CustomSharedCompendiums.winter-scenes\",\"folder\":\"cfolder_tfuhdt2a8tl\"}},{\"_id\":\"CustomSharedCompendiums.desert-scenes\",\"data\":{\"code\":\"CustomSharedCompendiums.desert-scenes\",\"folder\":\"cfolder_tfuhdt2a8tl\"}},{\"_id\":\"CustomSharedCompendiums.Dimensional-scenes\",\"data\":{\"code\":\"CustomSharedCompendiums.Dimensional-scenes\",\"folder\":\"cfolder_tfuhdt2a8tl\"}},{\"_id\":\"CustomSharedCompendiums.town-scenes\",\"data\":{\"code\":\"CustomSharedCompendiums.town-scenes\",\"folder\":\"cfolder_tfuhdt2a8tl\"}},{\"_id\":\"CustomSharedCompendiums.castle-scenes\",\"data\":{\"code\":\"CustomSharedCompendiums.castle-scenes\",\"folder\":\"cfolder_tfuhdt2a8tl\"}},{\"_id\":\"CustomSharedCompendiums.taverns-inns-scenes\",\"data\":{\"code\":\"CustomSharedCompendiums.taverns-inns-scenes\",\"folder\":\"cfolder_tfuhdt2a8tl\"}},{\"_id\":\"CustomSharedCompendiums.island-scenes\",\"data\":{\"code\":\"CustomSharedCompendiums.island-scenes\",\"folder\":\"cfolder_tfuhdt2a8tl\"}},{\"_id\":\"CustomSharedCompendiums.home-scenes\",\"data\":{\"code\":\"CustomSharedCompendiums.home-scenes\",\"folder\":\"cfolder_tfuhdt2a8tl\"}},{\"_id\":\"CustomSharedCompendiums.uncategorized-building-scenes\",\"data\":{\"code\":\"CustomSharedCompendiums.uncategorized-building-scenes\",\"folder\":\"cfolder_tfuhdt2a8tl\"}},{\"_id\":\"CustomSharedCompendiums.retired-this-isnt-working-out-scenes\",\"data\":{\"code\":\"CustomSharedCompendiums.retired-this-isnt-working-out-scenes\",\"folder\":\"cfolder_tfuhdt2a8tl\"}},{\"_id\":\"CustomSharedCompendiums.retired-alternative-dm-scenes\",\"data\":{\"code\":\"CustomSharedCompendiums.retired-alternative-dm-scenes\",\"folder\":\"cfolder_tfuhdt2a8tl\"}}],\"expanded\":false},\"cfolder_lxh3lwl9nic\":{\"titleText\":\"DnD Beyond\",\"colorText\":\"#d37373\",\"compendiumList\":[\"world.this-isnt-working-out-ddb-features\",\"CustomSharedCompendiums.all-ddb-classes\",\"CustomSharedCompendiums.all-ddb-class-features\",\"CustomSharedCompendiums.all-ddb-races\",\"CustomSharedCompendiums.all-ddb-feats\",\"CustomSharedCompendiums.all-ddb-racial-traits\",\"CustomSharedCompendiums.all-ddb-items\"],\"folderList\":[],\"_id\":\"cfolder_lxh3lwl9nic\",\"pathToFolder\":[],\"folderIcon\":null,\"fontColorText\":\"#FFFFFF\",\"compendiums\":[{\"_id\":\"world.this-isnt-working-out-ddb-features\",\"data\":{\"code\":\"world.this-isnt-working-out-ddb-features\",\"folder\":\"cfolder_lxh3lwl9nic\"}},{\"_id\":\"CustomSharedCompendiums.all-ddb-classes\",\"data\":{\"code\":\"CustomSharedCompendiums.all-ddb-classes\",\"folder\":\"cfolder_lxh3lwl9nic\"}},{\"_id\":\"CustomSharedCompendiums.all-ddb-class-features\",\"data\":{\"code\":\"CustomSharedCompendiums.all-ddb-class-features\",\"folder\":\"cfolder_lxh3lwl9nic\"}},{\"_id\":\"CustomSharedCompendiums.all-ddb-races\",\"data\":{\"code\":\"CustomSharedCompendiums.all-ddb-races\",\"folder\":\"cfolder_lxh3lwl9nic\"}},{\"_id\":\"CustomSharedCompendiums.all-ddb-feats\",\"data\":{\"code\":\"CustomSharedCompendiums.all-ddb-feats\",\"folder\":\"cfolder_lxh3lwl9nic\"}},{\"_id\":\"CustomSharedCompendiums.all-ddb-racial-traits\",\"data\":{\"code\":\"CustomSharedCompendiums.all-ddb-racial-traits\",\"folder\":\"cfolder_lxh3lwl9nic\"}},{\"_id\":\"CustomSharedCompendiums.all-ddb-items\",\"data\":{\"code\":\"CustomSharedCompendiums.all-ddb-items\",\"folder\":\"cfolder_lxh3lwl9nic\"}}],\"expanded\":false},\"cfolder_tofu9ltssxa\":{\"titleText\":\"Journals\",\"colorText\":\"#bcb6ec\",\"compendiumList\":[\"trigger-happy.journals\",\"CustomSharedCompendiums.journalentries\"],\"folderList\":[],\"_id\":\"cfolder_tofu9ltssxa\",\"pathToFolder\":[],\"folderIcon\":null,\"fontColorText\":\"#FFFFFF\",\"compendiums\":[{\"_id\":\"trigger-happy.journals\",\"data\":{\"code\":\"trigger-happy.journals\",\"folder\":\"cfolder_tofu9ltssxa\"}},{\"_id\":\"CustomSharedCompendiums.journalentries\",\"data\":{\"code\":\"CustomSharedCompendiums.journalentries\",\"folder\":\"cfolder_tofu9ltssxa\"}}],\"expanded\":false,\"type\":\"CompendiumEntry\",\"entity\":\"CompendiumFolder\",\"sorting\":\"a\",\"parent\":null},\"cfolder_knlzv0of2ft\":{\"titleText\":\"Other Actors\",\"colorText\":\"#db8d1f\",\"compendiumList\":[\"trigger-happy.actors\",\"CustomSharedCompendiums.actor-prefabs\"],\"folderList\":[],\"_id\":\"cfolder_knlzv0of2ft\",\"pathToFolder\":[],\"folderIcon\":null,\"fontColorText\":\"#FFFFFF\",\"compendiums\":[{\"_id\":\"trigger-happy.actors\",\"data\":{\"code\":\"trigger-happy.actors\",\"folder\":\"cfolder_knlzv0of2ft\"}},{\"_id\":\"CustomSharedCompendiums.actor-prefabs\",\"data\":{\"code\":\"CustomSharedCompendiums.actor-prefabs\",\"folder\":\"cfolder_knlzv0of2ft\"}}],\"expanded\":false}}"
+    "value": "{\"hidden\":{\"compendiumList\":[],\"titleText\":\"hidden-compendiums\",\"_id\":\"hidden\",\"compendiums\":[],\"expanded\":false},\"default\":{\"compendiumList\":[],\"titleText\":\"Default\",\"_id\":\"default\",\"colorText\":\"#000000\",\"folderIcon\":null,\"compendiums\":[],\"expanded\":false},\"cfolder_o3mi2qh55j8\":{\"titleText\":\"Characters\",\"colorText\":\"#008000\",\"compendiumList\":[\"CustomSharedCompendiums.player-characters\",\"dnd5e.classes\",\"dnd5e.classfeatures\",\"CustomSharedCompendiums.custom-classes\",\"CustomSharedCompendiums.custom-class-features\",\"dnd5e.heroes\",\"dnd5e.races\",\"Dynamic-Effects-SRD.DAE SRD Feats\"],\"folderList\":[],\"_id\":\"cfolder_o3mi2qh55j8\",\"pathToFolder\":[],\"folderIcon\":null,\"fontColorText\":\"#FFFFFF\",\"compendiums\":[{\"_id\":\"CustomSharedCompendiums.player-characters\",\"data\":{\"code\":\"CustomSharedCompendiums.player-characters\",\"folder\":\"cfolder_o3mi2qh55j8\"}},{\"_id\":\"dnd5e.classes\",\"data\":{\"code\":\"dnd5e.classes\",\"folder\":\"cfolder_o3mi2qh55j8\"}},{\"_id\":\"dnd5e.classfeatures\",\"data\":{\"code\":\"dnd5e.classfeatures\",\"folder\":\"cfolder_o3mi2qh55j8\"}},{\"_id\":\"CustomSharedCompendiums.custom-classes\",\"data\":{\"code\":\"CustomSharedCompendiums.custom-classes\",\"folder\":\"cfolder_o3mi2qh55j8\"}},{\"_id\":\"CustomSharedCompendiums.custom-class-features\",\"data\":{\"code\":\"CustomSharedCompendiums.custom-class-features\",\"folder\":\"cfolder_o3mi2qh55j8\"}},{\"_id\":\"dnd5e.heroes\",\"data\":{\"code\":\"dnd5e.heroes\",\"folder\":\"cfolder_o3mi2qh55j8\"}},{\"_id\":\"dnd5e.races\",\"data\":{\"code\":\"dnd5e.races\",\"folder\":\"cfolder_o3mi2qh55j8\"}},{\"_id\":\"Dynamic-Effects-SRD.DAE SRD Feats\",\"data\":{\"code\":\"Dynamic-Effects-SRD.DAE SRD Feats\",\"folder\":\"cfolder_o3mi2qh55j8\"}}],\"expanded\":false},\"cfolder_n30b6t7gsm\":{\"titleText\":\"Monsters\",\"colorText\":\"#ff0000\",\"compendiumList\":[\"CustomSharedCompendiums.custom-monsters\",\"world.critterdb-MyCritters\",\"dnd5e.monsters\",\"dnd5e.monsterfeatures\",\"CustomSharedCompendiums.critterdb-monsters\",\"CustomSharedCompendiums.monster-manual-monsters\",\"CustomSharedCompendiums.mordekainens-tome-of-foes-monsters\",\"CustomSharedCompendiums.volos-guide-to-monsters-monsters\",\"CustomSharedCompendiums.candlekeep-mysteries-monsters\",\"CustomSharedCompendiums.essentials-kit-monsters\",\"CustomSharedCompendiums.icewind-dale-monsters\",\"CustomSharedCompendiums.out-of-the-abyss-monsters\",\"CustomSharedCompendiums.dungeon-of-the-mad-mage-monsters\"],\"folderList\":[],\"_id\":\"cfolder_n30b6t7gsm\",\"pathToFolder\":[],\"folderIcon\":null,\"fontColorText\":\"#FFFFFF\",\"compendiums\":[{\"_id\":\"CustomSharedCompendiums.custom-monsters\",\"data\":{\"code\":\"CustomSharedCompendiums.custom-monsters\",\"folder\":\"cfolder_n30b6t7gsm\"}},{\"_id\":\"world.critterdb-MyCritters\",\"data\":{\"code\":\"world.critterdb-MyCritters\",\"folder\":\"cfolder_n30b6t7gsm\"}},{\"_id\":\"dnd5e.monsters\",\"data\":{\"code\":\"dnd5e.monsters\",\"folder\":\"cfolder_n30b6t7gsm\"}},{\"_id\":\"dnd5e.monsterfeatures\",\"data\":{\"code\":\"dnd5e.monsterfeatures\",\"folder\":\"cfolder_n30b6t7gsm\"}},{\"_id\":\"CustomSharedCompendiums.critterdb-monsters\",\"data\":{\"code\":\"CustomSharedCompendiums.critterdb-monsters\",\"folder\":\"cfolder_n30b6t7gsm\"}},{\"_id\":\"CustomSharedCompendiums.monster-manual-monsters\",\"data\":{\"code\":\"CustomSharedCompendiums.monster-manual-monsters\",\"folder\":\"cfolder_n30b6t7gsm\"}},{\"_id\":\"CustomSharedCompendiums.mordekainens-tome-of-foes-monsters\",\"data\":{\"code\":\"CustomSharedCompendiums.mordekainens-tome-of-foes-monsters\",\"folder\":\"cfolder_n30b6t7gsm\"}},{\"_id\":\"CustomSharedCompendiums.volos-guide-to-monsters-monsters\",\"data\":{\"code\":\"CustomSharedCompendiums.volos-guide-to-monsters-monsters\",\"folder\":\"cfolder_n30b6t7gsm\"}},{\"_id\":\"CustomSharedCompendiums.candlekeep-mysteries-monsters\",\"data\":{\"code\":\"CustomSharedCompendiums.candlekeep-mysteries-monsters\",\"folder\":\"cfolder_n30b6t7gsm\"}},{\"_id\":\"CustomSharedCompendiums.essentials-kit-monsters\",\"data\":{\"code\":\"CustomSharedCompendiums.essentials-kit-monsters\",\"folder\":\"cfolder_n30b6t7gsm\"}},{\"_id\":\"CustomSharedCompendiums.icewind-dale-monsters\",\"data\":{\"code\":\"CustomSharedCompendiums.icewind-dale-monsters\",\"folder\":\"cfolder_n30b6t7gsm\"}},{\"_id\":\"CustomSharedCompendiums.out-of-the-abyss-monsters\",\"data\":{\"code\":\"CustomSharedCompendiums.out-of-the-abyss-monsters\",\"folder\":\"cfolder_n30b6t7gsm\"}},{\"_id\":\"CustomSharedCompendiums.dungeon-of-the-mad-mage-monsters\",\"data\":{\"code\":\"CustomSharedCompendiums.dungeon-of-the-mad-mage-monsters\",\"folder\":\"cfolder_n30b6t7gsm\"}}],\"expanded\":false},\"cfolder_xow5bcfozy\":{\"titleText\":\"Spells\",\"colorText\":\"#0080ff\",\"compendiumList\":[\"Dynamic-Effects-SRD.DAE SRD Spells\",\"dnd5e.spells\",\"CustomSharedCompendiums.all-ddb-spells\"],\"folderList\":[],\"_id\":\"cfolder_xow5bcfozy\",\"pathToFolder\":[],\"folderIcon\":null,\"fontColorText\":\"#FFFFFF\",\"compendiums\":[{\"_id\":\"Dynamic-Effects-SRD.DAE SRD Spells\",\"data\":{\"code\":\"Dynamic-Effects-SRD.DAE SRD Spells\",\"folder\":\"cfolder_xow5bcfozy\"}},{\"_id\":\"dnd5e.spells\",\"data\":{\"code\":\"dnd5e.spells\",\"folder\":\"cfolder_xow5bcfozy\"}},{\"_id\":\"CustomSharedCompendiums.all-ddb-spells\",\"data\":{\"code\":\"CustomSharedCompendiums.all-ddb-spells\",\"folder\":\"cfolder_xow5bcfozy\"}}],\"expanded\":false},\"cfolder_ugdomjgs4sa\":{\"titleText\":\"Macros\",\"colorText\":\"#808080\",\"compendiumList\":[\"CustomSharedCompendiums.macros\",\"furnace.macros\",\"Dynamic-Effects-SRD.DAE SRD Macros\",\"dae.sample-macros\",\"turnAlert.turn-alert-examples\",\"turnAlert.turn-alert-debug\",\"token-attacher.example-macros\",\"healthEstimate.deathmacro\",\"dfreds-pocket-change.dfreds-pocket-change-macros\"],\"folderList\":[],\"_id\":\"cfolder_ugdomjgs4sa\",\"pathToFolder\":[],\"folderIcon\":null,\"fontColorText\":\"#FFFFFF\",\"compendiums\":[{\"_id\":\"CustomSharedCompendiums.macros\",\"data\":{\"code\":\"CustomSharedCompendiums.macros\",\"folder\":\"cfolder_ugdomjgs4sa\"}},{\"_id\":\"furnace.macros\",\"data\":{\"code\":\"furnace.macros\",\"folder\":\"cfolder_ugdomjgs4sa\"}},{\"_id\":\"Dynamic-Effects-SRD.DAE SRD Macros\",\"data\":{\"code\":\"Dynamic-Effects-SRD.DAE SRD Macros\",\"folder\":\"cfolder_ugdomjgs4sa\"}},{\"_id\":\"dae.sample-macros\",\"data\":{\"code\":\"dae.sample-macros\",\"folder\":\"cfolder_ugdomjgs4sa\"}},{\"_id\":\"turnAlert.turn-alert-examples\",\"data\":{\"code\":\"turnAlert.turn-alert-examples\",\"folder\":\"cfolder_ugdomjgs4sa\"}},{\"_id\":\"turnAlert.turn-alert-debug\",\"data\":{\"code\":\"turnAlert.turn-alert-debug\",\"folder\":\"cfolder_ugdomjgs4sa\"}},{\"_id\":\"token-attacher.example-macros\",\"data\":{\"code\":\"token-attacher.example-macros\",\"folder\":\"cfolder_ugdomjgs4sa\"}},{\"_id\":\"healthEstimate.deathmacro\",\"data\":{\"code\":\"healthEstimate.deathmacro\",\"folder\":\"cfolder_ugdomjgs4sa\"}},{\"_id\":\"dfreds-pocket-change.dfreds-pocket-change-macros\",\"data\":{\"code\":\"dfreds-pocket-change.dfreds-pocket-change-macros\",\"folder\":\"cfolder_ugdomjgs4sa\"}}],\"expanded\":false,\"type\":\"CompendiumEntry\",\"entity\":\"CompendiumFolder\",\"sorting\":\"a\",\"parent\":null},\"cfolder_vx9cksqwb6\":{\"titleText\":\"Items\",\"colorText\":\"#ec11d0\",\"compendiumList\":[\"dnd5e.items\",\"Dynamic-Effects-SRD.DAE SRD Items\",\"dae.premadeitems\",\"CustomSharedCompendiums.items\",\"Dynamic-Effects-SRD.DAE SRD Magic Items\",\"Dynamic-Effects-SRD.DAE SRD Midi-collection\",\"dnd5e.tradegoods\",\"itemcollection.packs\",\"magicitems.magicitems\",\"magicitems.magicitem-feats\",\"midi-qol.midiqol-sample-items\",\"CustomSharedCompendiums.hamunds-harvesting-items\"],\"folderList\":[],\"_id\":\"cfolder_vx9cksqwb6\",\"pathToFolder\":[],\"folderIcon\":null,\"fontColorText\":\"#FFFFFF\",\"compendiums\":[{\"_id\":\"dnd5e.items\",\"data\":{\"code\":\"dnd5e.items\",\"folder\":\"cfolder_vx9cksqwb6\"}},{\"_id\":\"Dynamic-Effects-SRD.DAE SRD Items\",\"data\":{\"code\":\"Dynamic-Effects-SRD.DAE SRD Items\",\"folder\":\"cfolder_vx9cksqwb6\"}},{\"_id\":\"dae.premadeitems\",\"data\":{\"code\":\"dae.premadeitems\",\"folder\":\"cfolder_vx9cksqwb6\"}},{\"_id\":\"CustomSharedCompendiums.items\",\"data\":{\"code\":\"CustomSharedCompendiums.items\",\"folder\":\"cfolder_vx9cksqwb6\"}},{\"_id\":\"Dynamic-Effects-SRD.DAE SRD Magic Items\",\"data\":{\"code\":\"Dynamic-Effects-SRD.DAE SRD Magic Items\",\"folder\":\"cfolder_vx9cksqwb6\"}},{\"_id\":\"Dynamic-Effects-SRD.DAE SRD Midi-collection\",\"data\":{\"code\":\"Dynamic-Effects-SRD.DAE SRD Midi-collection\",\"folder\":\"cfolder_vx9cksqwb6\"}},{\"_id\":\"dnd5e.tradegoods\",\"data\":{\"code\":\"dnd5e.tradegoods\",\"folder\":\"cfolder_vx9cksqwb6\"}},{\"_id\":\"magicitems.magicitems\",\"data\":{\"code\":\"magicitems.magicitems\",\"folder\":\"cfolder_vx9cksqwb6\"}},{\"_id\":\"magicitems.magicitem-feats\",\"data\":{\"code\":\"magicitems.magicitem-feats\",\"folder\":\"cfolder_vx9cksqwb6\"}},{\"_id\":\"midi-qol.midiqol-sample-items\",\"data\":{\"code\":\"midi-qol.midiqol-sample-items\",\"folder\":\"cfolder_vx9cksqwb6\"}},{\"_id\":\"CustomSharedCompendiums.hamunds-harvesting-items\",\"data\":{\"code\":\"CustomSharedCompendiums.hamunds-harvesting-items\",\"folder\":\"cfolder_vx9cksqwb6\"}}],\"expanded\":false},\"cfolder_xju2t6inha\":{\"titleText\":\"Rules\",\"colorText\":\"#800040\",\"compendiumList\":[\"CustomSharedCompendiums.homebrew-rules\",\"dnd5e.rules\",\"CustomSharedCompendiums.custom-conditions\",\"combat-utility-belt.conditionsdnd5e\"],\"folderList\":[],\"_id\":\"cfolder_xju2t6inha\",\"pathToFolder\":[],\"folderIcon\":null,\"fontColorText\":\"#FFFFFF\",\"compendiums\":[{\"_id\":\"CustomSharedCompendiums.homebrew-rules\",\"data\":{\"code\":\"CustomSharedCompendiums.homebrew-rules\",\"folder\":\"cfolder_xju2t6inha\"}},{\"_id\":\"dnd5e.rules\",\"data\":{\"code\":\"dnd5e.rules\",\"folder\":\"cfolder_xju2t6inha\"}},{\"_id\":\"CustomSharedCompendiums.custom-conditions\",\"data\":{\"code\":\"CustomSharedCompendiums.custom-conditions\",\"folder\":\"cfolder_xju2t6inha\"}},{\"_id\":\"combat-utility-belt.conditionsdnd5e\",\"data\":{\"code\":\"combat-utility-belt.conditionsdnd5e\",\"folder\":\"cfolder_xju2t6inha\"}}],\"expanded\":false},\"cfolder_hjxoe53dmfe\":{\"titleText\":\"Playlists\",\"colorText\":\"#2c5777\",\"compendiumList\":[],\"folderList\":[],\"_id\":\"cfolder_hjxoe53dmfe\",\"pathToFolder\":[],\"folderIcon\":null,\"fontColorText\":\"#FFFFFF\",\"compendiums\":[],\"expanded\":false},\"cfolder_2lvmjicwswi\":{\"titleText\":\"Tables\",\"colorText\":\"#7e6225\",\"compendiumList\":[\"CustomSharedCompendiums.rolltables\",\"token-mold.adjectives\",\"magicitems.magicitem-tables\",\"CustomSharedCompendiums.random-encounter-tables\",\"foundry_community_tables.community-tables-5e\",\"foundry_community_tables.community-tables-independent\"],\"folderList\":[],\"_id\":\"cfolder_2lvmjicwswi\",\"pathToFolder\":[],\"folderIcon\":null,\"fontColorText\":\"#FFFFFF\",\"compendiums\":[{\"_id\":\"CustomSharedCompendiums.rolltables\",\"data\":{\"code\":\"CustomSharedCompendiums.rolltables\",\"folder\":\"cfolder_2lvmjicwswi\"}},{\"_id\":\"token-mold.adjectives\",\"data\":{\"code\":\"token-mold.adjectives\",\"folder\":\"cfolder_2lvmjicwswi\"}},{\"_id\":\"magicitems.magicitem-tables\",\"data\":{\"code\":\"magicitems.magicitem-tables\",\"folder\":\"cfolder_2lvmjicwswi\"}},{\"_id\":\"CustomSharedCompendiums.random-encounter-tables\",\"data\":{\"code\":\"CustomSharedCompendiums.random-encounter-tables\",\"folder\":\"cfolder_2lvmjicwswi\"}},{\"_id\":\"foundry_community_tables.community-tables-5e\",\"data\":{\"code\":\"foundry_community_tables.community-tables-5e\",\"folder\":\"cfolder_2lvmjicwswi\"}},{\"_id\":\"foundry_community_tables.community-tables-independent\",\"data\":{\"code\":\"foundry_community_tables.community-tables-independent\",\"folder\":\"cfolder_2lvmjicwswi\"}}],\"expanded\":false},\"cfolder_tfuhdt2a8tl\":{\"titleText\":\"Scenes\",\"colorText\":\"#33d7d4\",\"compendiumList\":[\"CustomSharedCompendiums.city-scenes\",\"CustomSharedCompendiums.generic-scenes\",\"CustomSharedCompendiums.mountain-scenes\",\"CustomSharedCompendiums.forest-scenes\",\"CustomSharedCompendiums.dungeon-scenes\",\"CustomSharedCompendiums.backgrounds-scenes\",\"CustomSharedCompendiums.temple-scenes\",\"CustomSharedCompendiums.indoor-scenes\",\"CustomSharedCompendiums.miscellaneous-battle-scenes\",\"CustomSharedCompendiums.map-scenes\",\"CustomSharedCompendiums.lmop-scenes\",\"CustomSharedCompendiums.naval-scenes\",\"CustomSharedCompendiums.shops-stores-scenes\",\"CustomSharedCompendiums.road-scenes\",\"CustomSharedCompendiums.winter-scenes\",\"CustomSharedCompendiums.desert-scenes\",\"CustomSharedCompendiums.Dimensional-scenes\",\"CustomSharedCompendiums.town-scenes\",\"CustomSharedCompendiums.castle-scenes\",\"CustomSharedCompendiums.taverns-inns-scenes\",\"CustomSharedCompendiums.island-scenes\",\"CustomSharedCompendiums.home-scenes\",\"CustomSharedCompendiums.uncategorized-building-scenes\",\"CustomSharedCompendiums.retired-this-isnt-working-out-scenes\",\"CustomSharedCompendiums.retired-alternative-dm-scenes\"],\"folderList\":[],\"_id\":\"cfolder_tfuhdt2a8tl\",\"pathToFolder\":[],\"folderIcon\":null,\"fontColorText\":\"#FFFFFF\",\"compendiums\":[{\"_id\":\"CustomSharedCompendiums.city-scenes\",\"data\":{\"code\":\"CustomSharedCompendiums.city-scenes\",\"folder\":\"cfolder_tfuhdt2a8tl\"}},{\"_id\":\"CustomSharedCompendiums.generic-scenes\",\"data\":{\"code\":\"CustomSharedCompendiums.generic-scenes\",\"folder\":\"cfolder_tfuhdt2a8tl\"}},{\"_id\":\"CustomSharedCompendiums.mountain-scenes\",\"data\":{\"code\":\"CustomSharedCompendiums.mountain-scenes\",\"folder\":\"cfolder_tfuhdt2a8tl\"}},{\"_id\":\"CustomSharedCompendiums.forest-scenes\",\"data\":{\"code\":\"CustomSharedCompendiums.forest-scenes\",\"folder\":\"cfolder_tfuhdt2a8tl\"}},{\"_id\":\"CustomSharedCompendiums.dungeon-scenes\",\"data\":{\"code\":\"CustomSharedCompendiums.dungeon-scenes\",\"folder\":\"cfolder_tfuhdt2a8tl\"}},{\"_id\":\"CustomSharedCompendiums.backgrounds-scenes\",\"data\":{\"code\":\"CustomSharedCompendiums.backgrounds-scenes\",\"folder\":\"cfolder_tfuhdt2a8tl\"}},{\"_id\":\"CustomSharedCompendiums.temple-scenes\",\"data\":{\"code\":\"CustomSharedCompendiums.temple-scenes\",\"folder\":\"cfolder_tfuhdt2a8tl\"}},{\"_id\":\"CustomSharedCompendiums.indoor-scenes\",\"data\":{\"code\":\"CustomSharedCompendiums.indoor-scenes\",\"folder\":\"cfolder_tfuhdt2a8tl\"}},{\"_id\":\"CustomSharedCompendiums.miscellaneous-battle-scenes\",\"data\":{\"code\":\"CustomSharedCompendiums.miscellaneous-battle-scenes\",\"folder\":\"cfolder_tfuhdt2a8tl\"}},{\"_id\":\"CustomSharedCompendiums.map-scenes\",\"data\":{\"code\":\"CustomSharedCompendiums.map-scenes\",\"folder\":\"cfolder_tfuhdt2a8tl\"}},{\"_id\":\"CustomSharedCompendiums.lmop-scenes\",\"data\":{\"code\":\"CustomSharedCompendiums.lmop-scenes\",\"folder\":\"cfolder_tfuhdt2a8tl\"}},{\"_id\":\"CustomSharedCompendiums.naval-scenes\",\"data\":{\"code\":\"CustomSharedCompendiums.naval-scenes\",\"folder\":\"cfolder_tfuhdt2a8tl\"}},{\"_id\":\"CustomSharedCompendiums.shops-stores-scenes\",\"data\":{\"code\":\"CustomSharedCompendiums.shops-stores-scenes\",\"folder\":\"cfolder_tfuhdt2a8tl\"}},{\"_id\":\"CustomSharedCompendiums.road-scenes\",\"data\":{\"code\":\"CustomSharedCompendiums.road-scenes\",\"folder\":\"cfolder_tfuhdt2a8tl\"}},{\"_id\":\"CustomSharedCompendiums.winter-scenes\",\"data\":{\"code\":\"CustomSharedCompendiums.winter-scenes\",\"folder\":\"cfolder_tfuhdt2a8tl\"}},{\"_id\":\"CustomSharedCompendiums.desert-scenes\",\"data\":{\"code\":\"CustomSharedCompendiums.desert-scenes\",\"folder\":\"cfolder_tfuhdt2a8tl\"}},{\"_id\":\"CustomSharedCompendiums.Dimensional-scenes\",\"data\":{\"code\":\"CustomSharedCompendiums.Dimensional-scenes\",\"folder\":\"cfolder_tfuhdt2a8tl\"}},{\"_id\":\"CustomSharedCompendiums.town-scenes\",\"data\":{\"code\":\"CustomSharedCompendiums.town-scenes\",\"folder\":\"cfolder_tfuhdt2a8tl\"}},{\"_id\":\"CustomSharedCompendiums.castle-scenes\",\"data\":{\"code\":\"CustomSharedCompendiums.castle-scenes\",\"folder\":\"cfolder_tfuhdt2a8tl\"}},{\"_id\":\"CustomSharedCompendiums.taverns-inns-scenes\",\"data\":{\"code\":\"CustomSharedCompendiums.taverns-inns-scenes\",\"folder\":\"cfolder_tfuhdt2a8tl\"}},{\"_id\":\"CustomSharedCompendiums.island-scenes\",\"data\":{\"code\":\"CustomSharedCompendiums.island-scenes\",\"folder\":\"cfolder_tfuhdt2a8tl\"}},{\"_id\":\"CustomSharedCompendiums.home-scenes\",\"data\":{\"code\":\"CustomSharedCompendiums.home-scenes\",\"folder\":\"cfolder_tfuhdt2a8tl\"}},{\"_id\":\"CustomSharedCompendiums.uncategorized-building-scenes\",\"data\":{\"code\":\"CustomSharedCompendiums.uncategorized-building-scenes\",\"folder\":\"cfolder_tfuhdt2a8tl\"}},{\"_id\":\"CustomSharedCompendiums.retired-this-isnt-working-out-scenes\",\"data\":{\"code\":\"CustomSharedCompendiums.retired-this-isnt-working-out-scenes\",\"folder\":\"cfolder_tfuhdt2a8tl\"}},{\"_id\":\"CustomSharedCompendiums.retired-alternative-dm-scenes\",\"data\":{\"code\":\"CustomSharedCompendiums.retired-alternative-dm-scenes\",\"folder\":\"cfolder_tfuhdt2a8tl\"}}],\"expanded\":false},\"cfolder_lxh3lwl9nic\":{\"titleText\":\"DnD Beyond\",\"colorText\":\"#d37373\",\"compendiumList\":[\"world.this-isnt-working-out-ddb-features\",\"CustomSharedCompendiums.all-ddb-classes\",\"CustomSharedCompendiums.all-ddb-class-features\",\"CustomSharedCompendiums.all-ddb-races\",\"CustomSharedCompendiums.all-ddb-feats\",\"CustomSharedCompendiums.all-ddb-racial-traits\",\"CustomSharedCompendiums.all-ddb-items\"],\"folderList\":[],\"_id\":\"cfolder_lxh3lwl9nic\",\"pathToFolder\":[],\"folderIcon\":null,\"fontColorText\":\"#FFFFFF\",\"compendiums\":[{\"_id\":\"world.this-isnt-working-out-ddb-features\",\"data\":{\"code\":\"world.this-isnt-working-out-ddb-features\",\"folder\":\"cfolder_lxh3lwl9nic\"}},{\"_id\":\"CustomSharedCompendiums.all-ddb-classes\",\"data\":{\"code\":\"CustomSharedCompendiums.all-ddb-classes\",\"folder\":\"cfolder_lxh3lwl9nic\"}},{\"_id\":\"CustomSharedCompendiums.all-ddb-class-features\",\"data\":{\"code\":\"CustomSharedCompendiums.all-ddb-class-features\",\"folder\":\"cfolder_lxh3lwl9nic\"}},{\"_id\":\"CustomSharedCompendiums.all-ddb-races\",\"data\":{\"code\":\"CustomSharedCompendiums.all-ddb-races\",\"folder\":\"cfolder_lxh3lwl9nic\"}},{\"_id\":\"CustomSharedCompendiums.all-ddb-feats\",\"data\":{\"code\":\"CustomSharedCompendiums.all-ddb-feats\",\"folder\":\"cfolder_lxh3lwl9nic\"}},{\"_id\":\"CustomSharedCompendiums.all-ddb-racial-traits\",\"data\":{\"code\":\"CustomSharedCompendiums.all-ddb-racial-traits\",\"folder\":\"cfolder_lxh3lwl9nic\"}},{\"_id\":\"CustomSharedCompendiums.all-ddb-items\",\"data\":{\"code\":\"CustomSharedCompendiums.all-ddb-items\",\"folder\":\"cfolder_lxh3lwl9nic\"}}],\"expanded\":false},\"cfolder_tofu9ltssxa\":{\"titleText\":\"Journals\",\"colorText\":\"#bcb6ec\",\"compendiumList\":[\"trigger-happy.journals\",\"CustomSharedCompendiums.journalentries\"],\"folderList\":[],\"_id\":\"cfolder_tofu9ltssxa\",\"pathToFolder\":[],\"folderIcon\":null,\"fontColorText\":\"#FFFFFF\",\"compendiums\":[{\"_id\":\"trigger-happy.journals\",\"data\":{\"code\":\"trigger-happy.journals\",\"folder\":\"cfolder_tofu9ltssxa\"}},{\"_id\":\"CustomSharedCompendiums.journalentries\",\"data\":{\"code\":\"CustomSharedCompendiums.journalentries\",\"folder\":\"cfolder_tofu9ltssxa\"}}],\"expanded\":false,\"type\":\"CompendiumEntry\",\"entity\":\"CompendiumFolder\",\"sorting\":\"a\",\"parent\":null},\"cfolder_knlzv0of2ft\":{\"titleText\":\"Other Actors\",\"colorText\":\"#db8d1f\",\"compendiumList\":[\"trigger-happy.actors\",\"CustomSharedCompendiums.actor-prefabs\"],\"folderList\":[],\"_id\":\"cfolder_knlzv0of2ft\",\"pathToFolder\":[],\"folderIcon\":null,\"fontColorText\":\"#FFFFFF\",\"compendiums\":[{\"_id\":\"trigger-happy.actors\",\"data\":{\"code\":\"trigger-happy.actors\",\"folder\":\"cfolder_knlzv0of2ft\"}},{\"_id\":\"CustomSharedCompendiums.actor-prefabs\",\"data\":{\"code\":\"CustomSharedCompendiums.actor-prefabs\",\"folder\":\"cfolder_knlzv0of2ft\"}}],\"expanded\":false}}"
   },
   {
     "key": "monks-little-details.show-combat-cr",
@@ -513,7 +513,7 @@
   },
   {
     "key": "calendar-weather.dateTime",
-    "value": "{\"months\":[{\"name\":\"Hammer\",\"length\":\"30\",\"leapLength\":\"30\",\"isNumbered\":true,\"abbrev\":1},{\"name\":\"Midwinter\",\"length\":\"1\",\"leapLength\":\"1\",\"isNumbered\":true,\"abbrev\":2},{\"name\":\"Alturiak\",\"length\":\"30\",\"leapLength\":\"30\",\"isNumbered\":true,\"abbrev\":3},{\"name\":\"Ches\",\"length\":\"30\",\"leapLength\":\"30\",\"isNumbered\":true,\"abbrev\":4},{\"name\":\"Tarsakh\",\"length\":\"30\",\"leapLength\":\"30\",\"isNumbered\":true,\"abbrev\":5},{\"name\":\"Greengrass\",\"length\":\"1\",\"leapLength\":\"1\",\"isNumbered\":true,\"abbrev\":6},{\"name\":\"Mirtul\",\"length\":\"30\",\"leapLength\":\"30\",\"isNumbered\":true,\"abbrev\":7},{\"name\":\"Kythorn\",\"length\":\"30\",\"leapLength\":\"30\",\"isNumbered\":true,\"abbrev\":8},{\"name\":\"Flamerule\",\"length\":\"30\",\"leapLength\":\"30\",\"isNumbered\":true,\"abbrev\":9},{\"name\":\"Midsummer\",\"length\":\"1\",\"leapLength\":\"1\",\"isNumbered\":true,\"abbrev\":10},{\"name\":\"Shieldmeet\",\"length\":\"1\",\"leapLength\":\"1\",\"isNumbered\":true,\"abbrev\":11},{\"name\":\"Eleasis\",\"length\":\"30\",\"leapLength\":\"30\",\"isNumbered\":true,\"abbrev\":12},{\"name\":\"Eleint\",\"length\":\"30\",\"leapLength\":\"30\",\"isNumbered\":true,\"abbrev\":13},{\"name\":\"Harvesttide\",\"length\":\"1\",\"leapLength\":\"1\",\"isNumbered\":true,\"abbrev\":14},{\"name\":\"Marpenoth\",\"length\":\"30\",\"leapLength\":\"30\",\"isNumbered\":true,\"abbrev\":15},{\"name\":\"Uktar\",\"length\":\"1\",\"leapLength\":\"1\",\"isNumbered\":true,\"abbrev\":16},{\"name\":\"Feast Of the Moon\",\"length\":\"1\",\"leapLength\":\"1\",\"isNumbered\":true,\"abbrev\":17},{\"name\":\"Nightal\",\"length\":\"30\",\"leapLength\":\"30\",\"isNumbered\":true,\"abbrev\":18}],\"daysOfTheWeek\":[\"1st-Day\",\"2nd-Day\",\"3rd-Day\",\"4th-Day\",\"5th-Day\",\"6th-Day\",\"7th-Day\",\"8th-Day\",\"9th-Day\",\"10th-Day\"],\"year\":1491,\"day\":9,\"numDayOfTheWeek\":2,\"first_day\":1,\"currentMonth\":14,\"currentWeekday\":\"3rd-Day\",\"dateWordy\":\"10th of Marpenoth, 1491 AD\",\"era\":\"AD\",\"dayLength\":24,\"timeDisp\":\"9:54:07 PM\",\"dateNum\":\"10/15/1491 AD\",\"weather\":{\"humidity\":2,\"temp\":98,\"lastTemp\":98,\"season\":\"\",\"seasonColor\":\"\",\"seasonTemp\":0,\"seasonHumidity\":0,\"seasonRolltable\":\"\",\"climate\":\"volcanic\",\"climateTemp\":40,\"climateHumidity\":0,\"precipitation\":\"The sun is completely obscured by ash, possible ashfall today\",\"dawn\":5,\"dusk\":19,\"isVolcanic\":true,\"outputToChat\":true,\"showFX\":false,\"doNightCycle\":false,\"weatherFX\":[],\"isC\":false,\"cTemp\":\"36.7\",\"tempRange\":{\"max\":170,\"min\":70}},\"seasons\":[],\"reEvents\":[],\"events\":[],\"moons\":[]}"
+    "value": "{\"months\":[{\"name\":\"Hammer\",\"length\":\"30\",\"leapLength\":\"30\",\"isNumbered\":true,\"abbrev\":1},{\"name\":\"Midwinter\",\"length\":\"1\",\"leapLength\":\"1\",\"isNumbered\":true,\"abbrev\":2},{\"name\":\"Alturiak\",\"length\":\"30\",\"leapLength\":\"30\",\"isNumbered\":true,\"abbrev\":3},{\"name\":\"Ches\",\"length\":\"30\",\"leapLength\":\"30\",\"isNumbered\":true,\"abbrev\":4},{\"name\":\"Tarsakh\",\"length\":\"30\",\"leapLength\":\"30\",\"isNumbered\":true,\"abbrev\":5},{\"name\":\"Greengrass\",\"length\":\"1\",\"leapLength\":\"1\",\"isNumbered\":true,\"abbrev\":6},{\"name\":\"Mirtul\",\"length\":\"30\",\"leapLength\":\"30\",\"isNumbered\":true,\"abbrev\":7},{\"name\":\"Kythorn\",\"length\":\"30\",\"leapLength\":\"30\",\"isNumbered\":true,\"abbrev\":8},{\"name\":\"Flamerule\",\"length\":\"30\",\"leapLength\":\"30\",\"isNumbered\":true,\"abbrev\":9},{\"name\":\"Midsummer\",\"length\":\"1\",\"leapLength\":\"1\",\"isNumbered\":true,\"abbrev\":10},{\"name\":\"Shieldmeet\",\"length\":\"1\",\"leapLength\":\"1\",\"isNumbered\":true,\"abbrev\":11},{\"name\":\"Eleasis\",\"length\":\"30\",\"leapLength\":\"30\",\"isNumbered\":true,\"abbrev\":12},{\"name\":\"Eleint\",\"length\":\"30\",\"leapLength\":\"30\",\"isNumbered\":true,\"abbrev\":13},{\"name\":\"Harvesttide\",\"length\":\"1\",\"leapLength\":\"1\",\"isNumbered\":true,\"abbrev\":14},{\"name\":\"Marpenoth\",\"length\":\"30\",\"leapLength\":\"30\",\"isNumbered\":true,\"abbrev\":15},{\"name\":\"Uktar\",\"length\":\"1\",\"leapLength\":\"1\",\"isNumbered\":true,\"abbrev\":16},{\"name\":\"Feast Of the Moon\",\"length\":\"1\",\"leapLength\":\"1\",\"isNumbered\":true,\"abbrev\":17},{\"name\":\"Nightal\",\"length\":\"30\",\"leapLength\":\"30\",\"isNumbered\":true,\"abbrev\":18}],\"daysOfTheWeek\":[\"1st-Day\",\"2nd-Day\",\"3rd-Day\",\"4th-Day\",\"5th-Day\",\"6th-Day\",\"7th-Day\",\"8th-Day\",\"9th-Day\",\"10th-Day\"],\"year\":1491,\"day\":9,\"numDayOfTheWeek\":2,\"first_day\":1,\"currentMonth\":14,\"currentWeekday\":\"3rd-Day\",\"dateWordy\":\"10th of Marpenoth, 1491 AD\",\"era\":\"AD\",\"dayLength\":24,\"timeDisp\":\"10:11:09 PM\",\"dateNum\":\"10/15/1491 AD\",\"weather\":{\"humidity\":2,\"temp\":98,\"lastTemp\":98,\"season\":\"\",\"seasonColor\":\"\",\"seasonTemp\":0,\"seasonHumidity\":0,\"seasonRolltable\":\"\",\"climate\":\"volcanic\",\"climateTemp\":40,\"climateHumidity\":0,\"precipitation\":\"The sun is completely obscured by ash, possible ashfall today\",\"dawn\":5,\"dusk\":19,\"isVolcanic\":true,\"outputToChat\":true,\"showFX\":false,\"doNightCycle\":false,\"weatherFX\":[],\"isC\":false,\"cTemp\":\"36.7\",\"tempRange\":{\"max\":170,\"min\":70}},\"seasons\":[],\"reEvents\":[],\"events\":[],\"moons\":[]}"
   },
   {
     "key": "pdfoundry.DataVersion",
@@ -533,7 +533,7 @@
   },
   {
     "key": "core.moduleConfiguration",
-    "value": "{\"CustomSharedCompendiums\":true,\"TokenHotbar\":true,\"colorsettings\":true,\"combat-enhancements\":false,\"combat-utility-belt\":true,\"compendium-folders\":true,\"custom-hotbar\":true,\"easy-target\":true,\"fpsmeter\":true,\"furnace\":true,\"input-expressions\":true,\"lib-wrapper\":true,\"macro-folders\":true,\"permission_viewer\":true,\"popout\":true,\"tidy-ui_game-settings\":true,\"about-time\":true,\"calendar-weather\":true,\"chatdamagebuttons-beyond20\":false,\"chat-portrait\":true,\"condition-automation\":true,\"5e-training\":true,\"critterdb-import\":true,\"custom-journal\":true,\"dndbeyond-character-sheet\":true,\"dd-import\":true,\"forien-copy-environment\":true,\"forien-easy-polls\":false,\"forien-unidentified-items\":true,\"foundry_community_macros\":false,\"gm-notes\":false,\"scaleGrid\":false,\"healthEstimate\":true,\"itemcollection\":true,\"koboldpressogl\":false,\"lmrtfy\":true,\"lootsheetnpc5e\":true,\"magicitems\":true,\"michaelghelfi\":false,\"midi-qol\":true,\"mountup\":false,\"multilevel-tokens\":true,\"pin-cushion\":true,\"pings\":true,\"polyglot\":true,\"quick-insert\":true,\"simple-dice-roller\":true,\"simplefog\":true,\"tidy5e-sheet\":true,\"token-action-hud\":true,\"token-auras\":true,\"token-health\":true,\"token-info-icons\":true,\"token-mold\":true,\"vance-sidebar-resizer\":true,\"vtta-dndbeyond\":false,\"vtta-iconizer\":true,\"vtta-party\":false,\"vtta-tokenizer\":true,\"conditional-visibility\":true,\"dice-so-nice\":true,\"dae\":true,\"easy-exports\":false,\"foundry_community_tables\":true,\"_mathjs\":true,\"roofs\":true,\"scenery\":false,\"turnAlert\":true,\"tweakplaylist\":true,\"playlist_import\":true,\"Dynamic-Effects-SRD\":true,\"baileywiki-maps\":false,\"betterCurses\":false,\"dww-battlemaps\":false,\"find-the-culprit\":true,\"mikwewa-free\":false,\"tomcartos-ostenwold\":false,\"spellarena\":false,\"tacticalmap-free\":false,\"mad-cartographer-free-maps\":false,\"free-loot-tavern-compendium\":false,\"perfect-vision\":true,\"WallCutter\":true,\"dice-tooltip\":true,\"wall-height\":true,\"fogmanager\":false,\"lessfog\":true,\"autocomplete-whisper\":true,\"CautiousGamemastersPack\":false,\"compact-beyond-5e-sheet\":true,\"ddb-importer\":true,\"illandril-hotbar-uses\":true,\"dnd5e-helpers\":true,\"mikwewa-cave\":false,\"mikwewa-crypt\":false,\"mikwewa-boot\":false,\"mikwewa-gauntlet\":false,\"mikwewa-graveyard\":false,\"mikwewa-temples\":false,\"mikwewa-helmet-cave\":false,\"mikwewa-igloo\":false,\"mikwewa-estate\":false,\"mikwewa-prison\":false,\"mikwewa-ring\":false,\"mikwewa-sewer-temple\":false,\"mikwewa-church\":false,\"mikwewa-fortress\":false,\"mikwewa-tavern\":false,\"character-actions-list-5e\":true,\"journal-to-canvas-slideshow\":false,\"forien-custom-fonts\":true,\"quick-encounters\":true,\"token-attacher\":true,\"trigger-happy\":true,\"autocomplete-inline-properties\":true,\"journal-icon-numbers\":true,\"chat-images\":true,\"scene-viewer\":true,\"df-curvy-walls\":true,\"df-settings-clarity\":true,\"drag-ruler\":true,\"itemacro\":true,\"macroeditor\":true,\"monks-little-details\":true,\"monks-scene-navigation\":true,\"Next-Up\":true,\"party-overview\":true,\"zsync\":true,\"EEEG-Importer\":false,\"hidden-initiative\":true,\"better-rolltables\":false,\"DnD5eShopRollTables\":false,\"pdfoundry\":true,\"rolladvantage-token-stamp-2-foundry\":true,\"tomcartos-dragon-cult-temple\":false,\"socketlib\":true,\"collapsible-journal-sections\":true,\"df-architect\":false,\"dfreds-pocket-change\":true,\"lib-df-hotkeys\":false,\"monks-tokenbar\":true,\"gm-secrets\":true,\"image-hover\":true,\"rc-spent-ammo\":true,\"workshop-ammo-swapper\":false,\"ActiveAuras\":true,\"give-item\":true,\"mob-attack-tool\":true}"
+    "value": "{\"CustomSharedCompendiums\":true,\"TokenHotbar\":true,\"colorsettings\":true,\"combat-enhancements\":false,\"combat-utility-belt\":true,\"compendium-folders\":true,\"custom-hotbar\":true,\"easy-target\":true,\"fpsmeter\":true,\"furnace\":true,\"input-expressions\":true,\"lib-wrapper\":true,\"macro-folders\":true,\"permission_viewer\":true,\"pick-up-stix\":false,\"popout\":true,\"tidy-ui_game-settings\":true,\"about-time\":true,\"calendar-weather\":true,\"chatdamagebuttons-beyond20\":false,\"chat-portrait\":true,\"condition-automation\":true,\"5e-training\":true,\"critterdb-import\":true,\"custom-journal\":true,\"dndbeyond-character-sheet\":true,\"dd-import\":true,\"forien-copy-environment\":true,\"forien-easy-polls\":false,\"forien-unidentified-items\":true,\"foundry_community_macros\":false,\"gm-notes\":false,\"scaleGrid\":false,\"healthEstimate\":true,\"itemcollection\":true,\"koboldpressogl\":false,\"lmrtfy\":true,\"lootsheetnpc5e\":true,\"magicitems\":true,\"michaelghelfi\":false,\"midi-qol\":true,\"mountup\":false,\"multilevel-tokens\":true,\"pin-cushion\":true,\"pings\":true,\"polyglot\":true,\"quick-insert\":true,\"simple-dice-roller\":true,\"simplefog\":true,\"tidy5e-sheet\":true,\"token-action-hud\":true,\"token-auras\":true,\"token-health\":true,\"token-info-icons\":true,\"token-mold\":true,\"vance-sidebar-resizer\":true,\"vtta-dndbeyond\":false,\"vtta-iconizer\":true,\"vtta-party\":false,\"vtta-tokenizer\":true,\"conditional-visibility\":true,\"dice-so-nice\":true,\"dae\":true,\"easy-exports\":false,\"foundry_community_tables\":true,\"_mathjs\":true,\"roofs\":true,\"scenery\":false,\"turnAlert\":true,\"tweakplaylist\":true,\"playlist_import\":true,\"Dynamic-Effects-SRD\":true,\"baileywiki-maps\":false,\"betterCurses\":false,\"dww-battlemaps\":false,\"find-the-culprit\":true,\"mikwewa-free\":false,\"tomcartos-ostenwold\":false,\"spellarena\":false,\"tacticalmap-free\":false,\"mad-cartographer-free-maps\":false,\"free-loot-tavern-compendium\":false,\"perfect-vision\":true,\"WallCutter\":true,\"dice-tooltip\":true,\"wall-height\":true,\"fogmanager\":false,\"lessfog\":true,\"autocomplete-whisper\":true,\"CautiousGamemastersPack\":false,\"compact-beyond-5e-sheet\":true,\"ddb-importer\":true,\"illandril-hotbar-uses\":true,\"dnd5e-helpers\":true,\"mikwewa-cave\":false,\"mikwewa-crypt\":false,\"mikwewa-boot\":false,\"mikwewa-gauntlet\":false,\"mikwewa-graveyard\":false,\"mikwewa-temples\":false,\"mikwewa-helmet-cave\":false,\"mikwewa-igloo\":false,\"mikwewa-estate\":false,\"mikwewa-prison\":false,\"mikwewa-ring\":false,\"mikwewa-sewer-temple\":false,\"mikwewa-church\":false,\"mikwewa-fortress\":false,\"mikwewa-tavern\":false,\"character-actions-list-5e\":true,\"journal-to-canvas-slideshow\":false,\"forien-custom-fonts\":true,\"quick-encounters\":true,\"token-attacher\":true,\"trigger-happy\":true,\"autocomplete-inline-properties\":true,\"journal-icon-numbers\":true,\"chat-images\":true,\"scene-viewer\":true,\"df-curvy-walls\":true,\"df-settings-clarity\":true,\"drag-ruler\":true,\"itemacro\":true,\"macroeditor\":true,\"monks-little-details\":true,\"monks-scene-navigation\":true,\"Next-Up\":true,\"party-overview\":true,\"zsync\":true,\"EEEG-Importer\":false,\"hidden-initiative\":true,\"better-rolltables\":false,\"DnD5eShopRollTables\":false,\"pdfoundry\":true,\"rolladvantage-token-stamp-2-foundry\":true,\"tomcartos-dragon-cult-temple\":false,\"socketlib\":true,\"collapsible-journal-sections\":true,\"df-architect\":false,\"dfreds-pocket-change\":true,\"lib-df-hotkeys\":false,\"monks-tokenbar\":true,\"gm-secrets\":true,\"image-hover\":true,\"rc-spent-ammo\":true,\"workshop-ammo-swapper\":false,\"ActiveAuras\":true,\"give-item\":true,\"mob-attack-tool\":true}"
   },
   {
     "key": "about-time.savedCalendar",
@@ -542,6 +542,10 @@
   {
     "key": "dnd5e-helpers.wmOptions",
     "value": "\"2\""
+  },
+  {
+    "key": "mob-attack-tool.enableDiceSoNice",
+    "value": "false"
   },
   {
     "key": "Next-Up.combatFocusType",
@@ -701,7 +705,7 @@
   },
   {
     "key": "about-time.store",
-    "value": "{\"_eventQueue\":{\"size\":0,\"compare\":\"function (a, b) {\\n    if (a._time !== b._time)\\n        return a._time < b._time;\\n    return a._uid < b._uid;\\n}\",\"array\":[]},\"_activeCombats\":[{\"_id\":\"WOaJeacyRgtJgAGo\",\"_round\":1}]}"
+    "value": "{\"_eventQueue\":{\"size\":1,\"compare\":\"function (a, b) {\\n    if (a._time !== b._time)\\n        return a._time < b._time;\\n    return a._uid < b._uid;\\n}\",\"array\":[{\"time\":43437765969,\"recurring\":false,\"increment\":null,\"handler\":{\"type\":\"function\",\"val\":\"(...args) => game.Gametime.ElapsedTime.message(...args)\"},\"uid\":1621818125434,\"args\":[\"Dae Estellio's dankness has ended.\"]}]},\"_activeCombats\":[{\"_id\":\"WOaJeacyRgtJgAGo\",\"_round\":1}]}"
   },
   {
     "key": "ddb-importer.cobalt-cookie-local",
@@ -1181,7 +1185,7 @@
   },
   {
     "key": "dnd5e-helpers.undeadFort",
-    "value": "\"1\""
+    "value": "\"2\""
   },
   {
     "key": "dae.expireRealTime",
@@ -1326,5 +1330,1612 @@
   {
     "key": "ddb-importer.auto-create-compendium",
     "value": "false"
+  },
+  {
+    "name": "Nathan (GM)",
+    "core": {
+      "avatar": "icons/svg/mystery-man.svg",
+      "color": "#ff0000",
+      "permissions": {},
+      "role": 4
+    },
+    "flags": {
+      "token-action-hud": {
+        "categories": {
+          "inventory": {
+            "title": "Inventory",
+            "id": "inventory",
+            "push": false,
+            "core": true
+          },
+          "spells": {
+            "title": "Spells",
+            "id": "spells",
+            "push": false,
+            "core": true
+          },
+          "skills": {
+            "title": "Skills",
+            "id": "skills",
+            "push": false,
+            "core": true
+          },
+          "utility": {
+            "title": "Utility",
+            "id": "utility",
+            "push": false,
+            "core": true
+          },
+          "feats": {
+            "title": "Features",
+            "id": "feats",
+            "push": false,
+            "core": true
+          },
+          "saves": {
+            "title": "Saves",
+            "id": "saves",
+            "push": false,
+            "core": true
+          },
+          "checks": {
+            "title": "Checks",
+            "id": "checks",
+            "push": false,
+            "core": true
+          },
+          "magicitemsmodule": {
+            "title": "Magic Items",
+            "id": "magicItemsModule",
+            "push": false,
+            "core": true
+          },
+          "effects": {
+            "title": "Effects",
+            "id": "effects",
+            "push": false,
+            "core": true
+          },
+          "conditions": {
+            "title": "Conditions",
+            "id": "conditions",
+            "push": false,
+            "core": true
+          },
+          "abilities": {
+            "title": "Abilities",
+            "id": "abilities",
+            "push": false,
+            "core": true
+          }
+        },
+        "hudPos": {
+          "top": 146,
+          "left": 145
+        }
+      },
+      "TokenHotbar": {
+        "v3": {
+          "0": {
+            "4 migration": true
+          }
+        },
+        "hotbar-data": {
+          "ORWAhTQyzK9euz6Y": {
+            "41": "mL7zEjcm3W1LJC5r",
+            "43": "CvG6zMsUJYNMFfpR",
+            "44": "eF53USqhmPlWtTFK"
+          },
+          "Bg1IWM7nwBNBJl1Y": {
+            "44": "Wagjzll1lhLqdEA9",
+            "45": "J2PnwI3SejFa3duQ"
+          },
+          "urgq8o43CIbzbqZF": {
+            "41": "Ho2oMHlrJNE5G80s",
+            "42": "NV9KL4nkc7AXs7z0",
+            "43": "c5IunIN4uQStEm0p"
+          },
+          "noTokenControlled": {
+            "43": "hEvNl6GtyVHyDJS7"
+          },
+          "BGi0JwLCh9sB1gAR": {}
+        }
+      },
+      "custom-hotbar": {
+        "chbMacroMap": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "simplefog": {
+        "brushSize": 120,
+        "brushOpacity": "0x272727"
+      },
+      "calendarWeather": {
+        "calendarPos": {
+          "top": 996,
+          "left": 1349
+        }
+      },
+      "dice-so-nice": {
+        "appearance": {
+          "labelColor": "#121212",
+          "diceColor": "#0ae6cc",
+          "outlineColor": "#ffffff",
+          "edgeColor": "#ffffff",
+          "texture": "astral",
+          "material": "chrome",
+          "font": "Bradley Hand",
+          "colorset": "custom",
+          "system": "standard"
+        },
+        "welcomeMessageShown": true,
+        "sfxList": [
+          {
+            "diceType": "d20",
+            "onResult": "20",
+            "specialEffect": "PlayAnimationBright"
+          }
+        ]
+      },
+      "token-attacher": {
+        "copy": {
+          "map": {
+            "AmbientLight": [
+              {
+                "flags": {
+                  "token-attacher": {
+                    "parent": "n4v6GY0w9fMLzK7c",
+                    "offset": {
+                      "x": 0,
+                      "y": 0,
+                      "rot": 0,
+                      "centerX": 0,
+                      "centerY": 0,
+                      "offRot": 0,
+                      "size": {
+                        "dim": -15,
+                        "bright": 0,
+                        "widthBase": 1,
+                        "heightBase": 1
+                      }
+                    }
+                  }
+                },
+                "t": "l",
+                "x": 808.5,
+                "y": 1039.5,
+                "hidden": false,
+                "rotation": 0,
+                "dim": -15,
+                "bright": 0,
+                "angle": 360,
+                "darknessThreshold": 0,
+                "tintColor": "#000000",
+                "tintAlpha": 0,
+                "lightAnimation": {
+                  "type": "roiling",
+                  "speed": 3,
+                  "intensity": 1
+                }
+              }
+            ],
+            "Drawing": [
+              {
+                "flags": {
+                  "furnace": {
+                    "textureWidth": 0,
+                    "textureHeight": 0,
+                    "textureAlpha": 1,
+                    "fillType": null
+                  },
+                  "multilevel-tokens": {
+                    "in": false,
+                    "out": false,
+                    "source": false,
+                    "target": false,
+                    "tintColor": "",
+                    "macroEnter": false,
+                    "macroLeave": true,
+                    "macroMove": false,
+                    "level": false,
+                    "disabled": false,
+                    "macroName": "MLT - Remove Condition from Token",
+                    "macroArgs": "Blinded"
+                  },
+                  "token-attacher": {
+                    "parent": "n4v6GY0w9fMLzK7c",
+                    "offset": {
+                      "x": -231,
+                      "y": -231,
+                      "rot": 0,
+                      "centerX": 0,
+                      "centerY": 0,
+                      "offRot": 0,
+                      "size": {
+                        "width": 462,
+                        "height": 462,
+                        "widthBase": 1,
+                        "heightBase": 1
+                      }
+                    }
+                  }
+                },
+                "type": "e",
+                "author": "LI19SBxAGL2Uj4CD",
+                "x": 577.5,
+                "y": 808.5,
+                "width": 462,
+                "height": 462,
+                "rotation": 0,
+                "z": -2,
+                "hidden": true,
+                "locked": false,
+                "points": [],
+                "bezierFactor": 0,
+                "fillType": 0,
+                "fillColor": "#ff0000",
+                "fillAlpha": 1,
+                "strokeWidth": 8,
+                "strokeColor": "#ffae00",
+                "strokeAlpha": 1,
+                "texture": "",
+                "text": "",
+                "fontFamily": "Signika",
+                "fontSize": 48,
+                "textColor": "#ffffff",
+                "textAlpha": 1
+              },
+              {
+                "flags": {
+                  "furnace": {
+                    "textureWidth": 0,
+                    "textureHeight": 0,
+                    "textureAlpha": 1,
+                    "fillType": null
+                  },
+                  "multilevel-tokens": {
+                    "in": false,
+                    "out": false,
+                    "source": false,
+                    "target": false,
+                    "tintColor": "",
+                    "macroEnter": true,
+                    "macroLeave": false,
+                    "macroMove": false,
+                    "level": false,
+                    "disabled": false,
+                    "macroName": "MLT - Add Condition to Token",
+                    "macroArgs": "Blinded"
+                  },
+                  "token-attacher": {
+                    "parent": "n4v6GY0w9fMLzK7c",
+                    "offset": {
+                      "x": -231,
+                      "y": -231,
+                      "rot": 0,
+                      "centerX": 0,
+                      "centerY": 0,
+                      "offRot": 0,
+                      "size": {
+                        "width": 462,
+                        "height": 462,
+                        "widthBase": 1,
+                        "heightBase": 1
+                      }
+                    }
+                  }
+                },
+                "type": "e",
+                "author": "LI19SBxAGL2Uj4CD",
+                "x": 577.5,
+                "y": 808.5,
+                "width": 462,
+                "height": 462,
+                "rotation": 0,
+                "z": -1,
+                "hidden": true,
+                "locked": false,
+                "points": [],
+                "bezierFactor": 0,
+                "fillType": 0,
+                "fillColor": "#ff0000",
+                "fillAlpha": 1,
+                "strokeWidth": 8,
+                "strokeColor": "#b264f2",
+                "strokeAlpha": 1,
+                "texture": "",
+                "text": "✧ MLT - Add Condition to Token",
+                "fontFamily": "Signika",
+                "fontSize": 48,
+                "textColor": "#ffffff",
+                "textAlpha": 1
+              }
+            ],
+            "Wall": [
+              {
+                "flags": {
+                  "DAESRD": {
+                    "Darkness": {
+                      "ActorId": "zBcHCs3iSeAbpLbA"
+                    }
+                  },
+                  "token-attacher": {
+                    "parent": "n4v6GY0w9fMLzK7c",
+                    "offset": {
+                      "x": -201.5,
+                      "y": 114.5,
+                      "rot": 0,
+                      "centerX": -159,
+                      "centerY": 157,
+                      "offRot": 0,
+                      "c": [
+                        -116.5,
+                        199.5,
+                        -201.5,
+                        114.5
+                      ],
+                      "size": {
+                        "widthBase": 1,
+                        "heightBase": 1
+                      }
+                    }
+                  }
+                },
+                "c": [
+                  692,
+                  1239,
+                  607,
+                  1154
+                ],
+                "move": 0,
+                "sense": 2,
+                "dir": 0,
+                "door": 0,
+                "ds": 0
+              },
+              {
+                "flags": {
+                  "DAESRD": {
+                    "Darkness": {
+                      "ActorId": "zBcHCs3iSeAbpLbA"
+                    }
+                  },
+                  "token-attacher": {
+                    "parent": "n4v6GY0w9fMLzK7c",
+                    "offset": {
+                      "x": -231.5,
+                      "y": -0.5,
+                      "rot": 0,
+                      "centerX": -216.5,
+                      "centerY": 57,
+                      "offRot": 0,
+                      "c": [
+                        -201.5,
+                        114.5,
+                        -231.5,
+                        -0.5
+                      ],
+                      "size": {
+                        "widthBase": 1,
+                        "heightBase": 1
+                      }
+                    }
+                  }
+                },
+                "c": [
+                  607,
+                  1154,
+                  577,
+                  1039
+                ],
+                "move": 0,
+                "sense": 2,
+                "dir": 0,
+                "door": 0,
+                "ds": 0
+              },
+              {
+                "flags": {
+                  "DAESRD": {
+                    "Darkness": {
+                      "ActorId": "zBcHCs3iSeAbpLbA"
+                    }
+                  },
+                  "token-attacher": {
+                    "parent": "n4v6GY0w9fMLzK7c",
+                    "offset": {
+                      "x": -201.5,
+                      "y": -201.5,
+                      "rot": 0,
+                      "centerX": -159,
+                      "centerY": -159,
+                      "offRot": 0,
+                      "c": [
+                        -201.5,
+                        -116.5,
+                        -116.5,
+                        -201.5
+                      ],
+                      "size": {
+                        "widthBase": 1,
+                        "heightBase": 1
+                      }
+                    }
+                  }
+                },
+                "c": [
+                  607,
+                  923,
+                  692,
+                  838
+                ],
+                "move": 0,
+                "sense": 2,
+                "dir": 0,
+                "door": 0,
+                "ds": 0
+              },
+              {
+                "flags": {
+                  "DAESRD": {
+                    "Darkness": {
+                      "ActorId": "zBcHCs3iSeAbpLbA"
+                    }
+                  },
+                  "token-attacher": {
+                    "parent": "n4v6GY0w9fMLzK7c",
+                    "offset": {
+                      "x": -116.5,
+                      "y": -231.5,
+                      "rot": 0,
+                      "centerX": -58.5,
+                      "centerY": -216.5,
+                      "offRot": 0,
+                      "c": [
+                        -116.5,
+                        -201.5,
+                        -0.5,
+                        -231.5
+                      ],
+                      "size": {
+                        "widthBase": 1,
+                        "heightBase": 1
+                      }
+                    }
+                  }
+                },
+                "c": [
+                  692,
+                  838,
+                  808,
+                  808
+                ],
+                "move": 0,
+                "sense": 2,
+                "dir": 0,
+                "door": 0,
+                "ds": 0
+              },
+              {
+                "flags": {
+                  "DAESRD": {
+                    "Darkness": {
+                      "ActorId": "zBcHCs3iSeAbpLbA"
+                    }
+                  },
+                  "token-attacher": {
+                    "parent": "n4v6GY0w9fMLzK7c",
+                    "offset": {
+                      "x": -0.5,
+                      "y": -231.5,
+                      "rot": 0,
+                      "centerX": 57,
+                      "centerY": -216.5,
+                      "offRot": 0,
+                      "c": [
+                        -0.5,
+                        -231.5,
+                        114.5,
+                        -201.5
+                      ],
+                      "size": {
+                        "widthBase": 1,
+                        "heightBase": 1
+                      }
+                    }
+                  }
+                },
+                "c": [
+                  808,
+                  808,
+                  923,
+                  838
+                ],
+                "move": 0,
+                "sense": 2,
+                "dir": 0,
+                "door": 0,
+                "ds": 0
+              },
+              {
+                "flags": {
+                  "DAESRD": {
+                    "Darkness": {
+                      "ActorId": "zBcHCs3iSeAbpLbA"
+                    }
+                  },
+                  "token-attacher": {
+                    "parent": "n4v6GY0w9fMLzK7c",
+                    "offset": {
+                      "x": 114.5,
+                      "y": -201.5,
+                      "rot": 0,
+                      "centerX": 157,
+                      "centerY": -159,
+                      "offRot": 0,
+                      "c": [
+                        114.5,
+                        -201.5,
+                        199.5,
+                        -116.5
+                      ],
+                      "size": {
+                        "widthBase": 1,
+                        "heightBase": 1
+                      }
+                    }
+                  }
+                },
+                "c": [
+                  923,
+                  838,
+                  1008,
+                  923
+                ],
+                "move": 0,
+                "sense": 2,
+                "dir": 0,
+                "door": 0,
+                "ds": 0
+              },
+              {
+                "flags": {
+                  "DAESRD": {
+                    "Darkness": {
+                      "ActorId": "zBcHCs3iSeAbpLbA"
+                    }
+                  },
+                  "token-attacher": {
+                    "parent": "n4v6GY0w9fMLzK7c",
+                    "offset": {
+                      "x": 199.5,
+                      "y": -116.5,
+                      "rot": 0,
+                      "centerX": 215,
+                      "centerY": -58.5,
+                      "offRot": 0,
+                      "c": [
+                        199.5,
+                        -116.5,
+                        230.5,
+                        -0.5
+                      ],
+                      "size": {
+                        "widthBase": 1,
+                        "heightBase": 1
+                      }
+                    }
+                  }
+                },
+                "c": [
+                  1008,
+                  923,
+                  1039,
+                  1039
+                ],
+                "move": 0,
+                "sense": 2,
+                "dir": 0,
+                "door": 0,
+                "ds": 0
+              },
+              {
+                "flags": {
+                  "DAESRD": {
+                    "Darkness": {
+                      "ActorId": "zBcHCs3iSeAbpLbA"
+                    }
+                  },
+                  "token-attacher": {
+                    "parent": "n4v6GY0w9fMLzK7c",
+                    "offset": {
+                      "x": -116.5,
+                      "y": 199.5,
+                      "rot": 0,
+                      "centerX": -58.5,
+                      "centerY": 215,
+                      "offRot": 0,
+                      "c": [
+                        -0.5,
+                        230.5,
+                        -116.5,
+                        199.5
+                      ],
+                      "size": {
+                        "widthBase": 1,
+                        "heightBase": 1
+                      }
+                    }
+                  }
+                },
+                "c": [
+                  808,
+                  1270,
+                  692,
+                  1239
+                ],
+                "move": 0,
+                "sense": 2,
+                "dir": 0,
+                "door": 0,
+                "ds": 0
+              },
+              {
+                "flags": {
+                  "DAESRD": {
+                    "Darkness": {
+                      "ActorId": "zBcHCs3iSeAbpLbA"
+                    }
+                  },
+                  "token-attacher": {
+                    "parent": "n4v6GY0w9fMLzK7c",
+                    "offset": {
+                      "x": -0.5,
+                      "y": 199.5,
+                      "rot": 0,
+                      "centerX": 57,
+                      "centerY": 215,
+                      "offRot": 0,
+                      "c": [
+                        114.5,
+                        199.5,
+                        -0.5,
+                        230.5
+                      ],
+                      "size": {
+                        "widthBase": 1,
+                        "heightBase": 1
+                      }
+                    }
+                  }
+                },
+                "c": [
+                  923,
+                  1239,
+                  808,
+                  1270
+                ],
+                "move": 0,
+                "sense": 2,
+                "dir": 0,
+                "door": 0,
+                "ds": 0
+              },
+              {
+                "flags": {
+                  "DAESRD": {
+                    "Darkness": {
+                      "ActorId": "zBcHCs3iSeAbpLbA"
+                    }
+                  },
+                  "token-attacher": {
+                    "parent": "n4v6GY0w9fMLzK7c",
+                    "offset": {
+                      "x": 114.5,
+                      "y": 114.5,
+                      "rot": 0,
+                      "centerX": 157,
+                      "centerY": 157,
+                      "offRot": 0,
+                      "c": [
+                        199.5,
+                        114.5,
+                        114.5,
+                        199.5
+                      ],
+                      "size": {
+                        "widthBase": 1,
+                        "heightBase": 1
+                      }
+                    }
+                  }
+                },
+                "c": [
+                  1008,
+                  1154,
+                  923,
+                  1239
+                ],
+                "move": 0,
+                "sense": 2,
+                "dir": 0,
+                "door": 0,
+                "ds": 0
+              },
+              {
+                "flags": {
+                  "DAESRD": {
+                    "Darkness": {
+                      "ActorId": "zBcHCs3iSeAbpLbA"
+                    }
+                  },
+                  "token-attacher": {
+                    "parent": "n4v6GY0w9fMLzK7c",
+                    "offset": {
+                      "x": 199.5,
+                      "y": -0.5,
+                      "rot": 0,
+                      "centerX": 215,
+                      "centerY": 57,
+                      "offRot": 0,
+                      "c": [
+                        230.5,
+                        -0.5,
+                        199.5,
+                        114.5
+                      ],
+                      "size": {
+                        "widthBase": 1,
+                        "heightBase": 1
+                      }
+                    }
+                  }
+                },
+                "c": [
+                  1039,
+                  1039,
+                  1008,
+                  1154
+                ],
+                "move": 0,
+                "sense": 2,
+                "dir": 0,
+                "door": 0,
+                "ds": 0
+              },
+              {
+                "flags": {
+                  "DAESRD": {
+                    "Darkness": {
+                      "ActorId": "zBcHCs3iSeAbpLbA"
+                    }
+                  },
+                  "token-attacher": {
+                    "parent": "n4v6GY0w9fMLzK7c",
+                    "offset": {
+                      "x": -231.5,
+                      "y": -116.5,
+                      "rot": 0,
+                      "centerX": -216.5,
+                      "centerY": -58.5,
+                      "offRot": 0,
+                      "c": [
+                        -231.5,
+                        -0.5,
+                        -201.5,
+                        -116.5
+                      ],
+                      "size": {
+                        "widthBase": 1,
+                        "heightBase": 1
+                      }
+                    }
+                  }
+                },
+                "c": [
+                  577,
+                  1039,
+                  607,
+                  923
+                ],
+                "move": 0,
+                "sense": 2,
+                "dir": 0,
+                "door": 0,
+                "ds": 0
+              }
+            ]
+          },
+          "grid": {
+            "size": 77,
+            "w": 77,
+            "h": 77
+          }
+        },
+        "copyPrototypeMap": {
+          "map": {
+            "Token": {}
+          },
+          "grid": {
+            "size": 75,
+            "w": 75,
+            "h": 75
+          }
+        }
+      },
+      "monks-scene-navigation": {
+        "navopenyw8zh8eygrTEkwOa": true,
+        "navopenmRk7WuE5T6OdZJIy": false,
+        "navopenVFoe9UNfMVgEqRe9": true,
+        "navopen8hIyZW2IJ8zwWm50": false,
+        "navopeneIwgVH8mqDrDabbW": true,
+        "navopenk9ND9XoAdMM6aPSP": true,
+        "navopenFJJCd4PReSqxAaf5": false,
+        "navopenNVJpWkcHlvBZkezq": false,
+        "navopenmlOcDNB3vvBtEADD": false,
+        "navopenpDp4TsDgFVvOyajE": false,
+        "navopenTsT6FwAXlA74OSSE": false,
+        "navopenY3M7mvQbYfrr90Wz": true,
+        "navopenXanI2flKondYPHis": false
+      },
+      "monks-tokenbar": {
+        "position": {
+          "left": 1349,
+          "right": null,
+          "top": null,
+          "bottom": 103
+        },
+        "lastmodeST": "roll"
+      },
+      "mob-attack-tool": {
+        "showIndividualAttackRolls": true,
+        "showAllAttackRolls": true,
+        "showIndividualDamageRolls": true,
+        "askRollType": true,
+        "rollTypeValue": 5,
+        "showMultiattackDescription": true,
+        "autoDetectMultiattacks": "2",
+        "enableDiceSoNice": false,
+        "enableMidi": true
+      }
+    }
+  },
+  {
+    "name": "Jennifer",
+    "core": {
+      "avatar": "icons/svg/mystery-man.svg",
+      "color": "#00f41f",
+      "permissions": {},
+      "role": 2
+    },
+    "flags": {
+      "custom-hotbar": {
+        "chbMacroMap": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "token-action-hud": {
+        "categories": {
+          "utility": {
+            "title": "Utility",
+            "id": "utility",
+            "push": false,
+            "core": true
+          },
+          "skills": {
+            "title": "Skills",
+            "id": "skills",
+            "push": false,
+            "core": true
+          },
+          "checks": {
+            "title": "Checks",
+            "id": "checks",
+            "push": false,
+            "core": true
+          },
+          "saves": {
+            "title": "Saves",
+            "id": "saves",
+            "push": false,
+            "core": true
+          },
+          "inventory": {
+            "title": "Inventory",
+            "id": "inventory",
+            "push": false,
+            "core": true,
+            "subcategories": {
+              "inventory_short_bow": {
+                "id": "inventory_short_bow",
+                "title": "short bow",
+                "type": "macro"
+              }
+            }
+          },
+          "spells": {
+            "title": "Spells",
+            "id": "spells",
+            "push": false,
+            "core": true
+          },
+          "feats": {
+            "title": "Features",
+            "id": "feats",
+            "push": false,
+            "core": true
+          },
+          "weapons": {
+            "title": "Weapons",
+            "id": "weapons",
+            "push": true,
+            "core": false
+          },
+          "effects": {
+            "title": "Effects",
+            "id": "effects",
+            "push": false,
+            "core": true
+          },
+          "conditions": {
+            "title": "Conditions",
+            "id": "conditions",
+            "push": false,
+            "core": true
+          }
+        },
+        "hudPos": {
+          "top": 65,
+          "left": 159
+        }
+      },
+      "TokenHotbar": {
+        "hotbar-data": {
+          "GLwatgGvPvdxKd57": {
+            "42": "7GDTLljd0bN2CXom"
+          },
+          "noTokenControlled": {}
+        }
+      },
+      "dice-so-nice": {
+        "welcomeMessageShown": true
+      },
+      "monks-tokenbar": {
+        "position": {
+          "left": 218,
+          "right": null,
+          "top": null,
+          "bottom": 68
+        }
+      }
+    }
+  },
+  {
+    "name": "Justin",
+    "core": {
+      "avatar": "player-uploaded-data/this-isn%27t-working-out/Justin/HakarTokenSq.png",
+      "color": "#5b5bae",
+      "permissions": {},
+      "role": 2
+    },
+    "flags": {
+      "token-action-hud": {
+        "categories": {
+          "inventory": {
+            "title": "Inventory",
+            "id": "inventory",
+            "push": false,
+            "core": true
+          },
+          "spells": {
+            "title": "Spells",
+            "id": "spells",
+            "push": false,
+            "core": true
+          },
+          "feats": {
+            "title": "Features",
+            "id": "feats",
+            "push": false,
+            "core": true
+          },
+          "utility": {
+            "title": "Utility",
+            "id": "utility",
+            "push": false,
+            "core": true
+          },
+          "skills": {
+            "title": "Skills",
+            "id": "skills",
+            "push": false,
+            "core": true
+          },
+          "checks": {
+            "title": "Checks",
+            "id": "checks",
+            "push": false,
+            "core": true
+          },
+          "saves": {
+            "title": "Saves",
+            "id": "saves",
+            "push": false,
+            "core": true
+          },
+          "effects": {
+            "title": "Effects",
+            "id": "effects",
+            "push": false,
+            "core": true
+          },
+          "conditions": {
+            "title": "Conditions",
+            "id": "conditions",
+            "push": false,
+            "core": true
+          },
+          "magicitemsmodule": {
+            "title": "Magic Items",
+            "id": "magicItemsModule",
+            "push": false,
+            "core": true
+          }
+        }
+      },
+      "custom-hotbar": {
+        "chbPrimaryColor": "#00000080",
+        "chbBorderColor": "#000000ff",
+        "chbBorderColorActive": "#009fffff",
+        "chbBorderColorInactive": "#949494ff",
+        "chbXPos": "800",
+        "chbYPos": "10",
+        "corePrimaryColor": "#00000080",
+        "coreBorderColor": "#000000ff",
+        "coreBorderColorActive": "#009fffff",
+        "coreBorderColorInactive": "#939799ff",
+        "coreXPos": "220",
+        "coreYPos": "10",
+        "chbMacroMap": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "TokenHotbar": {
+        "hotbar-data": {
+          "Bg1IWM7nwBNBJl1Y": {
+            "47": "Cci8hIfHf8JKYcUY",
+            "48": "pgkuAB0e80gvX8ZA",
+            "49": "lol79gjQxiA34hz2",
+            "50": "ITXpA4w5T7Xnsltz"
+          },
+          "noTokenControlled": {}
+        }
+      },
+      "dice-so-nice": {
+        "welcomeMessageShown": true,
+        "appearance": {
+          "labelColor": "#ffffff",
+          "diceColor": "#8c5abf",
+          "outlineColor": "#707070",
+          "edgeColor": "#787878",
+          "texture": "metal",
+          "material": "chrome",
+          "font": "American Typewriter",
+          "colorset": "custom",
+          "system": "standard"
+        }
+      },
+      "monks-tokenbar": {
+        "position": {
+          "left": 17,
+          "right": null,
+          "top": null,
+          "bottom": 208
+        }
+      },
+      "calendarWeather": {
+        "calendarPos": {
+          "top": 10,
+          "left": 1962
+        }
+      },
+      "calendar-weather": {
+        "calendarPos": {
+          "top": 100,
+          "left": 384
+        }
+      }
+    }
+  },
+  {
+    "name": "Nathan (PC)",
+    "core": {
+      "avatar": "icons/svg/mystery-man.svg",
+      "color": "#02eef2",
+      "permissions": {},
+      "role": 2
+    },
+    "flags": {
+      "dice-so-nice": {
+        "welcomeMessageShown": true
+      },
+      "token-action-hud": {
+        "categories": {
+          "inventory": {
+            "title": "Inventory",
+            "id": "inventory",
+            "push": false,
+            "core": true
+          },
+          "feats": {
+            "title": "Features",
+            "id": "feats",
+            "push": false,
+            "core": true
+          },
+          "skills": {
+            "title": "Skills",
+            "id": "skills",
+            "push": false,
+            "core": true
+          },
+          "saves": {
+            "title": "Saves",
+            "id": "saves",
+            "push": false,
+            "core": true
+          },
+          "checks": {
+            "title": "Checks",
+            "id": "checks",
+            "push": false,
+            "core": true
+          },
+          "conditions": {
+            "title": "Conditions",
+            "id": "conditions",
+            "push": false,
+            "core": true
+          },
+          "utility": {
+            "title": "Utility",
+            "id": "utility",
+            "push": false,
+            "core": true
+          },
+          "spells": {
+            "title": "Spells",
+            "id": "spells",
+            "push": false,
+            "core": true
+          },
+          "effects": {
+            "title": "Effects",
+            "id": "effects",
+            "push": false,
+            "core": true
+          }
+        },
+        "hudPos": {
+          "top": 86,
+          "left": 366
+        }
+      },
+      "custom-hotbar": {
+        "chbMacroMap": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "calendarWeather": {
+        "calendarPos": {
+          "top": 962,
+          "left": 222
+        }
+      },
+      "monks-tokenbar": {
+        "position": {
+          "left": 479,
+          "right": null,
+          "top": null,
+          "bottom": 64
+        }
+      }
+    }
+  },
+  {
+    "name": "Paden",
+    "core": {
+      "avatar": "icons/svg/mystery-man.svg",
+      "color": "#59849b",
+      "permissions": {},
+      "role": 2
+    },
+    "flags": {
+      "token-action-hud": {
+        "categories": {
+          "skills": {
+            "title": "Skills",
+            "id": "skills",
+            "push": false,
+            "core": true
+          },
+          "utility": {
+            "title": "Utility",
+            "id": "utility",
+            "push": false,
+            "core": true
+          },
+          "saves": {
+            "title": "Saves",
+            "id": "saves",
+            "push": false,
+            "core": true
+          },
+          "checks": {
+            "title": "Checks",
+            "id": "checks",
+            "push": false,
+            "core": true
+          },
+          "feats": {
+            "title": "Features",
+            "id": "feats",
+            "push": false,
+            "core": true
+          },
+          "inventory": {
+            "title": "Inventory",
+            "id": "inventory",
+            "push": false,
+            "core": true
+          },
+          "spells": {
+            "title": "Spells",
+            "id": "spells",
+            "push": false,
+            "core": true
+          },
+          "effects": {
+            "title": "Effects",
+            "id": "effects",
+            "push": false,
+            "core": true
+          },
+          "conditions": {
+            "title": "Conditions",
+            "id": "conditions",
+            "push": false,
+            "core": true
+          }
+        }
+      },
+      "custom-hotbar": {
+        "chbMacroMap": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          "PSS8Akwz7bDv5REJ",
+          "fNrFIF621pEGKOnJ",
+          "LbNYjfBRsjCfzodo",
+          "t8tEkSiyhWzYdG0R"
+        ]
+      },
+      "TokenHotbar": {
+        "hotbar-data": {
+          "zBcHCs3iSeAbpLbA": {
+            "47": "PSS8Akwz7bDv5REJ",
+            "48": "fNrFIF621pEGKOnJ",
+            "49": "LbNYjfBRsjCfzodo",
+            "50": "t8tEkSiyhWzYdG0R"
+          },
+          "noTokenControlled": {
+            "41": "GUABGp7lyIV1tNSv",
+            "42": "WJUqfpnURvkQkMFi",
+            "43": "QsPXm4f4U8NuueFS",
+            "47": "PSS8Akwz7bDv5REJ",
+            "48": "fNrFIF621pEGKOnJ",
+            "49": "LbNYjfBRsjCfzodo",
+            "50": "t8tEkSiyhWzYdG0R"
+          }
+        }
+      },
+      "dice-so-nice": {
+        "welcomeMessageShown": true
+      },
+      "monks-tokenbar": {
+        "position": {
+          "left": 810,
+          "right": null,
+          "top": null,
+          "bottom": 68
+        }
+      }
+    }
+  },
+  {
+    "name": "Rewi",
+    "core": {
+      "avatar": "icons/svg/mystery-man.svg",
+      "color": "#730ae9",
+      "permissions": {},
+      "role": 2
+    },
+    "flags": {
+      "token-action-hud": {
+        "categories": {
+          "skills": {
+            "title": "Skills",
+            "id": "skills",
+            "push": false,
+            "core": true
+          },
+          "saves": {
+            "title": "Saves",
+            "id": "saves",
+            "push": false,
+            "core": true
+          },
+          "utility": {
+            "title": "Utility",
+            "id": "utility",
+            "push": false,
+            "core": true
+          },
+          "inventory": {
+            "title": "Inventory",
+            "id": "inventory",
+            "push": false,
+            "core": true
+          },
+          "checks": {
+            "title": "Checks",
+            "id": "checks",
+            "push": false,
+            "core": true
+          },
+          "spells": {
+            "title": "Spells",
+            "id": "spells",
+            "push": false,
+            "core": true
+          },
+          "feats": {
+            "title": "Features",
+            "id": "feats",
+            "push": false,
+            "core": true
+          },
+          "effects": {
+            "title": "Effects",
+            "id": "effects",
+            "push": false,
+            "core": true
+          },
+          "conditions": {
+            "title": "Conditions",
+            "id": "conditions",
+            "push": false,
+            "core": true
+          },
+          "magicitemsmodule": {
+            "title": "Magic Items",
+            "id": "magicItemsModule",
+            "push": false,
+            "core": true
+          }
+        },
+        "hudPos": {
+          "top": 749,
+          "left": 175
+        }
+      },
+      "custom-hotbar": {
+        "chbMacroMap": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "TokenHotbar": {
+        "hotbar-data": {
+          "BGi0JwLCh9sB1gAR": {},
+          "noTokenControlled": {}
+        }
+      },
+      "dice-so-nice": {
+        "welcomeMessageShown": true,
+        "appearance": {
+          "labelColor": "#e9ab01",
+          "diceColor": "#5502bb",
+          "outlineColor": "#bf9ce8",
+          "edgeColor": "#efbb01",
+          "texture": "dragon",
+          "material": "chrome",
+          "font": "Luminari",
+          "colorset": "custom",
+          "system": "standard"
+        }
+      },
+      "monks-tokenbar": {
+        "position": {
+          "left": 763,
+          "right": null,
+          "top": null,
+          "bottom": 68
+        }
+      },
+      "calendarWeather": {
+        "calendarPos": {
+          "top": 607,
+          "left": 170
+        }
+      }
+    }
+  },
+  {
+    "name": "Tyler",
+    "core": {
+      "avatar": "icons/svg/mystery-man.svg",
+      "color": "#c9922c",
+      "permissions": {},
+      "role": 2
+    },
+    "flags": {
+      "token-action-hud": {
+        "categories": {
+          "inventory": {
+            "title": "Inventory",
+            "id": "inventory",
+            "push": false,
+            "core": true
+          },
+          "spells": {
+            "title": "Spells",
+            "id": "spells",
+            "push": false,
+            "core": true
+          },
+          "utility": {
+            "title": "Utility",
+            "id": "utility",
+            "push": false,
+            "core": true
+          },
+          "feats": {
+            "title": "Features",
+            "id": "feats",
+            "push": false,
+            "core": true
+          },
+          "checks": {
+            "title": "Checks",
+            "id": "checks",
+            "push": false,
+            "core": true
+          },
+          "saves": {
+            "title": "Saves",
+            "id": "saves",
+            "push": false,
+            "core": true
+          },
+          "skills": {
+            "title": "Skills",
+            "id": "skills",
+            "push": false,
+            "core": true
+          },
+          "magicitemsmodule": {
+            "title": "Magic Items",
+            "id": "magicItemsModule",
+            "push": false,
+            "core": true
+          },
+          "effects": {
+            "title": "Effects",
+            "id": "effects",
+            "push": false,
+            "core": true
+          },
+          "conditions": {
+            "title": "Conditions",
+            "id": "conditions",
+            "push": false,
+            "core": true
+          }
+        }
+      },
+      "custom-hotbar": {
+        "chbMacroMap": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "TokenHotbar": {
+        "hotbar-data": {
+          "XqJzSesMuV3luba6": {},
+          "ZhlMhUzsAj9RVR1g": {},
+          "noTokenControlled": {}
+        }
+      },
+      "dice-so-nice": {
+        "welcomeMessageShown": true
+      },
+      "monks-tokenbar": {
+        "position": {
+          "left": 1205,
+          "right": null,
+          "top": null,
+          "bottom": 87
+        }
+      },
+      "calendarWeather": {
+        "calendarPos": {
+          "top": 464,
+          "left": 0
+        }
+      }
+    }
   }
 ]

@@ -206,9 +206,9 @@ module combinations) that have the biggest impact on the games I run. More in-de
   NOTE: This has the possibility of considerably bloating your server. Make a note to do a routine check to remove unnecessary images in order to keep your 
 
   Setting                           | Default       | Recommended   | Comments
-  ---                             | ---           | ---           | ---    
+  ---                               | ---           | ---           | ---    
   Warning on drop                   | Disabled      | Enabled       | ---
-  Warning on paste                  | Disabled      | ---           | ---
+  Warning on paste                  | Disabled      | Enabled       | ---
   Uploaded files quality            | 0.5           | ---           | ---
   Embedded files quality            | 0.5           | ---           | ---
   Files save location               | Data folder   | ---           | Make sure to ignore this folder from your players' sight via the file picker, if you care about that stuff.
@@ -673,27 +673,27 @@ module combinations) that have the biggest impact on the games I run. More in-de
 
 ### Combat Helpers
 
-  Setting                                                       | Default     | Recommended   | Comments
-  ---                                                           | ---         | ---           | ---    
-  Action status automation                                      | None        | Enabled       | There may be a bug by disabling this, so you might as well enable it. :)
-  Lair action prompt                                            | Disabled    | Enabled       | ---
-  Legendary action prompt                                       | Disabled    | Enabled       | ---
-  Start of turn legendary action reset                          | Enabled     | ---           | ---
-  Automatically roll any uncharged abilities with a d6 recharge | Off         | Start of Turn | ---
-  Hide the results of ability recharge rolls                    | Enabled     | ---           | ---
-  Automatic regeneration                                        | Disabled    | Enabled       | ---
-  Effect name to block regeneration                             | No Regen    | ---           | ---
-  Undead fortitude                                              | No checks   | Quick Saves   | Currently bugged, but still quite useful.
-  Hide GM info from great wound and open wound report           | Disabled    | ---           | ---
-  Great wound                                                   | Disabled    | ---           | ---
-  Great wound name replacement                                  | Great Wound | ---           | ---
-  Great wound table                                             | *\blank\*   | ---           | ---
-  Open wound feature name                                       | Open Wound  | ---           | ---
-  Open wound - death saves                                      | Disabled    | ---           | ---
-  Open wound - crits                                            | 0           | ---           | ---
-  Open wound - HP at 0                                          | Disabled    | ---           | ---
-  Open wound - HP at 0 from a great wound                       | Disabled    | ---           | ---
-  Open wound table                                              | \*blank\*   | ---           | ---
+  Setting                                                       | Default     | Recommended     | Comments
+  ---                                                           | ---         | ---             | ---    
+  Action status automation                                      | None        | Enabled         | There may be a bug by disabling this, so you might as well enable it. :)
+  Lair action prompt                                            | Disabled    | Enabled         | ---
+  Legendary action prompt                                       | Disabled    | Enabled         | ---
+  Start of turn legendary action reset                          | Enabled     | ---             | ---
+  Automatically roll any uncharged abilities with a d6 recharge | Off         | Start of Turn   | ---
+  Hide the results of ability recharge rolls                    | Enabled     | ---             | ---
+  Automatic regeneration                                        | Disabled    | Enabled         | ---
+  Effect name to block regeneration                             | No Regen    | ---             | ---
+  Undead fortitude                                              | No checks   | Advanced Saves  | Requires a little extra work, but is very useful.
+  Hide GM info from great wound and open wound report           | Disabled    | ---             | ---
+  Great wound                                                   | Disabled    | ---             | ---
+  Great wound name replacement                                  | Great Wound | ---             | ---
+  Great wound table                                             | *\blank\*   | ---             | ---
+  Open wound feature name                                       | Open Wound  | ---             | ---
+  Open wound - death saves                                      | Disabled    | ---             | ---
+  Open wound - crits                                            | 0           | ---             | ---
+  Open wound - HP at 0                                          | Disabled    | ---             | ---
+  Open wound - HP at 0 from a great wound                       | Disabled    | ---             | ---
+  Open wound table                                              | \*blank\*   | ---             | ---
 
 ## [DnDBeyond Character Sheet for 5e](https://foundryvtt.com/packages/dndbeyond-character-sheet/) v1.6.3
   Adds a character sheet that mimics the style of D&DBeyond. I personally prefer the look and feel of 
@@ -771,7 +771,7 @@ module combinations) that have the biggest impact on the games I run. More in-de
   
   NOTE: I usually keep this disabled until I need to debug module issues.
   
-## [Forien's Copy Environment](https://foundryvtt.com/packages/forien-copy-environment/) v1.1.1
+## [Forien's Copy Environment](https://foundryvtt.com/packages/forien-copy-environment/) v2.0.3
   By right-clicking within the General Information section of the Settings tab, this module allows you to import/export your world's current system version as 
   well as your modules and their settings. Very useful for copying the same modules and their settings over to another world.
   
@@ -1121,20 +1121,41 @@ module combinations) that have the biggest impact on the games I run. More in-de
   Versatile                                     | shift                   | ---
   Enable midi-qol custom sounds                 | Disabled                | ---
 
-## [Mob Attack Tool](https://foundryvtt.com/packages/mob-attack-tool) v0.1.30
+## [Mob Attack Tool](https://foundryvtt.com/packages/mob-attack-tool) v0.2.2
   Super helpful for GMs and players that have lots of summons. Allows you to roll mobs all at once, significantly speeding up encounters where you have lots of 
   enemies.
 
-  Setting                                   | Default                 | Recommended             | Comments
-  ---                                       | ---                     | ---                     | ---    
-  Allow players to use mob attack tool      | Disabled                | Enabled                 | ---
-  Use mob rules or roll individually        | Mob Rules               | Individual Attack Rolls | ---
-  Show individual attack rolls              | Disabled                | ---                     | ---
-  Show multiattack description              | Enabled                 | ---                     | ---
-  Autodetect multiattack                    | No autodetect           | Autodetect + autoselect | ---
-  Include option to end grouped mob turns   | Enabled                 | Disabled                | ---
-  Include advantage/disadvantage selection  | Disabled                | Enabled                 | ---
-  Advantage/disadvantage value              | 5                       | ---                     | ---
+### Core Settings
+
+  Setting                                   | Default                   | Recommended             | Comments
+  ---                                       | ---                       | ---                     | ---    
+  Allow players to use mob attack tool      | Disabled                  | Enabled                 | ---
+  Use mob rules or roll individually        | Mob Rules                 | Individual Attack Rolls | ---
+  Include option to end grouped mob turns   | Enabled                   | ---                     | ---
+
+### Advanced Settings - Rolls
+
+  Setting                                   | Default   | Recommended | Comments
+  ---                                       | ---       | ---         | ---    
+  Show individual attack rolls              | Disabled  | Enabled     | ---
+  Show unsuccessful attack rolls            | Disabled  | Enabled     | ---
+  Show individual damage rolls              | Disabled  | Enabled     | ---
+  Include advantage/disadvantage selection  | Disabled  | Enabled     | ---
+  Advantage/disadvantage value              | 5         | ---         | ---
+
+### Advanced Settings - Multiattack
+
+  Setting                       | Default       | Recommended             | Comments
+  ---                           | ---           | ---                     | ---    
+  Show multiattack description  | Enabled       | ---                     | ---
+  Autodetect multiattack        | No autodetect | Autodetect + autoselect | ---
+
+### Advanced Settings - Modules
+
+  Setting                   | Default   | Recommended | Comments
+  ---                       | ---       | ---         | ---    
+  Enable dice so nice rolls | Enabled   | Disabled    | Personally I prefer to just see the roll outcomes, but that's just me!
+  Enable midi-qol           | Enabled   | ---         | ---
 
 ## [Monks Little Details](https://foundryvtt.com/packages/monks-little-details) v1.0.14
   Lots of various quality of life improvements. Turn notifications in combat(including sounds), slight UI changes to compendiums and conditions, actor sound 
@@ -1452,7 +1473,7 @@ module combinations) that have the biggest impact on the games I run. More in-de
   Advanced macros                                               | Enabled   | ---         | ---
   Advanced drawing tools                                        | Enabled   | Disabled    | ---
   Freehand sample rate                                          | 50ms      | ---         | ---
-  Enable hooks debugging                                        | Disabled  | ---         | ---
+  Enable hooks debugging                                        | Disabled  | ---         | Only enable when debugging :)
   Improve the playlists UI                                      | Enabled   | ---         | ---
   Volume slider linear to logarithmic exponential approximation | 3         | ---         | ---
 
@@ -1815,10 +1836,6 @@ module combinations) that have the biggest impact on the games I run. More in-de
   Will revisit: When the module has been updated to show on all machines and doesn't glitch all the time. HIGH PRIORITY.
 <a name="other-cool-modules"></a>
 # Other Cool Modules
-- [Active Auras](https://foundryvtt.com/packages/ActiveAuras/) - Allows for some automation for auras. Would be more useful if our paladin was still with our
-  group, but it's still an interesting concept.
-
-  Why not install: Limited use cases for our group. If we had a paladin or some other member that loved to use aura effects, I'd take a closer look.
 - [Active Token Lighting](https://foundryvtt.com/packages/ATL/) - Lets you adjust token light settings automatically via items. So by clicking a torch, the 
   PC would automatically start emitting torchlight.
   

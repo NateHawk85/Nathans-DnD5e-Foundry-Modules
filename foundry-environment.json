@@ -1,5 +1,5 @@
 {
-  "message": "List generated with Forien's Copy Environment: https://github.com/Forien/foundryvtt-forien-copy-environment",
+  "message": "List generated with Forien's Copy Environment: https://github.com/League-of-Foundry-Developers/foundryvtt-forien-copy-environment",
   "core": {
     "version": "0.7.9"
   },
@@ -238,9 +238,9 @@
     },
     {
       "id": "forien-copy-environment",
-      "version": "1.1.1",
+      "version": "2.0.3",
       "author": "Forien — Forien#2130",
-      "manifest": "https://raw.githubusercontent.com/Forien/foundryvtt-forien-copy-environment/master/module.json"
+      "manifest": "https://github.com/League-of-Foundry-Developers/foundryvtt-forien-copy-environment/releases/latest/download/module.json"
     },
     {
       "id": "forien-custom-fonts",
@@ -381,7 +381,7 @@
     },
     {
       "id": "mob-attack-tool",
-      "version": "0.1.30",
+      "version": "0.2.2",
       "author": "Stendarpaval (Lupusmalus)",
       "manifest": "https://raw.githubusercontent.com/Stendarpaval/mob-attack-tool/main/module.json"
     },
