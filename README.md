@@ -1,4 +1,8 @@
 # Nathan's DnD5e/FoundryVTT Modules and Notes
+A note: I've been lacking quite substantially in the update to 0.8.x, partially to allow for module developers to update their code, but also partially because 
+I'm quite lazy. A settings revamp to 0.8.7 is in the works, and I'm hoping to replicate the functionality that was present in my setup prior to the upgrade. Any
+modules that are depreciated that are important for the update will be added in a new section. Cheers! :)
+
 I'd like to preface this by saying that this is the setup that works for my group's personal needs, and it may not be reflective of what everyone wants 
 within Foundry. If you are new to Foundry, welcome! This is an amazing community, and I'm super happy that you came across this repo. That being said, I'd 
 highly recommend starting out with the core Foundry application and only adding modules if you *absolutely* know what they do and what problems they solve. 
@@ -41,6 +45,7 @@ corresponding Foundry version in the commit message, and if it doesn't, I messed
         - [Music](#music-modules)
         - [Map Packs](#map-pack-modules)
     - [Modules on the Chopping Block](#modules-to-chop)
+    - [Modules Waiting on 0.8.x Support](#modules-waiting-8)
     - [Modules to Review](#modules-to-review)
     - [Modules to Review at a Later Date](#modules-to-review-later)
     - [Other Cool Modules](#other-cool-modules)
@@ -1782,12 +1787,15 @@ module combinations) that have the biggest impact on the games I run. More in-de
 - [Spellarena Battlemap Collection](https://foundryvtt.com/packages/spellarena/) - I'm running out of adjectives for these (awesome) map packs.
 - [TacticalMap Battlemaps Pack](https://foundryvtt.com/packages/tacticalmap-free/) - These are pretty cool, too!
 - [Tom Cartos Ostenwold](https://foundryvtt.com/packages/tomcartos-ostenwold/) - This one's a little different as it's a preset town. Also, great maps!
-<a name="modules-to-chop"></a>2
+<a name="modules-to-chop"></a>
 # Modules on the Chopping Block
 - [Roofs and Overhead Tiles](https://foundryvtt.com/packages/roofs/) - I haven't found many maps to use it in. That could change, however, if we end up 
   doing more urban maps. 
   
   NOTE: This module is soon to be outdated with the update to the Tiles system in Foundry 0.8.x.
+<a name="modules-waiting-8"></a>
+# Modules Waiting on 0.8.x Support
+- TODO
 <a name="modules-to-review"></a>
 # Modules to Review
 - [Automated Animations](https://foundryvtt.com/packages/automated-jb2a-animations) - Leverages JB2A templates for automatically applying their assets to spell
@@ -1797,6 +1805,14 @@ module combinations) that have the biggest impact on the games I run. More in-de
   We'll give it a go and see what happens.
 - [JB2A Animated Assets](https://foundryvtt.com/packages/JB2A_DnD5e/) - Library of animations and assets. Wondering about performance impact.
 - [Moulinette](https://foundryvtt.com/packages/moulinette-core) - Searchable tile and other prefab placement tools... this could get spicy.
+- [Lock View](https://foundryvtt.com/packages/LockView/) - Adds ability to lock the view of scenes. Useful for landing pages.
+- [Cycle Token Stack](https://foundryvtt.com/packages/cycle-token-stack/) - Cycle tokens on top of one another
+- [Advanced Macros](https://foundryvtt.com/packages/advanced-macros) - Split off of [The Furnace](https://foundryvtt.com/packages/furnace/), makes macros easier
+  to use?
+- [Initiative Double Click](https://foundryvtt.com/packages/initiative-double-click) - Split off of [The Furnace](https://foundryvtt.com/packages/furnace/),
+  double-clicking initiative lets you set the value.
+  - [DFreds Droppables](https://foundryvtt.com/packages/dfreds-droppables) - Split off of [The Furnace](https://foundryvtt.com/packages/furnace/),
+  allows you to drag a whole folder of actors to place tokens.
 <a name="modules-to-review-later"></a>
 # Modules to Review at a Later Date
 - [DF Architect](https://foundryvtt.com/packages/df-architect) - A host of GM tools, could replace [Wall Cutter](https://foundryvtt.com/packages/WallCutter/).
