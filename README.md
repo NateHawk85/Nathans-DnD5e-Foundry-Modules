@@ -25,7 +25,8 @@ If there's a module, resource, or other missing piece that you think should be o
 
 ### 0.8.8 Upgrade Notes
 I have a separate page for notes upgrading from 0.7.9-0.8.8, and that will go into the things I noticed. In general, my group and I played our first session on
-0.8.8 this past week, and overal, it went very smoothly. That being said, like with everything, there's always a chance that  
+0.8.8 this past week, and overal, it went very smoothly. That being said, like with everything, there's always a chance that something could go awry. Let me
+know if there's any improvements that could be made by creating an issue, and I'll get to them as soon as I can!
 
 # Versions
 ## Current Foundry Version - 0.8.8
