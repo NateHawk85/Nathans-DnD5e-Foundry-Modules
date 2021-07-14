@@ -819,6 +819,16 @@ module combinations) that have the biggest impact on the games I run. More in-de
   Shows hit bonuses and damage calculations when hovering over items in a PC/NPC's inventory. Pretty nice quality of life improvement.
 
   NOTE: Does not work with [Tidy5e Sheet](https://foundryvtt.com/packages/tidy5e-sheet/) v0.4.29.
+
+## [Dice Tray](https://foundryvtt.com/packages/dice-calculator/) v1.1.0
+  Adds a small widget at the bottom of the chat to easily calculate custom rolls. Very intuitive with left-click to add a die, right-click to remove one.
+  Replaces [Simple Dice Roller](https://foundryvtt.com/packages/simple-dice-roller/).
+
+  Setting                 | Default  | Recommended  | Comments
+  ---                     | ---      | ---          | ---    
+  Enable dice tray        | Enabled  | ---          | ---
+  Enable dice calculator  | Enabled  | ---          | ---
+  Enable d6 pips          | Disabled | Enabled      | ---
   
 ## [DnD5e Helpers](https://foundryvtt.com/packages/dnd5e-helpers/) v2.0.7
   Some helpful automation to remind GMs of legendary actions, regeneration, undead fortitude checks, wild magic surges, auto proficiencies, and more. Also 
@@ -1192,6 +1202,11 @@ module combinations) that have the biggest impact on the games I run. More in-de
   ---                                     | ---       | ---           | ---    
   Enable parchment theme                  | Enabled   | ---           | ---
   Deselect tokens when opening requestor  | Disabled  | ---           | ---
+
+## [Let's Trade 5e](https://foundryvtt.com/packages/lets-trade-5e) v0.3.0
+  Replaces [Give Item to Another Player](https://foundryvtt.com/packages/give-item) for the Foundry 0.8.x upgrade. This module adds an option in players' 
+  character sheets to send items to and from other characters. Super useful. The only issue right now is that existing items don't get merged, but it's still in
+  a better spot than the previous implementation.
   
 ## [Lib - Color Settings](https://foundryvtt.com/packages/colorsettings/) v2.5.9
   A dependency used by many other modules. Adds an easy-to-use color picker that some other modules rely on. 
@@ -1358,7 +1373,7 @@ module combinations) that have the biggest impact on the games I run. More in-de
 
 ### Misc
 
-  Setting                                       | Default                 | Comments
+  Setting                                       | Recommended             | Comments
   ---                                           | ---                     | ---    
   Show item details in chat card                | Card + Details: PC Only | All details enabled in the sub-menu.
   Merge rolls to one card                       | Enabled                 | ---
@@ -1367,7 +1382,7 @@ module combinations) that have the biggest impact on the games I run. More in-de
   Use actor portrait in chat cards              | Enabled                 | ---
   Keep roll statistics                          | Enabled                 | ---
   Save statistics every                         | 10                      | ---
-  Player statistics only                        | Disabled                | ---
+  Player statistics only                        | Enabled                 | ---
   Enable speed item rolls                       | Enabled                 | ---
   Enable speed ability (save/check/skill) rolls | Enabled                 | ---
   Advantage                                     | alt                     | ---
@@ -1376,8 +1391,7 @@ module combinations) that have the biggest impact on the games I run. More in-de
   Versatile                                     | shift                   | ---
   Enable midi-qol custom sounds                 | Disabled                | ---
 
-# TODO - update
-## [Mob Attack Tool](https://foundryvtt.com/packages/mob-attack-tool) v0.2.23
+## [Mob Attack Tool](https://foundryvtt.com/packages/mob-attack-tool) v0.3.1
   Super helpful for GMs and players that have lots of summons. Allows you to roll mobs all at once, significantly speeding up encounters where you have lots of 
   enemies.
 
@@ -1745,13 +1759,6 @@ module combinations) that have the biggest impact on the games I run. More in-de
   NOTE: Upon updating to 0.8.8, my [Calendar/Weather](https://foundryvtt.com/packages/calendar-weather/) module was not running. This is because it needed to 
   sync with this module. If you're having this issue as well, follow the instructions on the 0.8.8 Upgrade Notes page.
 
-## [Simple Dice Roller](https://foundryvtt.com/packages/simple-dice-roller/) v1.2.0
-  Adds a menu in the top left to easily roll dice, similar to Roll20's interface.
-
-  Setting                 | Default | Recommended | Comments
-  ---                     | ---     | ---         | ---    
-  Maximum dices in a roll | 10      | ---         | ---
-  
 ## [Simplefog - Manual Fog of War](https://github.com/League-of-Foundry-Developers/simplefog) v0.1.18
   An updated version of the older [Simplefog](https://foundryvtt.com/packages/simplefog/) module, Simplefog allows you manually show/hide the fog of war, 
   similar to Roll20's free tier. It's extremely useful for world maps and exploration.
@@ -2129,14 +2136,6 @@ borderline must-have if one of your players is a Shadow Sorcerer.
   ---                           | ---       | ---           | ---    
   Auto hide on stealth rolls    | Disabled  | ---           | ---
 
-## [Give Item to Another Player](https://foundryvtt.com/packages/give-item) v1.7.2
-  Adds an option in players' character sheets to send items to and from other character sheets. Super useful, and replaced
-  [Pick-Up-Stix](https://foundryvtt.com/packages/pick-up-stix/) for 90% of our group's use cases.
-
-  Setting               | Default   | Recommended | Comments
-  ---                   | ---       | ---         | ---    
-  Activate giving item  | Disabled  | Enabled     | ---
-
 ## [RC Spent/Recoverable Ammo Tracker](https://foundryvtt.com/packages/rc-spent-ammo) v1.0.13
   Keeps track of ammo spent before and after combat, then outputs an option to recover half (rounded down) after combat ends. Super nice if you have a ranger or
   similar character in your party.
@@ -2145,8 +2144,7 @@ borderline must-have if one of your players is a Shadow Sorcerer.
 # Modules to Review
 - [Automated Animations](https://foundryvtt.com/packages/automated-jb2a-animations) - Leverages JB2A templates for automatically applying their assets to spell
   effects and other cool stuff. Wondering about performance impact.
-- [Dice Tray](https://foundryvtt.com/packages/dice-calculator/) - re-review and possibly replace Simple Dice Roller? Reminder to delete from Retired if 
-  necessary.
+- [DF Chat Enhancements](https://foundryvtt.com/packages/df-chat-enhance) - Chat enhancements, look pretty neat.
 - [Food and Water Tracker](https://foundryvtt.com/packages/food-and-water-tracker) - Could be useful for survival games, either this one or Burger Time.
 - [FXMaster](https://foundryvtt.com/packages/fxmaster/) - Adds cool animations. Wondering about performance impact.
 - [JB2A Animated Assets](https://foundryvtt.com/packages/JB2A_DnD5e/) - Library of animations and assets. Wondering about performance impact.
@@ -2220,6 +2218,10 @@ borderline must-have if one of your players is a Shadow Sorcerer.
   
   Why not install: Unfortunately, the fields in [Perfect Vision](https://foundryvtt.com/packages/perfect-vision/) that would make this module worth 
   installing aren't available to this module.
+
+- [SmallTime](https://github.com/unsoluble/smalltime) - Cool replacement for Calendar/Weather... However, it doesn't have as fine-grain of control.
+  
+  Why not install: I prefer [Calendar/Weather](https://foundryvtt.com/packages/calendar-weather/).
 - [Token Tooltip Alt](https://foundryvtt.com/packages/token-tooltip-alt) - Allows you to fully customize any tooltips next to a token. Could possibly be a
   replacement for [Token Info Icons](https://foundryvtt.com/packages/token-info-icons/). Was recommended by [SeuRonao](https://github.com/SeuRonao). Requires
   [CodeMirror](https://foundryvtt.com/packages/_CodeMirror/), [Math.js](https://foundryvtt.com/packages/_mathjs/), and
@@ -2330,9 +2332,6 @@ borderline must-have if one of your players is a Shadow Sorcerer.
 - [Deselection](https://github.com/Sky-Captain-13/foundry/tree/master/deselection) - By enabling, deselects tokens when clicking on an empty spot on the scene.
 
   Why retired: Now included in default Foundry under Core Settings --> Left-Click to Release Objects --> Enabled
-- [Dice Tray](https://foundryvtt.com/packages/dice-calculator/) - Adds a small widget at the bottom of the chat to easily calculate custom rolls.
-
-  Why retired: Great module, but I never really used it, especially when [Simple Dice Roller](https://foundryvtt.com/packages/simple-dice-roller/) is a thing.
 - [DnD5eShopRollTables](https://www.reddit.com/r/FoundryVTT/comments/mnwzi4/as_promised_the_rolltables_for_every_type_of_shop/)
   A collection of quite a few roll tables and table-generation tools. I'm not sure if I'll keep this in, but for right now, it gets the job done with SRD items.
   Requires [Better Roll Tables](https://github.com/ultrakorne/better-rolltables), [Combat Utility Belt](https://foundryvtt.com/packages/combat-utility-belt/),
@@ -2367,6 +2366,16 @@ borderline must-have if one of your players is a Shadow Sorcerer.
 - [Forien's Scene Navigator](https://foundryvtt.com/packages/forien-scene-navigator/) - Adds the ability to open a scene by clicking on a journal link.
 
   Why retired: I never really used it.
+
+- [Give Item to Another Player](https://foundryvtt.com/packages/give-item) v1.7.2
+  Adds an option in players' character sheets to send items to and from other character sheets. Super useful, and replaced
+  [Pick-Up-Stix](https://foundryvtt.com/packages/pick-up-stix/) for 90% of our group's use cases.
+
+  Setting               | Default   | Recommended | Comments
+  ---                   | ---       | ---         | ---    
+  Activate giving item  | Disabled  | Enabled     | ---
+
+  Why retired: Replaced by [Let's Trade 5e](https://foundryvtt.com/packages/lets-trade-5e).
 - [GM Notes](https://foundryvtt.com/packages/gm-notes/) v0.3
   Adds a "GM Notes" button along the top ribbon of every actor and item. Clicking on the button will provide the GM with a place to store notes, information,
   curses, etc. without having to put them in a separate journal. As far as simplicity and flexibility goes, this is one of my staple modules that I use often.
@@ -2486,7 +2495,14 @@ borderline must-have if one of your players is a Shadow Sorcerer.
   when dragging a token. Has support for [Terrain Layer](https://foundryvtt.com/packages/TerrainLayer/). Good for in-combat use.
   
   Why retired: Outdated and replaced by [Drag Ruler](https://foundryvtt.com/packages/drag-ruler/).
+- [Simple Dice Roller](https://foundryvtt.com/packages/simple-dice-roller/) v1.2.0
+  Adds a menu in the top left to easily roll dice, similar to Roll20's interface.
+  
+  Setting                 | Default | Recommended | Comments
+  ---                     | ---     | ---         | ---    
+  Maximum dices in a roll | 10      | ---         | ---
 
+  Why retired: Replaced by [Dice Tray](https://foundryvtt.com/packages/dice-calculator/).
 - [The Furnace](https://foundryvtt.com/packages/furnace/) v2.6.0
   Adds drawing tools, async macros (that are relied on by other modules and macros), enabling and disabling GM token vision, valuable playlist enhancements,
   modifying initiative value within the Combat Tracker, etc. Small, random quality of life improvements. I mainly get value from the playlist changes and

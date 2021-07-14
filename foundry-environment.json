@@ -183,6 +183,12 @@
       "manifest": "https://github.com/DFreds/dfreds-pocket-change/releases/latest/download/module.json"
     },
     {
+      "id": "dice-calculator",
+      "version": "1.1.0",
+      "author": "Asacolips",
+      "manifest": "https://gitlab.com/asacolips-projects/foundry-mods/foundry-vtt-dice-calculator/raw/master/module.json"
+    },
+    {
       "id": "dice-so-nice",
       "version": "4.0.0",
       "author": "Simone, JDW",
@@ -344,6 +350,12 @@
       "manifest": "https://github.com/trdischat/lessfog/releases/latest/download/module.json"
     },
     {
+      "id": "lets-trade-5e",
+      "version": "0.3.0",
+      "author": "Kage",
+      "manifest": "https://raw.githubusercontent.com/KageJittai/lets-trade-5e/main/module.json"
+    },
+    {
       "id": "lib-df-hotkeys",
       "version": "2.3.4",
       "author": "flamewave000#6766",
@@ -399,7 +411,7 @@
     },
     {
       "id": "mob-attack-tool",
-      "version": "0.2.23",
+      "version": "0.3.1",
       "author": "Stendarpaval (Lupusmalus)",
       "manifest": "https://github.com/Stendarpaval/mob-attack-tool/releases/latest/download/module.json"
     },
@@ -515,12 +527,6 @@
       "version": "1.1.6+0.8.6",
       "author": "Azzurite#2004",
       "manifest": "https://gitlab.com/foundry-azzurite/settings-extender/-/jobs/artifacts/master/raw/dist/settings-extender/module.json?job=build"
-    },
-    {
-      "id": "simple-dice-roller",
-      "version": "1.2.0",
-      "author": "Jan Ole Peek (ChalkOne)",
-      "manifest": "https://raw.githubusercontent.com/jopeek/fvtt-simple-dice-roller/master/module.json"
     },
     {
       "id": "simplefog",

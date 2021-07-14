@@ -125,7 +125,7 @@
   },
   {
     "key": "foundryvtt-simple-calendar.current-date",
-    "value": "{\"year\":1491,\"month\":15,\"day\":11,\"seconds\":64972}"
+    "value": "{\"year\":1491,\"month\":15,\"day\":11,\"seconds\":64852}"
   },
   {
     "key": "healthEstimate.core.showDescriptionTokenType",
@@ -153,7 +153,7 @@
   },
   {
     "key": "midi-qol.ConfigSettings",
-    "value": "{\"speedItemRolls\":true,\"showItemDetails\":\"pc\",\"autoRollAttack\":true,\"autoFastForward\":\"all\",\"autoTarget\":\"wallsBlock\",\"autoCheckHit\":\"whisper\",\"autoCheckSaves\":\"whisper\",\"hideRollDetails\":\"none\",\"displaySaveDC\":true,\"checkSaveText\":true,\"autoRollDamage\":\"none\",\"autoApplyDamage\":\"noCard\",\"damageImmunities\":\"immunityPhysical\",\"autoItemEffects\":true,\"rangeTarget\":\"none\",\"playerRollSaves\":\"letme\",\"playerSaveTimeout\":10,\"preRollChecks\":false,\"mergeCard\":true,\"mergeCardCondensed\":false,\"hideNPCNames\":\"\",\"useTokenNames\":false,\"requireTargets\":true,\"fumbleSound\":\"SBysqs6xPzhqyBRA\",\"diceSound\":\"none\",\"criticalSound\":\"none\",\"itemUseSound\":\"none\",\"spellUseSound\":\"none\",\"weaponUseSound\":\"none\",\"potionUseSound\":\"none\",\"fullAuto\":false,\"useCustomSounds\":false,\"customSoundsPlaylist\":\"mX9RaebzdcavsLXS\",\"keyMapping\":{\"DND5E.Advantage\":\"altKey\",\"DND5E.Disadvantage\":\"ctrlKey\",\"DND5E.Critical\":\"altKey\",\"DND5E.Versatile\":\"shiftKey\"},\"gmFullAuto\":false,\"speedAbilityRolls\":true,\"allowUseMacro\":true,\"itemTypeList\":[\"weapon\",\"equipment\",\"consumable\",\"tool\",\"loot\",\"class\",\"spell\",\"feat\",\"backpack\"],\"gmAutoAttack\":true,\"gmAutoFastForwardAttack\":true,\"gmAutoDamage\":\"none\",\"gmAutoFastForwardDamage\":true,\"gmRemoveButtons\":\"all\",\"removeButtons\":\"all\",\"rollOtherDamage\":false,\"concentrationAutomation\":true,\"rollNPCSaves\":\"auto\",\"singleConcentrationRoll\":false,\"optionalRules\":{\"invisAdvantage\":true,\"checkRange\":true,\"nearbyFoe\":5,\"nearbyAllyRanged\":4,\"incapacitated\":true,\"removeHiddenInvis\":true,\"maxDRValue\":false,\"distanceIncludesHeight\":false},\"itemRollStartWorkflow\":false,\"defaultSaveMult\":0.5,\"requireMagical\":true,\"removeConcentration\":true,\"usePlayerPortrait\":true,\"keepRollStats\":true,\"saveStatsEvery\":10,\"playerStatsOnly\":false,\"soptionalRulesEnabled\":false,\"doReactions\":\"none\",\"gmDoReactions\":\"all\",\"reactionTimeout\":0,\"requiresTargets\":\"combat\",\"showReactionAttackRoll\":\"none\"}"
+    "value": "{\"speedItemRolls\":true,\"showItemDetails\":\"pc\",\"autoRollAttack\":true,\"autoFastForward\":\"all\",\"autoTarget\":\"wallsBlock\",\"autoCheckHit\":\"whisper\",\"autoCheckSaves\":\"whisper\",\"hideRollDetails\":\"none\",\"displaySaveDC\":true,\"checkSaveText\":true,\"autoRollDamage\":\"none\",\"autoApplyDamage\":\"noCard\",\"damageImmunities\":\"immunityPhysical\",\"autoItemEffects\":true,\"rangeTarget\":\"none\",\"playerRollSaves\":\"letme\",\"playerSaveTimeout\":10,\"preRollChecks\":false,\"mergeCard\":true,\"mergeCardCondensed\":false,\"hideNPCNames\":\"\",\"useTokenNames\":false,\"requireTargets\":true,\"fumbleSound\":\"SBysqs6xPzhqyBRA\",\"diceSound\":\"none\",\"criticalSound\":\"none\",\"itemUseSound\":\"none\",\"spellUseSound\":\"none\",\"weaponUseSound\":\"none\",\"potionUseSound\":\"none\",\"fullAuto\":false,\"useCustomSounds\":false,\"customSoundsPlaylist\":\"mX9RaebzdcavsLXS\",\"keyMapping\":{\"DND5E.Advantage\":\"altKey\",\"DND5E.Disadvantage\":\"ctrlKey\",\"DND5E.Critical\":\"altKey\",\"DND5E.Versatile\":\"shiftKey\"},\"gmFullAuto\":false,\"speedAbilityRolls\":true,\"allowUseMacro\":true,\"itemTypeList\":[\"weapon\",\"equipment\",\"consumable\",\"tool\",\"loot\",\"class\",\"spell\",\"feat\",\"backpack\"],\"gmAutoAttack\":true,\"gmAutoFastForwardAttack\":true,\"gmAutoDamage\":\"none\",\"gmAutoFastForwardDamage\":true,\"gmRemoveButtons\":\"all\",\"removeButtons\":\"all\",\"rollOtherDamage\":false,\"concentrationAutomation\":true,\"rollNPCSaves\":\"auto\",\"singleConcentrationRoll\":false,\"optionalRules\":{\"invisAdvantage\":true,\"checkRange\":true,\"nearbyFoe\":5,\"nearbyAllyRanged\":4,\"incapacitated\":true,\"removeHiddenInvis\":true,\"maxDRValue\":false,\"distanceIncludesHeight\":false},\"itemRollStartWorkflow\":false,\"defaultSaveMult\":0.5,\"requireMagical\":true,\"removeConcentration\":true,\"usePlayerPortrait\":true,\"keepRollStats\":true,\"saveStatsEvery\":10,\"playerStatsOnly\":true,\"soptionalRulesEnabled\":false,\"doReactions\":\"none\",\"gmDoReactions\":\"all\",\"reactionTimeout\":0,\"requiresTargets\":\"combat\",\"showReactionAttackRoll\":\"none\"}"
   },
   {
     "key": "foundryvtt-simple-calendar.weekday-config",
@@ -561,7 +561,7 @@
   },
   {
     "key": "core.time",
-    "value": "43437837772"
+    "value": "43437837652"
   },
   {
     "key": "mob-attack-tool.groupMobInitiative",
@@ -673,7 +673,7 @@
   },
   {
     "key": "core.moduleConfiguration",
-    "value": "{\"5e-training\":true,\"about-time\":true,\"calendar-weather\":true,\"chat-images\":true,\"chat-portrait\":true,\"CustomSharedCompendiums\":true,\"dd-import\":true,\"ddb-importer\":true,\"df-curvy-walls\":true,\"dfreds-pocket-change\":true,\"dice-so-nice\":true,\"dndbeyond-character-sheet\":true,\"find-the-culprit\":true,\"forien-copy-environment\":true,\"healthEstimate\":true,\"illandril-hotbar-uses\":true,\"lessfog\":true,\"lib-wrapper\":true,\"lmrtfy\":true,\"lootsheetnpc5e\":true,\"macro-folders\":true,\"mob-attack-tool\":true,\"multilevel-tokens\":true,\"perfect-vision\":true,\"polyglot\":true,\"scene-viewer\":false,\"simple-dice-roller\":true,\"socketlib\":true,\"token-action-hud\":true,\"token-info-icons\":true,\"vtta-tokenizer\":true,\"wall-height\":true,\"zsync\":true,\"_mathjs\":true,\"acelib\":true,\"ActiveAuras\":true,\"autocomplete-inline-properties\":true,\"autocomplete-whisper\":true,\"journal-icon-numbers\":true,\"baileywiki-maps\":false,\"character-actions-list-5e\":true,\"collapsible-journal-sections\":true,\"combat-utility-belt\":true,\"compact-beyond-5e-sheet\":true,\"compendium-folders\":true,\"condition-automation\":true,\"conditional-visibility\":false,\"critterdb-import\":false,\"custom-hotbar\":true,\"custom-journal\":true,\"cycle-token-stack\":true,\"df-settings-clarity\":true,\"dice-tooltip\":true,\"dnd5e-helpers\":true,\"dww-battlemaps\":false,\"drag-ruler\":true,\"Dynamic-Effects-SRD\":true,\"dae\":true,\"easy-target\":true,\"forien-custom-fonts\":true,\"forien-quest-log\":true,\"forien-unidentified-items\":true,\"foundry_community_macros\":true,\"foundry_community_tables\":true,\"fpsmeter\":true,\"give-item\":false,\"gm-secrets\":true,\"hidden-initiative\":true,\"image-hover\":true,\"input-expressions\":true,\"itemcollection\":true,\"itemacro\":true,\"keybind-lib\":true,\"colorsettings\":true,\"lib-df-hotkeys\":true,\"LockView\":true,\"macroeditor\":true,\"magicitems\":true,\"mikwewa-cave\":false,\"mikwewa-crypt\":false,\"mikwewa-boot\":false,\"mikwewa-gauntlet\":false,\"mikwewa-graveyard\":false,\"mikwewa-temples\":false,\"mikwewa-helmet-cave\":false,\"mikwewa-igloo\":false,\"mikwewa-estate\":false,\"mikwewa-prison\":false,\"mikwewa-ring\":false,\"mikwewa-sewer-temple\":false,\"mikwewa-church\":false,\"mikwewa-fortress\":false,\"mikwewa-tavern\":false,\"mikwewa-free\":false,\"monks-little-details\":true,\"monks-scene-navigation\":true,\"monks-tokenbar\":true,\"Next-Up\":true,\"tomcartos-ostenwold\":false,\"party-overview\":true,\"pdfoundry\":true,\"permission_viewer\":true,\"pin-cushion\":true,\"pings\":true,\"playlist_import\":true,\"popout\":true,\"quick-encounters\":true,\"quick-insert\":true,\"rc-spent-ammo\":false,\"settings-extender\":true,\"foundryvtt-simple-calendar\":true,\"simplefog\":true,\"spellarena\":false,\"tacticalmap-free\":false,\"furnace\":false,\"mad-cartographer-free-maps\":false,\"tidy-ui_game-settings\":true,\"tidy5e-sheet\":true,\"token-attacher\":true,\"token-auras\":true,\"token-health\":true,\"TokenHotbar\":true,\"token-mold\":true,\"rolladvantage-token-stamp-2-foundry\":true,\"tomcartos-dragon-cult-temple\":false,\"trigger-happy\":true,\"turnAlert\":true,\"tweakplaylist\":true,\"vance-sidebar-resizer\":true,\"vtta-iconizer\":true,\"WallCutter\":true,\"advanced-macros\":true,\"cursor-popups\":true,\"dfreds-droppables\":true,\"midi-qol\":true,\"scaleGrid\":true}"
+    "value": "{\"5e-training\":true,\"about-time\":true,\"calendar-weather\":true,\"chat-images\":true,\"chat-portrait\":true,\"CustomSharedCompendiums\":true,\"dd-import\":true,\"ddb-importer\":true,\"df-curvy-walls\":true,\"dfreds-pocket-change\":true,\"dice-so-nice\":true,\"dndbeyond-character-sheet\":true,\"find-the-culprit\":true,\"forien-copy-environment\":true,\"healthEstimate\":true,\"illandril-hotbar-uses\":true,\"lessfog\":true,\"lib-wrapper\":true,\"lmrtfy\":true,\"lootsheetnpc5e\":true,\"macro-folders\":true,\"mob-attack-tool\":true,\"multilevel-tokens\":true,\"perfect-vision\":true,\"polyglot\":true,\"scene-viewer\":false,\"simple-dice-roller\":false,\"socketlib\":true,\"token-action-hud\":true,\"token-info-icons\":true,\"vtta-tokenizer\":true,\"wall-height\":true,\"zsync\":true,\"_mathjs\":true,\"acelib\":true,\"ActiveAuras\":true,\"autocomplete-inline-properties\":true,\"autocomplete-whisper\":true,\"journal-icon-numbers\":true,\"baileywiki-maps\":false,\"character-actions-list-5e\":true,\"collapsible-journal-sections\":true,\"combat-utility-belt\":true,\"compact-beyond-5e-sheet\":true,\"compendium-folders\":true,\"condition-automation\":true,\"conditional-visibility\":false,\"critterdb-import\":false,\"custom-hotbar\":true,\"custom-journal\":true,\"cycle-token-stack\":true,\"df-settings-clarity\":true,\"dice-tooltip\":true,\"dnd5e-helpers\":true,\"dww-battlemaps\":false,\"drag-ruler\":true,\"Dynamic-Effects-SRD\":true,\"dae\":true,\"easy-target\":true,\"forien-custom-fonts\":true,\"forien-quest-log\":true,\"forien-unidentified-items\":true,\"foundry_community_macros\":true,\"foundry_community_tables\":true,\"fpsmeter\":true,\"give-item\":false,\"gm-secrets\":true,\"hidden-initiative\":true,\"image-hover\":true,\"input-expressions\":true,\"itemcollection\":true,\"itemacro\":true,\"keybind-lib\":true,\"colorsettings\":true,\"lib-df-hotkeys\":true,\"LockView\":true,\"macroeditor\":true,\"magicitems\":true,\"mikwewa-cave\":false,\"mikwewa-crypt\":false,\"mikwewa-boot\":false,\"mikwewa-gauntlet\":false,\"mikwewa-graveyard\":false,\"mikwewa-temples\":false,\"mikwewa-helmet-cave\":false,\"mikwewa-igloo\":false,\"mikwewa-estate\":false,\"mikwewa-prison\":false,\"mikwewa-ring\":false,\"mikwewa-sewer-temple\":false,\"mikwewa-church\":false,\"mikwewa-fortress\":false,\"mikwewa-tavern\":false,\"mikwewa-free\":false,\"monks-little-details\":true,\"monks-scene-navigation\":true,\"monks-tokenbar\":true,\"Next-Up\":true,\"tomcartos-ostenwold\":false,\"party-overview\":true,\"pdfoundry\":true,\"permission_viewer\":true,\"pin-cushion\":true,\"pings\":true,\"playlist_import\":true,\"popout\":true,\"quick-encounters\":true,\"quick-insert\":true,\"rc-spent-ammo\":false,\"settings-extender\":true,\"foundryvtt-simple-calendar\":true,\"simplefog\":true,\"spellarena\":false,\"tacticalmap-free\":false,\"furnace\":false,\"mad-cartographer-free-maps\":false,\"tidy-ui_game-settings\":true,\"tidy5e-sheet\":true,\"token-attacher\":true,\"token-auras\":true,\"token-health\":true,\"TokenHotbar\":true,\"token-mold\":true,\"rolladvantage-token-stamp-2-foundry\":true,\"tomcartos-dragon-cult-temple\":false,\"trigger-happy\":true,\"turnAlert\":true,\"tweakplaylist\":true,\"vance-sidebar-resizer\":true,\"vtta-iconizer\":true,\"WallCutter\":true,\"advanced-macros\":true,\"cursor-popups\":true,\"dfreds-droppables\":true,\"midi-qol\":true,\"scaleGrid\":true,\"dice-calculator\":true,\"lets-trade-5e\":true,\"smalltime\":false}"
   },
   {
     "key": "chat-portrait.customStylingMessageText",
@@ -734,6 +734,10 @@
   {
     "key": "mob-attack-tool.enableMobInitiative",
     "value": "false"
+  },
+  {
+    "key": "dice-calculator.enableD6Pips",
+    "value": "true"
   },
   {
     "key": "custom-hotbar.chbPrimaryColor",
@@ -1110,6 +1114,10 @@
   {
     "key": "playlist_import.shouldStream",
     "value": "true"
+  },
+  {
+    "key": "smalltime.current-date",
+    "value": "\"Marpenoth 11th, 1491 AD\""
   },
   {
     "key": "ActiveAuras.combatOnly",
@@ -1570,6 +1578,10 @@
   {
     "key": "compact-beyond-5e-sheet.include-one-minute-spells",
     "value": "true"
+  },
+  {
+    "key": "smalltime.current-date",
+    "value": "\"Marpenoth 11th, 1491 AD\""
   },
   {
     "key": "custom-hotbar.chbXPos",
