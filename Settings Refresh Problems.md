@@ -21,8 +21,8 @@ update when settings seem to "revert to default":
 If you want to view these values (in Edge, not sure where they are in other browsers), go to Foundry, log in, hit F12 (developer tools), go to the Application
 tab within those tools, and select the "Local Storage" option.
 
-It *is* possible to set those values manually via some JavaScript trickery. I have my own personal script in the refresh-settings.js file, which I copy and
-paste in the console of the developer tools to reset values when needed. As you might imagine, this script is different per-person and will depend on your
-individual needs.
+It *is* possible to set those values manually via some JavaScript trickery. I have my own personal script in the 
+[refresh-settings.js](https://github.com/NateHawk85/Nathans-DnD5e-Foundry-Modules/blob/main/refresh-settings.js) file, which I copy and paste in the console of
+the developer tools to reset values when needed. As you might imagine, this script is different per-person and will depend on your individual needs.
 
 Overall, the best solution would probably be to have a static domain. That being said, I'm cheap, and I like my current setup :)
