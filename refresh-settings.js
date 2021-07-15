@@ -28,3 +28,6 @@ localStorage.setItem('tidy5e-sheet.traitsTogglePc', true);
 localStorage.setItem('tidy5e-sheet.traitsMovedBelowResource', true);
 localStorage.setItem('tidy5e-sheet.traitsMovedBelowResourceNpc', true);
 localStorage.setItem('tidy5e-sheet.hpOverlayDisabledNpc', true);
+
+localStorage.setItem('token-action-hud.useActionList', true);
+localStorage.setItem('token-action-hud.hideLongerActions', true);

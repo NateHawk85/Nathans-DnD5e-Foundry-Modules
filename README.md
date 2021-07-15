@@ -150,7 +150,7 @@ corresponding Foundry version in the commit message, and if it doesn't, I messed
 If I had to run Foundry with a limited amount of modules, these are the ones I'd definitively pick up first. Here's my short(ish) list of the modules (and
 module combinations) that have the biggest impact on the games I run. More in-depth descriptions of each module can be found in the sections below this one.
 - [Calendar/Weather](https://foundryvtt.com/packages/calendar-weather/) for time tracking. (Requires [About Time](https://foundryvtt.com/packages/about-time/)
-  and [Calendar/Weather](https://foundryvtt.com/packages/calendar-weather/).)
+  and [Simple Calendar](https://foundryvtt.com/packages/foundryvtt-simple-calendar).)
 - [Combat Utility Belt](https://foundryvtt.com/packages/combat-utility-belt/) combined with [Midi QoL](https://foundryvtt.com/packages/midi-qol/), 
   [Let Me Roll That For You](https://foundryvtt.com/packages/lmrtfy/), [Dynamic Active Effects](https://foundryvtt.com/packages/dae/),
   and [About Time](https://foundryvtt.com/packages/about-time/) for tons of combat enhancements.
