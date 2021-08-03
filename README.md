@@ -166,6 +166,7 @@ module combinations) that have the biggest impact on the games I run. More in-de
 - [Forien's Copy Environment](https://foundryvtt.com/packages/forien-copy-environment/) for sharing the same settings between worlds.
 - [GM Secret Block](https://foundryvtt.com/packages/gm-secrets/) to store private notes on things. (Or [GM Notes](https://foundryvtt.com/packages/gm-notes/) if 
   you prefer that module instead.)
+- [Lichtgeschwindigkeit](https://foundryvtt.com/packages/lichtgeschwindigkeit) for lighting speed/quality improvements.
 - [Multilevel Tokens](https://foundryvtt.com/packages/multilevel-tokens/) for various grid enhancements.
 - [Next Up](https://foundryvtt.com/packages/Next-Up/) for opening/closing NPC sheets during combat automatically, which saves quite a bit of time.
 - [Playlist Importer](https://foundryvtt.com/packages/playlist_import/) for setting up playlists and music with almost zero hassle.
@@ -1251,7 +1252,8 @@ Use platinum              | Enabled   | ---         | ---
 
 ## [Lichtgeschwindigkeit](https://foundryvtt.com/packages/lichtgeschwindigkeit) v1.3.4
   This module provides a much more accurate and performant lighting calculation system for Foundry. No configuration required, and upon enabling, it gives a
-  noticeable improvement. Works perfectly with modules like [Perfect Vision](https://foundryvtt.com/packages/perfect-vision/). 
+  noticeable improvement. Works perfectly with modules like [Perfect Vision](https://foundryvtt.com/packages/perfect-vision/). This thing is legit - I was a 
+  little skeptical at first upon hearing it, but it's easily one of my favorite modules now.
 
 ## [Lock View](https://foundryvtt.com/packages/LockView/) v1.4.12
   Adds ability to lock the view of scenes. Useful for landing pages and scenes that you want to set a specific view for.
@@ -2160,7 +2162,6 @@ Use platinum              | Enabled   | ---         | ---
 - [JB2A Animated Assets](https://foundryvtt.com/packages/JB2A_DnD5e/) - Library of animations and assets. Wondering about performance impact.
 - [Levels](https://foundryvtt.com/packages/levels) - Finally, a cool multi-level solution that 'just works'. No offense Multilevel Tokens, but this looks like
   the real deal. Definitely next on my list to check out.
-- [Lichtgeschwindigkeit](https://foundryvtt.com/packages/lichtgeschwindigkeit) - Huge lighting upgrades.
 - [Module Sets](https://foundryvtt.com/packages/module-sets) - Alternate between setup vs. live modules.
 - [Monk's Active Tile Triggers](https://foundryvtt.com/packages/monks-active-tiles) - Replacement for Multilevel Tokens?
 - [Moulinette](https://foundryvtt.com/packages/moulinette-core) - Searchable tile and other prefab placement tools... this could get spicy.
