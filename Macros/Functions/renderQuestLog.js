@@ -1,0 +1,1 @@
+Hooks.call('ForienQuestLog.Open.QuestLog');

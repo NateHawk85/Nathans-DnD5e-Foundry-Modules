@@ -14,6 +14,8 @@ localStorage.setItem('image-hover.userEnableKeybind', true);
 
 localStorage.setItem('Next-Up.controlOption', '\"none\"');
 
+localStorage.setItem('macroeditor.lineWrap', false);
+
 localStorage.setItem('mob-attack-tool.mobRules', '\"1\"');
 
 localStorage.setItem('monks-tokenbar.show-inspiration', true);

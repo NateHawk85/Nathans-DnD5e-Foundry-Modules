@@ -1,0 +1,1 @@
+game.macros.getName("queueGMReminder").execute({hour: 1}, "Wandering monsters");

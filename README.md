@@ -181,7 +181,7 @@ module combinations) that have the biggest impact on the games I run. More in-de
 <a name="all-installed-modules"></a>
 # Full List of 108 Currently-Installed Modules, Descriptions, and Settings
 
-## [About Time](https://foundryvtt.com/packages/about-time/) v1.0.3
+## [About Time](https://foundryvtt.com/packages/about-time/) v1.0.4
   Tracks in-game time and required for the [Calendar/Weather](https://foundryvtt.com/packages/calendar-weather/) module. 
 
   NOTE: This module may be potentially going away with the future core API time updates.
@@ -254,9 +254,13 @@ module combinations) that have the biggest impact on the games I run. More in-de
   Auras in combat           | Enabled   | ---         | ---
   Debug                     | Disabled  | ---         | ---
 
-## [Advanced Macros](https://foundryvtt.com/packages/advanced-macros) v1.6
+## [Advanced Macros](https://foundryvtt.com/packages/advanced-macros) v1.9
   Split off of [The Furnace](https://foundryvtt.com/packages/furnace/), adds a 'Run Macro' button and an 'Execute Macro As GM' option that allows players to 
   run macros... as a GM! There are some other small enhancements as well, including some syntax sugar for calling other macros. Pretty neat!
+
+  Setting                   | Default   | Recommended   | Comments
+  ---                       | ---       | ---           | ---    
+  Highlight Macro Codes     | Enabled   | ---           | ---
   
 ## [Autocomplete Inline Properties](https://foundryvtt.com/packages/autocomplete-inline-properties/) v2.1.1
   A nice quality of life fix that autocompletes... inline... properties... Yeah, I probably didn't need to explain this one. Great quality of life fix that lets
@@ -300,7 +304,7 @@ module combinations) that have the biggest impact on the games I run. More in-de
   Disable global illumination at night  | Enabled   | Disabled      | Could enable, however, I prefer to modify this via [Perfect Vision](https://foundryvtt.com/packages/perfect-vision/) instead.    
   Use celsius                           | Disabled  | ---           | ---    
   Can players see the weather           | Disabled  | ---           | ---    
-  Use Lunar Sanctions                   | Disabled  | ---           | ---    
+  Use lunar sanctions                   | Disabled  | ---           | ---    
 
 ## [Character Actions list DnD5e](https://foundryvtt.com/packages/character-actions-list-5e/) v4.1.0
   Adds a reusable component that details different actions a player can take, including actions and bonus actions. It is required for 
@@ -513,10 +517,10 @@ module combinations) that have the biggest impact on the games I run. More in-de
   Reactionless          | icons/svg/downgrade.svg                             | Journal/No Reference Entry                            | ---                                                       | ---                                                       | ---                       | Used for [DnD5e Helpers](https://foundryvtt.com/packages/dnd5e-helpers/).
   Darkness              | systems/dnd5e/icons/spells/evil-eye-red-2.jpg       | Journal/No Reference Entry                            | ---                                                       | ---                                                       | ---                       | ---
   Bladesong             | systems/dnd5e/icons/skills/weapon_01.jpg            | Journal (C)/Custom Conditions/Bladesong               | ---                                                       | ---                                                       | ---                       | ---
-  Invisible             | modules/conditional-visibility/icons/unknown.svg    | Journal/No Reference Entry                            | ---                                                       | ---                                                       | ---                       | Used for [Conditional Visibility](https://foundryvtt.com/packages/conditional-visibility/).
-  Obscured              | modules/conditional-visibility/icons/foggy.svg      | Journal/No Reference Entry                            | ---                                                       | ---                                                       | ---                       | Used for [Conditional Visibility](https://foundryvtt.com/packages/conditional-visibility/).
-  In Darkness           | modules/conditional-visibility/icons/moon.svg       | Journal/No Reference Entry                            | ---                                                       | ---                                                       | ---                       | Used for [Conditional Visibility](https://foundryvtt.com/packages/conditional-visibility/).
-  Hidden                | modules/conditional-visibility/icons/newspaper.svg  | Journal/No Reference Entry                            | ---                                                       | ---                                                       | ---                       | Used for [Conditional Visibility](https://foundryvtt.com/packages/conditional-visibility/).
+  Invisible             | modules/conditional-visibility/icons/unknown.svg    | Journal/No Reference Entry                            | ---                                                       | ---                                                       | ---                       | Used for [Conditional Visibility](https://github.com/szefo09/conditional-visibility).
+  Obscured              | modules/conditional-visibility/icons/foggy.svg      | Journal/No Reference Entry                            | ---                                                       | ---                                                       | ---                       | Used for [Conditional Visibility](https://github.com/szefo09/conditional-visibility).
+  In Darkness           | modules/conditional-visibility/icons/moon.svg       | Journal/No Reference Entry                            | ---                                                       | ---                                                       | ---                       | Used for [Conditional Visibility](https://github.com/szefo09/conditional-visibility).
+  Hidden                | modules/conditional-visibility/icons/newspaper.svg  | Journal/No Reference Entry                            | ---                                                       | ---                                                       | ---                       | Used for [Conditional Visibility](https://github.com/szefo09/conditional-visibility).
 
 ## [Compact DnDBeyond 5e Character Sheet](https://foundryvtt.com/packages/compact-beyond-5e-sheet/) v0.16.3
   Adds a compact DnDBeyond-style character sheet for PCs.
@@ -558,6 +562,12 @@ module combinations) that have the biggest impact on the games I run. More in-de
   Paralyzed macro                       | Disabled  | \*blank\*                   | ---
   Petrified macro                       | Disabled  | \*blank\*                   | ---
 
+## [Conditional Visibility](https://github.com/szefo09/conditional-visibility) v0.2.7
+  Adds certain conditions that hides tokens for players based on certain sight conditions such as Invisibility, being shrouded in the Darkness spell, etc. A
+  borderline must-have if one of your players is a Shadow Sorcerer.
+
+  NOTE: This module is a fork of the original, and as such, cannot be installed by the conventional manifest url. You need to manually install the module.
+
 ## [Crash's 5e Downtime Tracking](https://foundryvtt.com/packages/5e-training/) v0.6.3
   Adds another tab on supported character sheets to allow for tracking of activities. Uses could include training, keeping track of "worship score"/piety, 
   Xanathar's downtime rules, etc.
@@ -573,7 +583,7 @@ module combinations) that have the biggest impact on the games I run. More in-de
   Default completion target         | 300           | ---           | ---
   Announce completion for           | PC's Only     | ---           | ---
   
-## [CritterDB Import](https://foundryvtt.com/packages/critterdb-import/) v1.0.2
+## [CritterDB Import](https://foundryvtt.com/packages/critterdb-import/) v1.0.5
   Allows for importing homebrew monsters from [CritterDB](https://critterdb.com/). A button will appear at the bottom of the Compendiums tab and import them to 
   the compendium CritterDB - MyCritters.
   
@@ -645,7 +655,7 @@ module combinations) that have the biggest impact on the games I run. More in-de
   Cycle token forward key         | [         | ---           | ---
   Push token behind key           | ]         | ---           | ---
   
-## [D&D Beyond Importer](https://foundryvtt.com/packages/ddb-importer/) v2.1.26
+## [D&D Beyond Importer](https://foundryvtt.com/packages/ddb-importer/) v2.2.3
   A fork of the [VTTA D&DBeyond Integration](https://foundryvtt.com/packages/vtta-dndbeyond/) module that allows you to automatically import spells, items, and 
   character sheets from D&DBeyond into Foundry. Although it's currently in development and missing some functionality, it is still definitely an extremely 
   useful module if you either a) own a lot of content on D&DBeyond (guilty), or b) have players that prefer to create their character sheets in D&DBeyond. To 
@@ -708,36 +718,36 @@ module combinations) that have the biggest impact on the games I run. More in-de
   ---                           | ---       | ---         | ---    
   Preserve tool state           | Enabled   | ---         | ---
   Key to hold when placing tool | Alt       | ---         | ---
+
+## [DFreds Droppables](https://foundryvtt.com/packages/dfreds-droppables) v1.2.7
+A split off of [The Furnace](https://foundryvtt.com/packages/furnace/), this module allows you to, instead of dragging each actor token one by one, drag a
+whole folder of actors onto the scene to place all the tokens at once. It's very small, but a great quality of life fix.
+
+Setting     | Default | Recommended     | Comments
+  ---         | ---     | ---             | ---    
+Drop style  | Dialog  | Horizontal Line | ---
+
+## [DFreds Pocket Change](https://foundryvtt.com/packages/dfreds-pocket-change/) v2.0.5
+Automatically populates coinage via [Loot Sheet NPC 5e](https://foundryvtt.com/packages/lootsheetnpc5e/). This is an amazing quality of life fix, especially
+if you are like me and don't always have the enemy's loot laid out beforehand. These tables are based on the 5th edition Dungeon Master's Guide, and there's
+even an option to customize the currency multiplier based on your game's economy.
+
+Setting                   | Default   | Recommended | Comments
+  ---                       | ---       | ---         | ---    
+Enabled                   | Enabled   | ---         | ---
+Creature types            | Humanoid  | \*blank\*   | I use in combination with [Monk's TokenBar](https://foundryvtt.com/packages/monks-tokenbar/), which allows me to only toggle loot sheets I want.
+Chance of no currency     | 0.25      | 0.1         | ---
+Currency multiplier       | 1         | ---         | ---
+Use silver                | Enabled   | ---         | ---
+Use electrum              | Enabled   | Disabled    | Poor electrum...
+Use gold                  | Enabled   | ---         | ---
+Use platinum              | Enabled   | ---         | ---
   
 ## [DF Settings Clarity](https://foundryvtt.com/packages/df-settings-clarity/) v3.2.0
   Adds icons next to individual settings to distinguish global settings from player ones. Extremely useful for people like me who spend quite a bit of time 
   playing around with module settings :)
 
   Requires [LibWrapper](https://foundryvtt.com/packages/lib-wrapper/).
-
-## [DFreds Droppables](https://foundryvtt.com/packages/dfreds-droppables) v1.2.7
-  A split off of [The Furnace](https://foundryvtt.com/packages/furnace/), this module allows you to, instead of dragging each actor token one by one, drag a
-  whole folder of actors onto the scene to place all the tokens at once. It's very small, but a great quality of life fix. 
-
-  Setting     | Default | Recommended     | Comments
-  ---         | ---     | ---             | ---    
-  Drop style  | Dialog  | Horizontal Line | ---
-
-## [DFreds Pocket Change](https://foundryvtt.com/packages/dfreds-pocket-change/) v2.0.5
-  Automatically populates coinage via [Loot Sheet NPC 5e](https://foundryvtt.com/packages/lootsheetnpc5e/). This is an amazing quality of life fix, especially 
-  if you are like me and don't always have the enemy's loot laid out beforehand. These tables are based on the 5th edition Dungeon Master's Guide, and there's 
-  even an option to customize the currency multiplier based on your game's economy. 
-
-  Setting                   | Default   | Recommended | Comments
-  ---                       | ---       | ---         | ---    
-  Enabled                   | Enabled   | ---         | ---
-  Creature types            | Humanoid  | \*blank\*   | I use in combination with [Monk's TokenBar](https://foundryvtt.com/packages/monks-tokenbar/), which allows me to only toggle loot sheets I want.
-  Chance of no currency     | 0.25      | 0.1         | ---
-  Currency multiplier       | 1         | ---         | ---
-  Use silver                | Enabled   | ---         | ---
-  Use electrum              | Enabled   | Disabled    | Poor electrum...
-  Use gold                  | Enabled   | ---         | ---
-  Use platinum              | Enabled   | ---         | ---
   
 ## [Dice So Nice!](https://foundryvtt.com/packages/dice-so-nice/) v4.0.0
   How can you play D&D without any dice!? Allows you to roll 3D dice on your screen. It is absolutely necessary for the clickity clackities. I personally 
@@ -1063,8 +1073,10 @@ module combinations) that have the biggest impact on the games I run. More in-de
   Additionally, if you do end up removing this module or disabling it at some point, the secret text reverts to a normal "secret" text block and is visible by
   players.
 
-## [Grid Scaler](https://foundryvtt.com/packages/grid_scaler/) - Adds an option in the top-left menu to easily configure your background map to the grid.
-  Allows for setting map by "squares" (x by y), drawing a 3x3 grid, and more. Extremely useful and intuitive.
+## [Grid Scaler](https://foundryvtt.com/packages/grid_scaler/) - v0.0.14
+  Adds an option in the top-left menu to easily configure your background map to the grid. Allows for setting map by "squares" (x by y), drawing a 3x3 grid, and
+  more. Extremely useful and intuitive.
+
   
 ## [Health Estimate](https://foundryvtt.com/packages/healthEstimate/) v2.6.1
   A fun little module that allows you to set "health tiers" for tokens. By hovering over a token, a customizable health phrase will pop up over the token, like
@@ -1163,7 +1175,7 @@ module combinations) that have the biggest impact on the games I run. More in-de
   Gold conversion percentage  | 50      | ---         | ---
   Sort bag contents           | Enabled | ---         | ---
   
-## [Item Macro](https://foundryvtt.com/packages/itemacro/) v1.3.2
+## [Item Macro](https://foundryvtt.com/packages/itemacro/) v1.5.3
   Adds a macro editor to items so that when you roll them, the macro executes instead of the default behaviour. Used by 
   [Dynamic Active Effects SRD](https://foundryvtt.com/packages/Dynamic-Effects-SRD/) in some more complicated spells.
 
@@ -1237,6 +1249,10 @@ module combinations) that have the biggest impact on the games I run. More in-de
   Notify players of issues  | Disabled  | ---         | ---
   High-performance mode     | Disabled  | Enabled     | Only enable after ensuring there are no conflicts in your system
 
+## [Lichtgeschwindigkeit](https://foundryvtt.com/packages/lichtgeschwindigkeit) v1.3.4
+  This module provides a much more accurate and performant lighting calculation system for Foundry. No configuration required, and upon enabling, it gives a
+  noticeable improvement. Works perfectly with modules like [Perfect Vision](https://foundryvtt.com/packages/perfect-vision/). 
+
 ## [Lock View](https://foundryvtt.com/packages/LockView/) v1.4.12
   Adds ability to lock the view of scenes. Useful for landing pages and scenes that you want to set a specific view for.
 
@@ -1291,7 +1307,7 @@ module combinations) that have the biggest impact on the games I run. More in-de
 ## [Math.js](https://foundryvtt.com/packages/_mathjs/) v7.5.1-fvtt2
   Includes the Math.js library for developers. No functionality on its own.
   
-## [Midi QoL](https://foundryvtt.com/packages/midi-qol/) v0.3.103
+## [Midi QoL](https://foundryvtt.com/packages/midi-qol/) v0.8.31
   One of the best combat automation modules, period. This module allows for automatic damage calculation and application, immediate AC hit/miss check, NPC 
   saving throws, auto-prompt PCs to roll saves (in combination with [Let Me Roll That For You](https://foundryvtt.com/packages/lmrtfy/)), apply Active Effects 
   to targets (including conditions), and more. This module, along with [Combat Utility Belt](https://foundryvtt.com/packages/combat-utility-belt/), 
@@ -1510,7 +1526,7 @@ module combinations) that have the biggest impact on the games I run. More in-de
   Show folders for players  | Disabled  | ---         | ---
   Display background        | Enabled   | ---         | ---
 
-## [Monk's TokenBar](https://foundryvtt.com/packages/monks-tokenbar/) v1.0.43
+## [Monk's TokenBar](https://foundryvtt.com/packages/monks-tokenbar/) v1.0.46
   This quality of life module adds a small "party overview" that you (the GM) can drag to any spot on your screen. It adds useful features like 
   enabling/disabling player movement, requesting rolls, etc. It even adds functionality to convert creatures into 
   [Loot Sheets](https://foundryvtt.com/packages/lootsheetnpc5e/) post-combat. Works wonderfully with 
@@ -1753,7 +1769,7 @@ module combinations) that have the biggest impact on the games I run. More in-de
   A dependency used by many other modules. Basically, it provides module developers an easier way to create more complicated settings for users to enjoy. If you
   don't have a module that depends on this, I'd recommend not installing it unless you're a module developer.
 
-## [Simple Calendar](https://foundryvtt.com/packages/foundryvtt-simple-calendar) v1.2.113
+## [Simple Calendar](https://foundryvtt.com/packages/foundryvtt-simple-calendar) v1.3.8
   As the title says, this module includes a simple calendar that helps GMs and players alike in adjusting the time, adding calendar notes, tracking the lunar
   phases, etc. It's very simple and very well-done. It integrates well with [Calendar/Weather](https://foundryvtt.com/packages/calendar-weather/), and I highly
   recommend using them together.
@@ -2129,14 +2145,6 @@ module combinations) that have the biggest impact on the games I run. More in-de
 # Modules on the Chopping Block
 <a name="modules-waiting-8"></a>
 # Modules Waiting on 0.8.x Support
-
-## [Conditional Visibility](https://foundryvtt.com/packages/conditional-visibility/) v0.1.4
-Adds certain conditions that hides tokens for players based on certain sight conditions such as Invisibility, being shrouded in the Darkness spell, etc. A
-borderline must-have if one of your players is a Shadow Sorcerer.
-
-  Setting                       | Default   | Recommended   | Comments
-  ---                           | ---       | ---           | ---    
-  Auto hide on stealth rolls    | Disabled  | ---           | ---
 
 ## [RC Spent/Recoverable Ammo Tracker](https://foundryvtt.com/packages/rc-spent-ammo) v1.0.13
   Keeps track of ammo spent before and after combat, then outputs an option to recover half (rounded down) after combat ends. Super nice if you have a ranger or
