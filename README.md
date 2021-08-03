@@ -25,9 +25,9 @@ If there's a module, resource, or other missing piece that you think should be o
 
 ### 0.8.8 Upgrade Notes
 I have a separate [page](https://github.com/NateHawk85/Nathans-DnD5e-Foundry-Modules/blob/main/0.8.8%20Upgrade%20Notes.md) for notes upgrading from 0.7.9-0.8.8,
-and that will go into the things I noticed. In general, my group and I played our first session on 0.8.8 this past week, and overal, it went very smoothly. That
-being said, like with everything, there's always a chance that something could go awry. Let me know if there's any improvements that could be made by creating 
-an [issue](https://github.com/NateHawk85/Nathans-DnD5e-Foundry-Modules/issues/new), and I'll get to it as soon as I can!
+and that will go into the things I noticed. In general, my group and I played our first session on 0.8.8 this past week, and overall, it went very smoothly.
+That being said, like with everything, there's always a chance that something could go awry. Let me know if there's any improvements that could be made by
+creating an [issue](https://github.com/NateHawk85/Nathans-DnD5e-Foundry-Modules/issues/new), and I'll get to it as soon as I can!
 
 # Versions
 ## Current Foundry Version - 0.8.8
@@ -2160,6 +2160,7 @@ Use platinum              | Enabled   | ---         | ---
 - [JB2A Animated Assets](https://foundryvtt.com/packages/JB2A_DnD5e/) - Library of animations and assets. Wondering about performance impact.
 - [Levels](https://foundryvtt.com/packages/levels) - Finally, a cool multi-level solution that 'just works'. No offense Multilevel Tokens, but this looks like
   the real deal. Definitely next on my list to check out.
+- [Lichtgeschwindigkeit](https://foundryvtt.com/packages/lichtgeschwindigkeit) - Huge lighting upgrades.
 - [Module Sets](https://foundryvtt.com/packages/module-sets) - Alternate between setup vs. live modules.
 - [Monk's Active Tile Triggers](https://foundryvtt.com/packages/monks-active-tiles) - Replacement for Multilevel Tokens?
 - [Moulinette](https://foundryvtt.com/packages/moulinette-core) - Searchable tile and other prefab placement tools... this could get spicy.
