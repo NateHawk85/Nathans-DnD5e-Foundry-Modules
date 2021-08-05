@@ -54,7 +54,6 @@ corresponding Foundry version in the commit message, and if it doesn't, I messed
     - [Modules with Possible Performance Issues](#modules-with-performance-issues)
     - [Modules Reviewed and Retired](#modules-reviewed-and-retired)
 - Notes and Resources
-    - [Macro Notes](#macro-notes)
     - [Performance Improvements](#performance-improvements)
     - [Other Useful Resources](#useful-resources)
     - [Other Media and Software](#other-media)
@@ -2550,14 +2549,6 @@ Use platinum              | Enabled   | ---         | ---
     - Set the font size for tooltips in pixels --> 14
 
   Why retired: Broke when updating to newer versions of Foundry. Also, replaced by [Party Overview](https://foundryvtt.com/packages/party-overview/).
-<a name="macro-notes"></a>
-# Macro Notes
-- Accessing class levels of a character
-    - `@classes.sorcerer.level`
-- Accessing abilities scores
-    - `@abilities.dex.mod`
-- Updating token elevation
-    - `token.update({"elevation": args[0]});`
 <a name="performance-improvements"></a>
 # Performance Improvements
 - Use Microsoft Edge browser when playing on Windows 10. Strangely enough, it seems to be more fluid than Chrome, at least regarding Foundry.

@@ -1,0 +1,2 @@
+- [Foundry Community Macros](https://github.com/foundry-vtt-community/macros)
+- [Foundry #macro-polo Discord Channel](https://discord.com/channels/170995199584108546/699750150674972743)

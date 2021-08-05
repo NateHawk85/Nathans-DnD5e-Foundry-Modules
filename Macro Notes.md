@@ -9,6 +9,15 @@ This is a collection of macro notes that I've built up. A lot of it is going to 
 `game.Gametime.clearTimeout(1581598672547);` clears a specific object(s) at a certain timestamp
 `game.Gametime.flushQueue();` removes the whole queue
 
+### Accessing class levels of a character
+`@classes.sorcerer.level`
+
+### Accessing abilities scores
+`@abilities.dex.mod`
+
+### Updating token elevation
+`token.update({"elevation": args[0]});`
+
 ### Calling a macro from within a macro (requires Advanced Macros module)
 ```javascript
 let doStuff = game.macros.getName("Do Stuff");
