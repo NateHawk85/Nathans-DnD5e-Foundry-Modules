@@ -43,3 +43,7 @@ new Dialog({
     },
     default: "ok"
 }).render(true);
+
+setTimeout(function () {
+    document.getElementById("macroRemindMeMessage").focus();
+}, 300);

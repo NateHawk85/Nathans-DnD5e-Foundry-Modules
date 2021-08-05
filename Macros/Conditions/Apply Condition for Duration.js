@@ -15,6 +15,10 @@ new Dialog({
     classes: ["dialog", "pretty-dialog-buttons"]
 }).render(true, {width: 600});
 
+setTimeout(function () {
+    document.getElementById("macroConditionName").focus();
+}, 300);
+
 function buildButtons() {
     let buttons = {};
     buttons["oneRound"] = buildButtonWith("One Round", {seconds: 6});

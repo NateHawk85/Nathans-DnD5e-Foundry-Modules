@@ -1,6 +1,5 @@
 const CONTENT = '' +
     '   <p>Adjust time by...</p> ' +
-    '   <br />' +
     '   <label for="macroIntervalSeconds">Seconds: </label>' +
     '   <input id="macroIntervalSeconds" name="macroIntervalSeconds" />' +
     '   <br />' +
@@ -42,3 +41,7 @@ new Dialog({
     },
     default: "ok"
 }).render(true);
+
+setTimeout(function () {
+    document.getElementById("macroIntervalSeconds").focus();
+}, 300);

@@ -23,4 +23,5 @@ new Dialog({
             }
         }
     },
+    default: "ok"
 }).render(true);
