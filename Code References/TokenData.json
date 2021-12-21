@@ -1,0 +1,76 @@
+{
+	"_id": "e4PZx8VLXt7M03IK",
+	"name": "Dae Estellio",
+	"displayName": 0,
+	"actorId": "zBcHCs3iSeAbpLbA",
+	"actorLink": true,
+	"actorData": {},
+	"img": "assets/tokens/dae_estellio.Token.png?1623246988779",
+	"tint": null,
+	"width": 2,
+	"height": 2,
+	"scale": 1,
+	"mirrorX": false,
+	"mirrorY": false,
+	"x": 1768.7027027027025,
+	"y": 939.4594594594596,
+	"elevation": 0,
+	"lockRotation": false,
+	"rotation": 0,
+	"effects": [],
+	"alpha": 1,
+	"hidden": false,
+	"vision": true,
+	"dimSight": 60,
+	"brightSight": 0,
+	"dimLight": 0,
+	"brightLight": 0,
+	"sightAngle": 0,
+	"lightAngle": 0,
+	"lightColor": null,
+	"lightAlpha": 1,
+	"lightAnimation": {
+		"speed": 5,
+		"intensity": 5
+	},
+	"disposition": 1,
+	"displayBars": 40,
+	"bar1": {
+		"attribute": "attributes.hp"
+	},
+	"bar2": {
+		"attribute": ""
+	},
+	"flags": {
+		"token-auras": {
+			"aura1": {
+				"colour": "#ffffff",
+				"opacity": 0.5,
+				"distance": null,
+				"square": false
+			},
+			"aura2": {
+				"colour": "#ffffff",
+				"opacity": 0.5,
+				"distance": null,
+				"square": false
+			}
+		},
+		"perfect-vision": {
+			"visionRules": "default",
+			"monoVisionColor": "",
+			"sightLimit": null,
+			"_version": 1
+		},
+		"conditional-visibility": {
+			"blindsight": false,
+			"truesight": false,
+			"devilssight": true,
+			"tremorsense": false,
+			"seeinvisible": false
+		},
+		"monks-tokenbar": {
+			"movement": null
+		}
+	}
+}

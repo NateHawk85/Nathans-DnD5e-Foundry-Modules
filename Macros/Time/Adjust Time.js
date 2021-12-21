@@ -1,23 +1,24 @@
-const CONTENT = '' +
-    '   <p>Adjust time by...</p> ' +
-    '   <label for="macroIntervalSeconds">Seconds: </label>' +
-    '   <input id="macroIntervalSeconds" name="macroIntervalSeconds" />' +
-    '   <br />' +
-    '   <label for="macroIntervalMinutes">Minutes: </label>' +
-    '   <input id="macroIntervalMinutes" name="macroIntervalMinutes" />' +
-    '   <br />' +
-    '   <label for="macroIntervalHours">Hours: </label>' +
-    '   <input id="macroIntervalHours" name="macroIntervalHours" />' +
-    '   <br />' +
-    '   <label for="macroIntervalDays">Days: </label>' +
-    '   <input id="macroIntervalDays" name="macroIntervalDays" />' +
-    '   <br />' +
-    '   <label for="macroIntervalMonths">Months: </label>' +
-    '   <input id="macroIntervalMonths" name="macroIntervalMonths" />' +
-    '   <br />' +
-    '   <label for="macroIntervalYears">Years: </label>' +
-    '   <input id="macroIntervalYears" name="macroIntervalYears" />' +
-    '   <br />';
+const CONTENT = `
+    <p>Adjust time by...</p>
+    <label for="macroIntervalSeconds">Seconds: </label>
+    <input id="macroIntervalSeconds" name="macroIntervalSeconds" />
+    <br />
+    <label for="macroIntervalMinutes">Minutes: </label>
+    <input id="macroIntervalMinutes" name="macroIntervalMinutes" />
+    <br />
+    <label for="macroIntervalHours">Hours: </label>
+    <input id="macroIntervalHours" name="macroIntervalHours" />
+    <br />
+    <label for="macroIntervalDays">Days: </label>
+    <input id="macroIntervalDays" name="macroIntervalDays" />
+    <br />
+    <label for="macroIntervalMonths">Months: </label>
+    <input id="macroIntervalMonths" name="macroIntervalMonths" />
+    <br />
+    <label for="macroIntervalYears">Years: </label>
+    <input id="macroIntervalYears" name="macroIntervalYears" />
+    <br />
+`;
 
 const CSS = await game.macros.getName("prettyDialogButtonsCSS").execute();
 

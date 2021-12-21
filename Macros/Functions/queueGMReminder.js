@@ -13,10 +13,18 @@ async function main(interval, message) {
     });
 
     ui.notifications.info("Reminder saved to execute in " + JSON.stringify(interval) + ": " + message);
+
+    console.log(`Macro ${MACRO_NAME} completed`);
 }
 
 const MACRO_NAME = "queueGMReminder";
 
-if (await game.macros.getName("isValidMacroArgs").execute(MACRO_NAME, 2, args)) {
+if (await game.macros.getName("isValidMacroArgs")
+              .execute(MACRO_NAME, 2, args))
+{
     main(args[0], args[1]);
+} else
+{
+    game.macros.getName("notifyInvalidMacroCall")
+        .execute(MACRO_NAME, args);
 }

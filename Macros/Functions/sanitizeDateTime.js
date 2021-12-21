@@ -17,12 +17,18 @@ async function main(interval) {
             interval[propertyName] = parseInt(interval[propertyName]);
         }
     }
-    console.log("Macro " + MACRO_NAME + " returning " + JSON.stringify(interval));
+    console.log(`Macro ${MACRO_NAME} returning ${JSON.stringify(interval)}`);
     return interval;
 }
 
 const MACRO_NAME = "sanitizeDateTime";
 
-if (await game.macros.getName("isValidMacroArgs").execute(MACRO_NAME, 1, args)) {
+if (await game.macros.getName("isValidMacroArgs")
+              .execute(MACRO_NAME, 1, args))
+{
     return main(args[0]);
+} else
+{
+    game.macros.getName("notifyInvalidMacroCall")
+        .execute(MACRO_NAME, args);
 }

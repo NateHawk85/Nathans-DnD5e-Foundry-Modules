@@ -1,8 +1,12 @@
 let itemTypes = await game.macros.getName("findItemDataTypes").execute();
+let itemRarities = await game.macros.getName("findItemRarities").execute();
 
 const DEFAULT_ITEM_IMAGE = "icons/svg/item-bag.svg";
 const ITEM_TYPE_OPTIONS = itemTypes.map(type =>
 	`<option value="${type}" ${(type === 'loot' && 'selected')}>${type[0].toUpperCase().concat(type.slice(1))}</option>`
+).join('<br />');
+const ITEM_RARITY_OPTIONS = itemRarities.map(type =>
+	`<option value="${type}" ${(type === 'common' && 'selected')}>${type[0].toUpperCase().concat(type.slice(1))}</option>`
 ).join('<br />');
 
 const CONTENT = `
@@ -15,6 +19,11 @@ const CONTENT = `
 			<label for="macroItemTypeSelect">Item Type: </label>
 			<select name="type" id="macroItemTypeSelect">
 				${ITEM_TYPE_OPTIONS}
+			</select>
+			<br />
+			<label for="macroItemRaritySelect">Rarity: </label>
+			<select name="type" id="macroItemRaritySelect">
+				${ITEM_RARITY_OPTIONS}
 			</select>
 			<br />
 			<label for="macroItemQuantity">Quantity: </label>
@@ -55,6 +64,7 @@ new Dialog(
 				callback: async (html) => {
 					let name = html?.find("#macroItemName")[0].value;
 					let type = html?.find("#macroItemTypeSelect")[0].value;
+					let rarity = html?.find("#macroItemRaritySelect")[0].value;
 					let description = html?.find("#macroItemDescription")[0].value;
 					let quantity = html?.find("#macroItemQuantity")[0].value;
 					let weight = html?.find("#macroItemWeight")[0].value;
@@ -70,6 +80,7 @@ new Dialog(
 							description: {
 								value: '<p>' + description + '</p>'
 							},
+							rarity: rarity,
 							quantity: quantity,
 							weight: weight,
 							price: price

@@ -16,12 +16,18 @@ async function main(html) {
     let interval = {year: years, month: months, day: days, hour: hours, minute: minutes, second: seconds};
     interval = await game.macros.getName("sanitizeDateTime").execute(interval);
 
-    console.log("Macro " + MACRO_NAME + " returning " + JSON.stringify(interval));
+    console.log(`Macro ${MACRO_NAME} returning ${JSON.stringify(interval)}`);
     return interval;
 }
 
 const MACRO_NAME = "findIntervalFromHTML";
 
-if (await game.macros.getName("isValidMacroArgs").execute(MACRO_NAME, 1, args)) {
+if (await game.macros.getName("isValidMacroArgs")
+              .execute(MACRO_NAME, 1, args))
+{
     return main(args[0]);
+} else
+{
+    game.macros.getName("notifyInvalidMacroCall")
+        .execute(MACRO_NAME, args);
 }

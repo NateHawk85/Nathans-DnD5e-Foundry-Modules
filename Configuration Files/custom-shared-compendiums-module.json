@@ -6,6 +6,16 @@
     "version": "1.0.0",
     "minimumCoreVersion": "0.5.5",
     "compatibleCoreVersion": "3.0.0",
+    "dependencies": [
+        {
+            "name": "scene-packer",
+            "manifest": "https://raw.githubusercontent.com/League-of-Foundry-Developers/scene-packer/master/module.json",
+            "type": "module"
+        }
+    ],
+    "scripts": [
+        "scripts/scene-packer.js"
+    ],
     "packs": [
         {
             "name": "city-scenes",
@@ -182,6 +192,13 @@
             "entity": "Scene",
             "module": "CustomSharedCompendiums"
         },
+        {
+            "name": "staged-scenes-for-tiwo",
+            "label": "Staged Scenes for This Isn't Working Out",
+            "path": "packs/staged-scenes-for-tiwo.db",
+            "entity": "Scene",
+            "module": "CustomSharedCompendiums"
+        },
 
 
 
@@ -269,6 +286,13 @@
             "entity": "Actor",
             "module": "CustomSharedCompendiums"
         },
+        {
+            "name": "all-ddb-monsters",
+            "label": "All DnDBeyond Imported Monsters",
+            "path": "packs/all-ddb-monsters.db",
+            "entity": "Actor",
+            "module": "CustomSharedCompendiums"
+        },
 
 
 
@@ -276,6 +300,13 @@
             "name": "items",
             "label": "Shared Custom Items",
             "path": "packs/items.db",
+            "entity": "Item",
+            "module": "CustomSharedCompendiums"
+        },
+        {
+            "name": "hamunds-harvesting-items",
+            "label": "Hamund's Harvesting Items",
+            "path": "packs/hamunds-harvesting-items.db",
             "entity": "Item",
             "module": "CustomSharedCompendiums"
         },
@@ -366,6 +397,13 @@
             "entity": "JournalEntry",
             "module": "CustomSharedCompendiums"
         },
+        {
+            "name": "packed-map-notes",
+            "label": "Packed Map Notes",
+            "path": "packs/packed-map-notes.db",
+            "entity": "JournalEntry",
+            "module": "CustomSharedCompendiums"
+        },
 
 
 
@@ -383,8 +421,6 @@
             "entity": "RollTable",
             "module": "CustomSharedCompendiums"
         },
-
-
 
         {
             "name": "macros",

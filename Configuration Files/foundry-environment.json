@@ -1,13 +1,13 @@
 {
   "message": "List generated with Forien's Copy Environment: https://github.com/League-of-Foundry-Developers/foundryvtt-forien-copy-environment",
   "core": {
-    "version": "0.8.8"
+    "version": "0.8.9"
   },
   "system": {
     "id": "dnd5e",
-    "version": "1.3.6",
+    "version": "1.5.5",
     "author": "Atropos",
-    "manifest": "https://gitlab.com/foundrynet/dnd5e/raw/master/system.json"
+    "manifest": "https://gitlab.com/api/v4/projects/foundrynet%2Fdnd5e/packages/generic/dnd5e/latest/system.json"
   },
   "modules": [
     {
@@ -18,44 +18,26 @@
     },
     {
       "id": "about-time",
-      "version": "1.0.3",
+      "version": "1.0.4",
       "author": "@tposney",
       "manifest": "https://gitlab.com/tposney/about-time/raw/master/package/module.json"
     },
     {
-      "id": "acelib",
-      "version": "1.1.2",
-      "manifest": "https://github.com/arcanistzed/acelib/releases/latest/download/module.json"
-    },
-    {
-      "id": "ActiveAuras",
-      "version": "0.3.03",
-      "author": "Kandashi",
-      "manifest": "https://github.com/kandashi/Active-Auras/releases/latest/download/module.json"
-    },
-    {
       "id": "advanced-macros",
-      "version": "1.6",
+      "version": "1.9",
       "author": "KaKaRoTo",
       "manifest": "https://github.com/League-of-Foundry-Developers/fvtt-advanced-macros/releases/latest/download/module.json"
     },
     {
-      "id": "autocomplete-inline-properties",
-      "version": "2.1.1",
-      "author": "Cole Schultz (cole#9640)",
-      "manifest": "https://raw.githubusercontent.com/schultzcole/FVTT-Autocomplete-Inline-Properties/master/module.json"
+      "id": "ammo-tracker-fvtt",
+      "version": "0.2.0",
+      "manifest": "https://github.com/NekroDarkmoon/ammo-tracker-fvtt/releases/latest/download/module.json"
     },
     {
       "id": "autocomplete-whisper",
       "version": "0.3.3",
       "author": "orcnog",
       "manifest": "https://raw.githubusercontent.com/orcnog/autocomplete-whisper/master/module.json"
-    },
-    {
-      "id": "calendar-weather",
-      "version": "3.1.6",
-      "author": "The Bird#8334",
-      "manifest": "https://gitlab.com/jstebenne/foundryvtt-calendar-weather/-/raw/master/module.json"
     },
     {
       "id": "character-actions-list-5e",
@@ -94,22 +76,10 @@
       "manifest": "https://github.com/death-save/combat-utility-belt/releases/latest/download/module.json"
     },
     {
-      "id": "compact-beyond-5e-sheet",
-      "version": "0.16.3",
-      "author": "Andrew Krigline (akrigline)",
-      "manifest": "https://github.com/ElfFriend-DnD/foundryvtt-compactBeyond5eSheet/releases/latest/download/module.json"
-    },
-    {
       "id": "compendium-folders",
-      "version": "2.3.2",
+      "version": "2.3.53",
       "author": "Erceron",
       "manifest": "https://raw.githubusercontent.com/earlSt1/vtt-compendium-folders/082-update/module.json"
-    },
-    {
-      "id": "condition-automation",
-      "version": "3.0.2",
-      "author": "Kandashi",
-      "manifest": "https://github.com/kandashi/condition-automation/releases/latest/download/module.json"
     },
     {
       "id": "cursor-popups",
@@ -124,12 +94,6 @@
       "manifest": "https://raw.githubusercontent.com/Norc/foundry-custom-hotbar/master/module.json"
     },
     {
-      "id": "custom-journal",
-      "version": "1.2.1",
-      "author": "Sanyella",
-      "manifest": "https://raw.githubusercontent.com/Sanyella/FVTT-Custom-Journal-Theming/master/module.json"
-    },
-    {
       "id": "CustomSharedCompendiums",
       "version": "1.0.0",
       "author": "Nathan"
@@ -142,19 +106,19 @@
     },
     {
       "id": "dae",
-      "version": "0.8.28",
+      "version": "0.8.51",
       "author": "tposney",
       "manifest": "https://gitlab.com/tposney/dae/raw/master/package/module.json"
     },
     {
       "id": "dd-import",
-      "version": "2.1.0",
+      "version": "2.2.0",
       "author": "Moo Man, m42e, jacquie",
       "manifest": "https://raw.githubusercontent.com/moo-man/FVTT-DD-Import/master/module.json"
     },
     {
       "id": "ddb-importer",
-      "version": "2.1.26",
+      "version": "2.5.21",
       "author": "MrPrimate",
       "manifest": "https://github.com/mrprimate/ddb-importer/releases/download/latest/module.json"
     },
@@ -166,7 +130,7 @@
     },
     {
       "id": "df-settings-clarity",
-      "version": "3.2.0",
+      "version": "3.2.1",
       "author": "flamewave000#6766",
       "manifest": "https://dragonflagon.cafe/mods/man/df-settings-clarity"
     },
@@ -178,7 +142,7 @@
     },
     {
       "id": "dfreds-pocket-change",
-      "version": "2.0.5",
+      "version": "3.1.3",
       "author": "DFreds",
       "manifest": "https://github.com/DFreds/dfreds-pocket-change/releases/latest/download/module.json"
     },
@@ -195,33 +159,15 @@
       "manifest": "https://gitlab.com/riccisi/foundryvtt-dice-so-nice/-/raw/master/module/module.json"
     },
     {
-      "id": "dice-tooltip",
-      "version": "1.0.8",
-      "author": "Steffan Poulsen - Majestic#6238",
-      "manifest": "https://github.com/SteffanPoulsen/dice-tooltip/raw/master/src/module.json"
-    },
-    {
       "id": "dnd5e-helpers",
-      "version": "2.0.7",
+      "version": "3.0.1",
       "author": "honeybadger, Kandashi, hugoprudente, kekilla",
       "manifest": "https://github.com/trioderegion/dnd5e-helpers/releases/latest/download/module.json"
-    },
-    {
-      "id": "dndbeyond-character-sheet",
-      "version": "1.7.0",
-      "author": "Jan Ole Peek (ChalkOne)",
-      "manifest": "https://raw.githubusercontent.com/jopeek/fvtt-dndbeyond-character-sheet/master/module.json"
     },
     {
       "id": "drag-ruler",
       "version": "1.7.5",
       "manifest": "https://raw.githubusercontent.com/manuelVo/foundryvtt-drag-ruler/master/module.json"
-    },
-    {
-      "id": "Dynamic-Effects-SRD",
-      "version": "5.0.01",
-      "author": "Kandashi",
-      "manifest": "https://github.com/kandashi/Dynamic-Effects-SRD/releases/latest/download/module.json"
     },
     {
       "id": "easy-target",
@@ -231,21 +177,15 @@
     },
     {
       "id": "find-the-culprit",
-      "version": "1.3.3",
+      "version": "1.4.0",
       "author": "Moerill",
       "manifest": "https://raw.githubusercontent.com/Moerill/fvtt-find-the-culprit/master/module.json"
     },
     {
       "id": "forien-copy-environment",
-      "version": "2.0.5",
+      "version": "2.0.6",
       "author": "Forien — Forien#2130",
       "manifest": "https://github.com/League-of-Foundry-Developers/foundryvtt-forien-copy-environment/releases/latest/download/module.json"
-    },
-    {
-      "id": "forien-custom-fonts",
-      "version": "0.1.3",
-      "author": "Forien — Forien#2130",
-      "manifest": "https://raw.githubusercontent.com/Forien/foundryvtt-forien-custom-fonts/master/module.json"
     },
     {
       "id": "forien-quest-log",
@@ -261,21 +201,9 @@
     },
     {
       "id": "foundryvtt-simple-calendar",
-      "version": "v1.2.113",
+      "version": "v1.3.75",
       "author": "Dean Vigoren (Vigorator)",
       "manifest": "https://github.com/vigoren/foundryvtt-simple-calendar/releases/latest/download/module.json"
-    },
-    {
-      "id": "foundry_community_macros",
-      "version": "0.43.0",
-      "author": "FoundryVTTCommunity",
-      "manifest": "https://raw.githubusercontent.com/foundry-vtt-community/macros/main/module.json"
-    },
-    {
-      "id": "foundry_community_tables",
-      "version": "0.15.0",
-      "author": "FoundryVTTCommunity",
-      "manifest": "https://raw.githubusercontent.com/foundry-vtt-community/tables/main/module.json"
     },
     {
       "id": "fpsmeter",
@@ -291,7 +219,7 @@
     },
     {
       "id": "healthEstimate",
-      "version": "2.6.1",
+      "version": "2.6.9",
       "author": "MClemente, Shylight",
       "manifest": "https://github.com/mclemente/healthEstimate/releases/latest/download/module.json"
     },
@@ -314,12 +242,6 @@
       "manifest": "https://github.com/Eriku33/Foundry-VTT-Image-Hover/releases/latest/download/module.json"
     },
     {
-      "id": "input-expressions",
-      "version": "1.3.4",
-      "author": "zeel",
-      "manifest": "https://github.com/zeel01/input-expressions/releases/latest/download/module.json"
-    },
-    {
       "id": "itemacro",
       "version": "v1.5.3",
       "author": "Kekilla#7036",
@@ -333,7 +255,7 @@
     },
     {
       "id": "journal-icon-numbers",
-      "version": "v1.3.1",
+      "version": "v1.5.0",
       "author": "Chris Flanagan <tiwato@gmail.com>",
       "manifest": "https://gitlab.com/tiwato/journal_icon_numbers/raw/master/module.json"
     },
@@ -344,28 +266,32 @@
       "manifest": "https://gitlab.com/fvtt-modules-lab/keybind-lib/-/jobs/artifacts/master/raw/module.json?job=build-release"
     },
     {
-      "id": "lessfog",
-      "version": "0.8.5",
-      "author": "trdischat",
-      "manifest": "https://github.com/trdischat/lessfog/releases/latest/download/module.json"
-    },
-    {
       "id": "lets-trade-5e",
       "version": "0.3.0",
       "author": "Kage",
       "manifest": "https://raw.githubusercontent.com/KageJittai/lets-trade-5e/main/module.json"
     },
     {
+      "id": "lib-changelogs",
+      "version": "0.4",
+      "manifest": "https://github.com/theripper93/libChangelogs/releases/latest/download/module.json"
+    },
+    {
       "id": "lib-df-hotkeys",
-      "version": "2.3.4",
+      "version": "2.3.5",
       "author": "flamewave000#6766",
       "manifest": "https://dragonflagon.cafe/mods/man/lib-df-hotkeys"
     },
     {
       "id": "lib-wrapper",
-      "version": "1.7.5.0",
+      "version": "1.10.5.0",
       "author": "Rui Pinheiro",
       "manifest": "https://github.com/ruipin/fvtt-lib-wrapper/releases/latest/download/module.json"
+    },
+    {
+      "id": "lichtgeschwindigkeit",
+      "version": "1.4.9",
+      "manifest": "https://raw.githubusercontent.com/manuelVo/foundryvtt-lichtgeschwindigkeit/master/module.json"
     },
     {
       "id": "lmrtfy",
@@ -387,19 +313,13 @@
     },
     {
       "id": "macro-folders",
-      "version": "1.2.22",
+      "version": "1.2.23",
       "author": "Erceron",
       "manifest": "https://raw.githubusercontent.com/earlSt1/vtt-macro-folders/08x-update/module.json"
     },
     {
-      "id": "macroeditor",
-      "version": "1.0.9",
-      "author": "ardittristan#0001",
-      "manifest": "https://raw.githubusercontent.com/ardittristan/VTTMacroEditor/master/module.json"
-    },
-    {
       "id": "magicitems",
-      "version": "2.1.1",
+      "version": "2.1.2",
       "author": "Simone",
       "manifest": "https://gitlab.com/riccisi/foundryvtt-magic-items/raw/master/module/module.json"
     },
@@ -411,13 +331,13 @@
     },
     {
       "id": "mob-attack-tool",
-      "version": "0.3.1",
+      "version": "v0.3.12",
       "author": "Stendarpaval (Lupusmalus)",
       "manifest": "https://github.com/Stendarpaval/mob-attack-tool/releases/latest/download/module.json"
     },
     {
       "id": "monks-little-details",
-      "version": "1.0.34",
+      "version": "1.0.37",
       "author": "IronMonk, ironmonk88#4075",
       "manifest": "https://github.com/ironmonk88/monks-little-details/releases/latest/download/module.json"
     },
@@ -429,7 +349,7 @@
     },
     {
       "id": "monks-tokenbar",
-      "version": "1.0.43",
+      "version": "1.0.51",
       "author": "IronMonk, ironmonk88#4075",
       "manifest": "https://github.com/ironmonk88/monks-tokenbar/releases/latest/download/module.json"
     },
@@ -440,6 +360,12 @@
       "manifest": "https://raw.githubusercontent.com/grandseiken/foundryvtt-multilevel-tokens/master/module.json"
     },
     {
+      "id": "mybeyond-theme",
+      "version": "1.4.1",
+      "author": "Frederik Eschmann (Aylas#4838)",
+      "manifest": "https://fvtt-modules.eschmann.online/mybeyond-theme/module.json"
+    },
+    {
       "id": "Next-Up",
       "version": "0.1.05",
       "author": "Kandashi",
@@ -447,9 +373,9 @@
     },
     {
       "id": "party-overview",
-      "version": "2.4.2",
-      "author": "Sebastian Will (vttassets@gmail.com), Chris Wachal (Zamrod#9326)",
-      "manifest": "https://github.com/League-of-Foundry-Developers/party-overview/releases/latest/download/module.json"
+      "version": "2.5.15",
+      "author": "Matheus Clemente (mclemente#5524), Sebastian Will (vttassets@gmail.com), Chris Wachal (Zamrod#9326)",
+      "manifest": "https://github.com/mclemente/party-overview/releases/latest/download/module.json"
     },
     {
       "id": "pdfoundry",
@@ -459,7 +385,7 @@
     },
     {
       "id": "perfect-vision",
-      "version": "1.9.14",
+      "version": "2.9.10",
       "author": "dev7355608",
       "manifest": "https://raw.githubusercontent.com/dev7355608/perfect-vision/main/module.json"
     },
@@ -483,7 +409,7 @@
     },
     {
       "id": "playlist_import",
-      "version": "1.6.1",
+      "version": "1.7.0",
       "author": "Jacob McAuley",
       "manifest": "https://raw.githubusercontent.com/JacobMcAuley/playlist_import/master/module.json"
     },
@@ -499,28 +425,16 @@
       "manifest": "https://raw.githubusercontent.com/League-of-Foundry-Developers/fvtt-module-popout/master/module.json"
     },
     {
-      "id": "quick-encounters",
-      "version": "0.8.1",
-      "author": "Spetzel",
-      "manifest": "https://github.com/spetzel2020/quick-encounters/releases/latest/download/module.json"
-    },
-    {
       "id": "quick-insert",
-      "version": "2.4.7",
+      "version": "2.5.0",
       "author": "Sunspots",
       "manifest": "https://gitlab.com/fvtt-modules-lab/quick-insert/-/jobs/artifacts/master/raw/module.json?job=build-module"
     },
     {
-      "id": "rolladvantage-token-stamp-2-foundry",
-      "version": "1.1.2",
-      "author": "Chad Keating [Sir Everard#1198]",
-      "manifest": "https://raw.githubusercontent.com/ChadKeating/rolladvantage-token-stamp-2-foundry/master/dist/module.json"
-    },
-    {
-      "id": "scaleGrid",
-      "version": "0.0.14",
-      "author": "UberV",
-      "manifest": "https://raw.githubusercontent.com/UberV/scaleGrid/master/module.json"
+      "id": "scene-packer",
+      "version": "2.3.5",
+      "author": "Blair McMillan",
+      "manifest": "https://github.com/League-of-Foundry-Developers/scene-packer/releases/latest/download/module.json"
     },
     {
       "id": "settings-extender",
@@ -535,25 +449,37 @@
       "manifest": "https://raw.githubusercontent.com/League-of-Foundry-Developers/simplefog/master/module.json"
     },
     {
+      "id": "smalltime",
+      "version": "1.13.4",
+      "author": "unsoluble",
+      "manifest": "https://github.com/unsoluble/smalltime/releases/latest/download/module.json"
+    },
+    {
       "id": "socketlib",
       "version": "1.0.8",
       "manifest": "https://raw.githubusercontent.com/manuelVo/foundryvtt-socketlib/master/module.json"
     },
     {
+      "id": "tabletop-rpg-music",
+      "version": "1.4.0",
+      "author": "Tabletop RPG Music",
+      "manifest": "https://raw.githubusercontent.com/Tabletop-RPG-Music/tabletop-rpg-music/master/module.json"
+    },
+    {
       "id": "tidy-ui_game-settings",
-      "version": "0.1.23",
+      "version": "0.1.25",
       "author": "sdenec",
       "manifest": "https://raw.githubusercontent.com/sdenec/tidy-ui_game-settings/master/module.json"
     },
     {
       "id": "tidy5e-sheet",
-      "version": "0.5.10",
+      "version": "0.5.15",
       "author": "sdenec#3813",
       "manifest": "https://github.com/sdenec/tidy5e-sheet/releases/latest/download/module.json"
     },
     {
       "id": "token-action-hud",
-      "version": "1.1.12",
+      "version": "1.3.6",
       "author": "^ and stick#0520, Drental#7146",
       "manifest": "https://github.com/Drental/fvtt-tokenactionhud/releases/latest/download/module.json"
     },
@@ -606,18 +532,6 @@
       "manifest": "https://raw.githubusercontent.com/schultzcole/FVTT-Turn-Alert/master/module.json"
     },
     {
-      "id": "tweakplaylist",
-      "version": "0.4.5.11",
-      "author": "trdischat",
-      "manifest": "https://raw.githubusercontent.com/trdischat/tweakplaylist/master/module.json"
-    },
-    {
-      "id": "vance-sidebar-resizer",
-      "version": "0.0.2",
-      "author": "Vance Cole",
-      "manifest": "https://raw.githubusercontent.com/VanceCole/vance-sidebar-resizer/master/module.json"
-    },
-    {
       "id": "vtta-iconizer",
       "version": "2.1.12",
       "author": "Sebastian Will",
@@ -625,7 +539,7 @@
     },
     {
       "id": "vtta-tokenizer",
-      "version": "3.2.5",
+      "version": "3.4.11",
       "author": "MrPrimate (jack@mrprimate.co.uk), Sebastian Will (vttassets@gmail.com)",
       "manifest": "https://github.com/mrprimate/vtta-tokenizer/releases/download/latest/module.json"
     },
@@ -646,11 +560,6 @@
       "version": "0.0.4",
       "author": "Richard Bellingham (Skimble)",
       "manifest": "https://raw.githubusercontent.com/Sk1mble/zsync/master/module.json"
-    },
-    {
-      "id": "_mathjs",
-      "version": "7.5.1-fvtt2",
-      "manifest": "https://raw.githubusercontent.com/League-of-Foundry-Developers/mathjs-lib/master/module.json"
     }
   ]
 }
