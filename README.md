@@ -71,26 +71,26 @@ corresponding Foundry version in the commit message, and if it doesn't, I messed
 <a name="configure-permissions"></a>
 ## Configure Permissions
 
-Setting                       | Player                  | Trusted Player  | Assistant GM  | Game Master
----                           |-------------------------| ---             | ---           | ---
-Allow Broadcasting Audio      | <ul><li>- [x]</li></ul> | Enabled         | Enabled       | Enabled
-Allow Broadcasting Video      | Disabled                | Enabled         | Enabled       | Enabled
-Configure Token Settings      | Disabled                | Enabled         | Enabled       | Enabled
-Create Journal Entries        | Disabled                | Enabled         | Enabled       | Enabled
-Create Map Notes              | Disabled                | Enabled         | Enabled       | Enabled
-Create Measured Template      | Enabled                 | Enabled         | Enabled       | Enabled
-Create New Actors             | Disabled                | Enabled         | Enabled       | Enabled
-Create New Items              | Disabled                | Enabled         | Enabled       | Enabled
-Create New Tokens             | Disabled                | Enabled         | Enabled       | Enabled
-Display Mouse Cursor          | Enabled                 | Enabled         | Disabled      | Disabled
-Display Ruler Measurement     | Enabled                 | Enabled         | Disabled      | Disabled
-Modify Configuration Settings | Disabled                | Disabled        | Disabled      | Enabled
-Open and Close Doors          | Enabled                 | Enabled         | Enabled       | Enabled
-Upload New Files              | Disabled                | Enabled         | Enabled       | Enabled
-Use Drawing Tools             | Disabled                | Enabled         | Enabled       | Enabled
-Use File Browser              | Enabled                 | Enabled         | Enabled       | Enabled
-Use Script Macros             | Disabled                | Enabled         | Enabled       | Enabled
-Whisper Private Messages      | Disabled                | Disabled        | Disabled      | Disabled
+| Setting                       | Player       | Trusted Player          | Assistant GM            | Game Master             |
+|-------------------------------|--------------|-------------------------|-------------------------|-------------------------|
+| Allow Broadcasting Audio      | :ballot_box: | :ballot_box_with_check: | :ballot_box_with_check: | :ballot_box_with_check: |
+| Allow Broadcasting Video      | :ballot_box: | :ballot_box_with_check: | :ballot_box_with_check: | :ballot_box_with_check: |
+| Configure Token Settings      | Disabled     | Enabled                 | Enabled                 | Enabled                 |
+| Create Journal Entries        | Disabled     | Enabled                 | Enabled                 | Enabled                 |
+| Create Map Notes              | Disabled     | Enabled                 | Enabled                 | Enabled                 |
+| Create Measured Template      | Enabled      | Enabled                 | Enabled                 | Enabled                 |
+| Create New Actors             | Disabled     | Enabled                 | Enabled                 | Enabled                 |
+| Create New Items              | Disabled     | Enabled                 | Enabled                 | Enabled                 |
+| Create New Tokens             | Disabled     | Enabled                 | Enabled                 | Enabled                 |
+| Display Mouse Cursor          | Enabled      | Enabled                 | Disabled                | Disabled                |
+| Display Ruler Measurement     | Enabled      | Enabled                 | Disabled                | Disabled                |
+| Modify Configuration Settings | Disabled     | Disabled                | Disabled                | Enabled                 |
+| Open and Close Doors          | Enabled      | Enabled                 | Enabled                 | Enabled                 |
+| Upload New Files              | Disabled     | Enabled                 | Enabled                 | Enabled                 |
+| Use Drawing Tools             | Disabled     | Enabled                 | Enabled                 | Enabled                 |
+| Use File Browser              | Enabled      | Enabled                 | Enabled                 | Enabled                 |
+| Use Script Macros             | Disabled     | Enabled                 | Enabled                 | Enabled                 |
+| Whisper Private Messages      | Disabled     | Disabled                | Disabled                | Disabled                |
 
 <a name="core-settings"></a>
 ## Core Settings
