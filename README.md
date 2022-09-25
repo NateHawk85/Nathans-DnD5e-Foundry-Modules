@@ -277,7 +277,7 @@ Requires [Lib - Color Settings](https://foundryvtt.com/packages/colorsettings/).
 | Icons from folders | :white_check_mark:          | ---         | ---      |
 | Rebuild all icons  | No rebuild                  | ---         | ---      |
 
-## [Character Actions list DnD5e](https://foundryvtt.com/packages/character-actions-list-5e/) v4.1.0
+## [Character Actions list DnD5e](https://foundryvtt.com/packages/character-actions-list-5e/) v4.4.0
 
 Adds a reusable component that details different actions a player can take, including actions and bonus actions. It is required for
 [Tidy5e Sheet](https://foundryvtt.com/packages/tidy5e-sheet/), otherwise, I probably wouldn't use it.
@@ -291,7 +291,7 @@ Adds a reusable component that details different actions a player can take, incl
 | Inject NPC actions list               | :white_check_mark: | ---         | ---      |
 | Inject vehicle actions list           | :white_check_mark: | ---         | ---      |
 
-## [Chat Images](https://foundryvtt.com/packages/chat-images/) v2.5.3
+## [Chat Images](https://foundryvtt.com/packages/chat-images/) v3.1
 
 Allows you to put images in chat via uploading, screenshots, etc. I find it very useful for sharing certain bits of the map with only certain players, or
 showing them, "Look, I swear. Boblin really did crit 3 times in a row."
@@ -307,7 +307,7 @@ NOTE: This has the possibility of considerably bloating your server. Make a note
 | Files save location             | Data folder | ---         | Make sure to ignore this folder from your players' sight via the file picker, if you care about that stuff. |
 | Embed if upload is not possible | :o:         | ---         | Enable if you want your players to be able to use the module, but don't want to give upload permissions.    |
 
-## [Chat Portrait](https://foundryvtt.com/packages/chat-portrait/) v0.3.9
+## [Chat Portrait](https://foundryvtt.com/packages/chat-portrait/) v0.8.6
 
 Adds an image of the corresponding image/token to player and GM chat messages.
 
@@ -343,17 +343,6 @@ Adds an image of the corresponding image/token to player and GM chat messages.
 | Placeholder for the label unknown item name                | Unknown Item                                       | ---         | ---      |
 | Placeholder for the label unknown item icon                | /modules/chat-portrait/assets/inv-unidentified.png | ---         | ---      |
 | Setup additional custom styling on the text chat message   | :o:                                                | ---         | ---      |
-
-## [Collapsible Journal Sections](https://github.com/ofdiceandmagic/FVTT-collapsible-journal-sections) v1.3.1
-
-Small quality of life fix that allows you to collapse journal headers. Very useful for long journals and dungeon notes!
-
-Requires [LibWrapper](https://foundryvtt.com/packages/lib-wrapper/).
-
-| Setting                 | Default | Recommended | Comments |
-|-------------------------|---------|-------------|----------|
-| Default collapsed state | Shown   | Collapsed   | ---      |
-| Layout                  | Static  | ---         | ---      |
 
 ## [Combat Utility Belt](https://foundryvtt.com/packages/combat-utility-belt/) v1.10.1
 
@@ -2174,92 +2163,137 @@ Will revisit: If it starts working again.
 
 # Modules to Review at a Later Date
 
-- [Loot Tavern Magic Item Compendium](https://foundryvtt.com/packages/free-loot-tavern-compendium/) - A compendium filled with custom magic items? Looks fun!
+### [Loot Tavern Magic Item Compendium](https://foundryvtt.com/packages/free-loot-tavern-compendium/)
 
-  Why removed: At the moment, I don't need any additional items for our campaign. However, that could change in the future.
+A compendium filled with custom magic items? Looks fun!
 
-  Will revisit: If the aforementioned scenario arises.
-- [Point of Interest Character Sheet](https://foundryvtt.com/packages/poi-sheet/) - Adds a character sheet that can act as locations in world-map scenes.
+Why removed: At the moment, I don't need any additional items for our campaign. However, that could change in the future.
 
-  Why removed: I can see the utility, but I never ended up using it.
+Will revisit: If the aforementioned scenario arises.
 
-  Will revisit: If any of my campaigns rely heavily on world maps.
-- [Token Magic FX](https://foundryvtt.com/packages/tokenmagic/) - An insanely cool module that adds visual effects to tokens, spell effects, custom lighting
-  effects, macros, you name it. If you and your players want a more visual representation of the different spells and effects within your game, this is a
-  fantastic module to add.
+### [Point of Interest Character Sheet](https://foundryvtt.com/packages/poi-sheet/)
 
-  Why removed: Slight performance hits when logging in, as well as a small, but consistent, FPS dip.
+Adds a character sheet that can act as locations in world-map scenes.
 
-  Will revisit: When performance is no longer an issue. HIGH PRIORITY.
-- [Workshop's Ammo Swapper](https://foundryvtt.com/packages/workshop-ammo-swapper/) - Adds a super slick HUD at the bottom of your screen near your macro bar
-  that allows you to toggle between ammunition types.
+Why removed: I can see the utility, but I never ended up using it.
 
-  Why removed: Bugged, seems to only work on certain machines.
+Will revisit: If any of my campaigns rely heavily on world maps.
 
-  Will revisit: When the module has been updated to show on all machines and doesn't glitch all the time.
-  <a name="other-cool-modules"></a>
+### [Token Magic FX](https://foundryvtt.com/packages/tokenmagic/)
+
+An insanely cool module that adds visual effects to tokens, spell effects, custom lighting effects, macros, you name it. If you and your players want a more
+visual representation of the different spells and effects within your game, this is a fantastic module to add.
+
+Why removed: Slight performance hits when logging in, as well as a small, but consistent, FPS dip.
+
+Will revisit: When performance is no longer an issue. HIGH PRIORITY.
+
+### [Workshop's Ammo Swapper](https://foundryvtt.com/packages/workshop-ammo-swapper/)
+
+Adds a super slick HUD at the bottom of your screen near your macro bar that allows you to toggle between ammunition types.
+
+Why removed: Bugged, seems to only work on certain machines.
+
+Will revisit: When the module has been updated to show on all machines and doesn't glitch all the time.
+<a name="other-cool-modules"></a>
 
 # Other Cool Modules
 
-- [Active Token Lighting](https://foundryvtt.com/packages/ATL/) - Lets you adjust token light settings automatically via items. So by clicking a torch, the
-  PC would automatically start emitting torchlight.
+### [Active Token Lighting](https://foundryvtt.com/packages/ATL/)
 
-  Why not install: Seemed like a sorta-kinda replacement for [Torch](https://foundryvtt.com/packages/torch/), however, it requires the items to be set up
-  correctly. I prefer to let my players gather their own items from the compendiums, and I'd rather not have items split between multiple compendiums if I can
-  help it. It's definitely a neat idea, though.
-- [Blood 'N Guts](https://foundryvtt.com/packages/blood-n-guts/) - Adds blood splatters whenever tokens are injured. Looks pretty fun!
+Lets you adjust token light settings automatically via items. So by clicking a torch, the PC would automatically start emitting torchlight.
 
-  Why not install: Not my thing, but it's definitely a cool idea.
-- [Break Time](https://foundryvtt.com/packages/breaktime/) - A fun little module that pops up with a menu that lets you see who's back from a
-  break.
+Why not install: Seemed like a sorta-kinda replacement for [Torch](https://foundryvtt.com/packages/torch/), however, it requires the items to be set up
+correctly. I prefer to let my players gather their own items from the compendiums, and I'd rather not have items split between multiple compendiums if I can
+help it. It's definitely a neat idea, though.
 
-  Why not install: Not worth increasing my module count over. That being said, I like the idea of it :)
-- [D&D 5e OGL Character Sheet](https://foundryvtt.com/packages/5e-ogl-character-sheet/) - Traditional D&D5e-style character sheet, similar to Roll20's.
+### [Blood 'N Guts](https://foundryvtt.com/packages/blood-n-guts/)
 
-  Why not install: Already have enough character sheets :) But it looks solid, for what it's worth!
-- [DNDBeyond NPC Sheet](https://foundryvtt.com/packages/dndbeyond-npc-sheet/) - Adds an NPC sheet with D&DBeyond styling.
+Adds blood splatters whenever tokens are injured. Looks pretty fun!
 
-  Why not install: I almost always use [Tidy5e Sheet](https://foundryvtt.com/packages/tidy5e-sheet/) and
-  [Loot Sheet NPC 5e](https://foundryvtt.com/packages/lootsheetnpc5e/), so there's no use for a 3rd NPC sheet without additional functionality. However, if you
-  prefer the look of this over Tidy5e, it's definitely worth getting!
-- [Monster Blocks](https://foundryvtt.com/packages/monsterblock/) - Adds an NPC sheet in the style of the traditional 5e monster blocks.
+Why not install: Not my thing, but it's definitely a cool idea.
 
-  Why not install: Super cool-looking, but I prefer Tidy5e instead for NPCs.
-- [Scene Defaults](https://foundryvtt.com/packages/scene-defaults/) - Allows you to template your new scenes. Interesting concept, could save time, especially
-  because of the [Perfect Vision](https://foundryvtt.com/packages/perfect-vision/) changes.
+### [Break Time](https://foundryvtt.com/packages/breaktime/)
 
-  Why not install: Unfortunately, the fields in [Perfect Vision](https://foundryvtt.com/packages/perfect-vision/) that would make this module worth
-  installing aren't available to this module.
-- [Token Tooltip Alt](https://foundryvtt.com/packages/token-tooltip-alt) - Allows you to fully customize any tooltips next to a token. Could possibly be a
-  replacement for [Token Info Icons](https://foundryvtt.com/packages/token-info-icons/). Was recommended by [SeuRonao](https://github.com/SeuRonao). Requires
-  [CodeMirror](https://foundryvtt.com/packages/_CodeMirror/), [Math.js](https://foundryvtt.com/packages/_mathjs/), and
-  [SortableJS](https://foundryvtt.com/packages/_sortablejs/).
+A fun little module that pops up with a menu that lets you see who's back from a break.
 
-  Why not install: Some of the functionality is already implemented in [Token Info Icons](https://foundryvtt.com/packages/token-info-icons/). While I'm
-  normally a fan of more customization, Token Info Icons seems to blend with the Foundry UI better, and I personally don't need to see everything when
-  hovering over a token. If you're someone who wants to see everything at a glance, though, this module could prove invaluable!
-  <a name="modules-with-performance-issues"></a>
+Why not install: Not worth increasing my module count over. That being said, I like the idea of it :)
+
+### [D&D 5e OGL Character Sheet](https://foundryvtt.com/packages/5e-ogl-character-sheet/)
+
+Traditional D&D5e-style character sheet, similar to Roll20's.
+
+Why not install: Already have enough character sheets :) But it looks solid, for what it's worth!
+
+### [DNDBeyond NPC Sheet](https://foundryvtt.com/packages/dndbeyond-npc-sheet/)
+
+Adds an NPC sheet with D&DBeyond styling.
+
+Why not install: I almost always use [Tidy5e Sheet](https://foundryvtt.com/packages/tidy5e-sheet/) and
+[Loot Sheet NPC 5e](https://foundryvtt.com/packages/lootsheetnpc5e/), so there's no use for a 3rd NPC sheet without additional functionality. However, if you
+prefer the look of this over Tidy5e, it's definitely worth getting!
+
+### [Monster Blocks](https://foundryvtt.com/packages/monsterblock/)
+
+Adds an NPC sheet in the style of the traditional 5e monster blocks.
+
+Why not install: Super cool-looking, but I prefer Tidy5e instead for NPCs.
+
+### [Scene Defaults](https://foundryvtt.com/packages/scene-defaults/)
+
+Allows you to template your new scenes. Interesting concept, could save time, especially because of the
+[Perfect Vision](https://foundryvtt.com/packages/perfect-vision/) changes.
+
+Why not install: Unfortunately, the fields in [Perfect Vision](https://foundryvtt.com/packages/perfect-vision/) that would make this module worth
+installing aren't available to this module.
+
+### [Token Tooltip Alt](https://foundryvtt.com/packages/token-tooltip-alt)
+
+Allows you to fully customize any tooltips next to a token. Could possibly be a replacement for
+[Token Info Icons](https://foundryvtt.com/packages/token-info-icons/). Was recommended by [SeuRonao](https://github.com/SeuRonao). Requires
+[CodeMirror](https://foundryvtt.com/packages/_CodeMirror/), [Math.js](https://foundryvtt.com/packages/_mathjs/), and
+[SortableJS](https://foundryvtt.com/packages/_sortablejs/).
+
+Why not install: Some of the functionality is already implemented in [Token Info Icons](https://foundryvtt.com/packages/token-info-icons/). While I'm
+normally a fan of more customization, Token Info Icons seems to blend with the Foundry UI better, and I personally don't need to see everything when
+hovering over a token. If you're someone who wants to see everything at a glance, though, this module could prove invaluable!
+<a name="modules-with-performance-issues"></a>
+
+# TODO - revisit this section
 
 # Modules with Possible Performance Issues
 
-- [Perfect Vision](https://foundryvtt.com/packages/perfect-vision/) - Very noticeable FPS drop when dragging tokens and recalculating light. Makes this module
-  on the cusp of being removed...
-- [Quick Insert - Search Widget](https://foundryvtt.com/packages/quick-insert/) - Extremely small startup slowdown. Not enough to outweigh the benefits.
-- [Drag Ruler](https://foundryvtt.com/packages/drag-ruler/) - Sometimes can stutter when dragging tokens. However, that's not enough to outweigh the
-  benefits, in my opinion.
-- [Token Magic FX](https://foundryvtt.com/packages/tokenmagic/) - Slows down startup and has some FPS drops, especially when a large effect is placed. It's
-  enough to prevent me from installing it, but you should test it on your own machine to see what you think, as it's a very useful module.
-- [Virtual Tabletop Assets - Tokenizer](https://www.vttassets.com/assets/vtta-tokenizer) - Extremely small startup slowdown. Should upgrade to
-  [Tokenizer - v0.7.5 Edition](https://foundryvtt.com/packages/vtta-tokenizer/) regardless, but I'm not sure if that'll fix the startup speed. Not enough to
-  outweigh the benefits.
-  <a name="modules-reviewed-and-retired"></a>
+### [Perfect Vision](https://foundryvtt.com/packages/perfect-vision/)
+
+Very noticeable FPS drop when dragging tokens and recalculating light. Makes this module on the cusp of being removed...
+
+### [Quick Insert - Search Widget](https://foundryvtt.com/packages/quick-insert/)
+
+Extremely small startup slowdown. Not enough to outweigh the benefits.
+
+### [Drag Ruler](https://foundryvtt.com/packages/drag-ruler/)
+
+Sometimes can stutter when dragging tokens. However, that's not enough to outweigh the benefits, in my opinion.
+
+### [Token Magic FX](https://foundryvtt.com/packages/tokenmagic/)
+
+Slows down startup and has some FPS drops, especially when a large effect is placed. It's enough to prevent me from installing it, but you should test it on
+your own machine to see what you think, as it's a very useful module.
+
+### [Virtual Tabletop Assets - Tokenizer](https://www.vttassets.com/assets/vtta-tokenizer)
+
+Extremely small startup slowdown. Should upgrade to [Tokenizer - v0.7.5 Edition](https://foundryvtt.com/packages/vtta-tokenizer/) regardless, but I'm not sure
+if that'll fix the startup speed. Not enough to outweigh the benefits.
+
+<a name="modules-reviewed-and-retired"></a>
 
 # Modules Reviewed and Retired
 
-- [Ace Library](https://foundryvtt.com/packages/acelib) v1.1.2
-  Adds the Ace editor for macro editing within Foundry. Good for macro creators, programmers, module creators, etc.
+### [Ace Library](https://foundryvtt.com/packages/acelib)
 
-  If you don't have a module that depends on this, I'd recommend not installing it unless you're a module developer.
+Adds the Ace editor for macro editing within Foundry. Good for macro creators, programmers, module creators, etc.
+
+If you don't have a module that depends on this, I'd recommend not installing it unless you're a module developer.
 
 | Setting                              | Default            | Recommended | Comments |
 |--------------------------------------|--------------------|-------------|----------|
@@ -2304,12 +2338,13 @@ Will revisit: If it starts working again.
 
 Why retired: I use IntelliJ/WebStorm for 90% of my macro usage, so I never really needed it.
 
-- [Active-Auras](https://foundryvtt.com/packages/ActiveAuras/) v0.3.05
-  Adds the ability to use active effects in an aura around a player. Super useful for paladins aura, twilight domain cleric, etc. There's tons of applications.
+### [Active-Auras](https://foundryvtt.com/packages/ActiveAuras/)
 
-  NOTE: I have this module configured in a very specific way for one specific use-case. These are most likely not the best settings for everyone.
+Adds the ability to use active effects in an aura around a player. Super useful for paladins aura, twilight domain cleric, etc. There's tons of applications.
 
-  Requires [SocketLib](https://foundryvtt.com/packages/socketlib), [LibWrapper](https://foundryvtt.com/packages/lib-wrapper/).
+NOTE: I have this module configured in a very specific way for one specific use-case. These are most likely not the best settings for everyone.
+
+Requires [SocketLib](https://foundryvtt.com/packages/socketlib), [LibWrapper](https://foundryvtt.com/packages/lib-wrapper/).
 
 | Setting                   | Default            | Recommended | Comments |
 |---------------------------|--------------------|-------------|----------|
@@ -2323,35 +2358,45 @@ Why retired: I use IntelliJ/WebStorm for 90% of my macro usage, so I never reall
 Why removed: Never ended up using its functionality all that much, and the functionality I did use was very niche and covered manually by
 [Token Auras](https://foundryvtt.com/packages/token-auras/).
 
-- [Adventure Importer/Exporter](https://foundryvtt.com/packages/adventure-import-export/) - Allows you to, as the title says, import and export your worlds.
+### [Adventure Importer/Exporter](https://foundryvtt.com/packages/adventure-import-export/)
 
-  Why retired: Never really used it, and I don't create a lot of content within Foundry. The content I do create can be copied via the Data folder.
-- [Always HP](https://foundryvtt.com/packages/always-hp/) - Adds a bar to adjust HP.
+Allows you to, as the title says, import and export your worlds.
 
-  Why retired: I think [Token Health](https://foundryvtt.com/packages/token-health/) does the job better for my use-cases.
+Why retired: Never really used it, and I don't create a lot of content within Foundry. The content I do create can be copied via the Data folder.
 
-- [Autocomplete Inline Properties](https://foundryvtt.com/packages/autocomplete-inline-properties/) v2.1.1
-  A nice quality of life fix that autocompletes... inline... properties... Yeah, I probably didn't need to explain this one. Great quality of life fix that lets
-  us forgetful folk remember the correct entity fields.
+### [Always HP](https://foundryvtt.com/packages/always-hp/)
 
-  Why removed: Never really used it all that much.
+Adds a bar to adjust HP.
 
-- [Batch Permission Change by Folder](https://foundryvtt.com/packages/BatchPermissionsByFolder/) - Allows the GM to quickly change the permissions for all items
-  in a folder.
+Why retired: I think [Token Health](https://foundryvtt.com/packages/token-health/) does the job better for my use-cases.
 
-  Why retired: Now included in default Foundry.
-- [Better Curses for 5e](https://foundryvtt.com/packages/betterCurses/) - Makes it easier to apply Hexblade's Curse/Hunter's Mark/etc. damage bonuses and other
-  macro effects.
+### [Autocomplete Inline Properties](https://foundryvtt.com/packages/autocomplete-inline-properties/)
 
-  Why retired: My players already came up with macros to calculate the damage bonuses and stuff with
-  [Dynamic Active Effects](https://foundryvtt.com/packages/dae/), and I apply the conditions with
-  [Combat Utility Belt](https://foundryvtt.com/packages/combat-utility-belt/). It also looks to be bugged when combined with the
-  [Tidy5e Sheet](https://foundryvtt.com/packages/tidy5e-sheet/) module. However, it could be useful for applying macros when attacking.
+A nice quality of life fix that autocompletes... inline... properties... Yeah, I probably didn't need to explain this one. Great quality of life fix that lets
+us forgetful folk remember the correct entity fields.
 
-- [Better Roll Tables](https://github.com/ultrakorne/better-rolltables)
-  Gives GMs more functionality when designing and using roll tables. Formulas, random spells for spell scrolls, etc. I use it in combination with
-  [DnD5eShopRollTables](https://www.reddit.com/r/FoundryVTT/comments/mnwzi4/as_promised_the_rolltables_for_every_type_of_shop/) since it looked to be quite
-  useful :)
+Why removed: Never really used it all that much.
+
+### [Batch Permission Change by Folder](https://foundryvtt.com/packages/BatchPermissionsByFolder/)
+
+Allows the GM to quickly change the permissions for all items in a folder.
+
+Why retired: Now included in default Foundry.
+
+### [Better Curses for 5e](https://foundryvtt.com/packages/betterCurses/)
+
+Makes it easier to apply Hexblade's Curse/Hunter's Mark/etc. damage bonuses and other macro effects.
+
+Why retired: My players already came up with macros to calculate the damage bonuses and stuff with
+[Dynamic Active Effects](https://foundryvtt.com/packages/dae/), and I apply the conditions with
+[Combat Utility Belt](https://foundryvtt.com/packages/combat-utility-belt/). It also looks to be bugged when combined with the
+[Tidy5e Sheet](https://foundryvtt.com/packages/tidy5e-sheet/) module. However, it could be useful for applying macros when attacking.
+
+### [Better Roll Tables](https://github.com/ultrakorne/better-rolltables)
+
+Gives GMs more functionality when designing and using roll tables. Formulas, random spells for spell scrolls, etc. I use it in combination with
+[DnD5eShopRollTables](https://www.reddit.com/r/FoundryVTT/comments/mnwzi4/as_promised_the_rolltables_for_every_type_of_shop/) since it looked to be quite
+useful :)
 
 | Setting                                    | Default              | Recommended                            | Comments                           |
 |--------------------------------------------|----------------------|----------------------------------------|------------------------------------|
@@ -2360,17 +2405,19 @@ Why removed: Never ended up using its functionality all that much, and the funct
 
 Why retired: Never ended up using them.
 
-- [Better Rolls](https://foundryvtt.com/packages/betterrolls5e/) - Overhauls the rolling system with major improvements. Better-looking chat rolls, helpful
-  character sheet buttons, some custom fields for special weapons, etc. If not for [Midi QoL](https://foundryvtt.com/packages/midi-qol/), this would be one of
-  my favorite modules.
+### [Better Rolls](https://foundryvtt.com/packages/betterrolls5e/)
 
-  Why retired: Although it was a close call, I felt as though Midi QoL had a more robust system that fit my needs better. That being said, there are aspects of
-  this module that are really freaking cool.
+Overhauls the rolling system with major improvements. Better-looking chat rolls, helpful character sheet buttons, some custom fields for special weapons, etc.
+If not for [Midi QoL](https://foundryvtt.com/packages/midi-qol/), this would be one of my favorite modules.
 
-- [Calendar/Weather](https://foundryvtt.com/packages/calendar-weather/) v3.1.7
-  Tracks time/calendar/weather with a widget. Can be used to automatically generate a weather description based on the current time of year and environment.
+Why retired: Although it was a close call, I felt as though Midi QoL had a more robust system that fit my needs better. That being said, there are aspects of
+this module that are really freaking cool.
 
-  Requires [About Time](https://foundryvtt.com/packages/about-time/), [Simple Calendar](https://foundryvtt.com/packages/foundryvtt-simple-calendar).
+### [Calendar/Weather](https://foundryvtt.com/packages/calendar-weather/)
+
+Tracks time/calendar/weather with a widget. Can be used to automatically generate a weather description based on the current time of year and environment.
+
+Requires [About Time](https://foundryvtt.com/packages/about-time/), [Simple Calendar](https://foundryvtt.com/packages/foundryvtt-simple-calendar).
 
 | Setting                              | Default            | Recommended        | Comments                                                                                                                            |
 |--------------------------------------|--------------------|--------------------|-------------------------------------------------------------------------------------------------------------------------------------|
@@ -2385,9 +2432,10 @@ Why retired: Never ended up using them.
 
 Why retired: replaced by [SmallTime](https://foundryvtt.com/packages/smalltime).
 
-- [Cautious Gamemaster](https://foundryvtt.com/packages/CautiousGamemastersPack/) -
-  Disables GM from speaking as PCs, hidden tokens automatically roll blind, small chat QoL with up/down arrows, and typing notifications. Automatically hides
-  private rolls from chat, too, which is not configurable.
+### [Cautious Gamemaster](https://foundryvtt.com/packages/CautiousGamemastersPack/)
+
+Disables GM from speaking as PCs, hidden tokens automatically roll blind, small chat QoL with up/down arrows, and typing notifications. Automatically hides
+private rolls from chat, too, which is not configurable.
 
 | Setting                           | Default | Recommended        | Comments |
 |-----------------------------------|---------|--------------------|----------|
@@ -2399,11 +2447,28 @@ Why retired: replaced by [SmallTime](https://foundryvtt.com/packages/smalltime).
 Why retired: Conflicted with [DnD5e Helpers](https://foundryvtt.com/packages/dnd5e-helpers/) action bar. It's a shame, because the "is typing..." feature was
 pretty nifty.
 
-- [Chat Damage Buttons - Beyond20 Edition](https://foundryvtt.com/packages/chatdamagebuttons-beyond20/) - Adds "Apply Damage" buttons to Beyond20 chat rolls.
+### [Chat Damage Buttons - Beyond20 Edition](https://foundryvtt.com/packages/chatdamagebuttons-beyond20/)
 
-  Why retired: My characters moved all of their sheets directly into Foundry, so we no longer needed the Beyond20 chat buttons.
-- [Combat Enhancements](https://foundryvtt.com/packages/combat-enhancements/) -
-  Adds health tracking via a radial bar and HP field in the Combat Tracker, as well as drag and drop initiative reordering.
+Adds "Apply Damage" buttons to Beyond20 chat rolls.
+
+Why retired: My characters moved all of their sheets directly into Foundry, so we no longer needed the Beyond20 chat buttons.
+
+### [Collapsible Journal Sections](https://github.com/ofdiceandmagic/FVTT-collapsible-journal-sections)
+
+Small quality of life fix that allows you to collapse journal headers. Very useful for long journals and dungeon notes!
+
+Requires [LibWrapper](https://foundryvtt.com/packages/lib-wrapper/).
+
+| Setting                 | Default | Recommended | Comments |
+|-------------------------|---------|-------------|----------|
+| Default collapsed state | Shown   | Collapsed   | ---      |
+| Layout                  | Static  | ---         | ---      |
+
+Why retired: Not needed with v10 Foundry updates
+
+### [Combat Enhancements](https://foundryvtt.com/packages/combat-enhancements/)
+
+Adds health tracking via a radial bar and HP field in the Combat Tracker, as well as drag and drop initiative reordering.
 
 | Setting                          | Default            | Recommended | Comments                                                                                                       |
 |----------------------------------|--------------------|-------------|----------------------------------------------------------------------------------------------------------------|
@@ -2415,13 +2480,17 @@ pretty nifty.
 
 Why retired: I value [Hidden Initiative](https://foundryvtt.com/packages/hidden-initiative/) more, and these two modules do not like each other at all.
 
-- [Combat Ready](https://foundryvtt.com/packages/combatready/) - Provides popups and sounds to let players know when it's almost their turn/is their turn.
+### [Combat Ready](https://foundryvtt.com/packages/combatready/)
 
-  Why retired: A little too much for my taste, but it looks like a ton of fun if everyone's on board.
-- [Compact DnDBeyond 5e Character Sheet](https://foundryvtt.com/packages/compact-beyond-5e-sheet/) v0.16.3
-  Adds a compact DnDBeyond-style character sheet for PCs.
+Provides popups and sounds to let players know when it's almost their turn/is their turn.
 
-  Requires [Character Actions list DnD5e](https://foundryvtt.com/packages/character-actions-list-5e/).
+Why retired: A little too much for my taste, but it looks like a ton of fun if everyone's on board.
+
+### [Compact DnDBeyond 5e Character Sheet](https://foundryvtt.com/packages/compact-beyond-5e-sheet/)
+
+Adds a compact DnDBeyond-style character sheet for PCs.
+
+Requires [Character Actions list DnD5e](https://foundryvtt.com/packages/character-actions-list-5e/).
 
 | Setting                       | Default | Recommended        | Comments |
 |-------------------------------|---------|--------------------|----------|
@@ -2433,14 +2502,18 @@ Why retired: I value [Hidden Initiative](https://foundryvtt.com/packages/hidden-
 
 Why retired: Nobody ended up using it, favoring other character sheets instead.
 
-- [Compendium Browser](https://github.com/syl3r86/compendium-browser) - Allows for easy browsing of compendium files.
+### [Compendium Browser](https://github.com/syl3r86/compendium-browser)
 
-  Why retired: This module adds a severe amount of startup lag, and it can potentially cause issues with
-  [Quick Insert - Search Widget](https://foundryvtt.com/packages/quick-insert/), which sort of provides the same functionality.
-- [Condition Automation](https://foundryvtt.com/packages/condition-automation/) v3.0.2
-  Automatically generates shadows based on elevation when combined with [Token Magic FX](https://foundryvtt.com/packages/tokenmagic/), removes vision
-  automatically when a token is blinded, and freezes a token when it is paralyzed. It has multiple other status effects that automatically affect a token if its
-  status changes.
+Allows for easy browsing of compendium files.
+
+Why retired: This module adds a severe amount of startup lag, and it can potentially cause issues with
+[Quick Insert - Search Widget](https://foundryvtt.com/packages/quick-insert/), which sort of provides the same functionality.
+
+### [Condition Automation](https://foundryvtt.com/packages/condition-automation/)
+
+Automatically generates shadows based on elevation when combined with [Token Magic FX](https://foundryvtt.com/packages/tokenmagic/), removes vision
+automatically when a token is blinded, and freezes a token when it is paralyzed. It has multiple other status effects that automatically affect a token if its
+status changes.
 
 | Setting                               | Default | Recommended                | Comments                                      |
 |---------------------------------------|---------|----------------------------|-----------------------------------------------|
@@ -2458,17 +2531,20 @@ Why retired: Most of these effects aren't significant enough to warrant automati
 [Token Magic FX](https://foundryvtt.com/packages/tokenmagic/) installed. The Blinded condition was nice, but it doesn't come into play enough to earn a
 module spot. Great module, though!
 
-- [Conditional Visibility](https://github.com/szefo09/conditional-visibility) v0.2.7
-  Adds certain conditions that hides tokens for players based on certain sight conditions such as Invisibility, being shrouded in the Darkness spell, etc. A
-  borderline must-have if one of your players is a Shadow Sorcerer.
+### [Conditional Visibility](https://github.com/szefo09/conditional-visibility)
 
-  NOTE: This module is a fork of the original, and as such, cannot be installed by the conventional manifest url. You need to manually install the module.
+Adds certain conditions that hides tokens for players based on certain sight conditions such as Invisibility, being shrouded in the Darkness spell, etc. A
+borderline must-have if one of your players is a Shadow Sorcerer.
 
-  Why retired: Wanted to slim down my module list a bit, and this one wasn't useful enough to warrant using. It also ended up being pretty buggy in the
-  situations I wanted it for, but that could have been my inexperience with macro-writing :)
-- [Compendium Scene Viewer](https://foundryvtt.com/packages/scene-viewer/)
-  Allows for viewing compendium scenes from within the compendium, not requiring you to import them. This used to be an extremely big pain point, especially for
-  someone with a large amount of scenes stored in their compendiums. Very nice quality of life fix.
+NOTE: This module is a fork of the original, and as such, cannot be installed by the conventional manifest url. You need to manually install the module.
+
+Why retired: Wanted to slim down my module list a bit, and this one wasn't useful enough to warrant using. It also ended up being pretty buggy in the
+situations I wanted it for, but that could have been my inexperience with macro-writing :)
+
+### [Compendium Scene Viewer](https://foundryvtt.com/packages/scene-viewer/)
+
+Allows for viewing compendium scenes from within the compendium, not requiring you to import them. This used to be an extremely big pain point, especially for
+someone with a large amount of scenes stored in their compendiums. Very nice quality of life fix.
 
 | Setting             | Default | Recommended        | Comments                                                |
 |---------------------|---------|--------------------|---------------------------------------------------------|
@@ -2477,69 +2553,100 @@ module spot. Great module, though!
 
 Why retired: Implemented by [Monks Little Details](https://foundryvtt.com/packages/monks-little-details).
 
-- [CritterDB Import](https://foundryvtt.com/packages/critterdb-import/) v1.0.5
-  Allows for importing homebrew monsters from [CritterDB](https://critterdb.com/). A button will appear at the bottom of the Compendiums tab and import them to
-  the compendium CritterDB - MyCritters.
+### [CritterDB Import](https://foundryvtt.com/packages/critterdb-import/)
 
-  NOTE: I usually keep this disabled until I need to import something.
+Allows for importing homebrew monsters from [CritterDB](https://critterdb.com/). A button will appear at the bottom of the Compendiums tab and import them to
+the compendium CritterDB - MyCritters.
 
-  Why retired: I haven't really used CritterDB all that much since installing. While useful, it was prone to issues, so I ended up creating monsters in Foundry
-  most of the time anyways.
-- [Custom Journal](https://foundryvtt.com/packages/custom-journal/) v1.2.1
-  Adds a couple more journal sheets and some custom styling options.
+NOTE: I usually keep this disabled until I need to import something.
 
-  Why retired: I honestly did not know this broke a while ago, but it did. Whoops!
-- [Darker Vision](https://github.com/Voldemalort/darker-vision-for-5e) - Replicates darkvision rules for 5e.
+Why retired: I haven't really used CritterDB all that much since installing. While useful, it was prone to issues, so I ended up creating monsters in Foundry
+most of the time anyways.
 
-  Why retired: Broken in Foundry version 0.7.x and succeeded by [Perfect Vision](https://foundryvtt.com/packages/perfect-vision/).
-- [Deselection](https://github.com/Sky-Captain-13/foundry/tree/master/deselection) - By enabling, deselects tokens when clicking on an empty spot on the scene.
+### [Custom Journal](https://foundryvtt.com/packages/custom-journal/)
 
-  Why retired: Now included in default Foundry under Core Settings --> Left-Click to Release Objects --> Enabled
-- [DnD5eShopRollTables](https://www.reddit.com/r/FoundryVTT/comments/mnwzi4/as_promised_the_rolltables_for_every_type_of_shop/)
-  A collection of quite a few roll tables and table-generation tools. I'm not sure if I'll keep this in, but for right now, it gets the job done with SRD items.
-  Requires [Better Roll Tables](https://github.com/ultrakorne/better-rolltables), [Combat Utility Belt](https://foundryvtt.com/packages/combat-utility-belt/),
-  [Loot Sheet NPC 5e](https://foundryvtt.com/packages/lootsheetnpc5e/), and [LibWrapper](https://foundryvtt.com/packages/lib-wrapper/).
+Adds a couple more journal sheets and some custom styling options.
 
-  Why retired: Solid work, but I never really used it. It was fun to play with, though.
-- [DnDBeyond Character Sheet for 5e](https://foundryvtt.com/packages/dndbeyond-character-sheet/) v1.7.0
-  Adds a character sheet that mimics the style of D&DBeyond. I personally prefer the look and feel of
-  [Compact DnDBeyond 5e Character Sheet](https://foundryvtt.com/packages/compact-beyond-5e-sheet/), but they are both very similar.
+Why retired: I honestly did not know this broke a while ago, but it did. Whoops!
 
-  Why retired: I and my players prefer the feel of the [MyBeyond](https://fvtt-modules.eschmann.online/) sheet instead.
-- [Dynamic Effects](https://foundryvtt.com/packages/dynamiceffects/) - Allows for different item bonuses and nerfs.
+### [Darker Vision](https://github.com/Voldemalort/darker-vision-for-5e)
 
-  Why retired: Succeeded by [Dynamic Active Effects](https://foundryvtt.com/packages/dae/).
-- [Dynamic Active Effects SRD](https://foundryvtt.com/packages/Dynamic-Effects-SRD/) v5.0.01
-  Adds a compendium of items, spells, and macros that are automated by the Active Effects system. Requires
-  [Dynamic Active Effects](https://foundryvtt.com/packages/dae/).
+Replicates darkvision rules for 5e.
 
-  NOTE: In order to use, first import the macro compendium to your game. Then, you can cast the SRD spells included module as normal, and it should
-  automatically work. Casting spells from the DnD5e SRD will NOT work, they need to be the DAE SRD spells.
+Why retired: Broken in Foundry version 0.7.x and succeeded by [Perfect Vision](https://foundryvtt.com/packages/perfect-vision/).
 
-  Requires [Dynamic Active Effects](https://foundryvtt.com/packages/dae/).
+### [Deselection](https://github.com/Sky-Captain-13/foundry/tree/master/deselection)
 
-  Why removed: We have items beyond the SRD, so it got confusing for "which item effects are automated, which aren't, etc." It was just simpler to remove.
-  Insanely detailed module, though!
-- [Easy Exports](https://foundryvtt.com/packages/easy-exports/) - Adds the ability to export sections of Journals, Scenes, and Actors.
+By enabling, deselects tokens when clicking on an empty spot on the scene.
 
-  Why retired: Never really used, and I have other methods of backing up my game.
-- [Encounter Builder for 5e](https://foundryvtt.com/packages/encounter-builder-5e/) - Adds a screen for quick encounter difficulty calculation.
+Why retired: Now included in default Foundry under Core Settings --> Left-Click to Release Objects --> Enabled
 
-  Why retired: 1) My PCs are way stronger than their level would indicate (oops), and 2) I already use D&DBeyond's Encounter Builder for this. It's a pretty
-  neat module, though.
-- [Ethck's 5e Downtime Tracking](https://foundryvtt.com/packages/downtime-ethck/) - Similar to
-  [Crash's 5e Downtime Tracking](https://foundryvtt.com/packages/5e-training/), these two module creators collaborated to make different downtime tracking
-  modules that fulfill different niches. Ethck's is definitely more complex, allowing for tracking of anything you can imagine. It comes with the downtime rules
-  in Xanathar's Guide to Everything already configured.
+### [DnD5eShopRollTables](https://www.reddit.com/r/FoundryVTT/comments/mnwzi4/as_promised_the_rolltables_for_every_type_of_shop/)
 
-  Why retired: If I would have found this module a couple weeks earlier, I guarantee we'd still be using it. However, once my players finished their downtime
-  activities, there wasn't any need for this module when Crash's already handles skill tracking in an arguably simpler way. Regardless, if you're planning on
-  having downtime, I highly recommend checking this one out.
-- [Fog Manager](https://foundryvtt.com/packages/fogmanager/) - Allows the GM to manually edit fog.
+A collection of quite a few roll tables and table-generation tools. I'm not sure if I'll keep this in, but for right now, it gets the job done with SRD items.
+Requires [Better Roll Tables](https://github.com/ultrakorne/better-rolltables), [Combat Utility Belt](https://foundryvtt.com/packages/combat-utility-belt/),
+[Loot Sheet NPC 5e](https://foundryvtt.com/packages/lootsheetnpc5e/), and [LibWrapper](https://foundryvtt.com/packages/lib-wrapper/).
 
-  Why retired: I prefer [Simplefog](https://github.com/League-of-Foundry-Developers/simplefog).
-- [Forien's Custom Fonts](https://foundryvtt.com/packages/forien-custom-fonts/) v0.1.3
-  Adds Google fonts option to drawings and writings. Useful for when players want to be able to draw on things.
+Why retired: Solid work, but I never really used it. It was fun to play with, though.
+
+### [DnDBeyond Character Sheet for 5e](https://foundryvtt.com/packages/dndbeyond-character-sheet/)
+
+Adds a character sheet that mimics the style of D&DBeyond. I personally prefer the look and feel of
+[Compact DnDBeyond 5e Character Sheet](https://foundryvtt.com/packages/compact-beyond-5e-sheet/), but they are both very similar.
+
+Why retired: I and my players prefer the feel of the [MyBeyond](https://fvtt-modules.eschmann.online/) sheet instead.
+
+### [Dynamic Effects](https://foundryvtt.com/packages/dynamiceffects/)
+
+Allows for different item bonuses and nerfs.
+
+Why retired: Succeeded by [Dynamic Active Effects](https://foundryvtt.com/packages/dae/).
+
+### [Dynamic Active Effects SRD](https://foundryvtt.com/packages/Dynamic-Effects-SRD/)
+
+Adds a compendium of items, spells, and macros that are automated by the Active Effects system. Requires
+[Dynamic Active Effects](https://foundryvtt.com/packages/dae/).
+
+NOTE: In order to use, first import the macro compendium to your game. Then, you can cast the SRD spells included module as normal, and it should
+automatically work. Casting spells from the DnD5e SRD will NOT work, they need to be the DAE SRD spells.
+
+Requires [Dynamic Active Effects](https://foundryvtt.com/packages/dae/).
+
+Why removed: We have items beyond the SRD, so it got confusing for "which item effects are automated, which aren't, etc." It was just simpler to remove.
+Insanely detailed module, though!
+
+### [Easy Exports](https://foundryvtt.com/packages/easy-exports/)
+
+Adds the ability to export sections of Journals, Scenes, and Actors.
+
+Why retired: Never really used, and I have other methods of backing up my game.
+
+### [Encounter Builder for 5e](https://foundryvtt.com/packages/encounter-builder-5e/)
+
+Adds a screen for quick encounter difficulty calculation.
+
+Why retired: 1) My PCs are way stronger than their level would indicate (oops), and 2) I already use D&DBeyond's Encounter Builder for this. It's a pretty
+neat module, though.
+
+### [Ethck's 5e Downtime Tracking](https://foundryvtt.com/packages/downtime-ethck/)
+
+Similar to [Crash's 5e Downtime Tracking](https://foundryvtt.com/packages/5e-training/), these two module creators collaborated to make different downtime
+tracking modules that fulfill different niches. Ethck's is definitely more complex, allowing for tracking of anything you can imagine. It comes with the
+downtime rules in Xanathar's Guide to Everything already configured.
+
+Why retired: If I would have found this module a couple weeks earlier, I guarantee we'd still be using it. However, once my players finished their downtime
+activities, there wasn't any need for this module when Crash's already handles skill tracking in an arguably simpler way. Regardless, if you're planning on
+having downtime, I highly recommend checking this one out.
+
+### [Fog Manager](https://foundryvtt.com/packages/fogmanager/)
+
+Allows the GM to manually edit fog.
+
+Why retired: I prefer [Simplefog](https://github.com/League-of-Foundry-Developers/simplefog).
+
+### [Forien's Custom Fonts](https://foundryvtt.com/packages/forien-custom-fonts/)
+
+Adds Google fonts option to drawings and writings. Useful for when players want to be able to draw on things.
 
 | Setting       | Default | Recommended                                                   | Comments |
 |---------------|---------|---------------------------------------------------------------|----------|
@@ -2547,17 +2654,22 @@ Why retired: Implemented by [Monks Little Details](https://foundryvtt.com/packag
 
 Why retired: Never ended up using outside of one niche use-case
 
-- [Forien's Easy Polls](https://foundryvtt.com/packages/forien-easy-polls/) - Adds the ability to create polls in chat by typing `/poll`, your poll title, and
-  your given answers.
+### [Forien's Easy Polls](https://foundryvtt.com/packages/forien-easy-polls/)
 
-  Why retired: Not really used. Cool idea, though!
-- [Forien's Scene Navigator](https://foundryvtt.com/packages/forien-scene-navigator/) - Adds the ability to open a scene by clicking on a journal link.
+Adds the ability to create polls in chat by typing `/poll`, your poll title, and your given answers.
 
-  Why retired: I never really used it.
+Why retired: Not really used. Cool idea, though!
 
-- [Give Item to Another Player](https://foundryvtt.com/packages/give-item) v1.7.2
-  Adds an option in players' character sheets to send items to and from other character sheets. Super useful, and replaced
-  [Pick-Up-Stix](https://foundryvtt.com/packages/pick-up-stix/) for 90% of our group's use cases.
+### [Forien's Scene Navigator](https://foundryvtt.com/packages/forien-scene-navigator/)
+
+Adds the ability to open a scene by clicking on a journal link.
+
+Why retired: I never really used it.
+
+### [Give Item to Another Player](https://foundryvtt.com/packages/give-item)
+
+Adds an option in players' character sheets to send items to and from other character sheets. Super useful, and replaced
+[Pick-Up-Stix](https://foundryvtt.com/packages/pick-up-stix/) for 90% of our group's use cases.
 
 | Setting              | Default | Recommended        | Comments |
 |----------------------|---------|--------------------|----------|
@@ -2565,9 +2677,10 @@ Why retired: Never ended up using outside of one niche use-case
 
 Why retired: Replaced by [Let's Trade 5e](https://foundryvtt.com/packages/lets-trade-5e).
 
-- [GM Notes](https://foundryvtt.com/packages/gm-notes/) v0.3
-  Adds a "GM Notes" button along the top ribbon of every actor and item. Clicking on the button will provide the GM with a place to store notes, information,
-  curses, etc. without having to put them in a separate journal. As far as simplicity and flexibility goes, this is one of my staple modules that I use often.
+### [GM Notes](https://foundryvtt.com/packages/gm-notes/)
+
+Adds a "GM Notes" button along the top ribbon of every actor and item. Clicking on the button will provide the GM with a place to store notes, information,
+curses, etc. without having to put them in a separate journal. As far as simplicity and flexibility goes, this is one of my staple modules that I use often.
 
 | Setting                 | Default            | Recommended | Comments |
 |-------------------------|--------------------|-------------|----------|
@@ -2575,57 +2688,80 @@ Why retired: Replaced by [Let's Trade 5e](https://foundryvtt.com/packages/lets-t
 
 Why retired: Replaced by [GM Secret Block](https://foundryvtt.com/packages/gm-secrets/).
 
-- [GM Scene Background](https://github.com/death-save/gm-bg) - Allows GM to set background that only they can see.
+### [GM Scene Background](https://github.com/death-save/gm-bg)
 
-  Why retired: Succeeded by [Scenery](https://foundryvtt.com/packages/scenery/) and part of default Foundry in Scene Settings.
-- [GM Token-Drag Visibility](https://foundryvtt.com/packages/token-drag-visibility/) - Disables vision limitations when the GM drags tokens.
+Allows GM to set background that only they can see.
 
-  Why retired: Other modules handle this functionality.
-- [Grid Scaler](https://foundryvtt.com/packages/grid_scaler/) - v0.0.14
-  Adds an option in the top-left menu to easily configure your background map to the grid. Allows for setting map by "squares" (x by y), drawing a 3x3 grid, and
-  more. Extremely useful and intuitive.
+Why retired: Succeeded by [Scenery](https://foundryvtt.com/packages/scenery/) and part of default Foundry in Scene Settings.
 
-  Why retired: I use Patreon maps and Dungeondraft 99% of the time nowadays, so there's no real need for manually adjusting the grid. Still a great module,
-  though!
-- [Hide GM Rolls](https://foundryvtt.com/packages/hide-gm-rolls/) - Hides GM rolls completely from chat.
+### [GM Token-Drag Visibility](https://foundryvtt.com/packages/token-drag-visibility/)
 
-  Why retired: Functionality included in [Midi QoL](https://foundryvtt.com/packages/midi-qol/).
-- [Illandril's Chat Enhancements](https://foundryvtt.com/packages/illandril-chat-enhancements/) - Shows player names in chat, shows your current speaker, and
-  adds hover functionality to chat.
+Disables vision limitations when the GM drags tokens.
 
-  Why retired: Doesn't really add a lot to the chat experience, at least from my point of view.
+Why retired: Other modules handle this functionality.
 
-- [Initiative Double Click](https://foundryvtt.com/packages/initiative-double-click) - Split off of [The Furnace](https://foundryvtt.com/packages/furnace/),
-  double-clicking initiative lets you set the value.
+### [Grid Scaler](https://foundryvtt.com/packages/grid_scaler/)
 
-  Why retired: It happens infrequently enough that I'm okay with right-clicking and selecting the "Update Combatant" option.
-- [Input Expressions](https://foundryvtt.com/packages/input-expressions/) v1.3.4
-  Allows for mathematical expressions and attribute/ability references to be entered into numeric inputs. For example, you can set a zombie's HP to
-  `3d8 + @abilities.con.mod`, and it will automatically roll it for you.
+Adds an option in the top-left menu to easily configure your background map to the grid. Allows for setting map by "squares" (x by y), drawing a 3x3 grid, and
+more. Extremely useful and intuitive.
 
-  Requires [Math.js](https://foundryvtt.com/packages/_mathjs/).
+Why retired: I use Patreon maps and Dungeondraft 99% of the time nowadays, so there's no real need for manually adjusting the grid. Still a great module,
+though!
 
-  Why retired: Never ended up using as much as I thought I would.
-- [Journal to Canvas Slideshow](https://foundryvtt.com/packages/journal-to-canvas-slideshow/) - Allows for clicking of a journal entry to update an image on
-  screen. Could be useful for landing pages.
+### [Hide GM Rolls](https://foundryvtt.com/packages/hide-gm-rolls/)
 
-  Why retired: Not what I needed, personally.
+Hides GM rolls completely from chat.
 
-- [Kobold Press OGL Compendium](https://foundryvtt.com/packages/koboldpressogl/) v0.24 - Adds a Kobold Press OGL monsters compendium. Although the monsters do
-  not import with tokens automatically, creating new tokens for them is usually pretty easy. A great way to import new monsters with stat blocks already
-  created.
+Why retired: Functionality included in [Midi QoL](https://foundryvtt.com/packages/midi-qol/).
 
-  NOTE: I usually keep this disabled until I need to import a monster.
+### [Illandril's Chat Enhancements](https://foundryvtt.com/packages/illandril-chat-enhancements/)
 
-  Why retired: I never ended up using it.
-- [Laptop Form Fix](https://foundryvtt.com/packages/laptop-fix/) - Fixes CSS issues where the Save button is often unclickable due to being too far down.
+Shows player names in chat, shows your current speaker, and adds hover functionality to chat.
 
-  Why retired: Foundry's updates have fixed the issue, at least it appears that way.
-- [Less Fog](https://foundryvtt.com/packages/lessfog/) v0.8.5
-  Slightly tweaks the default Foundry lighting and provides options to customize it. The main benefit I see while using it is increased visibility for GMs when
-  controlling tokens while still retaining token sight.
+Why retired: Doesn't really add a lot to the chat experience, at least from my point of view.
 
-  Requires [Lib - Color Settings](https://foundryvtt.com/packages/colorsettings/).
+### [Initiative Double Click](https://foundryvtt.com/packages/initiative-double-click)
+
+Split off of [The Furnace](https://foundryvtt.com/packages/furnace/), double-clicking initiative lets you set the value.
+
+Why retired: It happens infrequently enough that I'm okay with right-clicking and selecting the "Update Combatant" option.
+
+### [Input Expressions](https://foundryvtt.com/packages/input-expressions/)
+
+Allows for mathematical expressions and attribute/ability references to be entered into numeric inputs. For example, you can set a zombie's HP to
+`3d8 + @abilities.con.mod`, and it will automatically roll it for you.
+
+Requires [Math.js](https://foundryvtt.com/packages/_mathjs/).
+
+Why retired: Never ended up using as much as I thought I would.
+
+### [Journal to Canvas Slideshow](https://foundryvtt.com/packages/journal-to-canvas-slideshow/)
+
+Allows for clicking of a journal entry to update an image on screen. Could be useful for landing pages.
+
+Why retired: Not what I needed, personally.
+
+### [Kobold Press OGL Compendium](https://foundryvtt.com/packages/koboldpressogl/)
+
+Adds a Kobold Press OGL monsters compendium. Although the monsters do not import with tokens automatically, creating new tokens for them is usually pretty easy.
+A great way to import new monsters with stat blocks already created.
+
+NOTE: I usually keep this disabled until I need to import a monster.
+
+Why retired: I never ended up using it.
+
+### [Laptop Form Fix](https://foundryvtt.com/packages/laptop-fix/)
+
+Fixes CSS issues where the Save button is often unclickable due to being too far down.
+
+Why retired: Foundry's updates have fixed the issue, at least it appears that way.
+
+### [Less Fog](https://foundryvtt.com/packages/lessfog/)
+
+Slightly tweaks the default Foundry lighting and provides options to customize it. The main benefit I see while using it is increased visibility for GMs when
+controlling tokens while still retaining token sight.
+
+Requires [Lib - Color Settings](https://foundryvtt.com/packages/colorsettings/).
 
 | Setting                         | Default            | Recommended | Comments |
 |---------------------------------|--------------------|-------------|----------|
@@ -2639,16 +2775,19 @@ Why retired: Replaced by [GM Secret Block](https://foundryvtt.com/packages/gm-se
 
 Why removed: I already have enough lighting modules that this one seems a little redundant.
 
-- [Lichtgeschwindigkeit](https://foundryvtt.com/packages/lichtgeschwindigkeit) v1.4.9
-  This module provides a much more accurate and performant lighting calculation system for Foundry. No configuration required, and upon enabling, it gives a
-  noticeable improvement. Works perfectly with modules like [Perfect Vision](https://foundryvtt.com/packages/perfect-vision/). This thing is legit - I was a
-  little skeptical at first upon hearing it, but it's easily one of my favorite modules now.
+### [Lichtgeschwindigkeit](https://foundryvtt.com/packages/lichtgeschwindigkeit)
 
-  Why removed: Now included in Foundry v10
-- [Macro Editor](https://foundryvtt.com/packages/macroeditor/) v1.0.9
-  Adds an IDE to the macro editor. A must-have if you use macros in any capacity.
+This module provides a much more accurate and performant lighting calculation system for Foundry. No configuration required, and upon enabling, it gives a
+noticeable improvement. Works perfectly with modules like [Perfect Vision](https://foundryvtt.com/packages/perfect-vision/). This thing is legit - I was a
+little skeptical at first upon hearing it, but it's easily one of my favorite modules now.
 
-  Requires [Ace Library](https://foundryvtt.com/packages/acelib).
+Why removed: Now included in Foundry v10
+
+### [Macro Editor](https://foundryvtt.com/packages/macroeditor/)
+
+Adds an IDE to the macro editor. A must-have if you use macros in any capacity.
+
+Requires [Ace Library](https://foundryvtt.com/packages/acelib).
 
 | Setting                      | Default            | Recommended | Comments |
 |------------------------------|--------------------|-------------|----------|
@@ -2657,31 +2796,41 @@ Why removed: I already have enough lighting modules that this one seems a little
 
 Why retired: I use Jetbrains products to write most of my macros, so I never ended up writing them within the Foundry space much.
 
-- [Mount Up!](https://brunhine.com/fvtt/mountup) - A fun little module that lets tokens "mount" other tokens and follow them wherever they go. Useful if you
-  have pets or use vehicles.
+### [Mount Up!](https://brunhine.com/fvtt/mountup)
 
-  Why retired: Somewhat buggy, and oftentimes shrank the "riding" token. Succeeded by [Token Attacher](https://foundryvtt.com/packages/token-attacher/).
-- [Multiple Wall Point Mover (MWPM)](https://foundryvtt.com/packages/mwpm/) - By default, Foundry wall points that share the same space will not move
-  together. This module enables that behaviour by allowing the GM to drag a single point and move all wall points that meet at that location. One of those
-  modules that is extremely intuitive and should be an option in the core settings.
+A fun little module that lets tokens "mount" other tokens and follow them wherever they go. Useful if you have pets or use vehicles.
 
-  Why retired: Functionality, plus more, is included in [Monks Little Details](https://foundryvtt.com/packages/monks-little-details).
-- [Navbar Tweaks](https://foundryvtt.com/packages/navbar-tweaks/) - Always shows the navigation bar for GM users. Allows for hiding the "actual" name of the
-  scene from players while showing the real name for the GM in the navigation. It's a small change, but quite useful.
+Why retired: Somewhat buggy, and oftentimes shrank the "riding" token. Succeeded by [Token Attacher](https://foundryvtt.com/packages/token-attacher/).
 
-  Why retired: Functionality is part of Foundry, and scene navigation is being updated by
-  [Monk's Scene Navigation](https://foundryvtt.com/packages/monks-scene-navigation/).
-- [No Summon Vision](https://foundryvtt.com/packages/no-summon-vision/) - Allows for "totems" and other similar objects that do not provide token vision for
-  their owner, but might need to be able to see.
+### [Multiple Wall Point Mover (MWPM)](https://foundryvtt.com/packages/mwpm/)
 
-  Why retired: Now included in default Foundry.
-- [Not Enough NPCs - A 5e NPC Generator](https://foundryvtt.com/packages/npcgen/) v0.4.0 - Adds a nifty NPC generator on the fly via a button at the bottom of
-  the Actor tab.
+By default, Foundry wall points that share the same space will not move together. This module enables that behaviour by allowing the GM to drag a single point
+and move all wall points that meet at that location. One of those modules that is extremely intuitive and should be an option in the core settings.
 
-  NOTE: I usually keep this disabled until I need to create NPCs, as I usually make batches of them before the game so I can tweak their personalities and iron
-  out any kinks.
+Why retired: Functionality, plus more, is included in [Monks Little Details](https://foundryvtt.com/packages/monks-little-details).
 
-  For the "Custom Generator Entries" and "Export/Import" settings, I leave them at their defaults.
+### [Navbar Tweaks](https://foundryvtt.com/packages/navbar-tweaks/)
+
+Always shows the navigation bar for GM users. Allows for hiding the "actual" name of the scene from players while showing the real name for the GM in the
+navigation. It's a small change, but quite useful.
+
+Why retired: Functionality is part of Foundry, and scene navigation is being updated by
+[Monk's Scene Navigation](https://foundryvtt.com/packages/monks-scene-navigation/).
+
+### [No Summon Vision](https://foundryvtt.com/packages/no-summon-vision/)
+
+Allows for "totems" and other similar objects that do not provide token vision for their owner, but might need to be able to see.
+
+Why retired: Now included in default Foundry.
+
+### [Not Enough NPCs - A 5e NPC Generator](https://foundryvtt.com/packages/npcgen/)
+
+Adds a nifty NPC generator on the fly via a button at the bottom of the Actor tab.
+
+NOTE: I usually keep this disabled until I need to create NPCs, as I usually make batches of them before the game so I can tweak their personalities and iron
+out any kinks.
+
+For the "Custom Generator Entries" and "Export/Import" settings, I leave them at their defaults.
 
 | Setting                 | Default            | Recommended | Comments |
 |-------------------------|--------------------|-------------|----------|
@@ -2691,17 +2840,20 @@ Why retired: I use Jetbrains products to write most of my macros, so I never end
 Why retired: Never ended up using it, and I have other NPC generators that I use for personality stuff, and I like to make tweaks as well. Cool concept,
 though!
 
-- [PnP - Pointer and Pings](https://foundryvtt.com/packages/pointer/) - Adds pointer/mouse follow functionality, plus a ping option as well.
+### [PnP - Pointer and Pings](https://foundryvtt.com/packages/pointer/)
 
-  Why retired: [Pings](https://foundryvtt.com/packages/pings/) was much easier to use and fit our use-case better.
+Adds pointer/mouse follow functionality, plus a ping option as well.
 
-- [Pick-Up-Stix](https://foundryvtt.com/packages/pick-up-stix/) -
-  Allows players and GMs to drag and drop items onto the actual scene grid to share/collect loot. Useful for when players drop weapons during combat, finding
-  treasure chests, and more.
+Why retired: [Pings](https://foundryvtt.com/packages/pings/) was much easier to use and fit our use-case better.
 
-  NOTE: This module has some compatibility issues with
-  [Forien's Unidentified Items](https://github.com/League-of-Foundry-Developers/foundryvtt-forien-unidentified-items). Placing a mystified item on the scene
-  grid will remove the identified version of that item, so make sure to save the un-mystified version in your Items tab.
+### [Pick-Up-Stix](https://foundryvtt.com/packages/pick-up-stix/) -
+
+Allows players and GMs to drag and drop items onto the actual scene grid to share/collect loot. Useful for when players drop weapons during combat, finding
+treasure chests, and more.
+
+NOTE: This module has some compatibility issues with
+[Forien's Unidentified Items](https://github.com/League-of-Foundry-Developers/foundryvtt-forien-unidentified-items). Placing a mystified item on the scene
+grid will remove the identified version of that item, so make sure to save the un-mystified version in your Items tab.
 
 | Setting                        | Default                                      | Recommended | Comments |
 |--------------------------------|----------------------------------------------|-------------|----------|
@@ -2715,10 +2867,11 @@ Why removed: It had too many module incompatibilities, was prone to issues, and 
 (players passing items between themselves) was replaced by [Give Item to Another Player](https://foundryvtt.com/packages/give-item). The rest was replaced by
 using [Loot Sheet NPC 5e](https://foundryvtt.com/packages/lootsheetnpc5e/).
 
-- [Quick Encounters](https://foundryvtt.com/packages/quick-encounters/) v0.8.1
-  Adds an option for the GM in the top left menu to create a Quick Encounter from a group of selected tokens. This will pull the tokens from the scene and into
-  a journal, which replaces the tokens on the scene. Opening the journal provides a pop-up menu to initialize the encounter and place all the tokens you took
-  out. Useful for large maps with multiple groups of enemies.
+### [Quick Encounters](https://foundryvtt.com/packages/quick-encounters/)
+
+Adds an option for the GM in the top left menu to create a Quick Encounter from a group of selected tokens. This will pull the tokens from the scene and into
+a journal, which replaces the tokens on the scene. Opening the journal provides a pop-up menu to initialize the encounter and place all the tokens you took
+out. Useful for large maps with multiple groups of enemies.
 
 | Setting                               | Default            | Recommended | Comments                            |
 |---------------------------------------|--------------------|-------------|-------------------------------------|
@@ -2728,14 +2881,17 @@ using [Loot Sheet NPC 5e](https://foundryvtt.com/packages/lootsheetnpc5e/).
 
 Why retired: I keep my tokens on the board and invisible most of the time. Nice idea, but not worth a module slot in my personal opinion.
 
-- [RC Spent/Recoverable Ammo Tracker](https://foundryvtt.com/packages/rc-spent-ammo) v1.0.13
-  Keeps track of ammo spent before and after combat, then outputs an option to recover half (rounded down) after combat ends. Super nice if you have a ranger or
-  similar character in your party.
+### [RC Spent/Recoverable Ammo Tracker](https://foundryvtt.com/packages/rc-spent-ammo)
 
-  Why retired: Replaced by [Ammo Tracker](https://foundryvtt.com/packages/ammo-tracker-fvtt)
-- [Roofs and Overhead Tiles](https://foundryvtt.com/packages/roofs/) v0.1.1
-  One of my newer additions, and I haven't had the opportunity to use it much, yet. Allows for placing of tiles with a separate "layer" above normal tiles.
-  Whenever a player goes underneath these tiles, the tiles will become transparent.
+Keeps track of ammo spent before and after combat, then outputs an option to recover half (rounded down) after combat ends. Super nice if you have a ranger or
+similar character in your party.
+
+Why retired: Replaced by [Ammo Tracker](https://foundryvtt.com/packages/ammo-tracker-fvtt)
+
+### [Roofs and Overhead Tiles](https://foundryvtt.com/packages/roofs/)
+
+One of my newer additions, and I haven't had the opportunity to use it much, yet. Allows for placing of tiles with a separate "layer" above normal tiles.
+Whenever a player goes underneath these tiles, the tiles will become transparent.
 
 | Setting                     | Default            | Recommended | Comments |
 |-----------------------------|--------------------|-------------|----------|
@@ -2746,16 +2902,23 @@ Why retired: I keep my tokens on the board and invisible most of the time. Nice 
 
 Why retired: Implemented by core Foundry in 0.8.x.
 
-- [Scenery](https://foundryvtt.com/packages/scenery/) - Allows for different variations in backgrounds for scenes.
+### [Scenery](https://foundryvtt.com/packages/scenery/)
 
-  Why retired: I never really used the extra variations. If I have a different variation, I just make a new scene for it. However, it could be useful in certain
-  situations.
-- [Show Drag Distance](https://foundryvtt.com/packages/ShowDragDistance/) - Another quality of life improvement that, as the title says, shows the drag distance
-  when dragging a token. Has support for [Terrain Layer](https://foundryvtt.com/packages/TerrainLayer/). Good for in-combat use.
+Allows for different variations in backgrounds for scenes.
 
-  Why retired: Outdated and replaced by [Drag Ruler](https://foundryvtt.com/packages/drag-ruler/).
-- [Simple Dice Roller](https://foundryvtt.com/packages/simple-dice-roller/) v1.2.0
-  Adds a menu in the top left to easily roll dice, similar to Roll20's interface.
+Why retired: I never really used the extra variations. If I have a different variation, I just make a new scene for it. However, it could be useful in certain
+situations.
+
+### [Show Drag Distance](https://foundryvtt.com/packages/ShowDragDistance/)
+
+Another quality of life improvement that, as the title says, shows the drag distance when dragging a token. Has support for
+[Terrain Layer](https://foundryvtt.com/packages/TerrainLayer/). Good for in-combat use.
+
+Why retired: Outdated and replaced by [Drag Ruler](https://foundryvtt.com/packages/drag-ruler/).
+
+### [Simple Dice Roller](https://foundryvtt.com/packages/simple-dice-roller/)
+
+Adds a menu in the top left to easily roll dice, similar to Roll20's interface.
 
 | Setting                 | Default | Recommended | Comments |
 |-------------------------|---------|-------------|----------|
@@ -2763,10 +2926,11 @@ Why retired: Implemented by core Foundry in 0.8.x.
 
 Why retired: Replaced by [Dice Tray](https://foundryvtt.com/packages/dice-calculator/).
 
-- [The Furnace](https://foundryvtt.com/packages/furnace/) v2.6.0
-  Adds drawing tools, async macros (that are relied on by other modules and macros), enabling and disabling GM token vision, valuable playlist enhancements,
-  modifying initiative value within the Combat Tracker, etc. Small, random quality of life improvements. I mainly get value from the playlist changes and
-  advanced macros via other modules.
+### [The Furnace](https://foundryvtt.com/packages/furnace/)
+
+Adds drawing tools, async macros (that are relied on by other modules and macros), enabling and disabling GM token vision, valuable playlist enhancements,
+modifying initiative value within the Combat Tracker, etc. Small, random quality of life improvements. I mainly get value from the playlist changes and
+advanced macros via other modules.
 
 | Setting                                                       | Default            | Recommended | Comments                      |
 |---------------------------------------------------------------|--------------------|-------------|-------------------------------|
@@ -2779,10 +2943,11 @@ Why retired: Replaced by [Dice Tray](https://foundryvtt.com/packages/dice-calcul
 
 Why retired: Split into multiple different modules.
 
-- [Token Stamp 2](https://foundryvtt.com/packages/rolladvantage-token-stamp-2-foundry) v1.1.2
-  I used to use this *so* often when creating monsters for Roll20. Token Stamp 2 is an application that allows you to create custom tokens for your images.
-  This module adds a window within Foundry, so you don't have to navigate to their site in order to use their tool. Very useful! Adds a small button by the
-  link to the token image within the token menu.
+### [Token Stamp 2](https://foundryvtt.com/packages/rolladvantage-token-stamp-2-foundry)
+
+I used to use this *so* often when creating monsters for Roll20. Token Stamp 2 is an application that allows you to create custom tokens for your images.
+This module adds a window within Foundry, so you don't have to navigate to their site in order to use their tool. Very useful! Adds a small button by the
+link to the token image within the token menu.
 
 | Setting                 | Default                                    | Recommended   | Comments |
 |-------------------------|--------------------------------------------|---------------|----------|
@@ -2790,16 +2955,22 @@ Why retired: Split into multiple different modules.
 
 Why retired: Removed in favor of [Tokenizer](https://foundryvtt.com/packages/vtta-tokenizer/).
 
-- [Torch](https://foundryvtt.com/packages/torch/) - Adds a neat little icon to automatically create "torch light" around a token and consume a torch if one
-  is available in the inventory.
+### [Torch](https://foundryvtt.com/packages/torch/)
 
-  Why retired: Was having issues in the Foundry 0.7.x upgrade.
-- [Turn Marker](https://foundryvtt.com/packages/turnmarker/) - Adds an animated icon beneath whoever's turn it is.
+Adds a neat little icon to automatically create "torch light" around a token and consume a torch if one is available in the inventory.
 
-  Why retired: Outdated and replaced by [Next Up](https://foundryvtt.com/packages/Next-Up/).
-- [Tweak Playlist](https://foundryvtt.com/packages/tweakplaylist/) v0.4.5.11
-  Allows for hiding of tracks and playlists from players. Also adds the ability to randomize volume/delays. Most importantly, adds CSS to turn the stop/start
-  buttons red/green respectively.
+Why retired: Was having issues in the Foundry 0.7.x upgrade.
+
+### [Turn Marker](https://foundryvtt.com/packages/turnmarker/)
+
+Adds an animated icon beneath whoever's turn it is.
+
+Why retired: Outdated and replaced by [Next Up](https://foundryvtt.com/packages/Next-Up/).
+
+### [Tweak Playlist](https://foundryvtt.com/packages/tweakplaylist/)
+
+Allows for hiding of tracks and playlists from players. Also adds the ability to randomize volume/delays. Most importantly, adds CSS to turn the stop/start
+buttons red/green respectively.
 
 | Setting      | Default | Recommended        | Comments |
 |--------------|---------|--------------------|----------|
@@ -2808,24 +2979,31 @@ Why retired: Removed in favor of [Tokenizer](https://foundryvtt.com/packages/vtt
 
 Why retired: Not working in 0.8.x
 
-- [Vance's Sidebar Resizer](https://foundryvtt.com/packages/vance-sidebar-resizer/) v0.0.2
-  Allows for resizing of the sidebar. Nothing more, nothing less!
+### [Vance's Sidebar Resizer](https://foundryvtt.com/packages/vance-sidebar-resizer/)
 
-  Why retired: Not really worth a module slot.
-- [VTTA D&DBeyond Integration](https://foundryvtt.com/packages/vtta-dndbeyond/) - Adds the ability to import monsters, spells, and character sheets from
-  D&DBeyond into Foundry. Also adds the ability to roll monster attacks and saves from the D&DBeyond page.
+Allows for resizing of the sidebar. Nothing more, nothing less!
 
-  Why retired: Succeeded by [D&D Beyond Importer](https://foundryvtt.com/packages/ddb-importer/) and I never really used the "roll from D&DBeyond" feature.
-- [Virtual Tabletop Assets - Party Overview](https://foundryvtt.com/packages/vtta-party/) - Adds an info icon in the Actors tab that pops an overview of the
-  current party of PCs. HP, AC, languages, wealth, etc. are all available. I use it mainly for the Languages tab since the other info is pretty easy to see,
-  but it's useful information to have in one place.
-    - Grant players access to the overview --> Disabled
-    - Enable tooltips --> Disabled (conflicts with [Token Info Icons](https://foundryvtt.com/packages/token-info-icons/), and is buggy)
-    - Enable tooltips for players --> Disabled
-    - Set the font size for tooltips in pixels --> 14
+Why retired: Not really worth a module slot.
 
-  Why retired: Broke when updating to newer versions of Foundry. Also, replaced by [Party Overview](https://foundryvtt.com/packages/party-overview/).
-  <a name="performance-improvements"></a>
+### [VTTA D&DBeyond Integration](https://foundryvtt.com/packages/vtta-dndbeyond/)
+
+Adds the ability to import monsters, spells, and character sheets from D&DBeyond into Foundry. Also adds the ability to roll monster attacks and saves from the
+D&DBeyond page.
+
+Why retired: Succeeded by [D&D Beyond Importer](https://foundryvtt.com/packages/ddb-importer/) and I never really used the "roll from D&DBeyond" feature.
+
+### [Virtual Tabletop Assets - Party Overview](https://foundryvtt.com/packages/vtta-party/)
+
+Adds an info icon in the Actors tab that pops an overview of the current party of PCs. HP, AC, languages, wealth, etc. are all available. I use it mainly for
+the Languages tab since the other info is pretty easy to see, but it's useful information to have in one place.
+
+- Grant players access to the overview --> Disabled
+- Enable tooltips --> Disabled (conflicts with [Token Info Icons](https://foundryvtt.com/packages/token-info-icons/), and is buggy)
+- Enable tooltips for players --> Disabled
+- Set the font size for tooltips in pixels --> 14
+
+Why retired: Broke when updating to newer versions of Foundry. Also, replaced by [Party Overview](https://foundryvtt.com/packages/party-overview/).
+<a name="performance-improvements"></a>
 
 # Performance Improvements
 

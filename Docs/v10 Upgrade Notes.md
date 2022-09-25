@@ -10,6 +10,7 @@ Here, I'll try to list any main differences between my prior Foundry v9.269 setu
 - Drag Ruler (temporarily, see Issues)
 - DnD5e Helpers (temporarily, see Issues)
 - Changelogs (not needed anymore, apparently?)
+- Collapsable Journal Sections (not needed with the journal improvements in core Foundry)
 
 ## Added Modules
 - Lib DF Buttons
