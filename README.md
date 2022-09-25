@@ -31,8 +31,7 @@ If there's a module, resource, or other missing piece that you think should be o
 Let me know if there's any improvements that could be made by creating an [issue](https://github.com/NateHawk85/Nathans-DnD5e-Foundry-Modules/issues/new), and 
 I'll get to it as soon as I can!
 
-# Versions
-## Current Foundry Version - 10.286
+### Current Foundry Version - 10.286
 If you want to view my preferred modules for a specific version of Foundry, you can use the 
 [commit history](https://github.com/NateHawk85/Nathans-DnD5e-Foundry-Modules/commits/main) to view past versions of this page. Each commit should have the
 corresponding Foundry version in the commit message, and if it doesn't, I messed up somewhere :)
@@ -40,8 +39,9 @@ corresponding Foundry version in the commit message, and if it doesn't, I messed
 # Table of Contents
 - Modules and Settings
     - [Foundry VTT Settings](#foundry-settings)
-        - [Configure Permissions](#configure-permissions)
         - [Core Settings](#core-settings)
+        - [Configure Permissions](#configure-permissions)
+        - [Default Token Configuration](#default-token-settings)
         - [System Settings](#system-settings)
     - [Must-Have Modules](#must-have-modules)
     - [Full List of Currently-Installed Modules, Descriptions, and Settings](#all-installed-modules)
@@ -66,20 +66,45 @@ corresponding Foundry version in the commit message, and if it doesn't, I messed
         - [Other D&D Materials](#other-dnd-materials)
 
 <a name="foundry-settings"></a>
-# Foundry VTT Settings
+## Foundry VTT Settings
+
+<a name="core-settings"></a>
+### Core Settings
+
+| Setting                        | Default            | Recommended        | Comments |
+|--------------------------------|--------------------|--------------------|----------|
+| Disable Game Canvas            | :o:                | ---                | ---      |
+| Language Preference            | English            | ---                | ---      |
+| Enable Chat Bubbles            | :white_check_mark: | ---                | ---      |
+| Pan to Token Speaker           | :white_check_mark: | :o:                | ---      |
+| Scrolling Status Text          | :white_check_mark: | ---                | ---      |
+| Pixel Ratio Resolution Scaling | :white_check_mark: | ---                | ---      |
+| Left-Click to Release Objects  | :o:                | :white_check_mark: | ---      |
+| Performance Mode               | High               | Maximum            | ---      |
+| Maximum Framerate              | 60                 | ---                | ---      |
+| Show FPS Meter                 | :white_check_mark: | ---                | ---      |
+| Font Size                      | 5                  | ---                | ---      |
+| Token Drag Vision              | :o:                | ---                | ---      |
+| Token Vision Animation         | :white_check_mark: | ---                | ---      |
+| Light Source Animation         | :white_check_mark: | ---                | ---      |
+| Zoomed Texture Antialiasing    | :white_check_mark: | ---                | ---      |
+| Editor Autosave Frequency      | 60                 | ---                | ---      |
+| Combat Theme                   | None               | ---                | ---      |
+| Animate Roll Tables?           | :white_check_mark: | :o:                | ---      |
+| Cone Template Type             | Round              | ---                | ---      |
 
 <a name="configure-permissions"></a>
-## Configure Permissions
+### Configure Permissions
 
 | Setting                       | Player             | Trusted Player     | Assistant GM       | Game Master        |
 |-------------------------------|--------------------|--------------------|--------------------|--------------------|
 | Allow Broadcasting Audio      | :o:                | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | Allow Broadcasting Video      | :o:                | :white_check_mark: | :white_check_mark: | :white_check_mark: |
-| Canvas Pings                  | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Canvas Pings                  | :o:                | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | Configure Token Settings      | :o:                | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | Create Journal Entries        | :o:                | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | Create Map Notes              | :o:                | :white_check_mark: | :white_check_mark: | :white_check_mark: |
-| Create Measured Template      | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Create Measured Template      | :o:                | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | Create New Actors             | :o:                | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | Create New Items              | :o:                | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | Create New Tokens             | :o:                | :white_check_mark: | :white_check_mark: | :white_check_mark: |
@@ -90,65 +115,67 @@ corresponding Foundry version in the commit message, and if it doesn't, I messed
 | Open and Close Doors          | :o:                | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | Upload New Files              | :o:                | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | Use Drawing Tools             | :o:                | :white_check_mark: | :white_check_mark: | :white_check_mark: |
-| Use File Browser              | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Use File Browser              | :o:                | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | Use Script Macros             | :o:                | :white_check_mark: | :white_check_mark: | :white_check_mark: |
-| Whisper Private Messages      | :o:                | :o:                | :o:                | :o:                |
+| Whisper Private Messages      | :white_check_mark: | :o:                | :o:                | :o:                |
 
-<a name="core-settings"></a>
-## Core Settings
+<a name="default-token-settings"></a>
+### Default Token Configuration
+These defaults get overridden by [Token Mold](https://foundryvtt.com/packages/token-mold/), but they're still good to have
 
-  Setting                             | Default   | Recommended   | Comments
-  ---                                 | ---       | ---           | ---    
-  Disable Game Canvas                 | Disabled  | ---           | ---    
-  Language Preference                 | English   | ---           | ---    
-  Enable Chat Bubbles                 | Enabled   | ---           | ---    
-  Pan to Token Speaker                | Enabled   | Disabled      | ---    
-  Disable Pixel Resolution Scaling    | Disabled  | ---           | ---    
-  Left-Click to Release Objects       | Disabled  | Enabled       | ---    
-  Maximum Framerate                   | 60        | ---           | ---    
-  Token Drag Vision                   | Disabled  | ---           | ---    
-  Enable Soft Shadows                 | Enabled   | ---           | ---    
-  Token Vision Animation              | Enabled   | ---           | ---    
-  Light Source Animation              | Enabled   | ---           | ---    
-  Zoomed Texture Antialiasing         | Enabled   | ---           | ---    
-  Animate Roll Tables?                | Enabled   | Disabled      | ---    
-  Cone Template Type                  | Round     | ---           | ---
-
-## Default Token Configuration
-
-  Setting               | Default          | Recommended      | Comments 
-  ---                   | ---              | ---              | ---      
-  Light Animation Type  | Never Displayed  | Always for Owner | These defaults get overridden by [Token Mold](https://foundryvtt.com/packages/token-mold/), but they're still good to have
-  Token Disposition     | Hostile          | Neutral          | ---      
-  Lock Rotation         | Disabled         | ---              | ---      
-  Has Vision            | Disabled         | Enabled          | ---      
-  Dim Vision            | 0                | ---              | ---      
-  Bright Vision         | 0                | ---              | ---      
-  Sight Angle           | 360              | ---              | ---      
-  Dim Light Radius      | 0                | ---              | ---      
-  Bright Light Radius   | 0                | ---              | ---      
-  Emission Angle        | 360              | ---              | ---      
-  Light Color           | 0, 0, 0          | ---              | ---      
-  Color Intensity       | 0.5              | ---              | ---      
-  Light Animation Type  | None             | ---              | ---      
-  Animation Speed       | 5                | ---              | ---      
-  Animation Intensity   | 5                | ---              | ---      
-  Display Bars          | Never Displayed  | Always for Owner | ---      
-  Bar 1 Attribute       | attributes.hp    | ---              | ---      
-  Bar 2 Attribute       | None             | ---              | ---      
+| Setting                                 | Default                         | Recommended        | Comments |
+|-----------------------------------------|---------------------------------|--------------------|----------|
+| Identity: Display Name                  | Never Displayed                 | Always for Owner   | ---      |
+| Identity: Token Disposition             | Hostile                         | ---                | ---      |
+| Identity: Lock Rotation                 | :o:                             | ---                | ---      |
+| Vision (basic): Vision Enabled          | :o:                             | :white_check_mark: | ---      |
+| Vision (basic): Vision Range            | 0                               | ---                | ---      |
+| Vision (basic): Vision Angle            | 360                             | ---                | ---      |
+| Vision (basic): Vision Mode             | Basic Vision                    | ---                | ---      |
+| Vision (modes): Detection Modes         | Basic Vision :white_check_mark: | ---                | ---      |
+| Vision (advanced): Vision Color         | 0, 0, 0                         | ---                | ---      |
+| Vision (advanced): Attenuation          | 0.1                             | ---                | ---      |
+| Vision (advanced): Vision Brightness    | 0                               | ---                | ---      |
+| Vision (advanced): Saturation           | 0                               | ---                | ---      |
+| Vision (advanced): Contrast             | 0                               | ---                | ---      |
+| Light (basic): Dim Light Radius         | 0                               | ---                | ---      |
+| Light (basic): Bright Light Radius      | 0                               | ---                | ---      |
+| Light (basic): Emission Angle           | 360                             | ---                | ---      |
+| Light (basic): Light Color              | 0, 0, 0                         | ---                | ---      |
+| Light (basic): Color Intensity          | 0.5                             | ---                | ---      |
+| Light (animation): Light Animation Type | None                            | ---                | ---      |
+| Light (animation): Animation Speed      | 5                               | ---                | ---      |
+| Light (animation): Reverse Direction    | :o:                             | ---                | ---      |
+| Light (animation): Animation Intensity  | 5                               | ---                | ---      |
+| Light (advanced): Coloration Technique  | Adaptive Luminance              | ---                | ---      |
+| Light (advanced): Luminosity            | 0.5                             | ---                | ---      |
+| Light (advanced): Attenuation           | 0.5                             | ---                | ---      |
+| Light (advanced): Saturation            | 0                               | ---                | ---      |
+| Light (advanced): Contrast              | 0                               | ---                | ---      |
+| Light (advanced): Shadows               | 0                               | ---                | ---      |
+| Resources: Display Bars                 | Never Displayed                 | Always for Owner   | ---      |
+| Resources: Bar 1 Attribute              | attributes.hp                   | ---                | ---      |
+| Resources: Bar 2 Attribute              | None                            | ---                | ---      |
 
 <a name="system-settings"></a>
 ## DnD5e - Fifth Edition System v2.0.3 Settings
 
-  Setting                             | Default   | Recommended   | Comments
-  ---                                 | ---       | ---           | ---    
-  Rest Variant                        | PHB       | ---           | ---    
-  Diagonal Movement Rule              | PHB       | ---           | ---    
-  Initiative Dexterity Tiebreaker     | Disabled  | Enabled       | ---    
-  Apply Currency Weight               | Enabled   | ---           | ---    
-  Disable Experience Tracking         | Disabled  | Enabled       | ---    
-  Collapse Item Cards In Chat         | Disabled  | ---           | ---    
-  Allow Polymorphing                  | Disabled  | Enabled       | In order for your players to polymorph, they need to have the permission to create new tokens.
+| Setting                            | Default            | Recommended        | Comments                                                                                       |
+|------------------------------------|--------------------|--------------------|------------------------------------------------------------------------------------------------|
+| Rest Variant                       | PHB                | ---                | ---                                                                                            |
+| Diagonal Movement Rule             | PHB                | ---                | ---                                                                                            |
+| Proficiency Variant                | PHB                | ---                | ---                                                                                            |
+| Honor Ability Score                | :o:                | ---                | ---                                                                                            |
+| Sanity Ability Score               | :o:                | ---                | ---                                                                                            |
+| Initiative Dexterity Tiebreaker    | :o:                | :white_check_mark: | ---                                                                                            |
+| Apply Currency Weight              | :white_check_mark: | ---                | ---                                                                                            |
+| Disable Experience Tracking        | :o:                | :white_check_mark: | ---                                                                                            |
+| Disable level-up automation        | :o:                | ---                | ---                                                                                            |
+| Collapse Item Cards In Chat        | :o:                | ---                | ---                                                                                            |
+| Allow Polymorphing                 | :o:                | :white_check_mark: | In order for your players to polymorph, they need to have the permission to create new tokens. |
+| Use Metric Weight Units            | :o:                | ---                | ---                                                                                            |
+| Critical Damage Multiply Modifiers | :o:                | ---                | ---                                                                                            |
+| Critical Damaage Maximize Dice     | :o:                | ---                | ---                                                                                            |
 
 <a name="must-have-modules"></a>
 # Must-Have Modules
@@ -195,7 +222,7 @@ module combinations) that have the biggest impact on the games I run. More in-de
   
   Setting                               | Default       | Recommended   | Comments
   ---                                   | ---           | ---           | ---
-  Debug output                          | Disabled      | ---           | ---
+  Debug output                          | :o:      | ---           | ---
 
 ## [Advanced Macros](https://foundryvtt.com/packages/advanced-macros) v1.9
   Split off of [The Furnace](https://foundryvtt.com/packages/furnace/), adds a 'Run Macro' button and an 'Execute Macro As GM' option that allows players to 
@@ -203,7 +230,7 @@ module combinations) that have the biggest impact on the games I run. More in-de
 
   Setting                   | Default   | Recommended   | Comments
   ---                       | ---       | ---           | ---    
-  Highlight Macro Codes     | Enabled   | ---           | ---
+  Highlight Macro Codes     | :white_check_mark:   | ---           | ---
 
 ## [Ammo Tracker](https://foundryvtt.com/packages/ammo-tracker-fvtt) v0.2.0
   Adds a small menu option to recover spent ammunition after an encounter ends. Good for tables that track arrows.
@@ -213,7 +240,7 @@ module combinations) that have the biggest impact on the games I run. More in-de
   
   Setting                   | Default   | Recommended   | Comments
   ---                       | ---       | ---           | ---    
-  Include GM Usernames List | Disabled  | Enabled       | ---    
+  Include GM Usernames List | :o:  | :white_check_mark:       | ---    
   
 ## [Automatic Journal Icon Numbers](https://foundryvtt1.com/packages/journal-icon-numbers/) v1.5.0
   Applies numbered pins to journal entries. Nice to differentiate journal icons, especially if you have a lot of them.
@@ -229,7 +256,7 @@ module combinations) that have the biggest impact on the games I run. More in-de
   Upload path           | upload/journal-icon-numbers   | ---           | ---    
   Icon scale            | 0.75                          | ---           | ---    
   Font size             | 48                            | ---           | ---    
-  Icons from folders    | Enabled                       | ---           | ---    
+  Icons from folders    | :white_check_mark:                       | ---           | ---    
   Rebuild all icons     | No rebuild                    | ---           | ---
 
 ## [Calendar/Weather](https://foundryvtt.com/packages/calendar-weather/) v3.1.7
@@ -239,14 +266,14 @@ module combinations) that have the biggest impact on the games I run. More in-de
   
   Setting                               | Default   | Recommended   | Comments
   ---                                   | ---       | ---           | ---
-  Calendar display for non-GM           | Disabled  | Enabled       | In some situations the party may be unaware of time, aka long Underdark scenarios. Disable when the party should not know the time!    
-  Output weather to chat                | Enabled   | ---           | ---    
-  Output moon changes to chat           | Enabled   | ---           | ---    
-  Display time as 24hr                  | Disabled  | ---           | ---    
-  Disable global illumination at night  | Enabled   | Disabled      | Could enable, however, I prefer to modify this via [Perfect Vision](https://foundryvtt.com/packages/perfect-vision/) instead.    
-  Use celsius                           | Disabled  | ---           | ---    
-  Can players see the weather           | Disabled  | ---           | ---    
-  Use lunar sanctions                   | Disabled  | ---           | ---    
+  Calendar display for non-GM           | :o:  | :white_check_mark:       | In some situations the party may be unaware of time, aka long Underdark scenarios. Disable when the party should not know the time!    
+  Output weather to chat                | :white_check_mark:   | ---           | ---    
+  Output moon changes to chat           | :white_check_mark:   | ---           | ---    
+  Display time as 24hr                  | :o:  | ---           | ---    
+  Disable global illumination at night  | :white_check_mark:   | :o:      | Could enable, however, I prefer to modify this via [Perfect Vision](https://foundryvtt.com/packages/perfect-vision/) instead.    
+  Use celsius                           | :o:  | ---           | ---    
+  Can players see the weather           | :o:  | ---           | ---    
+  Use lunar sanctions                   | :o:  | ---           | ---    
 
 ## [Changelogs](https://foundryvtt.com/packages/lib-changelogs) v0.4
   A library for module developers to assist in changelog updates. Would not install unless required by other modules.
@@ -257,12 +284,12 @@ module combinations) that have the biggest impact on the games I run. More in-de
 
   Setting                               | Default   | Recommended | Comments
   ---                                   | ---       | ---         | ---    
-  Limit actions to cantrips             | Disabled  | ---         | ---
-  Include minute-long spells as actions | Enabled   | Disabled    | ---
-  Include consumables as actions        | Enabled   | ---         | ---
-  Inject character actions list         | Enabled   | ---         | ---
-  Inject NPC actions list               | Enabled   | ---         | ---
-  Inject vehicle actions list           | Enabled   | ---         | ---
+  Limit actions to cantrips             | :o:  | ---         | ---
+  Include minute-long spells as actions | :white_check_mark:   | :o:    | ---
+  Include consumables as actions        | :white_check_mark:   | ---         | ---
+  Inject character actions list         | :white_check_mark:   | ---         | ---
+  Inject NPC actions list               | :white_check_mark:   | ---         | ---
+  Inject vehicle actions list           | :white_check_mark:   | ---         | ---
 
 ## [Chat Images](https://foundryvtt.com/packages/chat-images/) v2.5.3
   Allows you to put images in chat via uploading, screenshots, etc. I find it very useful for sharing certain bits of the map with only certain players, or 
@@ -272,48 +299,48 @@ module combinations) that have the biggest impact on the games I run. More in-de
 
   Setting                           | Default       | Recommended   | Comments
   ---                               | ---           | ---           | ---    
-  Warning on drop                   | Disabled      | ---           | ---
-  Warning on paste                  | Disabled      | ---           | ---
+  Warning on drop                   | :o:      | ---           | ---
+  Warning on paste                  | :o:      | ---           | ---
   Uploaded files quality            | 0.5           | ---           | ---
   Embedded files quality            | 0.5           | ---           | ---
   Files save location               | Data folder   | ---           | Make sure to ignore this folder from your players' sight via the file picker, if you care about that stuff.
-  Embed if upload is not possible   | Disabled      | ---           | Enable if you want your players to be able to use the module, but don't want to give upload permissions.
+  Embed if upload is not possible   | :o:      | ---           | Enable if you want your players to be able to use the module, but don't want to give upload permissions.
   
 ## [Chat Portrait](https://foundryvtt.com/packages/chat-portrait/) v0.3.9
   Adds an image of the corresponding image/token to player and GM chat messages.
 
   Setting                                                     | Default                                             | Recommended | Comments
   ---                                                         | ---                                                 | ---         | ---    
-  Use token image                                             | Disabled                                            | ---         | ---
-  Use token name                                              | Disabled                                            | ---         | ---
-  Use avatar image                                            | Disabled                                            | ---         | ---
-  Shows the name of the player next to the name of the actor  | Disabled                                            | ---         | ---
+  Use token image                                             | :o:                                            | ---         | ---
+  Use token name                                              | :o:                                            | ---         | ---
+  Use avatar image                                            | :o:                                            | ---         | ---
+  Shows the name of the player next to the name of the actor  | :o:                                            | ---         | ---
   Portrait size (px)                                          | 36                                                  | ---         | ---
   Portrait size for item (px)                                 | 36                                                  | ---         | ---
   Portrait border shape                                       | square                                              | ---         | ---
-  Use player color for portrait border                        | Enabled                                             | ---         | ---
+  Use player color for portrait border                        | :white_check_mark:                                             | ---         | ---
   Portrait border color                                       | #000000                                             | ---         | ---
   Portrait border width                                       | 2                                                   | ---         | --- 
-  Change color of message border                              | Disabled                                            | ---         | --- 
-  Change color of message background                          | Disabled                                            | ---         | --- 
-  Display chat flavor text next to portrait                   | Disabled                                            | ---         | --- 
-  Force name search                                           | Disabled                                            | ---         | --- 
+  Change color of message border                              | :o:                                            | ---         | --- 
+  Change color of message background                          | :o:                                            | ---         | --- 
+  Display chat flavor text next to portrait                   | :o:                                            | ---         | --- 
+  Force name search                                           | :o:                                            | ---         | --- 
   Size of the name text on chat (px)                          | 0                                                   | ---         | --- 
   Display setting                                             | allCards                                            | ---         | --- 
-  Adds a textual tag to chat messages                         | Disabled                                            | ---         | --- 
-  Use image replacer feature                                  | Enabled                                             | Disabled    | --- 
-  Display chat message of type other                          | Enabled                                             | ---         | --- 
-  Display chat message of type OOC                            | Enabled                                             | ---         | --- 
-  Display chat message of type IC                             | Enabled                                             | ---         | --- 
-  Display chat message of type emote                          | Enabled                                             | ---         | --- 
-  Display chat message of type whisper                        | Enabled                                             | ---         | --- 
-  Display chat message of type roll                           | Enabled                                             | ---         | --- 
-  Display chat message of whisper to other                    | Disabled                                            | ---         | --- 
+  Adds a textual tag to chat messages                         | :o:                                            | ---         | --- 
+  Use image replacer feature                                  | :white_check_mark:                                             | :o:    | --- 
+  Display chat message of type other                          | :white_check_mark:                                             | ---         | --- 
+  Display chat message of type OOC                            | :white_check_mark:                                             | ---         | --- 
+  Display chat message of type IC                             | :white_check_mark:                                             | ---         | --- 
+  Display chat message of type emote                          | :white_check_mark:                                             | ---         | --- 
+  Display chat message of type whisper                        | :white_check_mark:                                             | ---         | --- 
+  Display chat message of type roll                           | :white_check_mark:                                             | ---         | --- 
+  Display chat message of whisper to other                    | :o:                                            | ---         | --- 
   Display unknown                                             | none                                                | ---         | --- 
   Placeholder for the label unknown actor name                | Unknown Actor                                       | ---         | --- 
   Placeholder for the label unknown item name                 | Unknown Item                                        | ---         | --- 
   Placeholder for the label unknown item icon                 | /modules/chat-portrait/assets/inv-unidentified.png  | ---         | --- 
-  Setup additional custom styling on the text chat message    | Disabled                                            | ---         | --- 
+  Setup additional custom styling on the text chat message    | :o:                                            | ---         | --- 
 
 ## [Collapsible Journal Sections](https://github.com/ofdiceandmagic/FVTT-collapsible-journal-sections) v1.3.1
   Small quality of life fix that allows you to collapse journal headers. Very useful for long journals and dungeon notes!
@@ -336,116 +363,116 @@ module combinations) that have the biggest impact on the games I run. More in-de
 
   Setting                       | Default               | Recommended | Comments
   ---                           | ---                   | ---         | ---    
-  Enable concentrator           | Disabled              | ---         | Disabled in favor of the concentrator by [Midi QoL](https://foundryvtt.com/packages/midi-qol/).
-  Enable enhanced conditions    | Disabled              | Enabled     | ---
-  Enable award XP               | Disabled              | ---         | Would enable if I was using XP levelling instead of milestone levelling.
+  Enable concentrator           | :o:              | ---         | :o: in favor of the concentrator by [Midi QoL](https://foundryvtt.com/packages/midi-qol/).
+  Enable enhanced conditions    | :o:              | :white_check_mark:    | ---
+  Enable award XP               | :o:              | ---         | Would enable if I was using XP levelling instead of milestone levelling.
   Modifier                      | 1                     | ---         | ---
-  Enable hide actor names       | Disabled              | Enabled     | ---
-  Enable pan to token           | Disabled              | Enabled     | ---
-  Enable select token           | Disabled              | ---         | ---
-  Enable reroll initiative      | Disabled              | ---         | ---
-  Enable temporary combatants   | Disabled              | ---         | I used to have this enabled, however, it causes graphical issues with [Hidden Initiative](https://foundryvtt.com/packages/hidden-initiative/) when enabled.
+  Enable hide actor names       | :o:              | :white_check_mark:    | ---
+  Enable pan to token           | :o:              | :white_check_mark:    | ---
+  Enable select token           | :o:              | ---         | ---
+  Enable reroll initiative      | :o:              | ---         | ---
+  Enable temporary combatants   | :o:              | ---         | I used to have this enabled, however, it causes graphical issues with [Hidden Initiative](https://foundryvtt.com/packages/hidden-initiative/) when enabled.
   Token effect icon size        | Small (Default) - 5x5 | ---         | ---
-  Enable mighty summoner        | Disabled              | ---         | Disabled only because I have a macro that gets interrupted by this option. Otherwise, I'd keep it.
+  Enable mighty summoner        | :o:              | ---         | Disabled only because I have a macro that gets interrupted by this option. Otherwise, I'd keep it.
 
 ### CUBPuter Options
 
   Setting                   | Recommended | Comments
   ---                       | ---         | ---    
-  Use oldschool CRT styling | Disabled    | ---
-  Show terminal             | Disabled    | ---
-  Show startup              | Disabled    | ---
-  Show greeting             | Disabled    | ---
-  Show instructions         | Disabled    | ---
-  Show gadget information   | Enabled     | ---
+  Use oldschool CRT styling | :o:    | ---
+  Show terminal             | :o:    | ---
+  Show startup              | :o:    | ---
+  Show greeting             | :o:    | ---
+  Show instructions         | :o:    | ---
+  Show gadget information   | :white_check_mark:     | ---
 
 ### Award XP
 
   Setting           | Default   | Recommended | Comments
   ---               | ---       | ---         | ---    
-  Enable Award XP   | Disabled  | ---         | Could be useful if I was using XP levelling instead of milestone levelling.
+  Enable Award XP   | :o:  | ---         | Could be useful if I was using XP levelling instead of milestone levelling.
   Modifier          | 1         | ---         | ---
 
 ### Concentrator
 
   Setting                                   | Default       | Recommended   | Comments
   ---                                       | ---           | ---           | ---    
-  Enable concentrator                       | Disabled      | ---           | Disabled in favor of the concentrator by [Midi QoL](https://foundryvtt.com/packages/midi-qol/).
+  Enable concentrator                       | :o:      | ---           | Disabled in favor of the concentrator by [Midi QoL](https://foundryvtt.com/packages/midi-qol/).
   Concentration condition name              | Concentrating | ---           | ---
   Concentration attribute                   | con           | ---           | ---
   Health attribute                          | attributes.hp | ---           | ---
-  Notify chat                               | Disabled      | Enabled       | ---
-  Prompt player                             | Disabled      | Enabled       | ---
-  Automatically set concentrating status    | Disabled      | Enabled       | ---
+  Notify chat                               | :o:      | :white_check_mark:       | ---
+  Prompt player                             | :o:      | :white_check_mark:       | ---
+  Automatically set concentrating status    | :o:      | :white_check_mark:       | ---
   Notify on double concentration            | None          | GM only       | ---
 
 ### Enhanced Conditions
 
   Setting                               | Default   | Recommended   | Comments
   ---                                   | ---       | ---           | ---    
-  Enable enhanced conditions            | Disabled  | Enabled       | ---
-  Output to chat                        | Disabled  | Enabled       | ---
-  Output during combat                  | Disabled  | Enabled       | ---
-  Remove default status effects         | Disabled  | ---           | ---
-  Suppress preventative save reminder   | Disabled  | Enabled       | After updating to Foundry version 0.7.x. I would recommend NOT modifying this option manually.
+  Enable enhanced conditions            | :o:  | :white_check_mark:       | ---
+  Output to chat                        | :o:  | :white_check_mark:       | ---
+  Output during combat                  | :o:  | :white_check_mark:       | ---
+  Remove default status effects         | :o:  | ---           | ---
+  Suppress preventative save reminder   | :o:  | :white_check_mark:       | After updating to Foundry version 0.7.x. I would recommend NOT modifying this option manually.
 
 ### Hide Names
 
   Setting                   | Default           | Recommended   | Comments
   ---                       | ---               | ---           | ---    
-  Enabled hide actor names  | Disabled          | Enabled       | ---
-  Hide all name parts       | Disabled          | Enabled       | ---
-  Hide hostile names        | Disabled          | Enabled       | ---
-  Hide neutral names        | Disabled          | Enabled       | ---
-  Hide friendly names       | Disabled          | ---           | ---
+  Enabled hide actor names  | :o:          | :white_check_mark:       | ---
+  Hide all name parts       | :o:          | :white_check_mark:       | ---
+  Hide hostile names        | :o:          | :white_check_mark:       | ---
+  Hide neutral names        | :o:          | :white_check_mark:       | ---
+  Hide friendly names       | :o:          | ---           | ---
   Hostile replacement name  | Unknown Creature  | \*blank\*     | ---
   Neutral replacement name  | Unknown Creature  | \*blank\*     | ---
   Friendly replacement name | Unknown Creature  | ---           | This is unused.
-  Hide chat card footer     | Disabled          | Enabled       | ---
+  Hide chat card footer     | :o:          | :white_check_mark:       | ---
 
 ### Pan/Select
 
   Setting               | Default   | Recommended   | Comments
   ---                   | ---       | ---           | ---    
-  Enable pan to token   | Disabled  | Enabled       | ---
+  Enable pan to token   | :o:  | :white_check_mark:       | ---
   Pan GM                | None      | All           | ---
   Pan players           | None      | ---           | ---
-  Enable select token   | Disabled  | ---           | ---
+  Enable select token   | :o:  | ---           | ---
   Select GM             | None      | All           | This is unused.
-  Select players        | Disabled  | ---           | ---
-  Deselect tokens       | Disabled  | ---           | ---
+  Select players        | :o:  | ---           | ---
+  Deselect tokens       | :o:  | ---           | ---
 
 ### Reroll Initiative
 
   Setting                       | Default   | Recommended   | Comments
   ---                           | ---       | ---           | ---    
-  Enable reroll initiative      | Disabled  | ---           | ---
-  Reroll temporary combatants   | Disabled  | ---           | ---
+  Enable reroll initiative      | :o:  | ---           | ---
+  Reroll temporary combatants   | :o:  | ---           | ---
 
 ### Temporary Combatants
 
   Setting                       | Default   | Recommended | Comments
   ---                           | ---       | ---         | ---    
-  Enable temporary combatants   | Disabled  | ---         | Would enable, however, it conflicts with [Hidden Initiative](https://foundryvtt.com/packages/hidden-initiative/).
+  Enable temporary combatants   | :o:  | ---         | Would enable, however, it conflicts with [Hidden Initiative](https://foundryvtt.com/packages/hidden-initiative/).
 
 ### Misc Token
 
   Setting                           | Default               | Recommended   | Comments
   ---                               | ---                   | ---           | ---    
-  Enable auto roll hostile token HP | Disabled              | ---           | ---
-  Hide automatic HP roll            | Disabled              | Enabled       | ---
+  Enable auto roll hostile token HP | :o:              | ---           | ---
+  Hide automatic HP roll            | :o:              | :white_check_mark:       | ---
   Token effect icon size            | Small (Default) - 5x5 | ---           | ---
-  Enable mighty summoner            | Disabled              | ---           | Disabled only because I have a macro that gets interrupted by this option. Otherwise, I'd keep it.
+  Enable mighty summoner            | :o:              | ---           | Disabled only because I have a macro that gets interrupted by this option. Otherwise, I'd keep it.
   Mighty summoner feat name         | Mighty Summoner       | ---           | ---
 
 ### Triggler Settings
 
   Category      | Attribute | Property 1    | Operator  | Value | Property 2    | Advanced Trigger  | Options   | Comments
   ---           | ---       | ---           | ---       | ---   | ---           | ---               | ---       | ---
-  attributes    | hp        | value         | =         | 0     | value         | Disabled          | PCs Only  | Used for adding the unconscious condition when a PCs health falls to 0.
-  attributes    | hp        | value         | =         | 0     | value         | Disabled          | NPCs Only | Used for adding the dead condition when an NPCs health falls to 0.
-  attributes    | hp        | value         | >         | 0     | value         | Disabled          | PCs Only  | Used for removing the unconscious condition when a PCs HP rises above 0.
-  attributes    | hp        | value         | >         | 0     | value         | Disabled          | NPCs Only | Used for removing the dead condition when an NPCs health rises above 0.
+  attributes    | hp        | value         | =         | 0     | value         | :o:          | PCs Only  | Used for adding the unconscious condition when a PCs health falls to 0.
+  attributes    | hp        | value         | =         | 0     | value         | :o:          | NPCs Only | Used for adding the dead condition when an NPCs health falls to 0.
+  attributes    | hp        | value         | >         | 0     | value         | :o:          | PCs Only  | Used for removing the unconscious condition when a PCs HP rises above 0.
+  attributes    | hp        | value         | >         | 0     | value         | :o:          | NPCs Only | Used for removing the dead condition when an NPCs health rises above 0.
 
 ### Condition Lab
 
@@ -484,8 +511,8 @@ module combinations) that have the biggest impact on the games I run. More in-de
 
   Setting                       | Default   | Recommended | Comments
   ---                           | ---       | ---         | ---    
-  Default merge by name         | Disabled  | ---         | ---
-  Auto create folders on import | Disabled  | Enabled     | ---
+  Default merge by name         | :o:  | ---         | ---
+  Auto create folders on import | :o:  | :white_check_mark:     | ---
 
 ## [Crash's 5e Downtime Tracking](https://foundryvtt.com/packages/5e-training/) v0.6.3
   Adds another tab on supported character sheets to allow for tracking of activities. Uses could include training, keeping track of "worship score"/piety, 
@@ -493,10 +520,10 @@ module combinations) that have the biggest impact on the games I run. More in-de
 
   Setting                           | Default       | Recommended   | Comments
   ---                               | ---           | ---           | ---    
-  Show import button                | Disabled      | ---           | ---
-  Enable GM only mode               | Disabled      | ---           | ---
-  Show downtime tab (PCs)           | Enabled       | ---           | ---
-  Show downtime tab (NPCs)          | Enabled       | ---           | ---
+  Show import button                | :o:      | ---           | ---
+  Enable GM only mode               | :o:      | ---           | ---
+  Show downtime tab (PCs)           | :white_check_mark:       | ---           | ---
+  Show downtime tab (NPCs)          | :white_check_mark:       | ---           | ---
   Downtime tab name                 | Downtime      | Activities    | ---
   Character sheet width adjustment  | 50            | ---           | ---
   Default completion target         | 300           | ---           | ---
@@ -510,7 +537,7 @@ module combinations) that have the biggest impact on the games I run. More in-de
   ---                 | ---       | ---         | ---    
   Speech bubble key   | KeyT      | ---         | ---
   Arrow key           | KeyY      | ---         | ---
-  Show your own icon? | Enabled   | ---         | ---
+  Show your own icon? | :white_check_mark:   | ---         | ---
   Movement easing     | 5         | ---         | ---
   Popup size          | 2         | ---         | ---
   
@@ -527,8 +554,8 @@ module combinations) that have the biggest impact on the games I run. More in-de
 
   Setting               | Default   | Recommended | Comments
   ---                   | ---       | ---         | ---    
-  Disable custom hotbar | Disabled  | ---         | ---
-  Disable core hotbar?  | Disabled  | ---         | ---
+  Disable custom hotbar | :o:  | ---         | ---
+  Disable core hotbar?  | :o:  | ---         | ---
 
 ### Default Custom Hotbar Settings
 
@@ -576,16 +603,16 @@ module combinations) that have the biggest impact on the games I run. More in-de
 
   Setting                                     | Default                         | Recommended                                                   | Comments
   ---                                         | ---                             | ---                                                           | ---    
-  Munch botton be at the top?                 | Enabled                         | ---                                                           | ---
-  Use full source book name?                  | Enabled                         | ---                                                           | ---
-  Use damage type hints?                      | Enabled                         | ---                                                           | ---
-  Add restrictions to damage hint?            | Enabled                         | ---                                                           | ---
-  Should imported monster have vision set?    | Enabled                         | ---                                                           | ---
-  Restrict to trusted users                   | Disabled                        | ---                                                           | ---
-  Allow all users to sync to DDB              | Disabled                        | Enabled                                                       | ---
-  Monster D&D beyond link in title bar?       | Enabled                         | ---                                                           | ---
-  Character DDB-importer button in title bar? | Disabled                        | ---                                                           | ---
-  Make title bar icon white?                  | Disabled                        | ---                                                           | ---
+  Munch botton be at the top?                 | :white_check_mark:                         | ---                                                           | ---
+  Use full source book name?                  | :white_check_mark:                         | ---                                                           | ---
+  Use damage type hints?                      | :white_check_mark:                         | ---                                                           | ---
+  Add restrictions to damage hint?            | :white_check_mark:                         | ---                                                           | ---
+  Should imported monster have vision set?    | :white_check_mark:                         | ---                                                           | ---
+  Restrict to trusted users                   | :o:                        | ---                                                           | ---
+  Allow all users to sync to DDB              | :o:                        | :white_check_mark:                                                       | ---
+  Monster D&D beyond link in title bar?       | :white_check_mark:                         | ---                                                           | ---
+  Character DDB-importer button in title bar? | :o:                        | ---                                                           | ---
+  Make title bar icon white?                  | :o:                        | ---                                                           | ---
   Adventure import path                       | \[data\] adventures/import      | \[data\] assets/ddb-imports/mr-primate/adventures/import      | ---
   Adventure upload path                       | \[data\] ddb-images/adventures  | \[data\] assets/ddb-imports/mr-primate/adventures/upload      | ---
   Adventure misc upload path                  | \[data\] ddb-images/adventures  | \[data\] assets/ddb-imports/mr-primate/adventures/misc-upload | ---
@@ -601,7 +628,7 @@ module combinations) that have the biggest impact on the games I run. More in-de
   Other images                            | \[data\] assets/ddb-imported-images | \[data\] assets/ddb-imports/mr-primate/other-images   | ---
   Avatar frame images                     | \[data\] ddb-images/frames          | \[data\] assets/ddb-imports/mr-primate/frames         | ---
   A cobalt cookie                         | \*blank\*                           | \*your cobalt cookie here\*                           | ---
-  Store cobolt cookie in browser storage? | Disabled                            | ---                                                   | ---
+  Store cobolt cookie in browser storage? | :o:                            | ---                                                   | ---
   Campaign ID                             | \*blank\*                           | \*your campaign URL/ID here, if you have one\*        | ---
   Patreon link                            | \*blank\*                           | \*your patreon key here, if you have one\*            | ---
 
@@ -619,7 +646,7 @@ module combinations) that have the biggest impact on the games I run. More in-de
   Spells                                    | \[world\] DDB Spells          | \[CustomSharedCompendiums\] All DnDBeyond Imported Spells         | ---
   Tables                                    | \[world\] DDB Tables          | \[CustomSharedCompendiums\] Shared Roll Tables                    | ---
   Override                                  | \[world\] DDB Override        | \[CustomSharedCompendiums\] Shared Custom Items                   | ---
-  Create default compendiums if missing?    | Enabled                       | Disabled                                                          | ---
+  Create default compendiums if missing?    | :white_check_mark:                       | :o:                                                          | ---
   
 ## [DF Curvy Walls](https://foundryvtt.com/packages/df-curvy-walls) v3.2.0
   Adding circles to the standard Foundry wall-creation tools is something I didn't even know I needed. Very useful, especially for putting a terrain circle 
@@ -629,7 +656,7 @@ module combinations) that have the biggest impact on the games I run. More in-de
 
   Setting                       | Default   | Recommended | Comments
   ---                           | ---       | ---         | ---    
-  Preserve tool state           | Enabled   | ---         | ---
+  Preserve tool state           | :white_check_mark:   | ---         | ---
   Key to hold when placing tool | Alt       | ---         | ---
 
 ## [DFreds Droppables](https://foundryvtt.com/packages/dfreds-droppables) v1.2.7
@@ -647,18 +674,18 @@ module combinations) that have the biggest impact on the games I run. More in-de
 
   Setting                     | Default   | Recommended | Comments
   ---                         | ---       | ---         | ---    
-  Enabled                     | Enabled   | ---         | ---
-  Show currency on NPC sheets | Enabled   | ---         | ---
-  Show chat message           | Disabled  | ---         | ---
+  Enabled                     | :white_check_mark:   | ---         | ---
+  Show currency on NPC sheets | :white_check_mark:   | ---         | ---
+  Show chat message           | :o:  | ---         | ---
   Creature types              | Humanoid  | \*blank\*   | I use in combination with [Monk's TokenBar](https://foundryvtt.com/packages/monks-tokenbar/), which allows me to only toggle loot sheets I want.
   Chance of no currency       | 0.25      | 0.1         | ---
   Chance of damaged items     | 0.1       | 0           | ---
   Damaged items multiplier    | 0.35      | 0           | ---
   Currency multiplier         | 1         | ---         | ---
-  Use silver                  | Enabled   | ---         | ---
-  Use electrum                | Enabled   | Disabled    | Poor electrum...
-  Use gold                    | Enabled   | ---         | ---
-  Use platinum                | Enabled   | ---         | ---
+  Use silver                  | :white_check_mark:   | ---         | ---
+  Use electrum                | :white_check_mark:   | :o:    | Poor electrum...
+  Use gold                    | :white_check_mark:   | ---         | ---
+  Use platinum                | :white_check_mark:   | ---         | ---
   
 ## [DF Settings Clarity](https://foundryvtt.com/packages/df-settings-clarity/) v3.2.1
   Adds icons next to individual settings to distinguish global settings from player ones. Extremely useful for people like me who spend quite a bit of time 
@@ -676,22 +703,22 @@ module combinations) that have the biggest impact on the games I run. More in-de
   ---                                 | ---             | ---         | ---    
   Max number of dice                  | 20              | ---         | ---
   Global animation speed              | Players' choice | ---         | ---
-  Simultaneous rolls are merged       | Enabled         | ---         | ---
-  Dice can be flipped                 | Enabled         | ---         | ---
-  Disabled during combat              | Disabled        | ---         | ---
-  Disabled for initiative rolls       | Disabled        | ---         | ---
-  Display chat message immediately    | Disabled        | ---         | ---
-  Enable 3D dice on roll tables       | Disabled        | ---         | ---
-  Enable 3D dice on inline rolls      | Enabled         | ---         | ---
-  Disable 3D dice on NPC rolls        | Disabled        | ---         | ---
-  Allow interaction with rolled dice  | Enabled         | ---         | ---
+  Simultaneous rolls are merged       | :white_check_mark:         | ---         | ---
+  Dice can be flipped                 | :white_check_mark:         | ---         | ---
+  Disabled during combat              | :o:        | ---         | ---
+  Disabled for initiative rolls       | :o:        | ---         | ---
+  Display chat message immediately    | :o:        | ---         | ---
+  Enable 3D dice on roll tables       | :o:        | ---         | ---
+  Enable 3D dice on inline rolls      | :white_check_mark:         | ---         | ---
+  Disable 3D dice on NPC rolls        | :o:        | ---         | ---
+  Allow interaction with rolled dice  | :white_check_mark:         | ---         | ---
 
 ### 3D Dice Settings
 ### Appearance
 
   Setting               | Default               | Recommended   | Comments
   ---                   | ---                   | ---           | ---    
-  Enable 3D dice        | Enabled               | ---           | ---
+  Enable 3D dice        | :white_check_mark:               | ---           | ---
   Dice presets (faces)  | Standard              | ---           | ---
   Theme                 | Custom                | ---           | ---
   Texture               | None / Auto (Theme)   | Metal         | ---
@@ -718,13 +745,13 @@ module combinations) that have the biggest impact on the games I run. More in-de
 
   Setting                   | Default     | Recommended   | Comments
   ---                       | ---         | ---           | ---    
-  Automatically hide        | Enabled     | ---           | ---
+  Automatically hide        | :white_check_mark:     | ---           | ---
   Millisecs before hiding   | 2000        | 500           | ---
   Hide FX                   | FadeOut     | ---           | ---
-  Sound effects             | Enabled     | ---           | ---
+  Sound effects             | :white_check_mark:     | ---           | ---
   Sound volume              | 0.5         | ---           | ---
   Table surface for sounds  | Felt        | Wood tray     | ---
-  Auto scale?               | Enabled     | ---           | ---
+  Auto scale?               | :white_check_mark:     | ---           | ---
   Manual scale              | 75          | ---           | ---
   Animation speed           | Normal      | ---           | ---
   3D layer position         | Over sheets | ---           | ---
@@ -734,15 +761,15 @@ module combinations) that have the biggest impact on the games I run. More in-de
 
   Setting                             | Default | Recommended   | Comments
   ---                                 | ---     | ---           | ---    
-  Show other players special effects  | Enabled | ---           | ---
+  Show other players special effects  | :white_check_mark: | ---           | ---
 
 ### Performance
 
   Setting                               | Default | Recommended   | Comments
   ---                                   | ---     | ---           | ---    
   Shadows quality                       | High    | ---           | ---
-  Advanced lighting                     | Enabled | ---           | ---
-  Enable 'high density' screen support  | Enabled | ---           | ---
+  Advanced lighting                     | :white_check_mark: | ---           | ---
+  Enable 'high density' screen support  | :white_check_mark: | ---           | ---
 
 ## [Dice Tray](https://foundryvtt.com/packages/dice-calculator/) v1.1.0
   Adds a small widget at the bottom of the chat to easily calculate custom rolls. Very intuitive with left-click to add a die, right-click to remove one.
@@ -750,9 +777,9 @@ module combinations) that have the biggest impact on the games I run. More in-de
 
   Setting                 | Default  | Recommended  | Comments
   ---                     | ---      | ---          | ---    
-  Enable dice tray        | Enabled  | ---          | ---
-  Enable dice calculator  | Enabled  | ---          | ---
-  Enable d6 pips          | Disabled | Enabled      | ---
+  Enable dice tray        | :white_check_mark:  | ---          | ---
+  Enable dice calculator  | :white_check_mark:  | ---          | ---
+  Enable d6 pips          | :o: | :white_check_mark:      | ---
   
 ## [DnD5e Helpers](https://foundryvtt.com/packages/dnd5e-helpers/) v3.0.1
   Some helpful automation to remind GMs of legendary actions, regeneration, undead fortitude checks, wild magic surges, auto proficiencies, and more. Also 
@@ -764,15 +791,15 @@ module combinations) that have the biggest impact on the games I run. More in-de
 
   Setting                                   | Default             | Recommended                           | Comments
   ---                                       | ---                 | ---                                   | ---    
-  Compute cover on target                   | Disabled            | Center Point Vision (Foundry Vision)  | ---
-  Tile cover                                | Disabled            | ---                                   | ---
-  Token cover                               | Disabled            | ---                                   | ---
+  Compute cover on target                   | :o:            | Center Point Vision (Foundry Vision)  | ---
+  Tile cover                                | :o:            | ---                                   | ---
+  Token cover                               | :o:            | ---                                   | ---
   Cover button tint                         | Dark Red            | ---                                   | ---
   Keybind for cover                         | \*blank\*           | ---                                   | ---
   Cover application                         | Manual              | ---                                   | ---
-  Hide GM info from cover report            | Disabled            | Enabled                               | ---
-  Remove cover on turn end                  | Disabled            | Enabled                               | ---
-  Remove targets on turn end                | Disabled            | ---                                   | Handled already by [Midi QoL](https://foundryvtt.com/packages/midi-qol/).
+  Hide GM info from cover report            | :o:            | :white_check_mark:                               | ---
+  Remove cover on turn end                  | :o:            | :white_check_mark:                               | ---
+  Remove targets on turn end                | :o:            | ---                                   | Handled already by [Midi QoL](https://foundryvtt.com/packages/midi-qol/).
   Status effect scale                       | 1                   | ---                                   | Handled already by [Midi QoL](https://foundryvtt.com/packages/midi-qol/).
   Auto adjust templates to 5e grids         | No Template Scaling | ---                                   | ---
 
@@ -780,11 +807,11 @@ module combinations) that have the biggest impact on the games I run. More in-de
 
   Setting                                                       | Default           | Recommended     | Comments
   ---                                                           | ---               | ---             | ---    
-  Automatic regeneration                                        | Disabled          | Enabled         | ---
+  Automatic regeneration                                        | :o:          | :white_check_mark:         | ---
   Effect name to block regeneration                             | No Regen          | ---             | ---
-  Start of turn legendary action reset                          | Disabled          | Enabled         | ---
-  Legendary action prompt                                       | Disabled          | Enabled         | ---
-  Lair action prompt                                            | Disabled          | Enabled         | ---
+  Start of turn legendary action reset                          | :o:          | :white_check_mark:         | ---
+  Legendary action prompt                                       | :o:          | :white_check_mark:         | ---
+  Lair action prompt                                            | :o:          | :white_check_mark:         | ---
   Undead fortitude checks                                       | No checks         | Advanced Saves  | Requires a little extra work, but is very useful.
   Undead fortitude - damage type                                | Radiant           | ---             | ---
   Undead fortitude name                                         | Undead Fortitude  | ---             | ---
@@ -794,34 +821,34 @@ module combinations) that have the biggest impact on the games I run. More in-de
 
   Setting                           | Default                 | Recommended       | Comments
   ---                               | ---                     | ---               | ---    
-  Wild magic auto-detect            | Disabled                | Enabled - More    | ---
+  Wild magic auto-detect            | :o:                | :white_check_mark: - More    | ---
   Wild magic surge table name       | Wild-Magic-Surge-Table  | Wild Magic Surges | ---
   Tides of chaos feature name       | Tides of Chaos          | ---               | ---
-  Recharge tides of chaos on surge  | Disabled                | Enabled           | ---
-  Hide wild magic from players      | Disabled                | Enabled           | ---
+  Recharge tides of chaos on surge  | :o:                | :white_check_mark:           | ---
+  Hide wild magic from players      | :o:                | :white_check_mark:           | ---
 
 ### Combat Helpers
 
   Setting                                                       | Default         | Recommended     | Comments
   ---                                                           | ---             | ---             | ---    
-  Enable combat action management                               | Disabled        | ---             | I'm personally not a fan of it, but I know some people love this feature :)    
+  Enable combat action management                               | :o:        | ---             | I'm personally not a fan of it, but I know some people love this feature :)    
   Display used actions as status effect                         | Only Reactions  | ---             | ---
   Automatically roll any uncharged abilities with a d6 recharge | Off             | Start of Turn   | ---
-  Hide the results of ability recharge rolls                    | Disabled        | Enabled         | ---
-  Great wound                                                   | Disabled        | ---             | ---
+  Hide the results of ability recharge rolls                    | :o:        | :white_check_mark:         | ---
+  Great wound                                                   | :o:        | ---             | ---
   Great wound name replacement                                  | Great Wound     | ---             | ---
   Great wound table                                             | *\blank\*       | ---             | ---
-  Hide GM info from great wound and open wound report           | Disabled        | ---             | ---
+  Hide GM info from great wound and open wound report           | :o:        | ---             | ---
   Great save DC                                                 | 15              | ---             | ---
-  Apply effects to great wounds                                 | Disabled        | ---             | ---
+  Apply effects to great wounds                                 | :o:        | ---             | ---
   Open wound feature name                                       | Open Wound  | ---             | ---
-  Open wounds for PC's only                                     | Disabled    | ---             | ---
+  Open wounds for PC's only                                     | :o:    | ---             | ---
   Open wound table                                              | \*blank\*   | ---             | ---
   Open wound - death saves                                      | 0           | ---             | ---
-  Open wound - crits                                            | Disabled    | ---             | ---
-  Open wound - HP at 0                                          | Disabled    | ---             | ---
-  Open wound - HP at 0 from a great wound                       | Disabled    | ---             | ---
-  Apply effeects to open wounds                                 | Disabled    | ---             | ---
+  Open wound - crits                                            | :o:    | ---             | ---
+  Open wound - HP at 0                                          | :o:    | ---             | ---
+  Open wound - HP at 0 from a great wound                       | :o:    | ---             | ---
+  Apply effeects to open wounds                                 | :o:    | ---             | ---
   
 ## [Drag Ruler](https://foundryvtt.com/packages/drag-ruler/) v1.7.5
   An updated version of [Show Drag Distance](https://foundryvtt.com/packages/ShowDragDistance/). As the title says, it's a quality of life improvement that 
@@ -833,10 +860,10 @@ module combinations) that have the biggest impact on the games I run. More in-de
 
   Setting                               | Default   | Recommended | Comments
   ---                                   | ---       | ---         | ---    
-  Swap spacebar and right click         | Disabled  | Enabled     | ---
-  Show PC speed to everyone             | Enabled   | ---         | ---
-  Show GM ruler to players              | Enabled   | Disabled    | ---
-  Enable movement history during combat | Enabled   | ---         | ---
+  Swap spacebar and right click         | :o:  | :white_check_mark:     | ---
+  Show PC speed to everyone             | :white_check_mark:   | ---         | ---
+  Show GM ruler to players              | :white_check_mark:   | :o:    | ---
+  Enable movement history during combat | :white_check_mark:   | ---         | ---
 
 ### Speed Provider Settings
 
@@ -867,17 +894,17 @@ module combinations) that have the biggest impact on the games I run. More in-de
   
   Setting                                           | Default   | Recommended | Comments
   ---                                               | ---       | ---         | ---    
-  Non-transfer effects require item targets (dnd5e) | Enabled   | ---         | ---
-  Use the DAE active effect config sheet            | Enabled   | ---         | ---
-  No duplicate damage macros                        | Disabled  | ---         | ---
-  Expire timed effects in real time                 | Enabled   | Disabled    | [About Time](https://foundryvtt.com/packages/about-time/) is installed, so this field isn't used.
-  Include active effects in special traits display  | Disabled  | ---         | ---
-  Use ability save field when rolling ability saves | Enabled   | ---         | ---
-  Auto calculate armor class                        | Enabled   | ---         | ---
-  Auto calc base AC                                 | Enabled   | ---         | ---
-  Confirm effect deletions                          | Disabled  | Enabled     | ---
+  Non-transfer effects require item targets (dnd5e) | :white_check_mark:   | ---         | ---
+  Use the DAE active effect config sheet            | :white_check_mark:   | ---         | ---
+  No duplicate damage macros                        | :o:  | ---         | ---
+  Expire timed effects in real time                 | :white_check_mark:   | :o:    | [About Time](https://foundryvtt.com/packages/about-time/) is installed, so this field isn't used.
+  Include active effects in special traits display  | :o:  | ---         | ---
+  Use ability save field when rolling ability saves | :white_check_mark:   | ---         | ---
+  Auto calculate armor class                        | :white_check_mark:   | ---         | ---
+  Auto calc base AC                                 | :white_check_mark:   | ---         | ---
+  Confirm effect deletions                          | :o:  | :white_check_mark:     | ---
   Amount of debug to show                           | None      | ---         | ---
-  Disable all active effect processing              | Disabled  | ---         | ---
+  Disable all active effect processing              | :o:  | ---         | ---
   
 ## [Easy Target](https://foundryvtt.com/packages/easy-target/) v2.12
   Allows for targeting tokens by holding the Alt key and clicking. Extremely useful for GMs.
@@ -906,22 +933,22 @@ module combinations) that have the biggest impact on the games I run. More in-de
 
   Setting                                           | Default   | Recommended | Comments
   ---                                               | ---       | ---         | ---    
-  Show available tab                                | Enabled   | ---         | ---
-  Allow players to drag rewards to their inventory  | Enabled   | ---         | ---
-  Players can create                                | Enabled   | ---         | ---
-  Players can accept quests                         | Enabled   | ---         | ---
-  Count hidden tasks                                | Disabled  | ---         | ---
-  Dynamic bookmark background                       | Enabled   | ---         | ---
+  Show available tab                                | :white_check_mark:   | ---         | ---
+  Allow players to drag rewards to their inventory  | :white_check_mark:   | ---         | ---
+  Players can create                                | :white_check_mark:   | ---         | ---
+  Players can accept quests                         | :white_check_mark:   | ---         | ---
+  Count hidden tasks                                | :o:  | ---         | ---
+  Dynamic bookmark background                       | :white_check_mark:   | ---         | ---
   Navigation style                                  | Bookmarks | ---         | ---
   Show tasks in quest log                           | Show Objectives: done/total  | ---         | ---
   Default quest permission level                    | Observer  | ---         | ---
-  Hide quest log from players                       | Disabled  | ---         | ---
-  Show reward drop notifications                    | Disabled  | ---         | ---
-  Show quest folder                                 | Disabled  | ---         | ---
-  Enable quest tracker                              | Disabled  | ---         | ---
-  Quest tracker background                          | Enabled   | ---         | ---
-  Show quest tracker tasks                          | Enabled   | ---         | ---
-  Reset quest tracker position                      | Disabled  | ---         | ---
+  Hide quest log from players                       | :o:  | ---         | ---
+  Show reward drop notifications                    | :o:  | ---         | ---
+  Show quest folder                                 | :o:  | ---         | ---
+  Enable quest tracker                              | :o:  | ---         | ---
+  Quest tracker background                          | :white_check_mark:   | ---         | ---
+  Show quest tracker tasks                          | :white_check_mark:   | ---         | ---
+  Reset quest tracker position                      | :o:  | ---         | ---
   
 ## [Forien's Unidentified Items](https://github.com/League-of-Foundry-Developers/foundryvtt-forien-unidentified-items) v0.2.5
   As a GM who frequently uses mysterious/items with abilities that aren't immediately obvious, this module is great in that it gives the GM the ability to 
@@ -936,8 +963,8 @@ module combinations) that have the biggest impact on the games I run. More in-de
 
   Setting                 | Default   | Recommended | Comments
   ---                     | ---       | ---         | ---    
-  Keep original icon      | Disabled  | Enabled     | ---
-  Allow tiering (nesting) | Disabled  | ---         | ---
+  Keep original icon      | :o:  | :white_check_mark:     | ---
+  Allow tiering (nesting) | :o:  | ---         | ---
   
 ## [Foundry Community Macros](https://foundryvtt.com/packages/foundry_community_macros/) v0.43.0
   Various macros created by the community. You'll find them in the corresponding compendiums.
@@ -956,13 +983,13 @@ module combinations) that have the biggest impact on the games I run. More in-de
 
   Setting   | Default | Recommended | Comments
   ---       | ---     | ---         | ---    
-  Show FPS? | Enabled | ---         | ---
+  Show FPS? | :white_check_mark: | ---         | ---
 
 ### Location Settings
 
   Setting               | Default | Recommended | Comments
   ---                   | ---     | ---         | ---    
-  Use default location  | Enabled | ---         | ---
+  Use default location  | :white_check_mark: | ---         | ---
   Top/Right/Bottom/Left | Auto    | ---         | ---
 
 ## [GM Secret Block](https://foundryvtt.com/packages/gm-secrets/) v1.0.0
@@ -988,11 +1015,11 @@ module combinations) that have the biggest impact on the games I run. More in-de
   Show estimates: users         | All                                                                         | ---                                   | ---
   Show estimates: tokens        | All                                                                         | ---                                   | ---
   Stages                        | Unconscious, Near Death, Badly Injured, Injured, Barely Injured, Uninjured  | Unconscious, Bloodied, Wounded, Fresh | ---
-  Perfectionism                 | Enabled                                                                     | ---                                   | ---
-  Output estimate to chat       | Disabled                                                                    | ---                                   | ---
-  Add temporary health          | Disabled                                                                    | ---                                   | ---
-  Hide on tokens with 0 max HP  | Enabled                                                                     | ---                                   | ---
-  Use vehicle threshold         | Disabled                                                                    | ---                                   | ---
+  Perfectionism                 | :white_check_mark:                                                                     | ---                                   | ---
+  Output estimate to chat       | :o:                                                                    | ---                                   | ---
+  Add temporary health          | :o:                                                                    | ---                                   | ---
+  Hide on tokens with 0 max HP  | :white_check_mark:                                                                     | ---                                   | ---
+  Use vehicle threshold         | :o:                                                                    | ---                                   | ---
   Threshold stages              | Wrecked, Broken, Fully Functional                                           | ---                                   | ---
   Vehicle stages                | Wrecked, Broken, Battered, Scratched, Pristine                              | ---                                   | ---
 
@@ -1000,8 +1027,8 @@ module combinations) that have the biggest impact on the games I run. More in-de
 
   Setting               | Recommended                                                             | Comments
   ---                   | ---                                                                     | ---    
-  Use color             | Enabled                                                                 | ---
-  Smooth gradient       | Enabled                                                                 | ---
+  Use color             | :white_check_mark:                                                                 | ---
+  Smooth gradient       | :white_check_mark:                                                                 | ---
   *Color bar*           | Split green/orange down the middle, indicating Bloodied <= 50% HP. RGB  | ---
   Color of dead tokens  | Dark Red                                                                | ---
   Outline               | Darken x 2                                                              | ---
@@ -1012,9 +1039,9 @@ module combinations) that have the biggest impact on the games I run. More in-de
 
   Setting                   | Recommended         | Comments
   ---                       | ---                 | ---
-  Death state on condition  | Disabled            | This is handled by [Combat Utility Belt](https://foundryvtt.com/packages/combat-utility-belt/).
+  Death state on condition  | :o:            | This is handled by [Combat Utility Belt](https://foundryvtt.com/packages/combat-utility-belt/).
   Death state name          | Dead                | ---
-  NPCs die immediately      | Enabled             | ---
+  NPCs die immediately      | :white_check_mark:             | ---
   Death marker              | icons/svg/skull.svg | ---
 
 ## [Hidden Initiative](https://foundryvtt.com/packages/hidden-initiative/) v1.0.2
@@ -1028,7 +1055,7 @@ module combinations) that have the biggest impact on the games I run. More in-de
 
   Setting                                 | Default | Recommended   | Comments
   ---                                     | ---     | ---           | ---
-  Reveal initiative numbers during combat | Enabled | ---           | ---
+  Reveal initiative numbers during combat | :white_check_mark: | ---           | ---
   NPC roll visibility                     | GM      | ---           | ---
   Player roll visibility                  | Public  | ---           | ---
 
@@ -1037,7 +1064,7 @@ module combinations) that have the biggest impact on the games I run. More in-de
   
   Setting             | Default | Recommended | Comments
   ---                 | ---     | ---         | ---    
-  Show maximum values | Enabled | ---         | ---
+  Show maximum values | :white_check_mark: | ---         | ---
 
 ## [Image Hover](https://foundryvtt.com/packages/image-hover/) v1.1.8
   Upon hovering over a token, allows you to view the actor's image (or token image). Can be configured to only show upon pressing a key. Super nice for players
@@ -1049,8 +1076,8 @@ module combinations) that have the biggest impact on the games I run. More in-de
   ---                                 | ---           | ---         | ---    
   Required actor permission           | None          | ---         | ---
   Art on hover                        | Character art | ---         | ---
-  Enable/disable image hover          | Enabled       | ---         | ---
-  Enable/disable keybind requirement  | Disabled      | Enabled     | ---
+  Enable/disable image hover          | :white_check_mark:       | ---         | ---
+  Enable/disable keybind requirement  | :o:      | :white_check_mark:     | ---
   Keybind                             | KeyV          | ---         | ---
   Position of image                   | Bottom left   | Top left    | ---
   Image to monitor width              | 7             | 3           | ---
@@ -1064,9 +1091,9 @@ module combinations) that have the biggest impact on the games I run. More in-de
 
   Setting                     | Default | Recommended | Comments
   ---                         | ---     | ---         | ---    
-  Gold conversion             | Enabled | Disabled    | ---
+  Gold conversion             | :white_check_mark: | :o:    | ---
   Gold conversion percentage  | 50      | ---         | ---
-  Sort bag contents           | Enabled | ---         | ---
+  Sort bag contents           | :white_check_mark: | ---         | ---
   
 ## [Item Macro](https://foundryvtt.com/packages/itemacro/) v1.5.3
   Adds a macro editor to items so that when you roll them, the macro executes instead of the default behaviour. Used by 
@@ -1074,12 +1101,12 @@ module combinations) that have the biggest impact on the games I run. More in-de
 
   Setting                               | Default   | Recommended | Comments
   ---                                   | ---       | ---         | ---    
-  Debug (client setting)                | Disabled  | ---         | ---
-  Override default macro execution      | Disabled  | ---         | ---
-  Character sheet hook                  | Enabled   | Disabled    | Speed rolling with this option enabled will lead to errors running macros.
-  Player access                         | Disabled  | ---         | ---
-  Display icon only                     | Disabled  | ---         | ---
-  Right click override (client setting) | Disabled  | ---         | ---
+  Debug (client setting)                | :o:  | ---         | ---
+  Override default macro execution      | :o:  | ---         | ---
+  Character sheet hook                  | :white_check_mark:   | :o:    | Speed rolling with this option enabled will lead to errors running macros.
+  Player access                         | :o:  | ---         | ---
+  Display icon only                     | :o:  | ---         | ---
+  Right click override (client setting) | :o:  | ---         | ---
 
 ## [Keybind Lib](https://foundryvtt.com/packages/keybind-lib) v0.3.2
   A dependency installed by other modules that allows those modules to assign hotkey shortcuts to certain actions. Super nifty! I'd recommend not installing it\
@@ -1091,8 +1118,8 @@ module combinations) that have the biggest impact on the games I run. More in-de
 
   Setting                                 | Default   | Recommended   | Comments
   ---                                     | ---       | ---           | ---    
-  Enable parchment theme                  | Enabled   | ---           | ---
-  Deselect tokens when opening requestor  | Disabled  | ---           | ---
+  Enable parchment theme                  | :white_check_mark:   | ---           | ---
+  Deselect tokens when opening requestor  | :o:  | ---           | ---
 
 ## [Let's Trade 5e](https://foundryvtt.com/packages/lets-trade-5e) v0.3.0
   Replaces [Give Item to Another Player](https://foundryvtt.com/packages/give-item) for the Foundry 0.8.x upgrade. This module adds an option in players' 
@@ -1106,7 +1133,7 @@ module combinations) that have the biggest impact on the games I run. More in-de
 
   Setting     | Default   | Recommended | Comments
   ---         | ---       | ---         | ---    
-  Show error  | Enabled   | ---         | ---
+  Show error  | :white_check_mark:   | ---         | ---
   
 ## [Library: DF Hotkeys](https://foundryvtt.com/packages/lib-df-hotkeys) v2.3.5
   Adds a hotkey modifier for different modules. Useful mainly for module developers, and as a sucker for hotkeys, I'm very appreciative of this module as a 
@@ -1122,9 +1149,9 @@ module combinations) that have the biggest impact on the games I run. More in-de
 
   Setting                   | Default   | Recommended | Comments
   ---                       | ---       | ---         | ---    
-  Notify GM of issues       | Enabled   | ---         | ---
-  Notify players of issues  | Disabled  | ---         | ---
-  High-performance mode     | Disabled  | Enabled     | Only enable after ensuring there are no conflicts in your system
+  Notify GM of issues       | :white_check_mark:   | ---         | ---
+  Notify players of issues  | :o:  | ---         | ---
+  High-performance mode     | :o:  | :white_check_mark:     | Only enable after ensuring there are no conflicts in your system
 
 ## [Lichtgeschwindigkeit](https://foundryvtt.com/packages/lichtgeschwindigkeit) v1.4.9
   This module provides a much more accurate and performant lighting calculation system for Foundry. No configuration required, and upon enabling, it gives a
@@ -1145,12 +1172,12 @@ module combinations) that have the biggest impact on the games I run. More in-de
 
   Setting                             | Default   | Recommended | Comments
   ---                                 | ---       | ---         | ---    
-  Convert currency after purchases?   | Disabled  | ---         | ---
-  Display chat message for purchases? | Enabled   | ---         | ---
-  Loot currency?                      | Enabled   | ---         | ---
-  Loot all?                           | Enabled   | ---         | ---
-  Show stack weight?                  | Disabled  | Enabled     | ---
-  Reduce update shop verbosity        | Enabled   | ---         | ---
+  Convert currency after purchases?   | :o:  | ---         | ---
+  Display chat message for purchases? | :white_check_mark:   | ---         | ---
+  Loot currency?                      | :white_check_mark:   | ---         | ---
+  Loot all?                           | :white_check_mark:   | ---         | ---
+  Show stack weight?                  | :o:  | :white_check_mark:     | ---
+  Reduce update shop verbosity        | :white_check_mark:   | ---         | ---
   Maximum price increase              | 200       | ---         | ---
 
 ## [Macro Folders](https://foundryvtt.com/packages/macro-folders/) v1.2.23
@@ -1160,7 +1187,7 @@ module combinations) that have the biggest impact on the games I run. More in-de
 
   Setting                   | Default   | Recommended | Comments
   ---                       | ---       | ---         | ---    
-  Auto create user folders  | Disabled  | Enabled     | ---
+  Auto create user folders  | :o:  | :white_check_mark:     | ---
   User folder location      | ---       | Users       | ---
   
 ## [Magic Items](https://foundryvtt.com/packages/magicitems/) v2.1.2
@@ -1169,8 +1196,8 @@ module combinations) that have the biggest impact on the games I run. More in-de
 
   Setting                         | Default   | Recommended | Comments
   ---                             | ---       | ---         | ---    
-  Only identified                 | Enabled   | ---         | ---
-  Hide settings tab from players  | Disabled  | ---         | ---
+  Only identified                 | :white_check_mark:   | ---         | ---
+  Hide settings tab from players  | :o:  | ---         | ---
   
 ## [Midi QoL](https://foundryvtt.com/packages/midi-qol/) v0.8.54
   One of the best combat automation modules, period. This module allows for automatic damage calculation and application, immediate AC hit/miss check, NPC 
@@ -1189,19 +1216,19 @@ module combinations) that have the biggest impact on the games I run. More in-de
 
   Setting                                                   | Default                   | Recommended   | Comments
   ---                                                       | ---                       | ---           | ---    
-  Enable roll automation support                            | Enabled                   | ---           | ---
-  Add attack/damage buttons to item inventory list          | Enabled                   | ---           | ---
-  Item delete check                                         | Enabled                   | ---           | ---
-  GM sees all whispered messages                            | Disabled                  | ---           | ---
-  Really hide private/blind/self rolls                      | Enabled                   | ---           | ---
-  Fast forward ability rolls                                | Disabled                  | Enabled       | ---
+  Enable roll automation support                            | :white_check_mark:                   | ---           | ---
+  Add attack/damage buttons to item inventory list          | :white_check_mark:                   | ---           | ---
+  Item delete check                                         | :white_check_mark:                   | ---           | ---
+  GM sees all whispered messages                            | :o:                  | ---           | ---
+  Really hide private/blind/self rolls                      | :white_check_mark:                   | ---           | ---
+  Fast forward ability rolls                                | :o:                  | :white_check_mark:       | ---
   Choose how to roll critical damage                        | DND5e default             | ---           | ---
-  Drag and drop targeting                                   | Disabled                  | ---           | ---
+  Drag and drop targeting                                   | :o:                  | ---           | ---
   Add damage buttons to chat message                        | None                      | ---           | ---
-  Experimental: Apply checks before doing speed/macro roll  | Disabled                  | ---           | ---
+  Experimental: Apply checks before doing speed/macro roll  | :o:                  | ---           | ---
   Colored border messages                                   | \*blank\*                 | Borders Only  | ---
   Untarget at end of turn                                   | untarget dead after roll  | ---           | ---
-  Players control owned hidden tokens                       | Disabled                  | ---           | ---
+  Players control owned hidden tokens                       | :o:                  | ---           | ---
   Enable debug                                              | \*blank\*                 | None          | ---
 
 ### Workflow Settings
@@ -1209,10 +1236,10 @@ module combinations) that have the biggest impact on the games I run. More in-de
 
   Setting                             | Recommended       | Comments
   ---                                 | ---               | ---    
-  Auto roll attack                    | Enabled           | ---
-  Auto fast forward attack            | Enabled           | ---
+  Auto roll attack                    | :white_check_mark:           | ---
+  Auto fast forward attack            | :white_check_mark:           | ---
   Auto roll damage                    | Never             | ---
-  Auto fast forward damage            | Enabled           | ---
+  Auto fast forward damage            | :white_check_mark:           | ---
   Remove chat card buttons after roll | Attack and Damage | ---
   Hide roll details                   | None              | Allows for "visible" rolls if I want them to be made in front of the players.
 
@@ -1220,7 +1247,7 @@ module combinations) that have the biggest impact on the games I run. More in-de
 
   Setting                             | Recommended       | Comments
   ---                                 | ---               | ---    
-  Auto roll attack                    | Enabled           | ---
+  Auto roll attack                    | :white_check_mark:           | ---
   Auto roll damage                    | Never             | ---
   Auto fast forward rolls             | Attack and Damage | ---
   Remove chat card buttons after roll | Attack and Damage | ---
@@ -1232,47 +1259,47 @@ module combinations) that have the biggest impact on the games I run. More in-de
   Auto target on template draw                  | Walls Block                 | ---
   Auto target for ranged target spells/attacks  | None                        | ---
   Require targets to be selected before rolling | In Combat                   | ---
-  Add macro to call on use                      | Disabled                    | Enabled
-  Auto apply item effects to targets            | Enabled                     | ---
+  Add macro to call on use                      | :o:                    | ---
+  Auto apply item effects to targets            | :white_check_mark:                     | ---
   Auto check if attack hits target              | Check - only GM sees        | ---
   Check player reactions                        | off                         | ---
   Check NPC/GM reactions                        | On                          | ---
   Reaction check timeout                        | 0                           | ---
   Show attack roll                              | Attack Hits                 | ---
   Auto check saves                              | Save - only GM sees         | ---
-  Display saving throw DC                       | Enabled                     | ---
-  Search spell description                      | Enabled                     | ---
+  Display saving throw DC                       | :white_check_mark:                     | ---
+  Search spell description                      | :white_check_mark:                     | ---
   Default saving throw multiplier               | 0.5                         | ---
   Prompt players to roll saves                  | LMRTFY                      | ---
   Prompt GM to roll saves                       | Auto                        | ---
   Delay before rolling for players              | 10                          | ---
   Auto apply damage to target                   | No + damage card            | ---
   Apply damage immunities                       | apply immunities + physical | ---
-  Require 'magical' property                    | Enabled                     | ---
-  Roll formula on failed save for rwak/mwak     | Disabled                    | ---
-  Enable concentration automation               | Enabled                     | Used to have it handled by [Combat Utility Belt](https://foundryvtt.com/packages/combat-utility-belt/), but I switched to this and am much happier.
-  Remove concentration on failed save           | Enabled                     | ---
-  Single concentration check                    | Disabled                    | ---
+  Require 'magical' property                    | :white_check_mark:                     | ---
+  Roll formula on failed save for rwak/mwak     | :o:                    | ---
+  Enable concentration automation               | :white_check_mark:                     | Used to have it handled by [Combat Utility Belt](https://foundryvtt.com/packages/combat-utility-belt/), but I switched to this and am much happier.
+  Remove concentration on failed save           | :white_check_mark:                     | ---
+  Single concentration check                    | :o:                    | ---
 
 ### Misc
 
   Setting                                       | Recommended             | Comments
   ---                                           | ---                     | ---    
   Show item details in chat card                | Card + Details: PC Only | All details enabled in the sub-menu.
-  Merge rolls to one card                       | Enabled                 | ---
-  Condense attack/damage rolls                  | Disabled                | ---
-  Chat cards use token name                     | Disabled                | ---
-  Use actor portrait in chat cards              | Enabled                 | ---
-  Keep roll statistics                          | Enabled                 | ---
+  Merge rolls to one card                       | :white_check_mark:                 | ---
+  Condense attack/damage rolls                  | :o:                | ---
+  Chat cards use token name                     | :o:                | ---
+  Use actor portrait in chat cards              | :white_check_mark:                 | ---
+  Keep roll statistics                          | :white_check_mark:                 | ---
   Save statistics every                         | 10                      | ---
-  Player statistics only                        | Enabled                 | ---
-  Enable speed item rolls                       | Enabled                 | ---
-  Enable speed ability (save/check/skill) rolls | Enabled                 | ---
+  Player statistics only                        | :white_check_mark:                 | ---
+  Enable speed item rolls                       | :white_check_mark:                 | ---
+  Enable speed ability (save/check/skill) rolls | :white_check_mark:                 | ---
   Advantage                                     | alt                     | ---
   Disadvantage                                  | ctrl/cmd                | ---
   Critical                                      | alt                     | ---
   Versatile                                     | shift                   | ---
-  Enable midi-qol custom sounds                 | Disabled                | ---
+  Enable midi-qol custom sounds                 | :o:                | ---
 
 ## [Mob Attack Tool](https://foundryvtt.com/packages/mob-attack-tool) v0.3.12 - TODO, update
   Super helpful for GMs and players that have lots of summons. Allows you to roll mobs all at once, significantly speeding up encounters where you have lots of 
@@ -1283,10 +1310,10 @@ module combinations) that have the biggest impact on the games I run. More in-de
   Setting                                   | Default   | Recommended             | Comments
   ---                                       | ---       | ---                     | ---    
   Use mob rules or roll individually        | Mob Rules | Individual Attack Rolls | ---
-  Allow players to use mob attack tool      | Disabled  | Enabled                 | ---
-  Include option to end grouped mob turns   | Enabled   | ---                     | ---
-  Autoselect saved mob combatants           | Enabled   | ---                     | ---
-  Keep dialog open                          | Disabled  | ---                     | ---
+  Allow players to use mob attack tool      | :o:  | :white_check_mark:                 | ---
+  Include option to end grouped mob turns   | :white_check_mark:   | ---                     | ---
+  Autoselect saved mob combatants           | :white_check_mark:   | ---                     | ---
+  Keep dialog open                          | :o:  | ---                     | ---
   Default mob name prefix                   | Mob of    | ---                     | ---
   Default mob name suffix                   | (s)       | ---                     | ---
   Disadvantage keybinding                   | Ctrl      | ---                     | ---
@@ -1295,41 +1322,41 @@ module combinations) that have the biggest impact on the games I run. More in-de
 
   Setting                                   | Default   | Recommended | Comments
   ---                                       | ---       | ---         | ---    
-  Show individual attack rolls              | Disabled  | Enabled     | ---
-  Show unsuccessful attack rolls            | Disabled  | Enabled     | ---
-  Show individual damage rolls              | Disabled  | Enabled     | ---
-  Stop whispering mob attack results        | Disabled  | Enabled     | ---
-  Don't send results chat message           | Disabled  | ---         | ---
-  Include advantage/disadvantage selection  | Disabled  | Enabled     | ---
+  Show individual attack rolls              | :o:  | :white_check_mark:     | ---
+  Show unsuccessful attack rolls            | :o:  | :white_check_mark:     | ---
+  Show individual damage rolls              | :o:  | :white_check_mark:     | ---
+  Stop whispering mob attack results        | :o:  | :white_check_mark:     | ---
+  Don't send results chat message           | :o:  | ---         | ---
+  Include advantage/disadvantage selection  | :o:  | :white_check_mark:     | ---
   Advantage/disadvantage value              | 5         | ---         | ---
 
 ### Advanced Settings - Multiattack
 
   Setting                       | Default       | Recommended             | Comments
   ---                           | ---           | ---                     | ---    
-  Show multiattack description  | Enabled       | ---                     | ---
+  Show multiattack description  | :white_check_mark:       | ---                     | ---
   Autodetect multiattack        | No autodetect | Autodetect + autoselect | ---
 
 ### Advanced Settings - Targets
 
   Setting             | Default   | Recommended | Comments
   ---                 | ---       | ---         | ---    
-  Persist AC modifier | Disabled  | ---         | ---
+  Persist AC modifier | :o:  | ---         | ---
 
 ### Advanced Settings - Modules
 
   Setting                               | Default   | Recommended | Comments
   ---                                   | ---       | ---         | ---    
-  Enable automated animations           | Enabled   | Disabled    | ---
-  Enable better rolls for 5e            | Enabled   | Disabled    | ---
-  Enable dice so nice rolls             | Enabled   | ---         | Now that they all roll at once, I'm much happier with this enabled.
-  Hide 3D dice for GM attack rolls      | Enabled   | ---         | ---
-  Autosave combat tracker group as mobs | Disabled  | ---         | ---
-  Enable group initiative               | Disabled  | Enabled     | ---
-  Group mob initiatives together        | Disabled  | Enabled     | ---
-  Enable midi-qol                       | Enabled   | ---         | ---
-  Enable on use macro                   | Enabled   | ---         | ---
-  Don't share itemCardId                | Enabled   | ---         | ---
+  Enable automated animations           | :white_check_mark:   | :o:    | ---
+  Enable better rolls for 5e            | :white_check_mark:   | :o:    | ---
+  Enable dice so nice rolls             | :white_check_mark:   | ---         | Now that they all roll at once, I'm much happier with this enabled.
+  Hide 3D dice for GM attack rolls      | :white_check_mark:   | ---         | ---
+  Autosave combat tracker group as mobs | :o:  | ---         | ---
+  Enable group initiative               | :o:  | :white_check_mark:     | ---
+  Group mob initiatives together        | :o:  | :white_check_mark:     | ---
+  Enable midi-qol                       | :white_check_mark:   | ---         | ---
+  Enable on use macro                   | :white_check_mark:   | ---         | ---
+  Don't share itemCardId                | :white_check_mark:   | ---         | ---
 
 ## [Monks Little Details](https://foundryvtt.com/packages/monks-little-details) v1.0.37
   Lots of various quality of life improvements. Turn notifications in combat(including sounds), slight UI changes to compendiums and conditions, actor sound 
@@ -1341,51 +1368,51 @@ module combinations) that have the biggest impact on the games I run. More in-de
   Setting                                           | Default                                           | Recommended | Comments
   ---                                               | ---                                               | ---         | ---    
   System Changes                                    | ---                                               | ---         | ---
-  Swap target and settings button on the token HUD  | Enabled                                           | ---         | ---
-  Alter the token HUD status effects                | Enabled                                           | ---         | ---
-  Sort by columns                                   | Disabled                                          | ---         | ---
-  Highlight token HUD status effects                | Enabled                                           | ---         | ---
-  Add DnD statuses                                  | Enabled                                           | Disabled    | ---
-  Use DnD5e invisible icon                          | Enabled                                           | Disabled    | ---
-  Change core CSS                                   | Enabled                                           | ---         | ---
-  Compendium scene view artwork                     | Enabled                                           | ---         | ---
+  Swap target and settings button on the token HUD  | :white_check_mark:                                           | ---         | ---
+  Alter the token HUD status effects                | :white_check_mark:                                           | ---         | ---
+  Sort by columns                                   | :o:                                          | ---         | ---
+  Highlight token HUD status effects                | :white_check_mark:                                           | ---         | ---
+  Add DnD statuses                                  | :white_check_mark:                                           | :o:    | ---
+  Use DnD5e invisible icon                          | :white_check_mark:                                           | :o:    | ---
+  Change core CSS                                   | :white_check_mark:                                           | ---         | ---
+  Compendium scene view artwork                     | :white_check_mark:                                           | ---         | ---
   Combat Tracker                                    | ---                                               | ---         | ---
-  Show encounter CR                                 | Disabled                                          | ---         | ---
-  Hide enemies                                      | Disabled                                          | ---         | ---
+  Show encounter CR                                 | :o:                                          | ---         | ---
+  Hide enemies                                      | :o:                                          | ---         | ---
   Popout combat dialog                              | Everyone                                          | ---         | ---
   Combat dialog position                            | \*blank\*                                         | Top Right   | ---
-  Close combat when done                            | Enabled                                           | ---         | ---
-  Prevent token combat removal                      | Enabled                                           | Disabled    | ---
+  Close combat when done                            | :white_check_mark:                                           | ---         | ---
+  Prevent token combat removal                      | :white_check_mark:                                           | :o:    | ---
   Automatically set defeated                        | NPC Zero HP                                       | No one      | Already handled by [Combat Utility Belt](https://foundryvtt.com/packages/combat-utility-belt/).
-  Automatically reveal combat tracker character     | Enabled                                           | ---         | ---
-  Add combat bars                                   | Disabled                                          | ---         | ---
+  Automatically reveal combat tracker character     | :white_check_mark:                                           | ---         | ---
+  Add combat bars                                   | :o:                                          | ---         | ---
   Combat Turn                                       | ---                                               | ---         | ---
-  Show 'next up' notification                       | Disabled                                          | Enabled     | ---
-  Show 'your turn' notification                     | Disabled                                          | Enabled     | ---
-  Next turn sound enabled                           | Disabled                                          | ---         | ---
+  Show 'next up' notification                       | :o:                                          | :white_check_mark:     | ---
+  Show 'your turn' notification                     | :o:                                          | :white_check_mark:     | ---
+  Next turn sound enabled                           | :o:                                          | ---         | ---
   Next turn sound                                   | modules/monks-little-details/sounds/next.wav      | ---         | ---
-  Current turn sound enabled                        | Disabled                                          | ---         | ---
+  Current turn sound enabled                        | :o:                                          | ---         | ---
   Current turn sound                                | modules/monks-little-details/sounds/turn.ogg      | ---         | ---
-  Next round sound enabled                          | Enabled                                           | Disabled    | ---
+  Next round sound enabled                          | :white_check_mark:                                           | :o:    | ---
   Next round sound                                  | modules/monks-little-details/sounds/round.wav     | ---         | ---
-  Clear targets after turn                          | Enabled                                           | Disabled    | ---
-  Combat round messages                             | Enabled                                           | Disabled    | ---
-  Show start token                                  | Enabled                                           | ---         | ---
+  Clear targets after turn                          | :white_check_mark:                                           | :o:    | ---
+  Combat round messages                             | :white_check_mark:                                           | :o:    | ---
+  Show start token                                  | :white_check_mark:                                           | ---         | ---
   Combat Token Highlight                            | ---                                               | ---         | ---
-  Show token highlight                              | Disabled                                          | Enabled     | I use this as opposed to [Next Up](https://foundryvtt.com/packages/Next-Up/), but you choose what works for you.
+  Show token highlight                              | :o:                                          | :white_check_mark:     | I use this as opposed to [Next Up](https://foundryvtt.com/packages/Next-Up/), but you choose what works for you.
   Animate combat highlight                          | 100                                               | ---         | ---
   Combat highlight image                            | modules/monks-little-details/icons/turnmarker.png | ---         | ---
   Highlight size                                    | 1.5                                               | ---         | ---
   Combat highlight animation                        | Clockwise                                         | ---         | ---
   Added Features                                    | ---                                               | ---         | ---
-  Actor sound effects                               | Enabled                                           | ---         | ---
-  Show scene palette                                | Enabled                                           | ---         | ---
+  Actor sound effects                               | :white_check_mark:                                           | ---         | ---
+  Show scene palette                                | :white_check_mark:                                           | ---         | ---
   Movement key                                      | m                                                 | z           | "Z" doesn't stand for anything, but it fits where my hand naturally lies, so I changed it.
-  Retain notify                                     | Enabled                                           | ---         | ---
-  Move the pause icon up                            | Disabled                                          | ---         | ---
-  Show bloodsplat                                   | Disabled                                          | ---         | ---
+  Retain notify                                     | :white_check_mark:                                           | ---         | ---
+  Move the pause icon up                            | :o:                                          | ---         | ---
+  Show bloodsplat                                   | :o:                                          | ---         | ---
   Bloodsplat colour                                 | #FF0000                                           | ---         | ---
-  Use keys to swap tools                            | Disabled                                          | ---         | ---
+  Use keys to swap tools                            | :o:                                          | ---         | ---
 
 ## [Monk's Scene Navigation](https://foundryvtt.com/packages/monks-scene-navigation/) v1.0.14 - TODO, see if can be replaced by df scene enhance
   A cool tweak to add folders to the navbar. It also replaces the default Foundry scene functionality so that left-clicking on a scene will view it, as opposed 
@@ -1393,11 +1420,11 @@ module combinations) that have the biggest impact on the games I run. More in-de
 
   Setting                   | Default   | Recommended | Comments
   ---                       | ---       | ---         | ---    
-  Click to view             | Enabled   | ---         | ---
-  Scene icons               | Enabled   | ---         | --- 
+  Click to view             | :white_check_mark:   | ---         | ---
+  Scene icons               | :white_check_mark:   | ---         | --- 
   Scene folders position    | Back      | ---         | ---
-  Show folders for players  | Disabled  | ---         | ---
-  Display background        | Enabled   | ---         | ---
+  Show folders for players  | :o:  | ---         | ---
+  Display background        | :white_check_mark:   | ---         | ---
 
 ## [Monk's TokenBar](https://foundryvtt.com/packages/monks-tokenbar/) v1.0.51
   This quality of life module adds a small "party overview" that you (the GM) can drag to any spot on your screen. It adds useful features like 
@@ -1410,23 +1437,23 @@ module combinations) that have the biggest impact on the games I run. More in-de
 
   Setting                             | Default                                             | Recommended       | Comments
   ---                                 | ---                                                 | ---               | ---    
-  Notify on movement change           | Enabled                                             | ---               | ---
-  Show XP dialog                      | Enabled                                             | Disabled          | ---
+  Notify on movement change           | :white_check_mark:                                             | ---               | ---
+  Show XP dialog                      | :white_check_mark:                                             | :o:          | ---
   How to divide XP among players      | Divide XP among players                             | Do not divide XP  | ---
-  Whisper player on levelup           | Enabled                                             | Disabled          | ---
-  Show resource bars                  | Disabled                                            | Enabled           | ---
+  Whisper player on levelup           | :white_check_mark:                                             | :o:          | ---
+  Show resource bars                  | :o:                                            | :white_check_mark:           | ---
   Token pictures                      | Token Image                                         | Actor Portrait    | ---
-  Change movement to combat           | Enabled                                             | Disabled          | ---
-  Allow movement after turn           | Enabled                                             | ---               | ---
+  Change movement to combat           | :white_check_mark:                                             | :o:          | ---
+  Allow movement after turn           | :white_check_mark:                                             | ---               | ---
   Set movement after combat           | Free Movement                                       | Ignore            | ---
-  Show on tracker                     | Enabled                                             | Disabled          | ---
-  Free all tokens of active combatant | Disabled                                            | Enabled           | ---
-  Convert enemies to lootable         | Disabled                                            | Enabled           | ---
-  Allow player to use                 | Disabled                                            | Enabled           | ---
-  Disable tokenbar                    | Disabled                                            | ---               | ---
-  Delete message after grab           | Disabled                                            | ---               | ---
-  Show lootable menu                  | Enabled                                             | ---               | ---
-  Show inspiration                    | Disabled                                            | Enabled           | ---
+  Show on tracker                     | :white_check_mark:                                             | :o:          | ---
+  Free all tokens of active combatant | :o:                                            | :white_check_mark:           | ---
+  Convert enemies to lootable         | :o:                                            | :white_check_mark:           | ---
+  Allow player to use                 | :o:                                            | :white_check_mark:           | ---
+  Disable tokenbar                    | :o:                                            | ---               | ---
+  Delete message after grab           | :o:                                            | ---               | ---
+  Show lootable menu                  | :white_check_mark:                                             | ---               | ---
+  Show inspiration                    | :o:                                            | :white_check_mark:           | ---
   Request roll sound                  | modules/monks-tokenbar/sounds/RollRequestAlert.ogg  | \*blank\*         | ---
 
 ### Edit Stats
@@ -1457,9 +1484,9 @@ module combinations) that have the biggest impact on the games I run. More in-de
 
   Setting                                 | Default | Recommended | Comments
   ---                                     | ---     | ---         | ---    
-  Auto-sync player targets                | Enabled | ---         | ---
-  Auto-sync chat bubbles                  | Enabled | ---         | ---
-  Clone token flags set by other modules  | Enabled | ---         | ---
+  Auto-sync player targets                | :white_check_mark: | ---         | ---
+  Auto-sync chat bubbles                  | :white_check_mark: | ---         | ---
+  Clone token flags set by other modules  | :white_check_mark: | ---         | ---
   
 ## [Next Up](https://foundryvtt.com/packages/Next-Up/) v0.1.05 - TODO, update and check if it should handle turn marker
   A successor of [Turn Marker](https://foundryvtt.com/packages/turnmarker/), this module provides an animated icon underneath the current token's turn. Also, 
@@ -1468,26 +1495,26 @@ module combinations) that have the biggest impact on the games I run. More in-de
 
   Setting                               | Default                                           | Recommended                                       | Comments
   ---                                   | ---                                               | ---                                               | ---    
-  Auto open character sheets            | Enabled                                           | ---                                               | ---    
+  Auto open character sheets            | :white_check_mark:                                           | ---                                               | ---    
   Sheet position                        | Disable opening character sheet                   | Top Left                                          | ---
   Open sheets: actor type filter        | All                                               | Only Unlinked                                     | ---
   Close sheets: actor type filter       | Unlinked Only                                     | ---                                               | ---
   Close sheets: combatant filter        | None                                              | Previous Combatant                                | ---
-  Popout actor sheets                   | Disabled                                          | ---                                               | Would love to have this functionality, but it can lead to multiple bugs so I prefer to avoid it.
-  Enable panning for individual clients | Disabled                                          | Enabled                                           | ---
-  Pan to next combatant                 | Disabled                                          | ---                                               | ---
-  Remove pin icon from character sheets | Disabled                                          | Enabled                                           | ---
-  Add turn marker                       | Enabled                                           | Disabled                                          | Handled by [Monks Little Details](https://foundryvtt.com/packages/monks-little-details).
+  Popout actor sheets                   | :o:                                          | ---                                               | Would love to have this functionality, but it can lead to multiple bugs so I prefer to avoid it.
+  Enable panning for individual clients | :o:                                          | :white_check_mark:                                           | ---
+  Pan to next combatant                 | :o:                                          | ---                                               | ---
+  Remove pin icon from character sheets | :o:                                          | :white_check_mark:                                           | ---
+  Add turn marker                       | :white_check_mark:                                           | :o:                                          | Handled by [Monks Little Details](https://foundryvtt.com/packages/monks-little-details).
   Turn marker icon                      | \[data\] modules/Next-Up/Markers/DoubleSquare.png | \[data\] modules/Next-Up/Markers/madmage.png      | ---
   Animation speed for turn marker       | 3                                                 | 5                                                 | ---
   Turn marker ratio                     | 1                                                 | 1.35                                              | ---
-  Render icon above target              | Disabled                                          | ---                                               | ---
+  Render icon above target              | :o:                                          | ---                                               | ---
   Start turn marker                     | \*blank\*                                         | Shadow                                            | ---
   Start turn marker icon                | \[data\] modules/Next-Up/Markers/BlackCross.png   | \[data\] modules/Next-Up/Markers/DoubleSquare.png | This is unused.
   Start marker ratio                    | 1                                                 | ---                                               | ---
   Auto control next token               | None                                              | NPCs Only                                         | ---
-  Auto clear user targets               | Disabled                                          | ---                                               | ---
-  Turn start audio cue                  | Disabled                                          | ---                                               | ---
+  Auto clear user targets               | :o:                                          | ---                                               | ---
+  Turn start audio cue                  | :o:                                          | ---                                               | ---
   Audio cue path                        | \*blank\*                                         | ---                                               | ---
   
 ## [Party Overview](https://foundryvtt.com/packages/party-overview/) v2.5.12
@@ -1497,7 +1524,7 @@ module combinations) that have the biggest impact on the games I run. More in-de
 
   Setting                               | Default | Recommended | Comments
   ---                                   | ---     | ---         | ---    
-  Grant players access to the overview  | Enabled | Disabled    | ---
+  Grant players access to the overview  | :white_check_mark: | :o:    | ---
 
 ## [PDFFoundry](https://foundryvtt.com/packages/pdfoundry) v0.8.10
   Adds PDF functionality to Foundry. Incredibly useful if you have homebrew PDF rules or PDF character sheets that you like to use. Unfortunately, it doesn't 
@@ -1507,7 +1534,7 @@ module combinations) that have the biggest impact on the games I run. More in-de
   Setting                             | Default           | Recommended | Comments
   ---                                 | ---               | ---         | ---    
   PDF cache size                      | 256               | 512         | ---
-  Show shared PDFs in existing viewer | Enabled           | ---         | ---
+  Show shared PDFs in existing viewer | :white_check_mark:           | ---         | ---
   Viewer theme                        | Fantasy (Default) | ---         | ---
   
 ## [Perfect Vision](https://foundryvtt.com/packages/perfect-vision/) v2.9.10
@@ -1538,7 +1565,7 @@ module combinations) that have the biggest impact on the games I run. More in-de
 
   Setting                           | Default   | Recommended | Comments
   ---                               | ---       | ---         | ---    
-  Show journal preview              | Disabled  | ---         | I used to enable this, however, a core change to Foundry now implements it.
+  Show journal preview              | :o:  | ---         | I used to enable this, however, a core change to Foundry now implements it.
   Journal preview type              | HTML      | ---         | ---
   Preview maximum length            | 500       | ---         | ---
   Preview delay                     | 500       | ---         | ---
@@ -1558,13 +1585,13 @@ module combinations) that have the biggest impact on the games I run. More in-de
   Mouse button press duration           | 350               | ---         | ---
   Key to press for a ping               | \*blank\*         | ---         | ---
   Key for a screen-moving ping          | \*blank\*         | ---         | ---
-  Show player name                      | Enabled           | ---         | ---
+  Show player name                      | :white_check_mark:           | ---         | ---
   Ping image                            | \*blank\*         | ---         | ---
   Scale                                 | 1                 | ---         | ---
   Duration                              | 3                 | ---         | ---
-  Rotation                              | Enabled           | ---         | ---
+  Rotation                              | :white_check_mark:           | ---         | ---
   Rotation speed                        | 6                 | 2           | ---
-  Size change                           | Enabled           | ---         | ---
+  Size change                           | :white_check_mark:           | ---         | ---
   Size change amount                    | 0.125             | ---         | ---
   Size change speed                     | 3                 | 1           | ---
   
@@ -1576,11 +1603,11 @@ module combinations) that have the biggest impact on the games I run. More in-de
   Setting                 | Default             | Recommended | Comments
   ---                     | ---                 | ---         | ---    
   S3 bucket               | \*blank\*           | ---         | ---
-  Set repeat for tracks   | Disabled            | ---         | ---
-  Set stream for tracks   | Disabled            | Enabled     | ---
+  Set repeat for tracks   | :o:            | ---         | ---
+  Set stream for tracks   | :o:            | :white_check_mark:     | ---
   Base music directory    | music               | ---         | ---
   Set default volume      | 0.5                 | ---         | ---
-  Song duplicate checker  | Enabled             | ---         | Disable if you are importing for the first time/starting over from scratch.
+  Song duplicate checker  | :white_check_mark:             | ---         | Disable if you are importing for the first time/starting over from scratch.
   Reassign regex          | ^\d\d+ \*_\*-\* \*  | ---         | ---
   Select source           | data                | ---         | ---
   
@@ -1591,18 +1618,18 @@ module combinations) that have the biggest impact on the games I run. More in-de
   Setting                     | Default   | Recommended | Comments
   ---                         | ---       | ---         | ---    
   Default language              | \*blank\* | ---         | ---
-  Randomize runes               | Disabled  | ---         | ---
-  Make fonts available          | Enabled   | ---         | ---
+  Randomize runes               | :o:  | ---         | ---
+  Make fonts available          | :white_check_mark:   | ---         | ---
   Language Settings             | ---       | ---         | ---
-  Replace system's languages    | Disabled  | ---         | ---
+  Replace system's languages    | :o:  | ---         | ---
   Custom languages              | \*blank\* | ---         | ---
   Comprehend languages spell    | \*blank\* | ---         | ---
   Tongues spell                 | \*blank\* | ---         | ---
   Chat Settings                 | ---       | ---         | ---    
-  Display translations          | Enabled   | ---         | ---    
-  Hide indicators from players  | Disabled  | ---         | ---    
+  Display translations          | :white_check_mark:   | ---         | ---    
+  Hide indicators from players  | :o:  | ---         | ---    
   Scramble OOC chat messages    | GM Only   | None        | ---
-  Scramble messages for GM      | Enabled   | Disabled    | ---
+  Scramble messages for GM      | :white_check_mark:   | :o:    | ---
   
 ## [PopOut!](https://foundryvtt.com/packages/popout/) v2.0
   Allows players and GMs to pop actors out into their own separate window. One of my most-used quality of life modules, and it's especially useful for those 
@@ -1610,9 +1637,9 @@ module combinations) that have the biggest impact on the games I run. More in-de
   
   Setting                         | Default   | Recommended | Comments
   ---                             | ---       | ---         | ---    
-  Show popout! button.            | Enabled   | ---         | ---
-  Pop sheets out into windows     | Enabled   | ---         | ---
-  Bounding box compatibility mode | Disabled  | ---         | ---
+  Show popout! button.            | :white_check_mark:   | ---         | ---
+  Pop sheets out into windows     | :white_check_mark:   | ---         | ---
+  Bounding box compatibility mode | :o:  | ---         | ---
   
 ## [Quick Insert - Search Widget](https://foundryvtt.com/packages/quick-insert/) v2.5.0 - TODO, update after organizing, export saved index structure
   Another amazing quality of life module, Quick Insert adds a hotkey to search through your world's scenes, actors, journals, items, and even compendiums. I 
@@ -1625,12 +1652,12 @@ module combinations) that have the biggest impact on the games I run. More in-de
 
   Setting                         | Default               | Recommended | Comments
   ---                             | ---                   | ---         | ---    
-  GMs only                        | Disabled              | ---         | ---
-  Character sheet integration     | Enabled               | ---         | ---
+  GMs only                        | :o:              | ---         | ---
+  Character sheet integration     | :white_check_mark:               | ---         | ---
   Automatic indexing              | Wait until first open | 5 seconds   | ---
   Index timeout                   | 1.5 seconds           | ---         | ---
-  Search button in scene controls | Disabled              | ---         | ---
-  Enable global browse mode       | Enabled               | ---         | ---
+  Search button in scene controls | :o:              | ---         | ---
+  Enable global browse mode       | :white_check_mark:               | ---         | ---
   Keybind - Open quick insert     | Ctrl + \*spacebar\*   | ---         | ---
 
 ## [Settings Extender](https://foundryvtt.com/packages/settings-extender) v1.1.6+0.8.6
@@ -1666,8 +1693,8 @@ module combinations) that have the biggest impact on the games I run. More in-de
 
   Setting                                 | Default   | Recommended | Comments
   ---                                     | ---       | ---         | ---    
-  Always activate the module settings tab | Disabled  | Enabled     | ---
-  Hide "disable all modules" button       | Disabled  | ---         | ---
+  Always activate the module settings tab | :o:  | :white_check_mark:     | ---
+  Hide "disable all modules" button       | :o:  | ---         | ---
 
 ## [Tidy5e Sheet](https://foundryvtt.com/packages/tidy5e-sheet/) v0.5.15
   Arguably the best character/NPC sheet out there (and my personal favorite). Keeps things compact and well-organized, and it plays well with most other
@@ -1678,72 +1705,72 @@ module combinations) that have the biggest impact on the games I run. More in-de
   Setting                                 | Default         | Recommended | Comments
   ---                                     | ---             | ---         | ---    
   Tidy5e color theme                      | Default (light) | ---         | ---
-  Use classic item controls in list view  | Disabled        | ---         | ---
-  Show item info cards in all layouts     | Enabled         | ---         | ---
-  Show item info cards for NPCs/vehicles  | Enabled         | Disabled    | ---
-  Item info cards float next to cursor    | Disabled        | ---         | ---
+  Use classic item controls in list view  | :o:        | ---         | ---
+  Show item info cards in all layouts     | :white_check_mark:         | ---         | ---
+  Show item info cards for NPCs/vehicles  | :white_check_mark:         | :o:    | ---
+  Item info cards float next to cursor    | :o:        | ---         | ---
   Delay showing info cards                | 300             | ---         | ---
   
 ### Sheet Settings - Players
   
   Setting                                       | Default   | Recommended | Comments
   ---                                           | ---       | ---         | ---    
-  Hide character journal                        | Disabled  | ---         | ---
-  Hide character class list                     | Disabled  | ---         | ---
-  Inanimate inspiration tracker                 | Disabled  | ---         | ---
-  Hide exhaustion and inspiration tracker on 0  | Disabled  | ---         | ---
-  Show inspiration indicator only on hover      | Disabled  | ---         | ---
-  Show exhaustion tracker only on hover         | Disabled  | ---         | ---
-  Disable health bar                            | Disabled  | ---         | ---
-  Hide hit point overlay                        | Disabled  | Enabled     | ---
-  Toggle empty character traits                 | Disabled  | Enabled     | ---
-  Move traits below resources                   | Disabled  | Enabled     | ---
-  Only show equipped ammunition                 | Disabled  | ---         | ---
+  Hide character journal                        | :o:  | ---         | ---
+  Hide character class list                     | :o:  | ---         | ---
+  Inanimate inspiration tracker                 | :o:  | ---         | ---
+  Hide exhaustion and inspiration tracker on 0  | :o:  | ---         | ---
+  Show inspiration indicator only on hover      | :o:  | ---         | ---
+  Show exhaustion tracker only on hover         | :o:  | ---         | ---
+  Disable health bar                            | :o:  | ---         | ---
+  Hide hit point overlay                        | :o:  | :white_check_mark:     | ---
+  Toggle empty character traits                 | :o:  | :white_check_mark:     | ---
+  Move traits below resources                   | :o:  | :white_check_mark:     | ---
+  Only show equipped ammunition                 | :o:  | ---         | ---
   
 ### Sheet Settings - NPCs/Vehicles
   
   Setting                     | Default                   | Recommended | Comments
   ---                         | ---                       | ---         | ---    
-  Resting for NPCs            | Disabled                  | ---         | ---
-  Hide chat card for NPC rest | Disabled                  | ---         | ---
+  Resting for NPCs            | :o:                  | ---         | ---
+  Hide chat card for NPC rest | :o:                  | ---         | ---
   Mark linked/unlinked NPCs   | No link marker (default)  | ---         | ---
-  Disable health bar          | Disabled                  | ---         | ---
-  Hide hit point overlay      | Disabled                  | Enabled     | ---
-  Always show traits          | Disabled                  | ---         | ---
-  Move traits below resources | Disabled                  | Enabled     | ---
-  Always show skills          | Disabled                  | Enabled     | ---
-  Disabled health bar         | Disabled                  | ---         | ---
-  Hide hit point overlay      | Disabled                  | Enabled     | ---
+  Disable health bar          | :o:                  | ---         | ---
+  Hide hit point overlay      | :o:                  | :white_check_mark:     | ---
+  Always show traits          | :o:                  | ---         | ---
+  Move traits below resources | :o:                  | :white_check_mark:     | ---
+  Always show skills          | :o:                  | :white_check_mark:     | ---
+  Disabled health bar         | :o:                  | ---         | ---
+  Hide hit point overlay      | :o:                  | :white_check_mark:     | ---
   
 ### Sheet Settings - GM Options
   
   Setting                                     | Default                                     | Recommended                                             | Comments
   ---                                         | ---                                         | ---                                                     | ---    
-  Show player name                            | Disabled                                    | Enabled                                                 | ---
-  Disable right click context menu            | Disabled                                    | ---                                                     | ---
-  Expanded limited view for character sheets  | Disabled                                    | ---                                                     | ---
+  Show player name                            | :o:                                    | :white_check_mark:                                                 | ---
+  Disable right click context menu            | :o:                                    | ---                                                     | ---
+  Expanded limited view for character sheets  | :o:                                    | ---                                                     | ---
   Key to hold for item card interaction       | x                                           | ---                                                     | ---
   Round portrait style                        | none                                        | ---                                                     | ---
   Offset hit point overlay PCs                | 0                                           | ---                                                     | ---
   Offset hit point overlay NPCs               | 0                                           | ---                                                     | ---
   Offset hit point overlay vehicles           | 0                                           | ---                                                     | ---
-  Lock down sensitive fields                  | Disabled                                    | ---                                                     | ---
-  GM can always edit PC sheets                | Disabled                                    | ---                                                     | ---
-  Only GM can edit active effects             | Disabled                                    | ---                                                     | ---
-  Always show item quantity                   | Disabled                                    | Enabled                                                 | ---
-  Disable inspiration tracker                 | Disabled                                    | ---                                                     | ---
+  Lock down sensitive fields                  | :o:                                    | ---                                                     | ---
+  GM can always edit PC sheets                | :o:                                    | ---                                                     | ---
+  Only GM can edit active effects             | :o:                                    | ---                                                     | ---
+  Always show item quantity                   | :o:                                    | :white_check_mark:                                                 | ---
+  Disable inspiration tracker                 | :o:                                    | ---                                                     | ---
   Auto exhaustion effects                     | No automatic exhaustion effects             | Tidy5e - Apply integrated effects (uses Active Effects) | ---
   Custom exhaustion effect icon               | modules/tidy5e-sheet/images/exhaustion.svg  | ---                                                     | ---
-  Disable exhaustion tracker                  | Disabled                                    | ---  
-  Show trait labels                             | Disabled  | Enabled     | ---| ---
+  Disable exhaustion tracker                  | :o:                                    | ---  
+  Show trait labels                             | :o:  | :white_check_mark:     | ---| ---
   
 ### Sheet Settings - Modules
   
   Setting                                             | Default   | Recommended | Comments
   ---                                                 | ---       | ---         | ---    
   Default tab when opening a sheet for the first time | Actions   | Attributes  | ---
-  Show midi qol item buttons in item's info card      | Disabled  | Enabled     | ---
-  Show active effects marker on items                 | Disabled  | Enabled     | ---
+  Show midi qol item buttons in item's info card      | :o:  | :white_check_mark:     | ---
+  Show active effects marker on items                 | :o:  | :white_check_mark:     | ---
 
 
 ## [Token Action HUD](https://foundryvtt.com/packages/token-action-hud/) v1.3.6
@@ -1753,31 +1780,31 @@ module combinations) that have the biggest impact on the games I run. More in-de
   Setting                                             | Default                                     | Recommended | Comments
   ---                                                 | ---                                         | ---         | ---    
   HUD roll handler                                    | Core D&D5e \[supports Midi QOL\]            | ---         | ---
-  Enable HUD for current user                         | Enabled                                     | ---         | ---
-  Always display HUD                                  | Enabled                                     | ---         | ---
-  Show HUD title                                      | Enabled                                     | ---         | ---
-  Show action icons                                   | Enabled                                     | ---         | ---
-  Always show custom categories                       | Enabled                                     | ---         | ---
-  Enable hovering                                     | Disabled                                    | ---         | ---
-  Click-to-open categories                            | Disabled                                    | ---         | ---
-  Ignore passive feats                                | Disabled                                    | ---         | ---
-  Display spell information                           | Enabled                                     | ---         | ---
-  Show all non-preparable spells                      | Enabled                                     | ---         | ---
-  Hide actions with an activation longer than 1 round | Disabled                                    | Enabled     | ---
-  Abbreviate skill and ability names                  | Disabled                                    | ---         | ---
-  Show separate ability check and save categories     | Enabled                                     | ---         | ---
-  Show all NPC items                                  | Enabled                                     | ---         | ---
-  Show empty items (includes items and spells)        | Disabled                                    | ---         | ---
-  Show conditions category                            | Enabled                                     | ---         | ---
-  Group by action type                                | Disabled                                    | Enabled     | ---
+  Enable HUD for current user                         | :white_check_mark:                                     | ---         | ---
+  Always display HUD                                  | :white_check_mark:                                     | ---         | ---
+  Show HUD title                                      | :white_check_mark:                                     | ---         | ---
+  Show action icons                                   | :white_check_mark:                                     | ---         | ---
+  Always show custom categories                       | :white_check_mark:                                     | ---         | ---
+  Enable hovering                                     | :o:                                    | ---         | ---
+  Click-to-open categories                            | :o:                                    | ---         | ---
+  Ignore passive feats                                | :o:                                    | ---         | ---
+  Display spell information                           | :white_check_mark:                                     | ---         | ---
+  Show all non-preparable spells                      | :white_check_mark:                                     | ---         | ---
+  Hide actions with an activation longer than 1 round | :o:                                    | :white_check_mark:     | ---
+  Abbreviate skill and ability names                  | :o:                                    | ---         | ---
+  Show separate ability check and save categories     | :white_check_mark:                                     | ---         | ---
+  Show all NPC items                                  | :white_check_mark:                                     | ---         | ---
+  Show empty items (includes items and spells)        | :o:                                    | ---         | ---
+  Show conditions category                            | :white_check_mark:                                     | ---         | ---
+  Group by action type                                | :o:                                    | :white_check_mark:     | ---
   Item-macro: item macro, original item, or both      | Show both original item and item macro item | ---         | ---
-  Enable HUD for players                              | Enabled                                     | ---         | ---
-  Show item sheet on right click                      | Enabled                                     | ---         | ---
+  Enable HUD for players                              | :white_check_mark:                                     | ---         | ---
+  Show item sheet on right click                      | :white_check_mark:                                     | ---         | ---
   HUD scale                                           | 1                                           | ---         | ---
   HUD background color                                | none                                        | ---         | ---
-  Mark active CSS with text                           | Disabled                                    | ---         | ---
-  Dropdown categories                                 | Enabled                                     | ---         | ---
-  Enable debugging                                    | Disabled                                    | ---         | ---
+  Mark active CSS with text                           | :o:                                    | ---         | ---
+  Dropdown categories                                 | :white_check_mark:                                     | ---         | ---
+  Enable debugging                                    | :o:                                    | ---         | ---
   
 ## [Token Attacher](https://foundryvtt.com/packages/token-attacher/) v4.1.2
   Allows for attaching anything to a token. Literally, anything. As its most basic, it's useful to attach tokens to other tokens, making it easier to create
@@ -1794,8 +1821,8 @@ module combinations) that have the biggest impact on the games I run. More in-de
 
   Setting                               | Default                             | Recommended | Comments
   ---                                   | ---                                 | ---         | ---    
-  Enable token images in dialog         | Enabled                             | ---         | ---
-  Additive damage                       | Disabled                            | ---         | ---
+  Enable token images in dialog         | :white_check_mark:                             | ---         | ---
+  Additive damage                       | :o:                            | ---         | ---
   Primary damage type (optional)        | \*blank\*                           | ---         | ---
   Secondary damage type (optional)      | \*blank\*                           | ---         | ---
   Tertiary damage type (optional)       | \*blank\*                           | ---         | ---
@@ -1810,12 +1837,12 @@ module combinations) that have the biggest impact on the games I run. More in-de
   Secondary health pool (\*)            | \*blank\*                           | ---         | ---
   Max 2nd health pool (\*)              | \*blank\*                           | ---         | ---
   Temporary 2nd health pool (optional)  | \*blank\*                           | ---         | ---
-  Allow negative hit points             | Disabled                            | ---         | ---
+  Allow negative hit points             | :o:                            | ---         | ---
   Threshold for unconscious (optional)  | 0                                   | ---         | ---
   Threshold for dying (optional)        | 0                                   | ---         | ---
-  Set token conditions - AGE games      | Disabled                            | ---         | ---
-  Allow damage buyoff - AGE games       | Disabled                            | ---         | ---
-  Enable token chat                     | Enabled                             | Disabled    | I'm not really a fan of the chat messages, but that's just me. If you want to disable them, this is the spot.
+  Set token conditions - AGE games      | :o:                            | ---         | ---
+  Allow damage buyoff - AGE games       | :o:                            | ---         | ---
+  Enable token chat                     | :white_check_mark:                             | :o:    | I'm not really a fan of the chat messages, but that's just me. If you want to disable them, this is the spot.
   When damage done                      | You hit me!                         | ---         | ---
   Minimal damage                        | For one measly point of damage...   | ---         | ---
   Points of damage                      | points of damage                    | ---         | ---
@@ -1836,21 +1863,21 @@ module combinations) that have the biggest impact on the games I run. More in-de
 
   Setting                   | Default   | Recommended | Comments
   ---                       | ---       | ---         | ---    
-  Use custom hotbar (beta)  | Disabled  | Enabled     | ---
+  Use custom hotbar (beta)  | :o:  | :white_check_mark:     | ---
   Page                      | 5         | 1           | ---
-  Link to linked actor      | Enabled   | ---         | ---
-  Always link to actor      | Disabled  | Enabled     | ---
-  Shared token hotbar       | Disabled  | ---         | ---
-  Lock shared hotbar        | Disabled  | ---         | ---
-  Debug mode                | Disabled  | ---         | ---
+  Link to linked actor      | :white_check_mark:   | ---         | ---
+  Always link to actor      | :o:  | :white_check_mark:     | ---
+  Shared token hotbar       | :o:  | ---         | ---
+  Lock shared hotbar        | :o:  | ---         | ---
+  Debug mode                | :o:  | ---         | ---
   
 ## [Token Info Icons](https://foundryvtt.com/packages/token-info-icons/) v2.3.2
   Adds small speed, AC, and passive perception markers when right-clicking on a token.
 
   Setting                         | Default   | Recommended | Comments
   ---                             | ---       | ---         | ---    
-  GM only?                        | Enabled   | Disabled    | ---
-  Show all passive senses (dnd5e) | Disabled  | Enabled     | ---
+  GM only?                        | :white_check_mark:   | :o:    | ---
+  Show all passive senses (dnd5e) | :o:  | :white_check_mark:     | ---
   Token position                  | left      | ---         | ---
   
 ## [Token Mold](https://foundryvtt.com/packages/token-mold/) v2.13.1
@@ -1863,11 +1890,11 @@ module combinations) that have the biggest impact on the games I run. More in-de
 
   Setting                                         | Recommended                               | Comments
   ---                                             | ---                                       | ---    
-  Apply settings to unlinked tokens only          | Enabled                                   | ---
-  Add counting numbers to name as suffix          | Enabled                                   | ---
+  Apply settings to unlinked tokens only          | :white_check_mark:                                   | ---
+  Add counting numbers to name as suffix          | :white_check_mark:                                   | ---
   Number style                                    | arabic numerals                           | ---
   Increase index by up to                         | 1                                         | ---
-  Add random adjective from dictionary            | Disabled                                  | ---
+  Add random adjective from dictionary            | :o:                                  | ---
   Choose adjectives from following rollable table | English - smaller but curated set of 700  | ---
   Adjective placement                             | Front                                     | ---
   Base name                                       | Do nothing                                | ---
@@ -1876,33 +1903,33 @@ module combinations) that have the biggest impact on the games I run. More in-de
 
   Setting                                                 | Recommended | Comments
   ---                                                     | ---         | ---    
-  Send result to chat                                     | Enabled     | ---
-  Set token size to creature size and scaled to map scale | Enabled     | ---
+  Send result to chat                                     | :white_check_mark:     | ---
+  Set token size to creature size and scaled to map scale | :white_check_mark:     | ---
 
 ### Modify Default Config
 
   Setting                           | Recommended                               | Comments
   ---                               | ---                                       | ---    
-  Display bars: overwrite           | Enabled                                   | ---
+  Display bars: overwrite           | :white_check_mark:                                   | ---
   Display bars                      | OWNER                                     | ---
-  Bar 1 attribute: overwrite        | Enabled                                   | ---
+  Bar 1 attribute: overwrite        | :white_check_mark:                                   | ---
   Bar 1 attribute                   | attributes.hp \[character, npc, vehicle\] | ---
-  Bar 2 attribute: overwrite        | Disabled                                  | ---
+  Bar 2 attribute: overwrite        | :o:                                  | ---
   Bar 2 attribute                   | None                                      | ---
-  Display name: overwrite           | Enabled                                   | ---
+  Display name: overwrite           | :white_check_mark:                                   | ---
   Display name                      | OWNER                                     | ---
-  Token disposition: overwrite      | Disabled                                  | ---
+  Token disposition: overwrite      | :o:                                  | ---
   Token disposition                 | NEUTRAL                                   | ---
-  Vision: overwrite                 | Disabled                                  | ---
-  Vision: has vision                | Enabled                                   | ---
-  Random scale multiplier: active   | Disabled                                  | ---
+  Vision: overwrite                 | :o:                                  | ---
+  Vision: has vision                | :white_check_mark:                                   | ---
+  Random scale multiplier: active   | :o:                                  | ---
   Random scale multiplier: min      | 0.8                                       | ---
   Random scale multiplier: max      | 1.2                                       | ---
-  Random rotation range: overwrite  | Disabled                                  | ---
+  Random rotation range: overwrite  | :o:                                  | ---
   Random rotation range: min angle  | 0                                         | ---
   Random rotation range: max angle  | 360                                       | ---
-  Random mirroring: horizontal      | Disabled                                  | ---
-  Random mirroring: vertical        | Disabled                                  | ---
+  Random mirroring: horizontal      | :o:                                  | ---
+  Random mirroring: vertical        | :o:                                  | ---
 
 ### Stat Overlay
 
@@ -1918,14 +1945,14 @@ module combinations) that have the biggest impact on the games I run. More in-de
   Default character frame                   | /modules/vtta-tokenizer/img/default-frame-pc.png  | ---                                     | ---
   Default NPC frame                         | /modules/vtta-tokenizer/img/default-frame-npc.png | ---                                     | ---
   Directory for custom token frames         | \*blank\*                                         | \[data\] ddb-imports/mr-primate/frames  | ---
-  Add a frame to the token when opened      | Enabled                                           | ---                                     | ---
+  Add a frame to the token when opened      | :white_check_mark:                                           | ---                                     | ---
   Player image upload directory             | \*blank\*                                         | \[data\] assets/tokens                  | ---
   NPC image upload directory for NPC tokens | \*blank\*                                         | \[data\] assets/tokens                  | ---
   Image file type                           | *.webp                                            | ---                                     | ---
   Token size                                | 400                                               | ---                                     | ---
   Portrait size                             | 400                                               | ---                                     | ---
-  Title bar link?                           | Disabled                                          | Enabled                                 | ---
-  Disable avatar click                      | Disabled                                          | Enabled                                 | ---
+  Title bar link?                           | :o:                                          | :white_check_mark:                                 | ---
+  Disable avatar click                      | :o:                                          | :white_check_mark:                                 | ---
   Default background colour for token?      | white                                             | ---                                     | ---
   Log level                                 | INFO                                              | ---                                     | ---
   
@@ -1936,8 +1963,8 @@ module combinations) that have the biggest impact on the games I run. More in-de
   Setting                                 | Default       | Recommended | Comments
   ---                                     | ---           | ---         | ---    
   Name of the trigger journal to use      | Trigger Happy | ---         | I created a folder called 'Trigger Happy' and store all my journals in there. Makes it easier to organize.
-  Capture at edge of drawing/token        | Disabled      | ---         | ---
-  Add enable/disable trigger happy button | Enabled       | Disabled    | ---
+  Capture at edge of drawing/token        | :o:      | ---         | ---
+  Add enable/disable trigger happy button | :white_check_mark:       | :o:    | ---
   
 ## [Turn Alert](https://foundryvtt.com/packages/turnAlert/) v2.0.0
   Adds the ability to create chat alerts in the combat tracker via a bell icon at the top of the Combat Tracker while combat is active. Clicking on that bell 
@@ -1952,7 +1979,7 @@ module combinations) that have the biggest impact on the games I run. More in-de
   
   Setting           | Default   | Recommended | Comments
   ---               | ---       | ---         | ---    
-  Openable windows  | Disabled  | ---         | ---
+  Openable windows  | :o:  | ---         | ---
 
 ## [Virtual Tabletop Assets - Iconizer](https://foundryvtt.com/packages/vtta-iconizer/) v2.1.12
   When new items are created that match an already-existing item icon, this module replaces the stock image with the existing icon.
@@ -1974,7 +2001,7 @@ module combinations) that have the biggest impact on the games I run. More in-de
 
   Setting         | Default | Recommended | Comments
   ---             | ---     | ---         | ---    
-  Enable tooltip  | Enabled | ---         | ---
+  Enable tooltip  | :white_check_mark: | ---         | ---
   
 ## [zSync](https://foundryvtt.com/packages/zsync/) v0.0.4
   Syncs all player/GM views so that tokens are on the same layer for everyone.
@@ -2119,43 +2146,43 @@ Will revisit: If it starts working again.
   Setting                               | Default     | Recommended | Comments
   ---                                   | ---         | ---         | ---    
   Selection style                       | text        | ---         | ---
-  Highlight active line                 | Disabled    | ---         | ---
-  Highlight selected word               | Enabled     | ---         | ---
+  Highlight active line                 | :o:    | ---         | ---
+  Highlight selected word               | :white_check_mark:     | ---         | ---
   Cursor style                          | smooth      | ---         | ---
-  Show invisibles                       | Enabled     | ---         | ---
-  Display indent guides                 | Enabled     | ---         | ---
-  Navigate within soft tabs             | Enabled     | ---         | ---
-  Enable multiselect                    | Enabled     | ---         | ---
-  Highlight gutter line                 | Enabled     | ---         | ---
-  Show print margin                     | Disabled    | ---         | ---
+  Show invisibles                       | :white_check_mark:     | ---         | ---
+  Display indent guides                 | :white_check_mark:     | ---         | ---
+  Navigate within soft tabs             | :white_check_mark:     | ---         | ---
+  Enable multiselect                    | :white_check_mark:     | ---         | ---
+  Highlight gutter line                 | :white_check_mark:     | ---         | ---
+  Show print margin                     | :o:    | ---         | ---
   Print margin column                   | 80          | ---         | ---
-  Show fold widgets                     | Enabled     | ---         | ---
-  Fade fold widgets                     | Enabled     | ---         | ---
-  Show line numbers                     | Enabled     | ---         | ---
-  Show gutter                           | Enabled     | ---         | ---
+  Show fold widgets                     | :white_check_mark:     | ---         | ---
+  Fade fold widgets                     | :white_check_mark:     | ---         | ---
+  Show line numbers                     | :white_check_mark:     | ---         | ---
+  Show gutter                           | :white_check_mark:     | ---         | ---
   Font size                             | 15          | ---         | ---
   Font family                           | monospace   | ---         | ---
   Scroll past end                       | 0.5         | ---         | ---
   Theme                                 | monokai     | ---         | ---
   New line mode                         | unix        | ---         | ---
   Tab size                              | 4           | ---         | ---
-  Wrap text                             | Enabled     | ---         | ---
+  Wrap text                             | :white_check_mark:     | ---         | ---
   Fold style                            | markbegin   | ---         | ---
   Mode                                  | plain text  | javascript  | ---
-  Enable basic autocompletion           | Enabled     | ---         | ---
-  Enable snippets                       | Enabled     | ---         | ---
-  Enable live autocompletion            | Enabled     | ---         | ---
-  Use elastic tabstops                  | Enabled     | ---         | ---
+  Enable basic autocompletion           | :white_check_mark:     | ---         | ---
+  Enable snippets                       | :white_check_mark:     | ---         | ---
+  Enable live autocompletion            | :white_check_mark:     | ---         | ---
+  Use elastic tabstops                  | :white_check_mark:     | ---         | ---
   Keyboard handler                      | emacs       | sublime     | ---
-  Horizontal scroll bar always visible  | Disabled    | ---         | ---
-  Vertical scroll bar always visible    | Disabled    | ---         | ---
+  Horizontal scroll bar always visible  | :o:    | ---         | ---
+  Vertical scroll bar always visible    | :o:    | ---         | ---
   Scroll speed                          | 2           | ---         | ---
   Drag-and-drop delay                   | 0           | ---         | ---
-  Enable drag-and-drop                  | Enabled     | ---         | ---
+  Enable drag-and-drop                  | :white_check_mark:     | ---         | ---
   First line number                     | 1           | ---         | ---
-  Overwrite                             | Disabled    | ---         | ---
-  Use soft tabs                         | Enabled     | ---         | ---
-  Indented soft wrap                    | Enabled     | ---         | ---
+  Overwrite                             | :o:    | ---         | ---
+  Use soft tabs                         | :white_check_mark:     | ---         | ---
+  Indented soft wrap                    | :white_check_mark:     | ---         | ---
 
   Why retired: I use IntelliJ/WebStorm for 90% of my macro usage, so I never really needed it.
 
@@ -2168,12 +2195,12 @@ Will revisit: If it starts working again.
 
   Setting                   | Default   | Recommended | Comments
   ---                       | ---       | ---         | ---    
-  Measurement System        | Enabled   | Disabled    | ---
-  Walls block auras         | Disabled  | ---         | ---
-  Height measurement system | Enabled   | ---         | ---
-  Remove auras on death     | Enabled   | ---         | ---
-  Auras in combat           | Enabled   | ---         | ---
-  Debug                     | Disabled  | ---         | ---
+  Measurement System        | :white_check_mark:   | :o:    | ---
+  Walls block auras         | :o:  | ---         | ---
+  Height measurement system | :white_check_mark:   | ---         | ---
+  Remove auras on death     | :white_check_mark:   | ---         | ---
+  Auras in combat           | :white_check_mark:   | ---         | ---
+  Debug                     | :o:  | ---         | ---
 
   Why removed: Never ended up using its functionality all that much, and the functionality I did use was very niche and covered manually by
   [Token Auras](https://foundryvtt.com/packages/token-auras/).
@@ -2227,10 +2254,10 @@ Will revisit: If it starts working again.
 
   Setting                           | Default   | Recommended   | Comments
   ---                               | ---       | ---           | ---    
-  Disable GM speaking as PC tokens  | Disabled  | Enabled       | ---
-  Blind chats made by hidden tokens | Disabled  | Enabled       | ---
-  Disable chat recalls              | Disabled  | ---           | ---
-  Notify typings                    | Disabled  | Enabled       | ---
+  Disable GM speaking as PC tokens  | :o:  | :white_check_mark:       | ---
+  Blind chats made by hidden tokens | :o:  | :white_check_mark:       | ---
+  Disable chat recalls              | :o:  | ---           | ---
+  Notify typings                    | :o:  | :white_check_mark:       | ---
   
   Why retired: Conflicted with [DnD5e Helpers](https://foundryvtt.com/packages/dnd5e-helpers/) action bar. It's a shame, because the "is typing..." feature was 
   pretty nifty.
@@ -2243,10 +2270,10 @@ Will revisit: If it starts working again.
   Setting                           | Default   | Recommended   | Comments
   ---                               | ---       | ---           | ---    
   Show HP for actor type            | None      | ---           | ---
-  Enable initiative reflow          | Disabled  | ---           | ---
-  Enable HP field                   | Enabled   | ---           | ---
-  Enable HP radial bar              | Enabled   | ---           | ---
-  Enable target removal every turn  | Disabled  | ---           | Could enable, however, this is already taken care of by [Midi QoL](https://foundryvtt.com/packages/midi-qol/).
+  Enable initiative reflow          | :o:  | ---           | ---
+  Enable HP field                   | :white_check_mark:   | ---           | ---
+  Enable HP radial bar              | :white_check_mark:   | ---           | ---
+  Enable target removal every turn  | :o:  | ---           | Could enable, however, this is already taken care of by [Midi QoL](https://foundryvtt.com/packages/midi-qol/).
   
   Why retired: I value [Hidden Initiative](https://foundryvtt.com/packages/hidden-initiative/) more, and these two modules do not like each other at all.
 - [Combat Ready](https://foundryvtt.com/packages/combatready/) - Provides popups and sounds to let players know when it's almost their turn/is their turn.
@@ -2259,11 +2286,11 @@ Will revisit: If it starts working again.
 
   Setting                       | Default   | Recommended   | Comments
     ---                           | ---       | ---           | ---    
-  Use expanded sheet as limited | Disabled  | ---           | ---
-  Show passive perception       | Disabled  | Enabled       | ---
-  Show passive insight          | Disabled  | Enabled       | ---
-  Show passive investigation    | Disabled  | Enabled       | ---
-  Show passive stealth          | Disabled  | Enabled       | ---
+  Use expanded sheet as limited | :o:  | ---           | ---
+  Show passive perception       | :o:  | :white_check_mark:       | ---
+  Show passive insight          | :o:  | :white_check_mark:       | ---
+  Show passive investigation    | :o:  | :white_check_mark:       | ---
+  Show passive stealth          | :o:  | :white_check_mark:       | ---
   
   Why retired: Nobody ended up using it, favoring other character sheets instead.
 - [Compendium Browser](https://github.com/syl3r86/compendium-browser) - Allows for easy browsing of compendium files.
@@ -2277,15 +2304,15 @@ Will revisit: If it starts working again.
 
   Setting                               | Default   | Recommended                 | Comments
     ---                                   | ---       | ---                         | ---    
-  Blinding setting                      | Disabled  | Perfect Vision limit sight  | ---
+  Blinding setting                      | :o:  | Perfect Vision limit sight  | ---
   Blind status name                     | Blind     | Blinded                     | ---
-  Enable unlinked token vision settings | Disabled  | ---                         | ---
-  Shadow settings                       | Disabled  | ---                         | Would enable if I had Token Magic FX enabled.
-  Death macro                           | Disabled  | \*blank\*                   | ---
-  Poisoned macro                        | Disabled  | \*blank\*                   | ---
-  Stunned macro                         | Disabled  | \*blank\*                   | ---
-  Paralyzed macro                       | Disabled  | \*blank\*                   | ---
-  Petrified macro                       | Disabled  | \*blank\*                   | ---
+  Enable unlinked token vision settings | :o:  | ---                         | ---
+  Shadow settings                       | :o:  | ---                         | Would enable if I had Token Magic FX enabled.
+  Death macro                           | :o:  | \*blank\*                   | ---
+  Poisoned macro                        | :o:  | \*blank\*                   | ---
+  Stunned macro                         | :o:  | \*blank\*                   | ---
+  Paralyzed macro                       | :o:  | \*blank\*                   | ---
+  Petrified macro                       | :o:  | \*blank\*                   | ---
 
   Why retired: Most of these effects aren't significant enough to warrant automation, especially since I don't have
   [Token Magic FX](https://foundryvtt.com/packages/tokenmagic/) installed. The Blinded condition was nice, but it doesn't come into play enough to earn a
@@ -2304,8 +2331,8 @@ Will revisit: If it starts working again.
   
   Setting                   | Default   | Recommended   | Comments
   ---                       | ---       | ---           | ---    
-  Context menu option       | Disabled  | Enabled       | Adds a right-click option to view the scene background.
-  Close other popouts       | Disabled  | Enabled       | ---
+  Context menu option       | :o:  | :white_check_mark:       | Adds a right-click option to view the scene background.
+  Close other popouts       | :o:  | :white_check_mark:       | ---
   
   Why retired: Implemented by [Monks Little Details](https://foundryvtt.com/packages/monks-little-details).
 - [CritterDB Import](https://foundryvtt.com/packages/critterdb-import/) v1.0.5
@@ -2374,7 +2401,7 @@ Will revisit: If it starts working again.
 
   Setting                               | Default   | Recommended                                                   | Comments
     ---                                   | ---       | ---                                                           | ---    
-  Font families                         | Disabled  | Berkshire Swash,Marck Script,MedievalSharp,Milonga,Pirata One | ---
+  Font families                         | :o:  | Berkshire Swash,Marck Script,MedievalSharp,Milonga,Pirata One | ---
 
   Why retired: Never ended up using outside of one niche use-case
 - [Forien's Easy Polls](https://foundryvtt.com/packages/forien-easy-polls/) - Adds the ability to create polls in chat by typing `/poll`, your poll title, and 
@@ -2391,7 +2418,7 @@ Will revisit: If it starts working again.
 
   Setting               | Default   | Recommended | Comments
   ---                   | ---       | ---         | ---    
-  Activate giving item  | Disabled  | Enabled     | ---
+  Activate giving item  | :o:  | :white_check_mark:     | ---
 
   Why retired: Replaced by [Let's Trade 5e](https://foundryvtt.com/packages/lets-trade-5e).
 - [GM Notes](https://foundryvtt.com/packages/gm-notes/) v0.3
@@ -2400,7 +2427,7 @@ Will revisit: If it starts working again.
 
   Setting                 | Default | Recommended | Comments
   ---                     | ---     | ---         | ---    
-  Show full GM note label | Enabled | ---         | ---
+  Show full GM note label | :white_check_mark: | ---         | ---
 
   Why retired: Replaced by [GM Secret Block](https://foundryvtt.com/packages/gm-secrets/).
 - [GM Scene Background](https://github.com/death-save/gm-bg) - Allows GM to set background that only they can see.
@@ -2462,8 +2489,8 @@ Will revisit: If it starts working again.
   Darkness - Dimming              | 0.5       | ---           | ---
   Darkness - Explored             | 0.65      | ---           | ---
   Darkness - Unexplored (GM only) | 0.8       | ---           | ---
-  Reveal tokens                   | Enabled   | Disabled      | ---
-  Reveal to all players           | Disabled  | ---           | ---
+  Reveal tokens                   | :white_check_mark:   | :o:      | ---
+  Reveal to all players           | :o:  | ---           | ---
 
   Why removed: I already have enough lighting modules that this one seems a little redundant.
 - [Macro Editor](https://foundryvtt.com/packages/macroeditor/) v1.0.9
@@ -2473,8 +2500,8 @@ Will revisit: If it starts working again.
 
   Setting                       | Default | Recommended | Comments
     ---                           | ---     | ---         | ---    
-  Show macro editor by default  | Enabled | ---         | ---
-  Wrap lines                    | Enabled | Disabled    | ---
+  Show macro editor by default  | :white_check_mark: | ---         | ---
+  Wrap lines                    | :white_check_mark: | :o:    | ---
 
   Why retired: I use Jetbrains products to write most of my macros, so I never ended up writing them within the Foundry space much.
 - [Mount Up!](https://brunhine.com/fvtt/mountup) - A fun little module that lets tokens "mount" other tokens and follow them wherever they go. Useful if you
@@ -2505,8 +2532,8 @@ Will revisit: If it starts working again.
 
   Setting                 | Default   | Recommended | Comments
   ---                     | ---       | ---         | ---    
-  Save NPCs as characters | Enabled   | ---         | ---
-  Role specific images    | Disabled  | ---         | ---
+  Save NPCs as characters | :white_check_mark:   | ---         | ---
+  Role specific images    | :o:  | ---         | ---
   
   Why retired: Never ended up using it, and I have other NPC generators that I use for personality stuff, and I like to make tweaks as well. Cool concept, 
   though!
@@ -2526,7 +2553,7 @@ Will revisit: If it starts working again.
   ---                             | ---                                           | ---         | ---    
   Default container opened image  | modules/pick-up-stix/assets/chest-opened.png  | ---         | ---
   Default container closed image  | modules/pick-up-stix/assets/chest-closed.png  | ---         | ---
-  Disable currency loot           | Disabled                                      | ---         | ---
+  Disable currency loot           | :o:                                      | ---         | ---
   Default container open sound    | undefined                                     | ---         | ---
   Default container close sound   | undefined                                     | ---         | ---
   
@@ -2540,9 +2567,9 @@ Will revisit: If it starts working again.
 
   Setting                               | Default | Recommended | Comments
     ---                                   | ---     | ---         | ---    
-  Freeze "captured" tokens              | Enabled | ---         | ---
-  Show automatically from journal entry | Enabled | ---         | ---
-  Display XP after combat               | Enabled | Disabled    | Would enable if using XP levelling.
+  Freeze "captured" tokens              | :white_check_mark: | ---         | ---
+  Show automatically from journal entry | :white_check_mark: | ---         | ---
+  Display XP after combat               | :white_check_mark: | :o:    | Would enable if using XP levelling.
 
   Why retired: I keep my tokens on the board and invisible most of the time. Nice idea, but not worth a module slot in my personal opinion.
 - [RC Spent/Recoverable Ammo Tracker](https://foundryvtt.com/packages/rc-spent-ammo) v1.0.13
@@ -2558,8 +2585,8 @@ Will revisit: If it starts working again.
     ---                         | ---     | ---         | ---    
   Default closed roof opacity | 1       | ---         | ---
   Default open roof opacity   | 0.2     | ---         | ---
-  Enable token autohide       | Enabled | ---         | ---
-  Enable GM quick peek        | Enabled | ---         | ---  
+  Enable token autohide       | :white_check_mark: | ---         | ---
+  Enable GM quick peek        | :white_check_mark: | ---         | ---  
 
   Why retired: Implemented by core Foundry in 0.8.x.
 - [Scenery](https://foundryvtt.com/packages/scenery/) - Allows for different variations in backgrounds for scenes.
@@ -2585,11 +2612,11 @@ Will revisit: If it starts working again.
   
   Setting                                                       | Default   | Recommended | Comments
   ---                                                           | ---       | ---         | ---    
-  Advanced macros                                               | Enabled   | ---         | ---
-  Advanced drawing tools                                        | Enabled   | Disabled    | ---
+  Advanced macros                                               | :white_check_mark:   | ---         | ---
+  Advanced drawing tools                                        | :white_check_mark:   | :o:    | ---
   Freehand sample rate                                          | 50ms      | ---         | ---
-  Enable hooks debugging                                        | Disabled  | ---         | Only enable when debugging :)
-  Improve the playlists UI                                      | Enabled   | ---         | ---
+  Enable hooks debugging                                        | :o:  | ---         | Only enable when debugging :)
+  Improve the playlists UI                                      | :white_check_mark:   | ---         | ---
   Volume slider linear to logarithmic exponential approximation | 3         | ---         | ---
   
   Why retired: Split into multiple different modules.
@@ -2616,8 +2643,8 @@ Will revisit: If it starts working again.
 
   Setting       | Default   | Recommended | Comments
     ---           | ---       | ---         | ---    
-  Hide tracks   | Disabled  | Enabled     | ---
-  Allow random  | Disabled  | ---         | ---
+  Hide tracks   | :o:  | :white_check_mark:     | ---
+  Allow random  | :o:  | ---         | ---
 
   Why retired: Not working in 0.8.x
 - [Vance's Sidebar Resizer](https://foundryvtt.com/packages/vance-sidebar-resizer/) v0.0.2
