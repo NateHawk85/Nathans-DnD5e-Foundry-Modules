@@ -71,26 +71,28 @@ corresponding Foundry version in the commit message, and if it doesn't, I messed
 <a name="configure-permissions"></a>
 ## Configure Permissions
 
-| Setting                       | Player   | Trusted Player     | Assistant GM       | Game Master        |
-|-------------------------------|----------|--------------------|--------------------|--------------------|
-| Allow Broadcasting Audio      | :x:      | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
-| Allow Broadcasting Video      | :x:      | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
-| Configure Token Settings      | Disabled | Enabled            | Enabled            | Enabled            |
-| Create Journal Entries        | Disabled | Enabled            | Enabled            | Enabled            |
-| Create Map Notes              | Disabled | Enabled            | Enabled            | Enabled            |
-| Create Measured Template      | Enabled  | Enabled            | Enabled            | Enabled            |
-| Create New Actors             | Disabled | Enabled            | Enabled            | Enabled            |
-| Create New Items              | Disabled | Enabled            | Enabled            | Enabled            |
-| Create New Tokens             | Disabled | Enabled            | Enabled            | Enabled            |
-| Display Mouse Cursor          | Enabled  | Enabled            | Disabled           | Disabled           |
-| Display Ruler Measurement     | Enabled  | Enabled            | Disabled           | Disabled           |
-| Modify Configuration Settings | Disabled | Disabled           | Disabled           | Enabled            |
-| Open and Close Doors          | Enabled  | Enabled            | Enabled            | Enabled            |
-| Upload New Files              | Disabled | Enabled            | Enabled            | Enabled            |
-| Use Drawing Tools             | Disabled | Enabled            | Enabled            | Enabled            |
-| Use File Browser              | Enabled  | Enabled            | Enabled            | Enabled            |
-| Use Script Macros             | Disabled | Enabled            | Enabled            | Enabled            |
-| Whisper Private Messages      | Disabled | Disabled           | Disabled           | Disabled           |
+| Setting                       | Player             | Trusted Player     | Assistant GM       | Game Master        |
+|-------------------------------|--------------------|--------------------|--------------------|--------------------|
+| Allow Broadcasting Audio      | :o:                | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Allow Broadcasting Video      | :o:                | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Canvas Pings                  | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Configure Token Settings      | :o:                | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Create Journal Entries        | :o:                | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Create Map Notes              | :o:                | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Create Measured Template      | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Create New Actors             | :o:                | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Create New Items              | :o:                | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Create New Tokens             | :o:                | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Delete Tokens                 | :o:                | :o:                | :white_check_mark: | :white_check_mark: |
+| Display Mouse Cursor          | :white_check_mark: | :white_check_mark: | :o:                | :o:                |
+| Display Ruler Measurement     | :white_check_mark: | :white_check_mark: | :o:                | :o:                |
+| Modify Configuration Settings | :o:                | :o:                | :o:                | :white_check_mark: |
+| Open and Close Doors          | :o:                | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Upload New Files              | :o:                | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Use Drawing Tools             | :o:                | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Use File Browser              | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Use Script Macros             | :o:                | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Whisper Private Messages      | :o:                | :o:                | :o:                | :o:                |
 
 <a name="core-settings"></a>
 ## Core Settings
