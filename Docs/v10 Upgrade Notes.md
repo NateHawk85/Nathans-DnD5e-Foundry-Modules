@@ -5,6 +5,11 @@ Here, I'll try to list any main differences between my prior Foundry v9.269 setu
 ## Removed Modules
 - Lichtgeschwindigkeit (lighting improvements now part of core Foundry)
 - Pings (now included in core Foundry)
+- PDFoundry (now included in core Foundry)
+- Calendar/Weather (replaced by SmallTime, and I just never got around to removing it)
+- Drag Ruler (temporarily, see Issues)
+- DnD5e Helpers (temporarily, see Issues)
+- Changelogs (not needed anymore, apparently?)
 
 ## Added Modules
 - Lib DF Buttons
@@ -28,8 +33,5 @@ Here, I'll try to list any main differences between my prior Foundry v9.269 setu
   - Update lines 6 and 9 with any author, as long as it's not blank
     - `"author": ""` --> `"author": "Me"`
     - `"name": ""` --> `"name": "Me"`
-
-## High Priority Non-Updated Modules
-
-## Non-Updated Modules
--
+- Drag Ruler has an upcoming fix, but is broken on v10 until then. Disabled until the fix is applied
+- DnD5e Helpers has an issue that prevents canvas rendering. Disabled until a fix is applied
