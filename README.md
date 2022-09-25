@@ -21,19 +21,18 @@ is download the modules you want, enable the [Forien's Copy Environment](https:/
 Inspired by [Bryan's Preferred Modules for Foundry VTT](https://github.com/bryancasler/Bryans-Preferred-Modules-for-FoundryVTT), as a lot of the modules I use
 now were found on his page. I 100% recommend checking his stuff out for even more useful stuff.
 
-If there's a module, resource, or other missing piece that you think should be on this page, feel free to create an issue and I'll check it out!
+If there's a module, resource, or other missing piece that you think should be on this page, feel free to create an issue, and I'll check it out!
 
-### 0.8.9 Upgrade Notes
-Click [here](https://github.com/NateHawk85/Nathans-DnD5e-Foundry-Modules/blob/main/0.8.8%20Upgrade%20Notes.md) for notes upgrading from 0.7.9-0.8.8.
-
-### v9 Upgrade Notes
-Click [here](https://github.com/NateHawk85/Nathans-DnD5e-Foundry-Modules/blob/main/v9%20Upgrade%20Notes.md) for notes upgrading from 0.8.9-v9.
+### Upgrade Note Links
+- [0.7.9 --> 0.8.8](https://github.com/NateHawk85/Nathans-DnD5e-Foundry-Modules/blob/main/Docs/v0.8.8%20Upgrade%20Notes.md)
+- [0.8.9 --> v9](https://github.com/NateHawk85/Nathans-DnD5e-Foundry-Modules/blob/main/Docs/v9%20Upgrade%20Notes.md)
+- [v9 --> v10](https://github.com/NateHawk85/Nathans-DnD5e-Foundry-Modules/blob/main/Docs/v10%20Upgrade%20Notes.md)
 
 Let me know if there's any improvements that could be made by creating an [issue](https://github.com/NateHawk85/Nathans-DnD5e-Foundry-Modules/issues/new), and 
 I'll get to it as soon as I can!
 
 # Versions
-## Current Foundry Version - 0.8.9
+## Current Foundry Version - 10.286
 If you want to view my preferred modules for a specific version of Foundry, you can use the 
 [commit history](https://github.com/NateHawk85/Nathans-DnD5e-Foundry-Modules/commits/main) to view past versions of this page. Each commit should have the
 corresponding Foundry version in the commit message, and if it doesn't, I messed up somewhere :)
@@ -41,6 +40,7 @@ corresponding Foundry version in the commit message, and if it doesn't, I messed
 # Table of Contents
 - Modules and Settings
     - [Foundry VTT Settings](#foundry-settings)
+        - [Configure Permissions](#configure-permissions)
         - [Core Settings](#core-settings)
         - [System Settings](#system-settings)
     - [Must-Have Modules](#must-have-modules)
@@ -68,6 +68,30 @@ corresponding Foundry version in the commit message, and if it doesn't, I messed
 <a name="foundry-settings"></a>
 # Foundry VTT Settings
 
+<a name="configure-permissions"></a>
+## Configure Permissions
+
+Setting                       | Player             | Trusted Player  | Assistant GM  | Game Master
+---                           |--------------------| ---             | ---           | ---
+Allow Broadcasting Audio      | <span>- [x]</span> | Enabled         | Enabled       | Enabled
+Allow Broadcasting Video      | Disabled           | Enabled         | Enabled       | Enabled
+Configure Token Settings      | Disabled           | Enabled         | Enabled       | Enabled
+Create Journal Entries        | Disabled           | Enabled         | Enabled       | Enabled
+Create Map Notes              | Disabled           | Enabled         | Enabled       | Enabled
+Create Measured Template      | Enabled            | Enabled         | Enabled       | Enabled
+Create New Actors             | Disabled           | Enabled         | Enabled       | Enabled
+Create New Items              | Disabled           | Enabled         | Enabled       | Enabled
+Create New Tokens             | Disabled           | Enabled         | Enabled       | Enabled
+Display Mouse Cursor          | Enabled            | Enabled         | Disabled      | Disabled
+Display Ruler Measurement     | Enabled            | Enabled         | Disabled      | Disabled
+Modify Configuration Settings | Disabled           | Disabled        | Disabled      | Enabled
+Open and Close Doors          | Enabled            | Enabled         | Enabled       | Enabled
+Upload New Files              | Disabled           | Enabled         | Enabled       | Enabled
+Use Drawing Tools             | Disabled           | Enabled         | Enabled       | Enabled
+Use File Browser              | Enabled            | Enabled         | Enabled       | Enabled
+Use Script Macros             | Disabled           | Enabled         | Enabled       | Enabled
+Whisper Private Messages      | Disabled           | Disabled        | Disabled      | Disabled
+
 <a name="core-settings"></a>
 ## Core Settings
 
@@ -87,29 +111,6 @@ corresponding Foundry version in the commit message, and if it doesn't, I messed
   Zoomed Texture Antialiasing         | Enabled   | ---           | ---    
   Animate Roll Tables?                | Enabled   | Disabled      | ---    
   Cone Template Type                  | Round     | ---           | ---
-
-## Configure Permissions
-
-  Setting                       | Player    | Trusted Player  | Assistant GM  | Game Master
-  ---                           | ---       | ---             | ---           | ---
-  Allow Broadcasting Audio      | Disabled  | Enabled         | Enabled       | Enabled 
-  Allow Broadcasting Video      | Disabled  | Enabled         | Enabled       | Enabled 
-  Configure Token Settings      | Disabled  | Enabled         | Enabled       | Enabled 
-  Create Journal Entries        | Disabled  | Enabled         | Enabled       | Enabled 
-  Create Map Notes              | Disabled  | Enabled         | Enabled       | Enabled 
-  Create Measured Template      | Enabled   | Enabled         | Enabled       | Enabled 
-  Create New Actors             | Disabled  | Enabled         | Enabled       | Enabled 
-  Create New Items              | Disabled  | Enabled         | Enabled       | Enabled 
-  Create New Tokens             | Disabled  | Enabled         | Enabled       | Enabled 
-  Display Mouse Cursor          | Enabled   | Enabled         | Disabled      | Disabled
-  Display Ruler Measurement     | Enabled   | Enabled         | Disabled      | Disabled
-  Modify Configuration Settings | Disabled  | Disabled        | Disabled      | Enabled
-  Open and Close Doors          | Enabled   | Enabled         | Enabled       | Enabled 
-  Upload New Files              | Disabled  | Enabled         | Enabled       | Enabled 
-  Use Drawing Tools             | Disabled  | Enabled         | Enabled       | Enabled 
-  Use File Browser              | Enabled   | Enabled         | Enabled       | Enabled 
-  Use Script Macros             | Disabled  | Enabled         | Enabled       | Enabled 
-  Whisper Private Messages      | Disabled  | Disabled        | Disabled      | Disabled
 
 ## Default Token Configuration
 
@@ -135,7 +136,7 @@ corresponding Foundry version in the commit message, and if it doesn't, I messed
   Bar 2 Attribute       | None             | ---              | ---      
 
 <a name="system-settings"></a>
-## DnD5e - Fifth Edition System v1.3.6 Settings
+## DnD5e - Fifth Edition System v2.0.3 Settings
 
   Setting                             | Default   | Recommended   | Comments
   ---                                 | ---       | ---           | ---    
@@ -167,6 +168,7 @@ module combinations) that have the biggest impact on the games I run. More in-de
 - [Forien's Copy Environment](https://foundryvtt.com/packages/forien-copy-environment/) for sharing the same settings between worlds.
 - [GM Secret Block](https://foundryvtt.com/packages/gm-secrets/) to store private notes on things. (Or [GM Notes](https://foundryvtt.com/packages/gm-notes/) if 
   you prefer that module instead.)
+# TODO - remove
 - [Lichtgeschwindigkeit](https://foundryvtt.com/packages/lichtgeschwindigkeit) for lighting speed/quality improvements.
 - [Multilevel Tokens](https://foundryvtt.com/packages/multilevel-tokens/) for various grid enhancements.
 - [Next Up](https://foundryvtt.com/packages/Next-Up/) for opening/closing NPC sheets during combat automatically, which saves quite a bit of time.
@@ -181,6 +183,7 @@ module combinations) that have the biggest impact on the games I run. More in-de
 - [Universal Battlemap Importer](https://foundryvtt.com/packages/dd-import/) for importing my custom maps and other mapmakers' creations.
 
 <a name="all-installed-modules"></a>
+# TODO - update number
 # Full List of 108 Currently-Installed Modules, Descriptions, and Settings
 
 ## [About Time](https://foundryvtt.com/packages/about-time/) v1.0.4
@@ -1983,6 +1986,7 @@ module combinations) that have the biggest impact on the games I run. More in-de
 ## Music
 - [Michael Ghelfi Audio Pack](https://foundryvtt.com/packages/michaelghelfi/) - Great ambient sounds and songs!
 <a name="map-pack-modules"></a>
+# TODO - revisit patreons for both above and below
 ## Map Packs
 - [Baileywiki Maps Pack](https://foundryvtt.com/packages/baileywiki-maps/) - Full scenes filled with module integrations.
 - [Domille's Wondrous Works - Battlemap Collection](https://foundryvtt.com/packages/dww-battlemaps/) - Great, high quality maps!
