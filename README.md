@@ -221,7 +221,7 @@ module combinations) that have the biggest impact on the games I run. More in-de
 
 # Full List of Currently-Installed Modules, Descriptions, and Settings
 
-# TODO - add 5e Statblock Importer
+# TODO - add 5e Statblock Importer 1.5.7
 
 ## [About Time](https://foundryvtt.com/packages/about-time/) v10.0.1
 
@@ -233,7 +233,7 @@ Requires [Simple Calendar](https://foundryvtt.com/packages/foundryvtt-simple-cal
 |--------------|---------|-------------|----------|
 | Debug output | :o:     | ---         | ---      |
 
-## [Advanced Macros](https://foundryvtt.com/packages/advanced-macros) v1.16.4
+## [Advanced Macros](https://foundryvtt.com/packages/advanced-macros) v1.17
 
 Split off of [The Furnace](https://foundryvtt.com/packages/furnace/), adds a 'Run Macro' button and an 'Execute Macro As GM' option that allows players to
 run macros... as a GM! There are some other small enhancements as well, including some syntax sugar for calling other macros. Pretty neat!
@@ -246,7 +246,12 @@ run macros... as a GM! There are some other small enhancements as well, includin
 
 Adds a small menu option to recover spent ammunition after an encounter ends. Good for tables that track arrows.
 
-## [Autocomplete Whisper](https://foundryvtt.com/packages/autocomplete-whisper/) v1.0.3
+## [Autocomplete Inline Properties](https://foundryvtt.com/packages/autocomplete-inline-properties/)
+
+A nice quality of life fix that autocompletes... inline... properties... Yeah, I probably didn't need to explain this one. Great quality of life fix that lets
+us forgetful folk remember the correct entity fields.
+
+## [Autocomplete Whisper](https://foundryvtt.com/packages/autocomplete-whisper/) v1.0.4
 
 Overhauls the whisper functionality to provide an easy-to-use pop-up to select whisper targets.
 
@@ -286,7 +291,9 @@ Adds a reusable component that details different actions a player can take, incl
 | Inject NPC actions list               | :white_check_mark: | ---         | ---      |
 | Inject vehicle actions list           | :white_check_mark: | ---         | ---      |
 
-## [Chat Images](https://foundryvtt.com/packages/chat-images/) v3.1
+# TODO - chat commands lib
+
+## [Chat Images](https://foundryvtt.com/packages/chat-images/) v3.2
 
 Allows you to put images in chat via uploading, screenshots, etc. I find it very useful for sharing certain bits of the map with only certain players, or
 showing them, "Look, I swear. Boblin really did crit 3 times in a row."
@@ -302,7 +309,7 @@ NOTE: This has the possibility of considerably bloating your server. Make a note
 | Files save location             | Data folder | ---         | Make sure to ignore this folder from your players' sight via the file picker, if you care about that stuff. |
 | Embed if upload is not possible | :o:         | ---         | Enable if you want your players to be able to use the module, but don't want to give upload permissions.    |
 
-## [Chat Portrait](https://foundryvtt.com/packages/chat-portrait/) v0.8.6
+## [Chat Portrait](https://foundryvtt.com/packages/chat-portrait/) v0.8.8
 
 Adds an image of the corresponding image/token to player and GM chat messages.
 
@@ -339,7 +346,7 @@ Adds an image of the corresponding image/token to player and GM chat messages.
 | Placeholder for the label unknown item icon                | /modules/chat-portrait/assets/inv-unidentified.png | ---         | ---      |
 | Setup additional custom styling on the text chat message   | :o:                                                | ---         | ---      |
 
-# TODO - add Color Picker? (Required by Token HUD)
+# TODO - add Color Picker? (Required by Token HUD) 1.2
 
 ## [Combat Utility Belt](https://foundryvtt.com/packages/combat-utility-belt/) v1.10.1
 
@@ -521,7 +528,7 @@ Xanathar's downtime rules, etc.
 | Default completion target        | 300                | ---         | ---      |
 | Announce completion for          | PC's Only          | ---         | ---      |
 
-## [Custom Hotbar](https://foundryvtt.com/packages/custom-hotbar/) v2.2.0
+## [Custom Hotbar](https://foundryvtt.com/packages/custom-hotbar/) v2.3.0
 
 Creates a second configurable hotbar that can be moved and styled according to your own specifications. This works extremely well when combined with the
 [Token Hotbar](https://foundryvtt.com/packages/foundry-token-hotbar/) module.
@@ -562,10 +569,10 @@ Requires [Library: DF Hotkeys](https://foundryvtt.com/packages/lib-df-hotkeys), 
 
 ## [Custom Shared Compendiums](https://www.reddit.com/r/FoundryVTT/comments/fvw3c7/how_to_create_a_tiny_module_for_shared_content/)
 
-Although this isn't a standard module, I highly recommend creating one of these for your own use. I have 4 or 5 that I enable for setup vs. game-time, and I 
+Although this isn't a standard module, I highly recommend creating one of these for your own use. I have 4 or 5 that I enable for setup vs. game-time, and I
 find them extremely useful!
 
-## [D&D Beyond Importer](https://foundryvtt.com/packages/ddb-importer/) v3.1.8
+## [D&D Beyond Importer](https://foundryvtt.com/packages/ddb-importer/) v3.1.10
 
 A fork of the [VTTA D&DBeyond Integration](https://foundryvtt.com/packages/vtta-dndbeyond/) module that allows you to automatically import spells, items, and
 character sheets from D&DBeyond into Foundry. Although it's currently in development and missing some functionality, it is still definitely an extremely
@@ -622,7 +629,11 @@ get the most out of this module, it should be paired with both [Dynamic Active E
 | Override                               | \[world\] DDB Override       | \[CustomSharedCompendiums\] Shared Custom Items                   | ---      |
 | Create default compendiums if missing? | :white_check_mark:           | :o:                                                               | ---      |
 
-# TODO - DF Architect?
+# TODO - DF Architect? [DF Architect](https://foundryvtt.com/packages/df-architect)
+
+A host of GM tools, could replace [Wall Cutter](https://foundryvtt.com/packages/WallCutter/).
+
+Requires Library: DF Hotkeys, libwrapper
 
 ## [DF Curvy Walls](https://foundryvtt.com/packages/df-curvy-walls) v3.3.1
 
@@ -743,7 +754,7 @@ Replaces [Simple Dice Roller](https://foundryvtt.com/packages/simple-dice-roller
 | Enable dice calculator | :white_check_mark: | ---                | ---      |
 | Enable d6 pips         | :o:                | :white_check_mark: | ---      |
 
-## [Dynamic Active Effects](https://foundryvtt.com/packages/dae/) v10.0.7
+## [Dynamic Active Effects](https://foundryvtt.com/packages/dae/) v10.0.8
 
 The successor to the old [Dynamic Effects](https://foundryvtt.com/packages/dynamiceffects/) module, this acts as a bridge between the new Active Effects
 system implemented in Foundry 0.7.x and the DnD5e system. This will allow you to do multiple things, including calculating AC, adding bonuses to attacks,
@@ -778,11 +789,13 @@ info over into the new system:
 
 Allows for targeting tokens by holding the Alt key and clicking. Extremely useful for GMs.
 
+# TODO - elevated vision
+
 | Setting           | Default | Recommended | Comments |
 |-------------------|---------|-------------|----------|
 | Release behaviour | Sticky  | Standard    | ---      |
 
-## [Find the Culprit!](https://foundryvtt.com/packages/find-the-culprit/) v1.4.4
+## [Find the Culprit!](https://foundryvtt.com/packages/find-the-culprit/) v1.4.6
 
 A module for debugging compatibility issues between other modules. Extremely helpful for when something isn't working the way you want it to and you don't
 know why.
@@ -1005,7 +1018,7 @@ spells or magical feats will be available via the Spellcasting tab in the charac
 | Only identified                | :white_check_mark: | ---         | ---      |
 | Hide settings tab from players | :o:                | ---         | ---      |
 
-## [Midi QoL](https://foundryvtt.com/packages/midi-qol/) v10.0.11
+## [Midi QoL](https://foundryvtt.com/packages/midi-qol/) v10.0.12
 
 One of the best combat automation modules, period. This module allows for automatic damage calculation and application, immediate AC hit/miss check, NPC
 saving throws, auto-prompt PCs to roll saves (in combination with [Let Me Roll That For You](https://foundryvtt.com/packages/lmrtfy/)), apply Active Effects
@@ -1169,6 +1182,8 @@ enemies.
 
 # TODO - module compatibility checker for v10
 
+# TODO - add module profiles
+
 ## [Monk's Little Details](https://foundryvtt.com/packages/monks-little-details) v10.2
 
 Lots of various quality of life improvements. Turn notifications in combat(including sounds), slight UI changes to compendiums and conditions, actor sound
@@ -1315,6 +1330,8 @@ time! This also works with [PopOut!](https://foundryvtt.com/packages/popout/), w
 | Turn start audio cue                  | :o:                                               | ---                                               | ---                                                                                              |
 | Audio cue path                        | \*blank\*                                         | ---                                               | ---                                                                                              |
 
+# TODO - add obsidian mod
+
 ## [Ownership Viewer](https://foundryvtt.com/packages/permission_viewer/) v10.0
 
 Adds an easy way to view and customize permissions for players by adding UI elements along the side of actors, items, journals, etc. The UI is a little weird
@@ -1386,6 +1403,8 @@ Requires [Keybind Lib](https://foundryvtt.com/packages/keybind-lib).
 | Enable global browse mode       | :white_check_mark:    | ---         | ---      |
 | Keybind - Open quick insert     | Ctrl + \*spacebar\*   | ---         | ---      |
 
+# TODO - [Library: Scene Packer](https://foundryvtt.com/packages/scene-packer)
+
 ## [Settings Extender](https://foundryvtt.com/packages/settings-extender) v1.2.1
 
 A dependency used by many other modules. Basically, it provides module developers an easier way to create more complicated settings for users to enjoy. If you
@@ -1422,9 +1441,11 @@ time events can be really helpful in case you have an event that happens on a ce
 | Moon Phase Affects Darkness Level  | :o:                               |                    |          |
 | Allow Trusted Player Control       | :o:                               |                    |          |
 
-## [socketlib](https://foundryvtt.com/packages/socketlib) v1.0.11
+## [socketlib](https://foundryvtt.com/packages/socketlib) v1.0.12
 
 Used by other modules. Don't install unless you have another module that requires it.
+
+# TODO - tension pool
 
 ## [Tidy UI - Game Settings](https://foundryvtt.com/packages/tidy-ui_game-settings/) v0.1.51
 
@@ -1512,9 +1533,9 @@ modules. It also has tons of configurable options if you want to tweak it for yo
 | Show midi qol item buttons in item's info card      | :o:     | :white_check_mark: | ---      |
 | Show active effects marker on items                 | :o:     | :white_check_mark: | ---      |
 
-# TODO - Times Up
+# TODO - Times Up [Times Up](https://foundryvtt.com/packages/times-up/)
 
-## [Token Action HUD](https://foundryvtt.com/packages/token-action-hud/) v3.0.8
+## [Token Action HUD](https://foundryvtt.com/packages/token-action-hud/) v3.0.10
 
 Adds a HUD to the top of the screen to easily perform token actions like access inventory, skill checks and saves, cast spells, etc. Very useful if you have
 lots of different monsters and you don't want to open the stat blocks for each one.
@@ -1548,12 +1569,12 @@ lots of different monsters and you don't want to open the stat blocks for each o
 | Dropdown categories                                 | :white_check_mark:                          | ---                | ---      |
 | Enable debugging                                    | :o:                                         | ---                | ---      |
 
-## [Token Attacher](https://foundryvtt.com/packages/token-attacher/) v4.4.5
+## [Token Attacher](https://foundryvtt.com/packages/token-attacher/) v4.5.2
 
 Allows for attaching anything to a token. Literally, anything. As its most basic, it's useful to attach tokens to other tokens, making it easier to create
 vehicles, mounts, etc. However, it can be used for tons of things outside of that, including prefabs. The more you use it, the more you'll get out of it.
 
-## [Token Auras](https://foundryvtt.com/packages/token-auras/) v2.0
+## [Token Auras](https://foundryvtt.com/packages/token-auras/) v2.1
 
 Adds an option for creating auras in the Image tab of a token, similar to Roll20.
 
@@ -1628,6 +1649,8 @@ Adds small speed, AC, and passive perception markers when right-clicking on a to
 | GM only?                        | :white_check_mark: | :o:                | ---      |
 | Show all passive senses (dnd5e) | :o:                | :white_check_mark: | ---      |
 | Token position                  | left               | ---                | ---      |
+
+# TODO - Token lean
 
 ## [Token Mold](https://foundryvtt.com/packages/token-mold/) v2.15.4
 
@@ -1732,7 +1755,7 @@ NOTE: I usually keep this disabled until I need to import something.
 |------------------|---------|-------------|----------|
 | Openable windows | :o:     | ---         | ---      |
 
-## [Wall Height](https://foundryvtt.com/packages/wall-height/) v4.7.6
+## [Wall Height](https://foundryvtt.com/packages/wall-height/) v4.7.8
 
 Adds two fields to the wall menu - Wall Height (Top) and Wall Height (Bottom). When set up, tokens with an elevation higher than the Top can see over the
 wall, while tokens with an elevation lower can see under the Bottom. Extremely useful when combined with
@@ -1787,26 +1810,16 @@ NOTE: Does not work with [Tidy5e Sheet](https://foundryvtt.com/packages/tidy5e-s
 
 # Modules to Review
 
-- [Scene Packer]() - TODO, add this in
-- [Times Up](https://foundryvtt.com/packages/times-up/) - TODO - Add it
 - [Sequencer](https://foundryvtt.com/packages/sequencer) - TODO - check out?
 - [Automated Animations](https://foundryvtt.com/packages/automated-jb2a-animations) - Leverages JB2A templates for automatically applying their assets to spell
   effects and other cool stuff. Wondering about performance impact.
-- [DF Chat Enhancements](https://foundryvtt.com/packages/df-chat-enhance) - Chat enhancements, look pretty neat.
-- [Food and Water Tracker](https://foundryvtt.com/packages/food-and-water-tracker) - Could be useful for survival games, either this one or Burger Time.
 - [FXMaster](https://foundryvtt.com/packages/fxmaster/) - Adds cool animations. Wondering about performance impact.
 - [JB2A Animated Assets](https://foundryvtt.com/packages/JB2A_DnD5e/) - Library of animations and assets. Wondering about performance impact.
 - [Levels](https://foundryvtt.com/packages/levels) - Finally, a cool multi-level solution that 'just works'. No offense Multilevel Tokens, but this looks like
   the real deal. Definitely next on my list to check out.
-- [Module Sets](https://foundryvtt.com/packages/module-sets) - Alternate between setup vs. live modules.
 - [Monk's Active Tile Triggers](https://foundryvtt.com/packages/monks-active-tiles) - Replacement for Multilevel Tokens?
 - [Moulinette](https://foundryvtt.com/packages/moulinette-core) - Searchable tile and other prefab placement tools... this could get spicy.
 - [Tension Pool](https://foundryvtt.com/packages/tension-pool) - Seems like an interesting system
-- [FVTT Encounter Stats](https://foundryvtt.com/packages/fvtt-encounter-stats) - Encounter stats! But already probably handled by Midi
-- [Bulk Tasks](https://foundryvtt.com/packages/bulk-tasks) - Mayyyyyybe useful. We'll see
-- [DF Architect](https://foundryvtt.com/packages/df-architect) - A host of GM tools, could replace [Wall Cutter](https://foundryvtt.com/packages/WallCutter/).
-  Requires Library: DF Hotkeys, libwrapper
-- [MyBeyond](https://fvtt-modules.eschmann.online/) - TODO, add
 
 <a name="modules-to-review-later"></a>
 
@@ -1973,27 +1986,11 @@ Traditional D&D5e-style character sheet, similar to Roll20's.
 
 Why not install: Already have enough character sheets :) But it looks solid, for what it's worth!
 
-### [DNDBeyond NPC Sheet](https://foundryvtt.com/packages/dndbeyond-npc-sheet/)
-
-Adds an NPC sheet with D&DBeyond styling.
-
-Why not install: I almost always use [Tidy5e Sheet](https://foundryvtt.com/packages/tidy5e-sheet/) and
-[Loot Sheet NPC 5e](https://foundryvtt.com/packages/lootsheetnpc5e/), so there's no use for a 3rd NPC sheet without additional functionality. However, if you
-prefer the look of this over Tidy5e, it's definitely worth getting!
-
 ### [Monster Blocks](https://foundryvtt.com/packages/monsterblock/)
 
 Adds an NPC sheet in the style of the traditional 5e monster blocks.
 
 Why not install: Super cool-looking, but I prefer Tidy5e instead for NPCs.
-
-### [Scene Defaults](https://foundryvtt.com/packages/scene-defaults/)
-
-Allows you to template your new scenes. Interesting concept, could save time, especially because of the
-[Perfect Vision](https://foundryvtt.com/packages/perfect-vision/) changes.
-
-Why not install: Unfortunately, the fields in [Perfect Vision](https://foundryvtt.com/packages/perfect-vision/) that would make this module worth
-installing aren't available to this module.
 
 ### [Token Tooltip Alt](https://foundryvtt.com/packages/token-tooltip-alt)
 
@@ -2010,10 +2007,6 @@ hovering over a token. If you're someone who wants to see everything at a glance
 # TODO - revisit this section
 
 # Modules with Possible Performance Issues
-
-### [Perfect Vision](https://foundryvtt.com/packages/perfect-vision/)
-
-Very noticeable FPS drop when dragging tokens and recalculating light. Makes this module on the cusp of being removed...
 
 ### [Quick Insert - Search Widget](https://foundryvtt.com/packages/quick-insert/)
 
@@ -2118,12 +2111,6 @@ Adds a bar to adjust HP.
 
 Why retired: I think [Token Health](https://foundryvtt.com/packages/token-health/) does the job better for my use-cases.
 
-### [Autocomplete Inline Properties](https://foundryvtt.com/packages/autocomplete-inline-properties/)
-
-A nice quality of life fix that autocompletes... inline... properties... Yeah, I probably didn't need to explain this one. Great quality of life fix that lets
-us forgetful folk remember the correct entity fields.
-
-Why retired: Never really used it all that much.
 
 ### [Batch Permission Change by Folder](https://foundryvtt.com/packages/BatchPermissionsByFolder/)
 

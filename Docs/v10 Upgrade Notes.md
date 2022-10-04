@@ -26,6 +26,7 @@ Here, I'll try to list any main differences between my prior Foundry v9.269 setu
 - Turn Alert (never used)
 - Iconizer (never used)
 - Workshop Ammo Swapper (bugged)
+- Perfect Vision (no longer needed, but never forgotten)
 
 ## Added Modules
 - Lib DF Buttons
